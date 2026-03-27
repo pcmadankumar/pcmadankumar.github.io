@@ -1341,16 +1341,23 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   font-size: 0.92rem;
   line-height: 1.85;
   font-style: italic;
+  overflow: hidden;
+  display: block;
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
-  overflow: hidden;
+  line-clamp: 5;
 }
 
 .testimonial-readmore {
   display: inline-block;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
   color: var(--color-gold);
   font-size: 0.82rem;
+  font-family: var(--font-body);
   font-weight: 600;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -1364,19 +1371,16 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 /* --- Testimonial Modal --- */
 .modal-overlay {
-  display: none;
   position: fixed;
-  inset: 0;
+  top: 0; left: 0; right: 0; bottom: 0;
   background: rgba(0, 0, 0, 0.78);
   z-index: 2000;
+  display: none;
   align-items: center;
   justify-content: center;
   padding: 24px;
+  -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
-}
-
-.modal-overlay.open {
-  display: flex;
 }
 
 .modal-box {

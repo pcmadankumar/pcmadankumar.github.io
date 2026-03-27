@@ -62,7 +62,7 @@
 
         <div class="testimonials-grid" data-stagger="120">
 
-          <!-- Testimonial 1 — Amutha A -->
+          <!-- Card 1 — Amutha A -->
           <div class="testimonial-card fade-up">
             <div class="testimonial-quote-icon">
               <i class="fa-solid fa-quote-left"></i>
@@ -70,7 +70,7 @@
             <div class="testimonial-preview">
               Working under the leadership of Madan Kumar in the field of career counselling has been a truly inspiring experience. He brings a rare combination of empathy, clarity, and innovation to the role — always putting student well-being at the forefront while encouraging the team to think creatively and stay ahead of the curve. One of the most admirable aspects of Madan's leadership is his genuine curiosity and forward-looking mindset, especially when it comes to exploring the role of AI in education and career guidance.
             </div>
-            <a href="#" class="testimonial-readmore" data-modal="modal-amutha">Read more &raquo;</a>
+            <button class="testimonial-readmore" onclick="openTestimonialModal('modal-amutha')">Read more &raquo;</button>
             <div class="testimonial-footer">
               <div class="testimonial-name">Amutha A</div>
               <div class="testimonial-role">Career Counselor</div>
@@ -81,7 +81,7 @@
             </div>
           </div>
 
-          <!-- Testimonial 2 — Kali Prakash -->
+          <!-- Card 2 — Kali Prakash -->
           <div class="testimonial-card fade-up">
             <div class="testimonial-quote-icon">
               <i class="fa-solid fa-quote-left"></i>
@@ -89,7 +89,7 @@
             <div class="testimonial-preview">
               A fantastic resource person and Mentor of our team. Madhan possesses in-depth knowledge in Cambridge curriculum, Career guidance and AI for Educators. I always admire his lifelong learnership.
             </div>
-            <a href="#" class="testimonial-readmore" data-modal="modal-kali">Read more &raquo;</a>
+            <button class="testimonial-readmore" onclick="openTestimonialModal('modal-kali')">Read more &raquo;</button>
             <div class="testimonial-footer">
               <div class="testimonial-name">Kali Prakash</div>
               <div class="testimonial-role">Director</div>
@@ -107,11 +107,19 @@
 
   </main>
 
+  <!-- ============================================================
+       MODALS — hidden with inline style (most browser-safe method)
+       ============================================================ -->
+
   <!-- Modal — Amutha A -->
-  <div class="modal-overlay" id="modal-amutha" role="dialog" aria-modal="true" aria-label="Recommendation from Amutha A">
+  <div id="modal-amutha" role="dialog" aria-modal="true" aria-label="Recommendation from Amutha A"
+       style="display:none; position:fixed; top:0; left:0; right:0; bottom:0;
+              background:rgba(0,0,0,0.78); z-index:2000;
+              align-items:center; justify-content:center; padding:24px;"
+       onclick="if(event.target===this) closeTestimonialModal('modal-amutha')">
     <div class="modal-box">
-      <button class="modal-close" aria-label="Close">&times;</button>
-      <div class="testimonial-quote-icon" style="margin-bottom: 20px;">
+      <button class="modal-close" onclick="closeTestimonialModal('modal-amutha')" aria-label="Close">&times;</button>
+      <div class="testimonial-quote-icon" style="margin-bottom:20px;">
         <i class="fa-solid fa-quote-left"></i>
       </div>
       <p class="modal-text">
@@ -130,7 +138,7 @@
         <div class="testimonial-name">Amutha A</div>
         <div class="testimonial-role">Career Counselor</div>
         <div class="testimonial-company">The Indian Public School, Erode &amp; Salem</div>
-        <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="testimonial-linkedin" style="margin-top: 8px;">
+        <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="testimonial-linkedin" style="margin-top:8px;">
           <i class="fa-brands fa-linkedin"></i> Recommended on LinkedIn
         </a>
       </div>
@@ -138,10 +146,14 @@
   </div>
 
   <!-- Modal — Kali Prakash -->
-  <div class="modal-overlay" id="modal-kali" role="dialog" aria-modal="true" aria-label="Recommendation from Kali Prakash">
+  <div id="modal-kali" role="dialog" aria-modal="true" aria-label="Recommendation from Kali Prakash"
+       style="display:none; position:fixed; top:0; left:0; right:0; bottom:0;
+              background:rgba(0,0,0,0.78); z-index:2000;
+              align-items:center; justify-content:center; padding:24px;"
+       onclick="if(event.target===this) closeTestimonialModal('modal-kali')">
     <div class="modal-box">
-      <button class="modal-close" aria-label="Close">&times;</button>
-      <div class="testimonial-quote-icon" style="margin-bottom: 20px;">
+      <button class="modal-close" onclick="closeTestimonialModal('modal-kali')" aria-label="Close">&times;</button>
+      <div class="testimonial-quote-icon" style="margin-bottom:20px;">
         <i class="fa-solid fa-quote-left"></i>
       </div>
       <p class="modal-text">
@@ -151,7 +163,7 @@
         <div class="testimonial-name">Kali Prakash</div>
         <div class="testimonial-role">Director</div>
         <div class="testimonial-company">Panmayam Agro (OPC) Pvt Ltd</div>
-        <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="testimonial-linkedin" style="margin-top: 8px;">
+        <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="testimonial-linkedin" style="margin-top:8px;">
           <i class="fa-brands fa-linkedin"></i> Recommended on LinkedIn
         </a>
       </div>
@@ -180,38 +192,27 @@
 
   <script src="js/main.js"></script>
   <script>
-    // --- Testimonial Modals ---
-    (function initTestimonialModals() {
-      document.querySelectorAll('.testimonial-readmore').forEach(function(link) {
-        link.addEventListener('click', function(e) {
-          e.preventDefault();
-          var modal = document.getElementById(link.dataset.modal);
-          if (modal) {
-            modal.classList.add('open');
-            document.body.style.overflow = 'hidden';
-          }
-        });
-      });
+    function openTestimonialModal(id) {
+      var modal = document.getElementById(id);
+      if (!modal) return;
+      modal.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    }
 
-      function closeModal(modal) {
-        modal.classList.remove('open');
-        document.body.style.overflow = '';
+    function closeTestimonialModal(id) {
+      var modal = document.getElementById(id);
+      if (!modal) return;
+      modal.style.display = 'none';
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        ['modal-amutha', 'modal-kali'].forEach(function(id) {
+          closeTestimonialModal(id);
+        });
       }
-
-      document.querySelectorAll('.modal-overlay').forEach(function(overlay) {
-        overlay.addEventListener('click', function(e) {
-          if (e.target === overlay) closeModal(overlay);
-        });
-        var btn = overlay.querySelector('.modal-close');
-        if (btn) btn.addEventListener('click', function() { closeModal(overlay); });
-      });
-
-      document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-          document.querySelectorAll('.modal-overlay.open').forEach(closeModal);
-        }
-      });
-    })();
+    });
   </script>
 </body>
 </html>
