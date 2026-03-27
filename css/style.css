@@ -1395,6 +1395,28 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   position: relative;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
   animation: modalIn 0.22s ease;
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-gold) #1a1a1a;
+}
+
+/* Chrome, Opera, Safari, Edge */
+.modal-box::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-box::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border-radius: 0 16px 16px 0;
+}
+
+.modal-box::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: 6px;
+}
+
+.modal-box::-webkit-scrollbar-thumb:hover {
+  background: #fff;
 }
 
 @keyframes modalIn {
