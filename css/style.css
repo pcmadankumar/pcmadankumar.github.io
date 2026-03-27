@@ -260,6 +260,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   align-items: center;
   gap: 10px;
   text-align: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 .footer-inner--split {
