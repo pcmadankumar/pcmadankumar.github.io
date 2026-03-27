@@ -67,18 +67,10 @@
             <div class="testimonial-quote-icon">
               <i class="fa-solid fa-quote-left"></i>
             </div>
-            <p class="testimonial-text">
-              Working under the leadership of Madan Kumar in the field of career counselling has been a truly inspiring experience. He brings a rare combination of empathy, clarity, and innovation to the role — always putting student well-being at the forefront while encouraging the team to think creatively and stay ahead of the curve.
-            </p>
-            <p class="testimonial-text">
-              One of the most admirable aspects of Madan's leadership is his genuine curiosity and forward-looking mindset, especially when it comes to exploring the role of AI in education and career guidance. He actively seeks out new ways to integrate technology into counselling practices, and his initiatives have sparked meaningful conversations and improvements within our team.
-            </p>
-            <p class="testimonial-text">
-              Madan's recent achievement — completing a specialized program in AI applications for education — reflects not only his commitment to personal growth but also his vision for the future of student support. He doesn't just talk about innovation; he takes the lead in learning and implementing it, setting an example for the entire team.
-            </p>
-            <p class="testimonial-text">
-              I feel truly fortunate to work with someone who leads with both heart and foresight. Madan Kumar is not just a team lead — he's a trailblazer in our field, and I'm excited to see the continued impact of his work.
-            </p>
+            <div class="testimonial-preview">
+              Working under the leadership of Madan Kumar in the field of career counselling has been a truly inspiring experience. He brings a rare combination of empathy, clarity, and innovation to the role — always putting student well-being at the forefront while encouraging the team to think creatively and stay ahead of the curve. One of the most admirable aspects of Madan's leadership is his genuine curiosity and forward-looking mindset, especially when it comes to exploring the role of AI in education and career guidance.
+            </div>
+            <a href="#" class="testimonial-readmore" data-modal="modal-amutha">Read more &raquo;</a>
             <div class="testimonial-footer">
               <div class="testimonial-name">Amutha A</div>
               <div class="testimonial-role">Career Counselor</div>
@@ -94,9 +86,10 @@
             <div class="testimonial-quote-icon">
               <i class="fa-solid fa-quote-left"></i>
             </div>
-            <p class="testimonial-text">
+            <div class="testimonial-preview">
               A fantastic resource person and Mentor of our team. Madhan possesses in-depth knowledge in Cambridge curriculum, Career guidance and AI for Educators. I always admire his lifelong learnership.
-            </p>
+            </div>
+            <a href="#" class="testimonial-readmore" data-modal="modal-kali">Read more &raquo;</a>
             <div class="testimonial-footer">
               <div class="testimonial-name">Kali Prakash</div>
               <div class="testimonial-role">Director</div>
@@ -113,6 +106,57 @@
     </section>
 
   </main>
+
+  <!-- Modal — Amutha A -->
+  <div class="modal-overlay" id="modal-amutha" role="dialog" aria-modal="true" aria-label="Recommendation from Amutha A">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="testimonial-quote-icon" style="margin-bottom: 20px;">
+        <i class="fa-solid fa-quote-left"></i>
+      </div>
+      <p class="modal-text">
+        Working under the leadership of Madan Kumar in the field of career counselling has been a truly inspiring experience. He brings a rare combination of empathy, clarity, and innovation to the role — always putting student well-being at the forefront while encouraging the team to think creatively and stay ahead of the curve.
+      </p>
+      <p class="modal-text">
+        One of the most admirable aspects of Madan's leadership is his genuine curiosity and forward-looking mindset, especially when it comes to exploring the role of AI in education and career guidance. He actively seeks out new ways to integrate technology into counselling practices, and his initiatives have sparked meaningful conversations and improvements within our team.
+      </p>
+      <p class="modal-text">
+        Madan's recent achievement — completing a specialized program in AI applications for education — reflects not only his commitment to personal growth but also his vision for the future of student support. He doesn't just talk about innovation; he takes the lead in learning and implementing it, setting an example for the entire team.
+      </p>
+      <p class="modal-text">
+        I feel truly fortunate to work with someone who leads with both heart and foresight. Madan Kumar is not just a team lead — he's a trailblazer in our field, and I'm excited to see the continued impact of his work.
+      </p>
+      <div class="modal-author">
+        <div class="testimonial-name">Amutha A</div>
+        <div class="testimonial-role">Career Counselor</div>
+        <div class="testimonial-company">The Indian Public School, Erode &amp; Salem</div>
+        <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="testimonial-linkedin" style="margin-top: 8px;">
+          <i class="fa-brands fa-linkedin"></i> Recommended on LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal — Kali Prakash -->
+  <div class="modal-overlay" id="modal-kali" role="dialog" aria-modal="true" aria-label="Recommendation from Kali Prakash">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="testimonial-quote-icon" style="margin-bottom: 20px;">
+        <i class="fa-solid fa-quote-left"></i>
+      </div>
+      <p class="modal-text">
+        A fantastic resource person and Mentor of our team. Madhan possesses in-depth knowledge in Cambridge curriculum, Career guidance and AI for Educators. I always admire his lifelong learnership.
+      </p>
+      <div class="modal-author">
+        <div class="testimonial-name">Kali Prakash</div>
+        <div class="testimonial-role">Director</div>
+        <div class="testimonial-company">Panmayam Agro (OPC) Pvt Ltd</div>
+        <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="testimonial-linkedin" style="margin-top: 8px;">
+          <i class="fa-brands fa-linkedin"></i> Recommended on LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer class="footer">
@@ -135,5 +179,39 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script>
+    // --- Testimonial Modals ---
+    (function initTestimonialModals() {
+      document.querySelectorAll('.testimonial-readmore').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          var modal = document.getElementById(link.dataset.modal);
+          if (modal) {
+            modal.classList.add('open');
+            document.body.style.overflow = 'hidden';
+          }
+        });
+      });
+
+      function closeModal(modal) {
+        modal.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+
+      document.querySelectorAll('.modal-overlay').forEach(function(overlay) {
+        overlay.addEventListener('click', function(e) {
+          if (e.target === overlay) closeModal(overlay);
+        });
+        var btn = overlay.querySelector('.modal-close');
+        if (btn) btn.addEventListener('click', function() { closeModal(overlay); });
+      });
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          document.querySelectorAll('.modal-overlay.open').forEach(closeModal);
+        }
+      });
+    })();
+  </script>
 </body>
 </html>

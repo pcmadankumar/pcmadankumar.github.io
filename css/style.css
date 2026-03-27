@@ -1336,6 +1336,109 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   flex: 1;
 }
 
+.testimonial-preview {
+  color: var(--color-muted);
+  font-size: 0.92rem;
+  line-height: 1.85;
+  font-style: italic;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.testimonial-readmore {
+  display: inline-block;
+  color: var(--color-gold);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  margin-top: -6px;
+  transition: color 0.2s;
+}
+
+.testimonial-readmore:hover {
+  color: #fff;
+}
+
+/* --- Testimonial Modal --- */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.78);
+  z-index: 2000;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  backdrop-filter: blur(4px);
+}
+
+.modal-overlay.open {
+  display: flex;
+}
+
+.modal-box {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 40px 44px;
+  max-width: 680px;
+  width: 100%;
+  max-height: 82vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  animation: modalIn 0.22s ease;
+}
+
+@keyframes modalIn {
+  from { opacity: 0; transform: translateY(16px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0)   scale(1); }
+}
+
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: var(--color-muted);
+  font-size: 1.6rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px 8px;
+  transition: color 0.2s;
+}
+
+.modal-close:hover {
+  color: var(--color-white);
+}
+
+.modal-text {
+  color: var(--color-muted);
+  font-size: 0.94rem;
+  line-height: 1.9;
+  font-style: italic;
+  margin-bottom: 14px;
+}
+
+.modal-author {
+  border-top: 1px solid var(--color-border);
+  padding-top: 20px;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+@media (max-width: 600px) {
+  .modal-box {
+    padding: 28px 22px;
+  }
+}
+
 .testimonial-footer {
   border-top: 1px solid var(--color-border);
   padding-top: 16px;
