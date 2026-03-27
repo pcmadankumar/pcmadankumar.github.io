@@ -31,8 +31,8 @@
     toggle.setAttribute('aria-expanded', isOpen);
   });
 
-  // Close menu when a link is clicked
-  links.querySelectorAll('a').forEach(link => {
+  // Close menu when a non-dropdown link is clicked
+  links.querySelectorAll('a:not(.nav-dropdown-toggle)').forEach(link => {
     link.addEventListener('click', () => {
       links.classList.remove('open');
       toggle.classList.remove('open');
@@ -47,6 +47,21 @@
       toggle.classList.remove('open');
       toggle.setAttribute('aria-expanded', 'false');
     }
+  });
+})();
+
+/* --- Mobile Dropdown Toggle --- */
+(function initMobileDropdowns() {
+  document.querySelectorAll('.nav-dropdown-toggle').forEach(toggleBtn => {
+    toggleBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const dropdown = toggleBtn.closest('.nav-dropdown');
+      const isOpen = dropdown.classList.toggle('open');
+      // Close other dropdowns
+      document.querySelectorAll('.nav-dropdown').forEach(d => {
+        if (d !== dropdown) d.classList.remove('open');
+      });
+    });
   });
 })();
 

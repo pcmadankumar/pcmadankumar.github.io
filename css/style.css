@@ -1185,3 +1185,198 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     font-size: 1.8rem;
   }
 }
+
+/* ============================================================
+   DROPDOWN NAVIGATION
+   ============================================================ */
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.nav-chevron {
+  font-size: 0.65rem;
+  transition: transform 0.25s ease;
+}
+
+.nav-dropdown:hover .nav-chevron,
+.nav-dropdown.open .nav-chevron {
+  transform: rotate(180deg);
+}
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(12, 12, 12, 0.98);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 8px 0;
+  min-width: 170px;
+  z-index: 1001;
+  flex-direction: column;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.5);
+}
+
+.nav-dropdown:hover .nav-dropdown-menu {
+  display: flex;
+}
+
+.nav-dropdown-menu li {
+  list-style: none;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  padding: 10px 22px;
+  color: var(--color-muted);
+  font-size: 0.875rem;
+  white-space: nowrap;
+  transition: color 0.2s, background 0.2s;
+}
+
+.nav-dropdown-menu a:hover,
+.nav-dropdown-menu a.active {
+  color: var(--color-gold);
+  background: rgba(255,255,255,0.04);
+}
+
+@media (max-width: 768px) {
+  .nav-dropdown-menu {
+    position: static;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    padding: 0;
+    display: none;
+  }
+
+  .nav-dropdown.open .nav-dropdown-menu {
+    display: flex;
+  }
+
+  .nav-dropdown-menu a {
+    padding: 10px 40px;
+    font-size: 0.85rem;
+  }
+}
+
+/* ============================================================
+   CERT CATEGORY HEADINGS
+   ============================================================ */
+.cert-category {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--color-white);
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--color-gold);
+  margin-bottom: 24px;
+  margin-top: 56px;
+}
+
+.cert-category:first-of-type {
+  margin-top: 0;
+}
+
+.cert-category i {
+  color: var(--color-gold);
+  font-size: 1rem;
+}
+
+/* ============================================================
+   TESTIMONIALS
+   ============================================================ */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.testimonial-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.testimonial-card:hover {
+  border-color: var(--color-gold);
+  transform: translateY(-4px);
+}
+
+.testimonial-quote-icon {
+  color: var(--color-gold);
+  font-size: 1.8rem;
+  opacity: 0.6;
+}
+
+.testimonial-text {
+  color: var(--color-muted);
+  font-size: 0.92rem;
+  line-height: 1.85;
+  font-style: italic;
+  flex: 1;
+}
+
+.testimonial-footer {
+  border-top: 1px solid var(--color-border);
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.testimonial-name {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--color-white);
+  font-weight: 600;
+}
+
+.testimonial-role {
+  font-size: 0.8rem;
+  color: var(--color-gold);
+}
+
+.testimonial-company {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  margin-bottom: 8px;
+}
+
+.testimonial-linkedin {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: var(--color-gold);
+  transition: color 0.2s;
+}
+
+.testimonial-linkedin:hover {
+  color: var(--color-gold-light);
+}
+
+@media (max-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}
