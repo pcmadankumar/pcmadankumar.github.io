@@ -1728,6 +1728,15 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   font-size: 1.4rem;
 }
 
+.proj-image--alt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(201, 168, 76, 0.14), rgba(201, 168, 76, 0.04));
+  color: var(--color-gold);
+  font-size: 1.6rem;
+}
+
 .proj-name {
   font-family: var(--font-display);
   font-size: 1.05rem;
@@ -1782,4 +1791,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 .proj-link:hover {
   color: var(--color-white);
+}
+
+.proj-demo-note {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  font-style: italic;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
