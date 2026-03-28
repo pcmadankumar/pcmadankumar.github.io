@@ -1801,3 +1801,15 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   align-items: center;
   gap: 6px;
 }
+
+.proj-coming-soon {
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  font-style: italic;
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: 1px dashed rgba(201, 168, 76, 0.18);
+  border-radius: var(--radius);
+  letter-spacing: 0.01em;
+}
