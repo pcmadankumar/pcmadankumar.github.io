@@ -159,6 +159,56 @@
       </div>
     </section>
 
+    <!-- Contact Form Section -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="contact-form-card fade-up">
+          <div class="contact-form-header">
+            <h2 class="contact-heading">Send a Message</h2>
+            <p class="contact-subheading">Fill in the form below and I'll get back to you as soon as possible.</p>
+          </div>
+          <form id="contactForm" class="contact-form" novalidate>
+            <input type="hidden" name="access_key" value="00102c06-02e5-498f-a8df-92f5e91b1403">
+            <input type="hidden" name="subject" id="emailSubject" value="">
+            <input type="hidden" name="from_name" value="Portfolio Contact Form">
+            <input type="checkbox" name="botcheck" style="display:none;" tabindex="-1" autocomplete="off">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cf_name">Name <span class="form-required">*</span></label>
+                <input type="text" id="cf_name" name="name" placeholder="Your full name" required>
+              </div>
+              <div class="form-group">
+                <label for="cf_email">Email <span class="form-required">*</span></label>
+                <input type="email" id="cf_email" name="email" placeholder="your@email.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="cf_subject">Subject <span class="form-required">*</span></label>
+              <input type="text" id="cf_subject" name="user_subject" placeholder="What is this about?" required>
+            </div>
+
+            <div class="form-group">
+              <label for="cf_message">Message <span class="form-required">*</span></label>
+              <textarea id="cf_message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-contact-submit" id="submitBtn">
+              <i class="fa-solid fa-paper-plane"></i> <span>Send Message</span>
+            </button>
+
+            <div id="formSuccess" class="form-feedback form-success" style="display:none;">
+              <i class="fa-solid fa-circle-check"></i> Thank you! Your message has been sent. I'll get back to you soon.
+            </div>
+            <div id="formError" class="form-feedback form-error" style="display:none;">
+              <i class="fa-solid fa-triangle-exclamation"></i> Something went wrong. Please try again or email me directly at pcmadankumar@gmail.com.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- Footer -->
@@ -184,5 +234,58 @@
   <script src="js/main.js"></script>
   <!-- LinkedIn Badge Script (contact page only) -->
   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+  <!-- Contact Form Handler -->
+  <script>
+    (function () {
+      var form = document.getElementById('contactForm');
+      if (!form) return;
+
+      form.addEventListener('submit', async function (e) {
+        e.preventDefault();
+
+        var nameVal    = document.getElementById('cf_name').value.trim();
+        var subjectVal = document.getElementById('cf_subject').value.trim();
+        var submitBtn  = document.getElementById('submitBtn');
+        var successMsg = document.getElementById('formSuccess');
+        var errorMsg   = document.getElementById('formError');
+
+        // Build the email subject line dynamically
+        document.getElementById('emailSubject').value =
+          'New message from ' + nameVal + ' \u2014 Portfolio Contact Form';
+
+        // UI: loading state
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> <span>Sending\u2026</span>';
+        successMsg.style.display = 'none';
+        errorMsg.style.display   = 'none';
+
+        // Collect form data and prepend user's subject into the message body
+        var formData  = new FormData(form);
+        var origMsg   = formData.get('message');
+        formData.set('message', 'Subject: ' + subjectVal + '\n\n' + origMsg);
+
+        try {
+          var response = await fetch('https://api.web3forms.com/submit', {
+            method : 'POST',
+            body   : formData
+          });
+          var data = await response.json();
+
+          if (data.success) {
+            successMsg.style.display = 'flex';
+            form.reset();
+          } else {
+            errorMsg.style.display = 'flex';
+          }
+        } catch (err) {
+          errorMsg.style.display = 'flex';
+        }
+
+        // UI: restore button
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> <span>Send Message</span>';
+      });
+    })();
+  </script>
 </body>
 </html>
