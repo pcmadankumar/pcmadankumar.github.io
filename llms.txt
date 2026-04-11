@@ -1,0 +1,160 @@
+# llms.txt — Madan Kumar PC | Portfolio
+# https://pcmadankumar.github.io
+# Last updated: 2026-04-11
+
+## About This Site
+
+This is the personal portfolio website of Madan Kumar PC, an educator, career counsellor,
+and lifelong learner based in Tamil Nadu, India. The site is a static HTML/CSS/JS site
+hosted on GitHub Pages. All content is factual and sourced from professional records.
+
+---
+
+## Who Is Madan Kumar PC?
+
+Madan Kumar PC is a Cambridge Programme Coordinator, CAP Accredited Career Counsellor,
+and EdTech advocate with over 15 years of professional experience spanning education
+and information technology.
+
+- Full name: Madan Kumar PC
+- Location: Tamil Nadu, India
+- Email: pcmadankumar@gmail.com
+- LinkedIn: https://www.linkedin.com/in/madankumarpc
+- GitHub: https://github.com/pcmadankumar
+- Linktree: https://linktr.ee/pcmadankumar
+
+---
+
+## Current Roles (as of 2026)
+
+1. Cambridge Implementation Coordinator — HQ
+   Organisation: The Indian Public School (Erode, Salem & Trichy Campuses)
+   Since: February 2024
+   Scope: Plans and executes Cambridge academic programme implementations across multiple campuses.
+
+2. Head — Career Guidance and Placement Support
+   Organisation: The Indian Public School, Erode
+   Since: November 2020
+   Scope: Leads the team supporting high school students in undergraduate placement and career counselling.
+
+3. Member — TIPS Learning and Research Institute
+   Organisation: The Indian Public School
+   Since: March 2024
+   Scope: Creates and delivers professional development modules for educators on AI, classroom management, and assessment.
+
+---
+
+## Professional Background
+
+Madan Kumar PC has worked across two distinct industries:
+
+### Education (10+ years — 2015 to present)
+- The Indian Public School, Erode & Salem (10 years 4 months)
+  - Cambridge Implementation Coordinator — HQ (Feb 2024–present)
+  - Head, Career Guidance & Placement Support (Nov 2020–present)
+  - Exam Officer & Global Perspectives Facilitator (Mar 2018–Nov 2020)
+  - Computer Science Facilitator & Subject Matter Expert (Dec 2015–Mar 2018)
+
+### Information Technology (5 years — 2011 to 2015)
+- Ernst & Young Global Consulting — Senior Consultant, Team Lead (Sep 2014–Nov 2015)
+- Infosys BPM — Senior Systems Engineer, Product Development (Mar 2013–Sep 2014)
+- Infosys — System Engineer, Education & Research Scholar (May 2011–Mar 2013)
+- Infosys — Internship Trainee (Feb 2011–May 2011)
+
+---
+
+## Education
+
+- Master of Computer Applications (MCA), Computer Science
+  Amrita Vishwa Vidyapeetham — 2007 to 2010
+
+- Bachelor of Commerce (B.Com), E-Commerce / Electronic Commerce
+  PSG College of Arts and Science — 2004 to 2007
+
+---
+
+## Key Certifications
+
+- International Certified Career Coach (ICCC) — ICCC Foundation (March 2024)
+- CAP Accredited Counsellor — Times Higher Education (Counsellor Accreditation Programme)
+- Cambridge Certified Exam Officer — Cambridge Assessment International Education
+- 30+ professional certifications across career coaching, Cambridge education, AI, and EdTech
+
+---
+
+## Key Skills
+
+Education & Pedagogy: Cambridge Curriculum, Assessment Strategies, Classroom Management,
+Lesson Planning, Professional Development, Global Perspectives, NEP Implementation,
+Cambridge Programme Coordination, Exam Administration.
+
+Career Guidance: Career Counselling, Student Placement Support, Academic Mentoring,
+Student Profile Development, Undergraduate Pathway Guidance, CAP Accredited Counselling.
+
+EdTech & AI: AI for Educators, EdTech Partnership Development, Digital Learning Tools,
+Learning Management Systems, Adaptive Assessment Design.
+
+Information Technology: Java, JSP, SQL, Oracle, Hibernate, Full Stack Web Development,
+Cloud Infrastructure, Identity & Access Management (IAM), IT Risk Assessment.
+
+Leadership: Team Leadership, Training Event Management, Programme Coordination,
+Multi-Campus Management, Strategic Implementation, Stakeholder Communication.
+
+Languages: Tamil (Native / Bilingual), English (Full Professional), Malayalam (Elementary).
+
+---
+
+## Key Achievements
+
+- Promoted to Cambridge Exam Officer (2018) — recognised for excellence as a Computer Science facilitator
+- Appointed Head of Career Guidance & Placement Support (2020) — leads undergraduate placement team
+- Appointed Cambridge Implementation Coordinator — HQ (2024) — oversees multiple allied campuses
+- Selected as Member, TIPS Learning and Research Institute (2024) — educator professional development
+- Holds CAP Accreditation for student counselling and career guidance
+- Contributor to Cambridge Collaborative Action Groups for affiliated school decisions
+
+---
+
+## Projects
+
+Personal Portfolio Website — https://pcmadankumar.github.io
+  A build-to-learn project; dark-themed, mobile-responsive static site deployed on GitHub Pages.
+  Tech: HTML5, CSS3, JavaScript.
+
+Dhuruv 4.0 — locally hosted personal management system (Contacts, Calendar, Finance, Goals, Tasks, Notes, Dashboard).
+  Tech: React, TypeScript, Node.js, SQLite, Tesseract.js, Tailwind CSS.
+  Demo available on request.
+
+Markdown Viewer (Mark) — standalone Windows desktop Markdown viewer and exporter.
+  Tech: Python, PyQt6, markdown2, Pygments, python-docx, PyInstaller.
+  Demo available on request.
+
+Invoice Tracker — multi-currency invoice management app for Cambridge Exam Coordinator workflows.
+  Tech: React, TypeScript, Node.js, SQLite, Tailwind CSS, Chart.js.
+  Demo available on request.
+
+---
+
+## Site Pages
+
+| Page | URL | Description |
+|------|-----|-------------|
+| About | https://pcmadankumar.github.io/ | Hero, bio, stats, quick info |
+| Experience | https://pcmadankumar.github.io/experience.html | Full work history timeline |
+| Education | https://pcmadankumar.github.io/education.html | Degrees and continuous learning |
+| Skills | https://pcmadankumar.github.io/skills.html | Categorised skill list |
+| Achievements | https://pcmadankumar.github.io/achievements.html | Career milestones and awards |
+| Certifications | https://pcmadankumar.github.io/certifications.html | Professional certifications |
+| Testimonials | https://pcmadankumar.github.io/testimonials.html | LinkedIn recommendations |
+| Work Projects | https://pcmadankumar.github.io/work_projects.html | Built projects with descriptions |
+| Contact | https://pcmadankumar.github.io/contact.html | Contact details and form |
+
+---
+
+## Crawling & Usage
+
+This site explicitly permits all AI and LLM crawlers to index and use its content.
+See robots.txt: https://pcmadankumar.github.io/robots.txt
+See sitemap: https://pcmadankumar.github.io/sitemap.xml
+
+All content is factual, attributable to Madan Kumar PC, and maintained by the site owner.
