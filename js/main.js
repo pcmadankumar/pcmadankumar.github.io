@@ -13,7 +13,7 @@
       (page === '' && href === 'index.html') ||
       (page === 'index.html' && href === 'index.html')
     ) {
-      link.classList.add('active');
+      link.classList.add('nav-active');
     }
   });
 })();
@@ -123,4 +123,52 @@
   }, { threshold: 0.5 });
 
   counters.forEach(c => observer.observe(c));
+})();
+
+/* --- Footer Quote Rotator --- */
+(function initQuoteRotator() {
+  const quotes = [
+    {
+      text: "Technology is best when it brings people together.",
+      author: "Matt Mullenweg, Founder of WordPress"
+    },
+    {
+      text: "The only source of knowledge is experience.",
+      author: "Albert Einstein"
+    },
+    {
+      text: "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+      author: "Mahatma Gandhi"
+    },
+    {
+      text: "The more I learn, the more I realize how much I don't know.",
+      author: "Albert Einstein"
+    },
+    {
+      text: "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+      author: "Zig Ziglar"
+    },
+    {
+      text: "The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice.",
+      author: "Brian Herbert"
+    },
+    {
+      text: "To know that even one life has breathed easier because you have lived — that is to have succeeded.",
+      author: "Ralph Waldo Emerson"
+    },
+    {
+      text: "The best way to predict the future is to create it.",
+      author: "Peter Drucker"
+    },
+    {
+      text: "The art of communication is the language of leadership.",
+      author: "James C. Humes, Presidential Speechwriter"
+    }
+  ];
+
+  const q      = quotes[Math.floor(Math.random() * quotes.length)];
+  const textEl = document.querySelector('.footer-quote-text');
+  const authEl = document.querySelector('.footer-quote-author');
+  if (textEl) textEl.textContent = '\u201c' + q.text + '\u201d';
+  if (authEl) authEl.textContent = '\u2014 ' + q.author;
 })();
