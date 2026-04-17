@@ -898,12 +898,39 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   display: flex;
   flex-direction: column;
   gap: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cert-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-gold),
+    var(--color-gold-light),
+    var(--color-gold),
+    transparent
+  );
+  background-size: 200% auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .cert-card:hover {
   border-color: rgba(201, 168, 76, 0.3);
   transform: translateY(-4px);
   box-shadow: var(--shadow-gold-md);
+}
+
+.cert-card:hover::before {
+  opacity: 1;
+  animation: shimmer 1.5s linear infinite;
 }
 
 .cert-card-header {
@@ -1470,12 +1497,40 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   display: flex;
   flex-direction: column;
   gap: 18px;
-  transition: border-color 0.3s, transform 0.3s;
+  transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-gold),
+    var(--color-gold-light),
+    var(--color-gold),
+    transparent
+  );
+  background-size: 200% auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .testimonial-card:hover {
-  border-color: var(--color-gold);
+  border-color: rgba(201, 168, 76, 0.3);
   transform: translateY(-4px);
+  box-shadow: var(--shadow-gold-md);
+}
+
+.testimonial-card:hover::before {
+  opacity: 1;
+  animation: shimmer 1.5s linear infinite;
 }
 
 .testimonial-quote-icon {
@@ -1679,12 +1734,39 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   display: flex;
   flex-direction: column;
   gap: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.proj-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-gold),
+    var(--color-gold-light),
+    var(--color-gold),
+    transparent
+  );
+  background-size: 200% auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .proj-card:hover {
   border-color: rgba(201, 168, 76, 0.3);
   transform: translateY(-4px);
   box-shadow: var(--shadow-gold-md);
+}
+
+.proj-card:hover::before {
+  opacity: 1;
+  animation: shimmer 1.5s linear infinite;
 }
 
 .proj-card-header {
