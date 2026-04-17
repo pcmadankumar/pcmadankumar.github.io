@@ -1969,3 +1969,96 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     font-size: 0.7rem;
   }
 }
+
+/* ============================================================
+   ANIMATION ENHANCEMENTS v2.0
+   2 — Title Shimmer · 4 — Typewriter · 5 — Nav Shrink
+   3 — Card Hover Glow · 6 — Skill Pill Stagger · 8 — Timeline Pulse
+   ============================================================ */
+
+/* 2 — Section Title Gold Shimmer */
+.section-title {
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg,
+    var(--color-gold)       0%,
+    var(--color-gold-light) 30%,
+    #ffffff                 50%,
+    var(--color-gold-light) 70%,
+    var(--color-gold)       100%
+  );
+  background-size: 200% auto;
+  background-position: 100% center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.fade-up.visible .section-title::after {
+  animation: section-shimmer 1.4s ease-out 0.2s forwards;
+}
+
+@keyframes section-shimmer {
+  0%   { background-position: 100% center; opacity: 1; }
+  80%  { opacity: 1; }
+  100% { background-position: -100% center; opacity: 0; }
+}
+
+/* 4 — Hero Typewriter Cursor */
+.typewriter-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 0.9em;
+  background: var(--color-gold);
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  border-radius: 1px;
+  animation: cursor-blink 0.7s step-end infinite;
+}
+
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+/* 5 — Nav Scroll Shrink */
+.nav {
+  transition: height 0.35s ease, border-color 0.35s ease, backdrop-filter 0.35s ease;
+}
+
+.nav--scrolled {
+  height: 56px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom-color: rgba(201, 168, 76, 0.22);
+}
+
+/* 3 — Enhanced Card Hover Glow */
+.edu-card:hover,
+.cert-card:hover,
+.achievement-card:hover,
+.proj-card:hover,
+.testimonial-card:hover {
+  box-shadow: 0 16px 48px rgba(201, 168, 76, 0.28), 0 0 0 1px rgba(201, 168, 76, 0.2);
+}
+
+.timeline-card:hover {
+  box-shadow: 0 16px 48px rgba(201, 168, 76, 0.28), 0 0 0 1px rgba(201, 168, 76, 0.2);
+}
+
+/* 8 — Timeline Dot Pulse */
+@keyframes dot-pulse {
+  0%, 100% { box-shadow: 0 0 0 2px var(--color-gold); }
+  50%       { box-shadow: 0 0 0 8px rgba(201, 168, 76, 0.15), 0 0 0 2px var(--color-gold); }
+}
+
+.timeline-item::before {
+  animation: dot-pulse 2.5s ease-in-out infinite;
+}

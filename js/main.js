@@ -125,6 +125,71 @@
   counters.forEach(c => observer.observe(c));
 })();
 
+/* --- Nav Scroll Shrink --- */
+(function initNavShrink() {
+  const nav = document.querySelector('.nav');
+  if (!nav) return;
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('nav--scrolled', window.scrollY > 60);
+  }, { passive: true });
+})();
+
+/* --- Hero Typewriter (suggestion 4) --- */
+(function initHeroTypewriter() {
+  var el = document.querySelector('.hero-title');
+  if (!el) return;
+
+  var raw = el.textContent.replace(/\s+/g, ' ').trim();
+  el.textContent = '';
+  el.classList.remove('fade-up');
+  el.style.opacity = '1';
+  el.style.transform = 'none';
+
+  var cursor = document.createElement('span');
+  cursor.className = 'typewriter-cursor';
+  el.appendChild(cursor);
+
+  var i = 0;
+  setTimeout(function () {
+    var timer = setInterval(function () {
+      if (i < raw.length) {
+        cursor.insertAdjacentText('beforebegin', raw[i++]);
+      } else {
+        clearInterval(timer);
+        setTimeout(function () { cursor.remove(); }, 900);
+      }
+    }, 22);
+  }, 700);
+})();
+
+/* --- Skill Pill Stagger (suggestion 6) --- */
+(function initSkillPillStagger() {
+  document.querySelectorAll('.skill-pills').forEach(function (container) {
+    var pills = Array.from(container.querySelectorAll('.skill-pill'));
+    if (!pills.length) return;
+
+    pills.forEach(function (pill, i) {
+      pill.style.opacity = '0';
+      pill.style.transform = 'translateY(10px)';
+      pill.style.transition = 'opacity 0.35s ease, transform 0.35s ease';
+      pill.style.transitionDelay = (i * 55) + 'ms';
+    });
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        pills.forEach(function (pill) {
+          pill.style.opacity = '1';
+          pill.style.transform = 'translateY(0)';
+        });
+        observer.unobserve(entry.target);
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -20px 0px' });
+
+    observer.observe(container);
+  });
+})();
+
 /* --- Footer Quote Rotator --- */
 (function initQuoteRotator() {
   const quotes = [

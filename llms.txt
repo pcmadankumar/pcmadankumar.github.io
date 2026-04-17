@@ -1,6 +1,6 @@
 # llms.txt — Madan Kumar PC | Portfolio
 # https://pcmadankumar.github.io
-# Last updated: 2026-04-11
+# Last updated: 2026-04-12
 
 ## About This Site
 
@@ -131,6 +131,21 @@ Markdown Viewer (Mark) — standalone Windows desktop Markdown viewer and export
 
 Invoice Tracker — multi-currency invoice management app for Cambridge Exam Coordinator workflows.
   Tech: React, TypeScript, Node.js, SQLite, Tailwind CSS, Chart.js.
+  Demo available on request.
+
+Cambridge Syllabus Management Toolkit — two-script Python toolkit for Cambridge programme coordination.
+  Script 1 bulk-downloads all Cambridge IGCSE and AS & A Level syllabuses (155+ subjects) from the
+  Cambridge International website, organised by qualification level and subject code.
+  Script 2 reads each syllabus PDF, extracts exam series availability and administrative zone data,
+  and generates a colour-coded Excel report with separate sheets for IGCSE and AS & A Level.
+  Tech: Python, BeautifulSoup4, requests, pdfplumber, openpyxl.
+  Demo available on request.
+
+Pragat — Evidence Portfolio — standalone Windows desktop application for professional evidence management.
+  Collects, organises, and exports evidence of professional work mapped to four role-specific KPI frameworks.
+  Supports file attachments, hyperlinks, rich notes, and multi-KPI linking. Generates formal PDF reports
+  for leadership and a Markdown export for AI-assisted self-reflection on work quality.
+  Tech: Electron, React, TypeScript, SQLite, electron-vite, pdfkit.
   Demo available on request.
 
 ---

@@ -1,5 +1,5 @@
 # robots.txt — pcmadankumar.github.io
-# Last updated: 2026-04-11
+# Last updated: 2026-04-12
 
 # -------------------------------------------------------
 # All crawlers — allow full site
@@ -66,8 +66,13 @@ Allow: /
 User-agent: FacebookBot
 Allow: /
 
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
 # -------------------------------------------------------
 # Sitemaps
 # -------------------------------------------------------
 Sitemap: https://pcmadankumar.github.io/sitemap.xml
-Sitemap: https://pcmadankumar.github.io/llms.txt
