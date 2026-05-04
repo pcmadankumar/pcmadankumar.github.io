@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Madan Kumar PC — Cambridge Programme Coordinator &amp; Educational Consultant</title>
+    <link>https://pcmadankumar.github.io/</link>
+    <description>Cambridge Programme Coordinator, CAP Accredited Career Counsellor, and EdTech advocate with 15+ years across education and IT. Based in Tamil Nadu, India.</description>
+    <language>en-IN</language>
+    <pubDate>Thu, 17 Apr 2026 00:00:00 +0530</pubDate>
+    <lastBuildDate>Thu, 17 Apr 2026 00:00:00 +0530</lastBuildDate>
+    <copyright>2026 Madan Kumar PC</copyright>
+    <managingEditor>pcmadankumar@gmail.com (Madan Kumar PC)</managingEditor>
+    <webMaster>pcmadankumar@gmail.com (Madan Kumar PC)</webMaster>
+    <image>
+      <url>https://pcmadankumar.github.io/assets/profile.jpg</url>
+      <title>Madan Kumar PC</title>
+      <link>https://pcmadankumar.github.io/</link>
+    </image>
+    <atom:link href="https://pcmadankumar.github.io/index.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>About — Madan Kumar PC</title>
+      <link>https://pcmadankumar.github.io/</link>
+      <guid isPermaLink="true">https://pcmadankumar.github.io/</guid>
+      <pubDate>Thu, 17 Apr 2026 00:00:00 +0530</pubDate>
+      <description>Cambridge Programme Coordinator, CAP Accredited Career Counsellor, and EdTech advocate with 15+ years in education and IT. Coordinator at The Indian Public School (Erode, Salem, Trichy). 10+ years in Education, 5 years in IT. 30+ certifications. Tamil Nadu, India.</description>
+    </item>
+
+    <item>
+      <title>Work Experience — Madan Kumar PC</title>
+      <link>https://pcmadankumar.github.io/experience.html</link>
+      <guid isPermaLink="true">https://pcmadankumar.github.io/experience.html</guid>
+      <pubDate>Thu, 17 Apr 2026 00:00:00 +0530</pubDate>
+      <description>15+ year career spanning The Indian Public School (Cambridge Implementation Coordinator HQ, Head of Career Guidance, Exam Officer, CS Facilitator), Ernst &amp; Young Global Consulting (Senior Consultant Team Lead, IAM), Infosys BPM (Senior Systems Engineer), and Infosys (System Engineer, Internship Trainee).</description>
+    </item>
+
+    <item>
+      <title>Academic Education — Madan Kumar PC</title>
+      <link>https://pcmadankumar.github.io/education.html</link>
+      <guid isPermaLink="true">https://pcmadankumar.github.io/education.html</guid>
+      <pubDate>Thu, 17 Apr 2026 00:00:00 +0530</pubDate>
+      <description>Master of Computer Applications (MCA) from Amrita Vishwa Vidyapeetham (2007–2010) and Bachelor of Commerce (B.Com) in E-Commerce from PSG College of Arts and Science (2004–2007). Continuous learning includes ICCC certification and CAP Accreditation.</description>
+    </item>
+
+    <item>
+      <title>Skills — Madan Kumar PC</title>
+      <link>https://pcmadankumar.github.io/skills.html</link>
+      <guid isPermaLink="true">https://pcmadankumar.github.io/skills.html</guid>
+      <pubDate>Thu, 17 Apr 2026 00:00:00 +0530</pubDate>
+      <description>Multi-domain skill set across Education &amp; Pedagogy (Cambridge Curriculum, Assessment, Exam Administration), Career Guidance (CAP Counselling, Student Placement), EdTech &amp; AI (AI for Educators, Adaptive Assessment), Information Technology (Java, IAM, SQL), Leadership &amp; Management, and Languages (Tamil, English, Malayalam).</description>
+    </item>
+
+    <item>
+      <title>Achievements &amp; Awards — Madan Kumar PC</title>
+      <link>https://pcmadankumar.github.io/achievements.html</link>
+      <guid isPermaLink="true">https://pcmadankumar.github.io/achievements.html</guid>
+      <pubDate>Thu, 17 Apr 2026 00:00:00 +0530</pubDate>
+      <description>Key career milestones: Cambridge Certified Exam Officer (2018), Head of Career Guidance &amp; Placement Support (2020), Cambridge Implementation Coordinator HQ (2024), Member TIPS Learning &amp; Research Institute (2024), CAP Accredited Counsellor (Ongoing), Contributor to Cambridge Collaborative Action Groups (Ongoing).</description>
+    </item>
+
+    <item>
+      <title>Professional Certifications — Madan Kumar PC</title>
+      <link>https://pcmadankumar.github.io/certifications.html</link>
+      <guid isPermaLink="true">https://pcmadankumar.github.io/certifications.html</guid>
+      <pubDate>Thu, 17 Apr 2026 00:00:00 +0530</pubDate>
+      <description>30+ professional certifications across: Career Guidance (ICCC Foundation, CAP/Times Higher Education, Next Genius Foundation); International Schools Partnership (7 certifications, 2025); Cambridge University Press &amp; Assessment (4 certifications); AI &amp; EdTech (Common Sense Media, Microsoft, Scrollwell, GrowthSchool); Education &amp; Pedagogy; Data &amp; Technology; Personal Development; Office &amp; Operations.</description>
+    </item>
+
+    <item>
+      <title>Recommendations — Madan Kumar PC</title>
+      <link>https://pcmadankumar.github.io/testimonials.html</link>
+      <guid isPermaLink="true">https://pcmadankumar.github.io/testimonials.html</guid>
+      <pubDate>Thu, 17 Apr 2026 00:00:00 +0530</pubDate>
+      <description>LinkedIn recommendations from colleagues, academic leaders, and fellow educators who have worked with Madan Kumar PC across education and IT careers.</description>
+    </item>
+
+    <item>
+      <title>Work Projects — Madan Kumar PC</title>
+      <link>https://pcmadankumar.github.io/work_projects.html</link>
+      <guid isPermaLink="true">https://pcmadankumar.github.io/work_projects.html</guid>
+      <pubDate>Thu, 17 Apr 2026 00:00:00 +0530</pubDate>
+      <description>Portfolio of projects: Personal Portfolio Website (HTML5/CSS3/JS/GitHub Pages); Dhuruv 4.0 personal management system (React/TypeScript/SQLite); Markdown Viewer Mark (Python/PyQt6); Invoice Tracker (React/TypeScript); Cambridge Syllabus Management Toolkit (Python); Pragat Evidence Portfolio (Electron/React/TypeScript).</description>
+    </item>
+
+    <item>
+      <title>Contact — Madan Kumar PC</title>
+      <link>https://pcmadankumar.github.io/contact.html</link>
+      <guid isPermaLink="true">https://pcmadankumar.github.io/contact.html</guid>
+      <pubDate>Thu, 17 Apr 2026 00:00:00 +0530</pubDate>
+      <description>Contact Madan Kumar PC for Cambridge programme consultation, career guidance, EdTech partnerships, or teacher training. Email: pcmadankumar@gmail.com. LinkedIn: linkedin.com/in/madankumarpc. Location: Tamil Nadu, India.</description>
+    </item>
+
+  </channel>
+</rss>

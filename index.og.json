@@ -1,0 +1,26 @@
+{
+  "og:type": "website",
+  "og:site_name": "Madan Kumar PC",
+  "og:locale": "en_IN",
+  "og:title": "Cambridge Programme Coordinator & Educational Consultant | Madan Kumar PC",
+  "og:description": "Cambridge Programme Coordinator, CAP Accredited Career Counsellor, and EdTech advocate with 15+ years across education and IT. Based in Tamil Nadu, India.",
+  "og:url": "https://pcmadankumar.github.io/",
+  "og:image": "https://pcmadankumar.github.io/assets/og-image.jpg",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "Madan Kumar PC — Cambridge Programme Coordinator & Educational Consultant",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Cambridge Programme Coordinator & Educational Consultant | Madan Kumar PC",
+  "twitter:description": "Cambridge Programme Coordinator, CAP Accredited Career Counsellor, and EdTech advocate with 15+ years across education and IT. Based in Tamil Nadu, India.",
+  "twitter:image": "https://pcmadankumar.github.io/assets/og-image.jpg",
+  "profile": {
+    "name": "Madan Kumar PC",
+    "job_title": "Cambridge Programme Coordinator & Educational Consultant",
+    "employer": "The Indian Public School, Erode",
+    "location": "Tamil Nadu, India",
+    "email": "pcmadankumar@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/madankumarpc",
+    "github": "https://github.com/pcmadankumar",
+    "linktree": "https://linktr.ee/pcmadankumar"
+  }
+}

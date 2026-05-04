@@ -1,0 +1,19 @@
+{
+  "name": "Cambridge Programme Coordinator & Educational Consultant | Madan Kumar PC",
+  "short_name": "Madan Kumar PC",
+  "description": "Cambridge Programme Coordinator, CAP Accredited Career Counsellor, and EdTech advocate with 15+ years across education and IT. Based in Tamil Nadu, India.",
+  "start_url": "https://pcmadankumar.github.io/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#2c3e50",
+  "orientation": "any",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "https://pcmadankumar.github.io/assets/profile.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

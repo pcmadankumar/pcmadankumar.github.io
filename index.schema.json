@@ -1,0 +1,163 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Madan Kumar PC",
+  "url": "https://pcmadankumar.github.io",
+  "image": "https://pcmadankumar.github.io/assets/profile.jpg",
+  "jobTitle": "Cambridge Programme Coordinator & Educational Consultant",
+  "description": "Cambridge Programme Coordinator, CAP Accredited Career Counsellor, and EdTech advocate with 15+ years across education and IT. Based in Tamil Nadu, India.",
+  "email": "pcmadankumar@gmail.com",
+  "telephone": "+918971661564",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Tamil Nadu",
+    "addressCountry": "IN"
+  },
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "Amrita Vishwa Vidyapeetham",
+      "description": "Master of Computer Applications (MCA), Computer Science, 2007–2010"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "PSG College of Arts and Science",
+      "description": "Bachelor of Commerce (B.Com), E-Commerce / Electronic Commerce, 2004–2007"
+    }
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "The Indian Public School",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Erode",
+      "addressRegion": "Tamil Nadu",
+      "addressCountry": "IN"
+    }
+  },
+  "hasOccupation": [
+    {
+      "@type": "Occupation",
+      "name": "Cambridge Implementation Coordinator — HQ",
+      "occupationLocation": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "description": "Plans and executes Cambridge academic programme implementations across Erode, Salem, and Trichy campuses."
+    },
+    {
+      "@type": "Occupation",
+      "name": "Head — Career Guidance and Placement Support",
+      "occupationLocation": {
+        "@type": "City",
+        "name": "Erode, Tamil Nadu, India"
+      },
+      "description": "Leads the team supporting high school students in undergraduate placement and career counselling."
+    },
+    {
+      "@type": "Occupation",
+      "name": "Member — TIPS Learning and Research Institute",
+      "occupationLocation": {
+        "@type": "City",
+        "name": "Erode, Tamil Nadu, India"
+      },
+      "description": "Creates and delivers professional development modules for educators on AI, classroom management, and assessment."
+    }
+  ],
+  "knowsAbout": [
+    "Cambridge Curriculum",
+    "Career Counselling",
+    "EdTech",
+    "Artificial Intelligence in Education",
+    "Teacher Training",
+    "IT Consulting",
+    "Identity and Access Management",
+    "Global Perspectives",
+    "Exam Administration",
+    "Student Placement Support",
+    "Professional Development",
+    "NEP Implementation"
+  ],
+  "knowsLanguage": [
+    {
+      "@type": "Language",
+      "name": "Tamil",
+      "alternateName": "ta"
+    },
+    {
+      "@type": "Language",
+      "name": "English",
+      "alternateName": "en"
+    },
+    {
+      "@type": "Language",
+      "name": "Malayalam",
+      "alternateName": "ml"
+    }
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "International Certified Career Coach (ICCC)",
+      "credentialCategory": "certification",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "ICCC Foundation"
+      },
+      "dateCreated": "2024-03"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Certified Counsellor — CAP Accredited",
+      "credentialCategory": "certification",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Counsellor Accreditation Programme (CAP), Times Higher Education"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Cambridge Certified Exam Officer",
+      "credentialCategory": "certification",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Cambridge Assessment International Education"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "ChatGPT Foundations for K-12 Educators",
+      "credentialCategory": "certification",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Common Sense Media"
+      },
+      "dateCreated": "2024-12"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Accelerate Learning with Digital Transformation using AI",
+      "credentialCategory": "certification",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Microsoft"
+      },
+      "dateCreated": "2023-10"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Developing Your Leadership with Cambridge",
+      "credentialCategory": "certification",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Cambridge University Press & Assessment"
+      },
+      "dateCreated": "2024-11"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/madankumarpc",
+    "https://github.com/pcmadankumar",
+    "https://linktr.ee/pcmadankumar"
+  ]
+}

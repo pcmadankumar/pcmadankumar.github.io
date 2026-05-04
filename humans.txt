@@ -1,0 +1,22 @@
+/* TEAM */
+Developer & Content Author: Madan Kumar PC
+Title: Cambridge Programme Coordinator & Educational Consultant
+Email: pcmadankumar@gmail.com
+LinkedIn: https://www.linkedin.com/in/madankumarpc
+GitHub: https://github.com/pcmadankumar
+Linktree: https://linktr.ee/pcmadankumar
+Location: Tamil Nadu, India
+
+/* THANKS */
+AI Assistant: Claude (Anthropic) — designed, built, and deployed with Claude Code
+Hosting: GitHub Pages (free, zero-cost deployment)
+Fonts: Google Fonts — Dancing Script
+Icons: Font Awesome 6.5
+
+/* SITE */
+Last update: 2026/04/17
+Standards: HTML5, CSS3, Vanilla JavaScript (no frameworks, no build tools)
+Language: English (en-IN)
+Charset: UTF-8
+Hosting: GitHub Pages
+Deployment: Windows .bat script (one-command deploy)
