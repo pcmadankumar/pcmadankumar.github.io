@@ -5,6 +5,9 @@
 
 /* --- Active Nav Link --- */
 (function setActiveNav() {
+  // Skip if nav-active is already set in HTML (e.g. blog pages set it manually)
+  if (document.querySelector('.nav-links a.nav-active')) return;
+
   const page = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.nav-links a').forEach(link => {
     const href = link.getAttribute('href');

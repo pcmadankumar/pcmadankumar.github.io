@@ -1,0 +1,29 @@
+[
+  {
+    "id": "getting-started-with-cambridge-curriculum",
+    "title": "Getting Started with Cambridge Curriculum",
+    "date": "2026-05-01",
+    "excerpt": "An introduction to the Cambridge International curriculum framework, its core principles, and how it transforms student learning outcomes in international schools.",
+    "tags": ["Cambridge", "Education", "Curriculum"],
+    "readTime": 5,
+    "file": "posts/getting-started-with-cambridge-curriculum.html"
+  },
+  {
+    "id": "ai-in-education-what-teachers-need-to-know",
+    "title": "Artificial Intelligence in Education: What Teachers Need to Know",
+    "date": "2026-04-15",
+    "excerpt": "A practical guide for educators on how AI tools are reshaping classrooms, and how to harness them responsibly for better learning outcomes.",
+    "tags": ["AI", "EdTech", "Teacher Training"],
+    "readTime": 7,
+    "file": "posts/ai-in-education-what-teachers-need-to-know.html"
+  },
+  {
+    "id": "career-counselling-tips-for-high-school-students",
+    "title": "10 Career Counselling Tips Every High School Student Should Know",
+    "date": "2026-04-01",
+    "excerpt": "From building a strong academic profile to choosing the right university pathway, these ten tips will help high school students navigate their future with confidence.",
+    "tags": ["Career Counselling", "Students", "University"],
+    "readTime": 6,
+    "file": "posts/career-counselling-tips-for-high-school-students.html"
+  }
+]
