@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d0d0d">
   <meta name="author" content="Madan Kumar PC">
   <meta name="description" content="Madan Kumar PC is a Cambridge Programme Coordinator, CAP Accredited Career Counsellor, and EdTech advocate based in Tamil Nadu, India — 15+ years across education and IT.">
   <link rel="canonical" href="https://pcmadankumar.github.io/">
@@ -21,6 +22,10 @@
   <meta name="twitter:description" content="Madan Kumar PC is a Cambridge Programme Coordinator, CAP Accredited Career Counsellor, and EdTech advocate based in Tamil Nadu, India — 15+ years across education and IT.">
   <meta name="twitter:image" content="https://pcmadankumar.github.io/assets/og-image.jpg">
   <title>Cambridge Programme Coordinator &amp; Educational Consultant | Madan Kumar PC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
@@ -81,6 +86,8 @@
 </head>
 <body>
 
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
   <!-- Navigation -->
   <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav-inner">
@@ -113,7 +120,7 @@
     </div>
   </nav>
 
-  <main class="page-content">
+  <main class="page-content" id="main-content">
 
     <!-- Hero -->
     <section class="hero">
@@ -148,7 +155,7 @@
         <!-- Right Column — Photo -->
         <div class="hero-photo-wrap fade-up">
           <div class="hero-photo-frame">
-            <img src="assets/profile.jpg" alt="Madan Kumar PC — Professional portrait">
+            <img src="assets/profile.jpg" alt="Madan Kumar PC — Professional portrait" loading="eager" fetchpriority="high">
           </div>
         </div>
       </div>
@@ -166,15 +173,19 @@
           <div class="stat-label">Certifications</div>
         </div>
         <div class="stat-card metric-card fade-up">
-          <div class="stat-number metric-value" data-count="2">2</div>
-          <div class="stat-label">Industry Domains</div>
+          <div class="stat-number metric-value" data-count="500" data-suffix="+">500+</div>
+          <div class="stat-label">Students Mentored</div>
         </div>
-        <div class="stat-card fade-up" style="border-left: 3px solid var(--color-gold); justify-content: center; gap: 10px;">
-          <i class="fa-solid fa-quote-left" style="color: var(--color-gold); font-size: 1.2rem; opacity: 0.8;"></i>
-          <p style="font-family: var(--font-display); font-size: 0.95rem; color: var(--color-white); line-height: 1.7; font-style: italic; margin: 0;">
-            "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn."
-          </p>
-          <span style="font-size: 0.75rem; color: var(--color-gold); letter-spacing: 0.06em; text-transform: uppercase;">— Alvin Toffler</span>
+        <div class="stat-card metric-card fade-up">
+          <div class="stat-number metric-value" data-count="3">3</div>
+          <div class="stat-label">Campuses</div>
+        </div>
+      </div>
+      <div class="stats-quote-row fade-up">
+        <i class="fa-solid fa-quote-left"></i>
+        <div>
+          <p>"The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn."</p>
+          <span>— Alvin Toffler</span>
         </div>
       </div>
     </section>
@@ -187,20 +198,20 @@
           <p class="section-subtitle">Educator · Counsellor · Lifelong Learner</p>
         </div>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start;">
+        <div class="about-grid">
 
-          <div class="fade-up">
-            <p style="color: var(--color-muted); line-height: 1.9; margin-bottom: 20px; font-size: 1rem;">
+          <div class="about-text fade-up">
+            <p>
               I am fortunate to be part of many collaborative action groups for Cambridge affiliated school
               decisions and implementations. My aim is to provide comprehensive guidance and mentorship to
               help students achieve their academic goals.
             </p>
-            <p style="color: var(--color-muted); line-height: 1.9; margin-bottom: 20px; font-size: 1rem;">
+            <p>
               I am passionate about empowering educators — I organise workshops and training sessions for
               teachers to enhance their pedagogical skills and encourage professional growth. I am privileged
               to lead a team that supports high school students in their undergraduate placements.
             </p>
-            <p style="color: var(--color-muted); line-height: 1.9; font-size: 1rem;">
+            <p>
               Outside of work, you can often find me buried in a book, exploring new learning, sketch noting
               or engaging in meaningful discussions. I firmly believe that learning is a lifelong process,
               and it is important to stay up-to-date with the latest trends and research in education and
@@ -208,46 +219,46 @@
             </p>
           </div>
 
-          <div class="fade-up" style="display: flex; flex-direction: column; gap: 20px;">
+          <div class="about-sidebar fade-up">
 
-            <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 12px; padding: 24px;">
-              <h3 style="font-family: var(--font-display); font-size: 1.1rem; color: var(--color-white); margin-bottom: 16px;">
-                <i class="fa-solid fa-location-dot" style="color: var(--color-gold); margin-right: 8px;"></i>
+            <div class="info-card">
+              <h3 class="info-card-title">
+                <i class="fa-solid fa-location-dot"></i>
                 Quick Info
               </h3>
-              <ul style="display: flex; flex-direction: column; gap: 12px;">
-                <li style="display: flex; gap: 10px; font-size: 0.9rem; color: var(--color-muted);">
-                  <i class="fa-solid fa-map-pin" style="color: var(--color-gold); margin-top: 2px; width: 16px;"></i>
+              <ul class="info-items">
+                <li class="info-item">
+                  <i class="fa-solid fa-map-pin"></i>
                   Tamil Nadu, India
                 </li>
-                <li style="display: flex; gap: 10px; font-size: 0.9rem; color: var(--color-muted);">
-                  <i class="fa-solid fa-envelope" style="color: var(--color-gold); margin-top: 2px; width: 16px;"></i>
-                  <a href="mailto:pcmadankumar@gmail.com" style="color: var(--color-muted);">pcmadankumar@gmail.com</a>
+                <li class="info-item">
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:pcmadankumar@gmail.com">pcmadankumar@gmail.com</a>
                 </li>
-                <li style="display: flex; gap: 10px; font-size: 0.9rem; color: var(--color-muted);">
-                  <i class="fa-brands fa-linkedin" style="color: var(--color-gold); margin-top: 2px; width: 16px;"></i>
-                  <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" style="color: var(--color-muted);">linkedin.com/in/madankumarpc</a>
+                <li class="info-item">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener">linkedin.com/in/madankumarpc</a>
                 </li>
-                <li style="display: flex; gap: 10px; font-size: 0.9rem; color: var(--color-muted);">
-                  <i class="fa-brands fa-github" style="color: var(--color-gold); margin-top: 2px; width: 16px;"></i>
-                  <a href="https://github.com/pcmadankumar" target="_blank" rel="noopener" style="color: var(--color-muted);">github.com/pcmadankumar</a>
+                <li class="info-item">
+                  <i class="fa-brands fa-github"></i>
+                  <a href="https://github.com/pcmadankumar" target="_blank" rel="noopener">github.com/pcmadankumar</a>
                 </li>
               </ul>
             </div>
 
-            <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 12px; padding: 24px;">
-              <h3 style="font-family: var(--font-display); font-size: 1.1rem; color: var(--color-white); margin-bottom: 16px;">
-                <i class="fa-solid fa-star" style="color: var(--color-gold); margin-right: 8px;"></i>
+            <div class="info-card">
+              <h3 class="info-card-title">
+                <i class="fa-solid fa-star"></i>
                 Key Domains
               </h3>
-              <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+              <div class="about-domains">
                 <span class="skill-pill">Cambridge Education</span>
                 <span class="skill-pill">Career Guidance</span>
                 <span class="skill-pill">EdTech &amp; AI</span>
                 <span class="skill-pill">IT Consulting</span>
                 <span class="skill-pill">Teacher Training</span>
                 <span class="skill-pill">Student Counselling</span>
-                <span class="skill-pill">Vibe Coding</span>
+                <span class="skill-pill">No-Code/AI-Assisted Development</span>
               </div>
             </div>
 

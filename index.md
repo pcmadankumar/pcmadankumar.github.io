@@ -50,7 +50,7 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 - linkedin.com/in/madankumarpc
 - github.com/pcmadankumar
 
-**Key Domains:** Cambridge Education · Career Guidance · EdTech & AI · IT Consulting · Teacher Training · Student Counselling · Vibe Coding
+**Key Domains:** Cambridge Education · Career Guidance · EdTech & AI · IT Consulting · Teacher Training · Student Counselling · No-Code/AI-Assisted Development
 
 ---
 
