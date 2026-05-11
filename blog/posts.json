@@ -1,5 +1,14 @@
 [
   {
+    "id": "you-are-your-only-competition",
+    "title": "You Are Your Only Competition",
+    "date": "2026-03-14",
+    "excerpt": "The most successful people aren't trying to beat others — they compete only with who they were yesterday. Here's why self-competition is the most powerful mindset shift you can make.",
+    "tags": ["Mindset", "Self-Development", "Motivation", "Personal Growth"],
+    "readTime": 6,
+    "file": "posts/you-are-your-only-competition.html"
+  },
+  {
     "id": "getting-started-with-cambridge-curriculum",
     "title": "Getting Started with Cambridge Curriculum",
     "date": "2026-05-01",
@@ -25,5 +34,23 @@
     "tags": ["Career Counselling", "Students", "University"],
     "readTime": 6,
     "file": "posts/career-counselling-tips-for-high-school-students.html"
+  },
+  {
+    "id": "scrolling-vs-studying-dopamine-detox",
+    "title": "Scrolling Vs Studying: A Short Guide to Dopamine Detox",
+    "date": "2025-10-13",
+    "excerpt": "Why does studying feel like climbing Everest while scrolling feels effortless? The answer lies in dopamine — and here's a practical detox plan to reset your brain's reward system.",
+    "tags": ["EdTech", "Focus", "Digital Wellbeing", "Students"],
+    "readTime": 9,
+    "file": "posts/scrolling-vs-studying-dopamine-detox.html"
+  },
+  {
+    "id": "your-digital-stuff-is-a-mess-lets-fix-it",
+    "title": "Your Digital Stuff is a Mess? Let's Fix It!",
+    "date": "2025-07-01",
+    "excerpt": "Folders everywhere, missing files, inbox overflowing — your digital life is a mess and it's costing you time and peace of mind. Here's a simple, actionable plan to organise it once and for all.",
+    "tags": ["Productivity", "Organization", "Digital Life", "Students"],
+    "readTime": 6,
+    "file": "posts/your-digital-stuff-is-a-mess-lets-fix-it.html"
   }
 ]
