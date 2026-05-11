@@ -240,3 +240,44 @@
   if (textEl) textEl.textContent = '\u201c' + q.text + '\u201d';
   if (authEl) authEl.textContent = '\u2014 ' + q.author;
 })();
+
+/* --- Back to Top Button --- */
+(function initBackToTop() {
+  var btn = document.createElement('button');
+  btn.id = 'back-to-top';
+  btn.setAttribute('aria-label', 'Back to top');
+  btn.innerHTML = '<i class="fa-solid fa-chevron-up"></i>';
+  document.body.appendChild(btn);
+
+  window.addEventListener('scroll', function () {
+    btn.classList.toggle('visible', window.scrollY > 400);
+  }, { passive: true });
+
+  btn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+
+/* --- Footer Nav Links --- */
+(function initFooterNav() {
+  // Use the About link's href to compute path depth robustly
+  var aboutLink = document.querySelector('.nav-links a[href$="index.html"]');
+  if (!aboutLink) return;
+  var aboutHref = aboutLink.getAttribute('href');
+  var prefix = aboutHref.replace('index.html', '').replace(/\/$/, '') || '.';
+
+  var linkedinLink = document.querySelector('.footer-link');
+  if (!linkedinLink) return;
+
+  var nav = document.createElement('nav');
+  nav.className = 'footer-nav';
+  nav.setAttribute('aria-label', 'Quick links');
+  nav.innerHTML =
+    '<a href="' + prefix + '/blog/index.html" class="footer-nav-link">Blog</a>' +
+    '<span class="footer-nav-sep">\u00b7</span>' +
+    '<a href="' + prefix + '/contact.html" class="footer-nav-link">Contact</a>' +
+    '<span class="footer-nav-sep">\u00b7</span>' +
+    '<a href="https://github.com/pcmadankumar" target="_blank" rel="noopener" class="footer-nav-link">GitHub</a>';
+
+  linkedinLink.parentNode.insertBefore(nav, linkedinLink.nextSibling);
+})();

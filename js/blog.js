@@ -104,7 +104,13 @@
         return '<span class="blog-tag" data-tag="' + escHtml(t) + '">' + escHtml(t) + '</span>';
       }).join('');
 
+      var thumbHtml = post.image
+        ? '<a href="' + post.file + '" tabindex="-1" aria-hidden="true"><img class="blog-card-thumb" src="../' + escHtml(post.image) + '" alt="' + escHtml(post.title) + '" loading="lazy"></a>'
+        : '';
+
       return '<article class="blog-card fade-up">' +
+        thumbHtml +
+        '<div class="blog-card-body">' +
         '<div class="blog-card-meta">' +
           '<span><i class="fa-solid fa-calendar-days"></i>' + fmtDate(post.date) + '</span>' +
           '<span><i class="fa-solid fa-clock"></i>' + post.readTime + ' min read</span>' +
@@ -113,6 +119,7 @@
         '<p class="blog-card-excerpt">' + escHtml(post.excerpt) + '</p>' +
         '<div class="blog-card-tags">' + tagsHtml + '</div>' +
         '<a href="' + post.file + '" class="blog-card-read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>' +
+        '</div>' +
         '</article>';
     }).join('');
 

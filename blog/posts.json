@@ -6,6 +6,7 @@
     "excerpt": "The most successful people aren't trying to beat others — they compete only with who they were yesterday. Here's why self-competition is the most powerful mindset shift you can make.",
     "tags": ["Mindset", "Self-Development", "Motivation", "Personal Growth"],
     "readTime": 6,
+    "image": "assets/blog/you-are-your-only-competition/mirror.webp",
     "file": "posts/you-are-your-only-competition.html"
   },
   {
@@ -42,6 +43,7 @@
     "excerpt": "Why does studying feel like climbing Everest while scrolling feels effortless? The answer lies in dopamine — and here's a practical detox plan to reset your brain's reward system.",
     "tags": ["EdTech", "Focus", "Digital Wellbeing", "Students"],
     "readTime": 9,
+    "image": "assets/blog/scrolling-vs-studying/hero.jpg",
     "file": "posts/scrolling-vs-studying-dopamine-detox.html"
   },
   {
@@ -51,6 +53,7 @@
     "excerpt": "Folders everywhere, missing files, inbox overflowing — your digital life is a mess and it's costing you time and peace of mind. Here's a simple, actionable plan to organise it once and for all.",
     "tags": ["Productivity", "Organization", "Digital Life", "Students"],
     "readTime": 6,
+    "image": "assets/blog/digital-stuff/hero.jpg",
     "file": "posts/your-digital-stuff-is-a-mess-lets-fix-it.html"
   }
 ]

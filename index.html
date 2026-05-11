@@ -268,6 +268,22 @@
       </div>
     </section>
 
+    <!-- Latest from the Blog -->
+    <section class="section" id="latest-blog" style="padding-top: 0;">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Latest from the Blog</h2>
+          <p class="section-subtitle">Thoughts on Education &nbsp;·&nbsp; Mindset &nbsp;·&nbsp; EdTech</p>
+        </div>
+        <div id="home-blog-grid" class="home-blog-grid"></div>
+        <div class="home-blog-cta fade-up">
+          <a href="blog/index.html" class="btn btn-outline">
+            <i class="fa-solid fa-pen-nib"></i> View All Posts
+          </a>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- Footer -->
@@ -291,6 +307,42 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script>
+  (function() {
+    var grid = document.getElementById('home-blog-grid');
+    if (!grid) return;
+    fetch('blog/posts.json')
+      .then(function(r) { return r.json(); })
+      .then(function(posts) {
+        posts.sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
+        var top3 = posts.slice(0, 3);
+        grid.innerHTML = top3.map(function(p) {
+          var thumb = p.image
+            ? '<a href="blog/' + p.file + '" tabindex="-1" aria-hidden="true"><img class="hb-thumb" src="' + p.image + '" alt="' + p.title.replace(/"/g,'&quot;') + '" loading="lazy"></a>'
+            : '';
+          var tags = p.tags.slice(0, 2).map(function(t) {
+            return '<span class="blog-tag">' + t + '</span>';
+          }).join('');
+          var date = new Date(p.date).toLocaleDateString('en-IN', { year:'numeric', month:'short', day:'numeric' });
+          return '<article class="hb-card fade-up">' +
+            thumb +
+            '<div class="hb-body">' +
+              '<div class="hb-meta"><i class="fa-solid fa-calendar-days"></i>' + date +
+                ' &nbsp;·&nbsp; <i class="fa-solid fa-clock"></i>' + p.readTime + ' min</div>' +
+              '<a href="blog/' + p.file + '" class="hb-title">' + p.title + '</a>' +
+              '<p class="hb-excerpt">' + p.excerpt + '</p>' +
+              '<div class="hb-tags">' + tags + '</div>' +
+            '</div>' +
+          '</article>';
+        }).join('');
+        grid.querySelectorAll('.fade-up').forEach(function(el, i) {
+          el.style.transitionDelay = (i * 80) + 'ms';
+          setTimeout(function() { el.classList.add('visible'); }, 20);
+        });
+      })
+      .catch(function() { grid.innerHTML = ''; });
+  })();
+  </script>
 <script data-goatcounter="https://pcmadankumar.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </body>

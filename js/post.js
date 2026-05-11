@@ -17,6 +17,23 @@
   if (wa) wa.href = 'https://wa.me/?text=' + title + '%20' + url;
 })();
 
+(function initReadingProgress() {
+  var bar = document.createElement('div');
+  bar.id = 'reading-progress';
+  document.body.prepend(bar);
+
+  function update() {
+    var content = document.querySelector('.post-content') || document.querySelector('.blog-post');
+    if (!content) return;
+    var docH   = document.documentElement.scrollHeight - window.innerHeight;
+    var pct    = docH > 0 ? Math.min((window.scrollY / docH) * 100, 100) : 0;
+    bar.style.width = pct + '%';
+  }
+
+  window.addEventListener('scroll', update, { passive: true });
+  update();
+})();
+
 function copyPostLink() {
   var btn = document.getElementById('share-copy');
   navigator.clipboard.writeText(window.location.href).then(function () {
