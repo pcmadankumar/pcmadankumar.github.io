@@ -1,5 +1,23 @@
 [
   {
+    "id": "econometrics-for-career-counsellors",
+    "title": "Econometrics & Career Pathways: A Guide for High School Career Counsellors",
+    "date": "2026-05-27",
+    "excerpt": "A practical guide for career counsellors on surfacing econometrics and data career pathways early — linking subject choices to global job roles, earning potential, and free tools students can start using today.",
+    "tags": ["Pick, Learn and Share", "Career Counselling", "Econometrics", "Data Science", "Students"],
+    "readTime": 10,
+    "file": "posts/econometrics-for-career-counsellors.html"
+  },
+  {
+    "id": "econometrics-in-the-classroom",
+    "title": "Econometrics in the Classroom: Key Insights for Economics & Mathematics Teachers",
+    "date": "2026-05-20",
+    "excerpt": "Key takeaways from a FutureWise webinar on econometrics — helping Economics and Mathematics teachers connect classroom theory to real-world data careers through correlation, regression, and the power of Y = MX + B.",
+    "tags": ["Pick, Learn and Share", "Economics", "Mathematics", "Econometrics", "Teacher Training"],
+    "readTime": 10,
+    "file": "posts/econometrics-in-the-classroom.html"
+  },
+  {
     "id": "you-are-your-only-competition",
     "title": "You Are Your Only Competition",
     "date": "2026-03-14",
