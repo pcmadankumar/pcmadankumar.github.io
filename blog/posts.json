@@ -1,5 +1,45 @@
 [
   {
+    "id": "making-the-most-of-a-campus-visit",
+    "title": "Making the Most of a Campus Visit: The 5Ws for Counsellors",
+    "date": "2026-03-19",
+    "excerpt": "Key takeaways from an IACAC webinar on campus visits — a practical 5W framework covering preparation, observation, note-taking, and follow-through for school counsellors.",
+    "tags": ["Pick, Learn and Share", "Career Counselling", "University", "Students"],
+    "readTime": 7,
+    "image": "assets/blog/making-the-most-of-a-campus-visit/hero.jpg",
+    "file": "posts/making-the-most-of-a-campus-visit.html"
+  },
+  {
+    "id": "ucas-personal-statements-guide",
+    "title": "UCAS Personal Statements: What University Admissions Truly Want",
+    "date": "2026-03-18",
+    "excerpt": "Key takeaways from a Unifrog webinar on UCAS personal statements — what UK university admissions teams truly want, common pitfalls to avoid, and the Sutton Trust research that shows why counsellor support matters.",
+    "tags": ["Pick, Learn and Share", "UCAS", "University", "Students", "Career Counselling"],
+    "readTime": 6,
+    "image": "assets/blog/ucas-personal-statements-guide/hero.jpg",
+    "file": "posts/ucas-personal-statements-guide.html"
+  },
+  {
+    "id": "ai-relevance-in-industry-dynamics",
+    "title": "Relevance of AI in Current Industry Dynamics: 5 Takeaways for Counsellors",
+    "date": "2026-03-18",
+    "excerpt": "Five key takeaways from the Salesforce Great Asia AI Summit and an HBR Ideacast podcast — grounding counsellors in the real-world AI conversation so they can answer students' hardest questions about computer science and data science.",
+    "tags": ["Pick, Learn and Share", "AI", "Career Counselling", "Industry Insights", "Students"],
+    "readTime": 7,
+    "image": "assets/blog/ai-relevance-in-industry-dynamics/hero.jpg",
+    "file": "posts/ai-relevance-in-industry-dynamics.html"
+  },
+  {
+    "id": "psychometric-tests-what-students-need-to-know",
+    "title": "Psychometric Tests: What Students and Counsellors Need to Know",
+    "date": "2026-03-17",
+    "excerpt": "Key takeaways from a Unifrog webinar on psychometric testing — helping counsellors prepare students for the assessments used by companies like Nestlé and Rolls-Royce, and the direct link to Unifrog's self-assessment tools.",
+    "tags": ["Pick, Learn and Share", "Career Counselling", "Students", "Psychometric Tests", "Unifrog"],
+    "readTime": 5,
+    "image": "assets/blog/psychometric-tests-what-students-need-to-know/hero.jpg",
+    "file": "posts/psychometric-tests-what-students-need-to-know.html"
+  },
+  {
     "id": "econometrics-for-career-counsellors",
     "title": "Econometrics & Career Pathways: A Guide for High School Career Counsellors",
     "date": "2026-05-27",
