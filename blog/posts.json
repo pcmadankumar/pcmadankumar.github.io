@@ -6,6 +6,7 @@
     "excerpt": "A practical guide for career counsellors on surfacing econometrics and data career pathways early — linking subject choices to global job roles, earning potential, and free tools students can start using today.",
     "tags": ["Pick, Learn and Share", "Career Counselling", "Econometrics", "Data Science", "Students"],
     "readTime": 10,
+    "image": "assets/blog/econometrics-for-career-counsellors/hero.jpg",
     "file": "posts/econometrics-for-career-counsellors.html"
   },
   {
@@ -15,6 +16,7 @@
     "excerpt": "Key takeaways from a FutureWise webinar on econometrics — helping Economics and Mathematics teachers connect classroom theory to real-world data careers through correlation, regression, and the power of Y = MX + B.",
     "tags": ["Pick, Learn and Share", "Economics", "Mathematics", "Econometrics", "Teacher Training"],
     "readTime": 10,
+    "image": "assets/blog/econometrics-in-the-classroom/hero.jpg",
     "file": "posts/econometrics-in-the-classroom.html"
   },
   {
@@ -34,6 +36,7 @@
     "excerpt": "An introduction to the Cambridge International curriculum framework, its core principles, and how it transforms student learning outcomes in international schools.",
     "tags": ["Cambridge", "Education", "Curriculum"],
     "readTime": 5,
+    "image": "assets/blog/getting-started-with-cambridge-curriculum/hero.jpg",
     "file": "posts/getting-started-with-cambridge-curriculum.html"
   },
   {
@@ -43,6 +46,7 @@
     "excerpt": "A practical guide for educators on how AI tools are reshaping classrooms, and how to harness them responsibly for better learning outcomes.",
     "tags": ["AI", "EdTech", "Teacher Training"],
     "readTime": 7,
+    "image": "assets/blog/ai-in-education-what-teachers-need-to-know/hero.jpg",
     "file": "posts/ai-in-education-what-teachers-need-to-know.html"
   },
   {
@@ -52,6 +56,7 @@
     "excerpt": "From building a strong academic profile to choosing the right university pathway, these ten tips will help high school students navigate their future with confidence.",
     "tags": ["Career Counselling", "Students", "University"],
     "readTime": 6,
+    "image": "assets/blog/career-counselling-tips-for-high-school-students/hero.jpg",
     "file": "posts/career-counselling-tips-for-high-school-students.html"
   },
   {
