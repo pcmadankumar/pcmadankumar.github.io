@@ -273,6 +273,8 @@
   nav.className = 'footer-nav';
   nav.setAttribute('aria-label', 'Quick links');
   nav.innerHTML =
+    '<a href="' + prefix + '/resources.html" class="footer-nav-link">Resources</a>' +
+    '<span class="footer-nav-sep">\u00b7</span>' +
     '<a href="' + prefix + '/blog/index.html" class="footer-nav-link">Blog</a>' +
     '<span class="footer-nav-sep">\u00b7</span>' +
     '<a href="' + prefix + '/contact.html" class="footer-nav-link">Contact</a>' +

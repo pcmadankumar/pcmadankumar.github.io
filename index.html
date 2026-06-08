@@ -114,6 +114,12 @@
             <li><a href="work_projects.html">Work Projects</a></li>
           </ul>
         </li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle">Shop <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </li>
         <li><a href="blog/index.html">Blog</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
@@ -268,6 +274,29 @@
       </div>
     </section>
 
+    <!-- Resources Carousel -->
+    <section class="home-res" id="home-resources">
+      <div class="container">
+        <div class="section-header fade-up" style="margin-bottom: 36px;">
+          <h2 class="section-title">Resources &amp; Study Materials</h2>
+          <p class="section-subtitle">Curated teaching aids for Cambridge subjects &nbsp;&middot;&nbsp; Ready to use in class</p>
+        </div>
+        <div id="home-res-carousel" class="home-res-carousel">
+          <div class="home-res-track-wrap">
+            <div class="home-res-track"></div>
+          </div>
+          <div class="hrc-controls">
+            <button class="hrc-btn hrc-btn-prev" aria-label="Previous resource"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="hrc-dots"></div>
+            <button class="hrc-btn hrc-btn-next" aria-label="Next resource"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+        <div class="home-res-cta fade-up">
+          <a href="resources.html" class="btn btn-outline"><i class="fa-solid fa-store"></i> View All Resources</a>
+        </div>
+      </div>
+    </section>
+
     <!-- Latest from the Blog -->
     <section class="section" id="latest-blog" style="padding-top: 0;">
       <div class="container">
@@ -341,6 +370,83 @@
         });
       })
       .catch(function() { grid.innerHTML = ''; });
+  })();
+  </script>
+  <script>
+  (function() {
+    var carousel = document.getElementById('home-res-carousel');
+    if (!carousel) return;
+    var track     = carousel.querySelector('.home-res-track');
+    var dotsWrap  = carousel.querySelector('.hrc-dots');
+    var btnPrev   = carousel.querySelector('.hrc-btn-prev');
+    var btnNext   = carousel.querySelector('.hrc-btn-next');
+    var current   = 0;
+    var items     = [];
+    var timer;
+
+    function buildSlide(r) {
+      var imgHtml = r.image
+        ? '<img class="hrc-thumb" src="' + r.image + '" alt="' + r.title + '" loading="lazy">'
+        : '<div class="hrc-thumb-placeholder"><i class="fa-solid fa-book-open"></i></div>';
+      var badges = (r.formats || []).map(function(f) {
+        return '<span class="res-format-badge">' + f + '</span>';
+      }).join('');
+      var tags = (r.tags || []).map(function(t) {
+        return '<span class="res-tag">' + t + '</span>';
+      }).join('');
+      return '<div class="home-res-slide">' +
+        '<a class="hrc-card" href="' + r.url + '" target="_blank" rel="noopener">' +
+          imgHtml +
+          '<div class="hrc-body">' +
+            '<div class="hrc-formats">' + badges + '</div>' +
+            '<div class="hrc-title">' + r.title + '</div>' +
+            '<div class="hrc-desc">' + r.description + '</div>' +
+            '<div class="hrc-tags">' + tags + '</div>' +
+            '<div class="hrc-cta-line"><i class="fa-solid fa-arrow-right"></i> Get it now</div>' +
+          '</div>' +
+        '</a>' +
+      '</div>';
+    }
+
+    function goTo(idx) {
+      current = (idx + items.length) % items.length;
+      track.style.transform = 'translateX(-' + (current * 100) + '%)';
+      dotsWrap.querySelectorAll('.hrc-dot').forEach(function(d, i) {
+        d.classList.toggle('active', i === current);
+      });
+    }
+
+    function startAuto() {
+      timer = setInterval(function() { goTo(current + 1); }, 5000);
+    }
+
+    function stopAuto() { clearInterval(timer); }
+
+    fetch('resources.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        items = data;
+        if (!items.length) { carousel.closest('.home-res').style.display = 'none'; return; }
+        track.innerHTML = items.map(buildSlide).join('');
+        if (items.length < 2) {
+          btnPrev.style.display = 'none';
+          btnNext.style.display = 'none';
+        } else {
+          items.forEach(function(_, i) {
+            var dot = document.createElement('button');
+            dot.className = 'hrc-dot' + (i === 0 ? ' active' : '');
+            dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+            dot.addEventListener('click', function() { stopAuto(); goTo(i); startAuto(); });
+            dotsWrap.appendChild(dot);
+          });
+          btnPrev.addEventListener('click', function() { stopAuto(); goTo(current - 1); startAuto(); });
+          btnNext.addEventListener('click', function() { stopAuto(); goTo(current + 1); startAuto(); });
+          carousel.addEventListener('mouseenter', stopAuto);
+          carousel.addEventListener('mouseleave', startAuto);
+          startAuto();
+        }
+      })
+      .catch(function() { carousel.closest('.home-res').style.display = 'none'; });
   })();
   </script>
 <script data-goatcounter="https://pcmadankumar.goatcounter.com/count"
