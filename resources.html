@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d0d0d">
+  <meta name="author" content="Madan Kumar PC">
+  <meta name="description" content="Teaching resources and study materials by Madan Kumar PC — curated Cambridge curriculum aids available for purchase.">
+  <link rel="canonical" href="https://pcmadankumar.github.io/resources.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Madan Kumar PC">
+  <meta property="og:title" content="Resources &amp; Study Materials | Madan Kumar PC">
+  <meta property="og:description" content="Curated teaching resources and study materials for Cambridge subjects — available on Gumroad.">
+  <meta property="og:url" content="https://pcmadankumar.github.io/resources.html">
+  <meta property="og:image" content="https://pcmadankumar.github.io/assets/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Resources &amp; Study Materials | Madan Kumar PC">
+  <meta name="twitter:description" content="Curated teaching resources and study materials for Cambridge subjects — available on Gumroad.">
+  <title>Resources &amp; Study Materials | Madan Kumar PC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" style="font-family: 'Dancing Script', cursive; font-size: 1.65rem;">Madan Kumar PC</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle">Competence <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="experience.html">Experience</a></li>
+          </ul>
+        </li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle">Credentials <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="work_projects.html">Work Projects</a></li>
+          </ul>
+        </li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle">Shop <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="resources.html" class="nav-active">Resources</a></li>
+          </ul>
+        </li>
+        <li><a href="blog/index.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="page-content" id="main-content">
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="page-hero-title fade-up">Resources &amp; <span>Study Materials</span></h1>
+        <p class="page-hero-sub fade-up">Curated teaching aids for Cambridge subjects — ready to use in class, available on Gumroad.</p>
+      </div>
+    </section>
+
+    <!-- Resources Grid -->
+    <section class="section">
+      <div class="container">
+        <div id="res-grid" class="res-grid" aria-live="polite">
+          <div class="res-loading">
+            <i class="fa-solid fa-spinner fa-spin"></i>
+            <p>Loading resources&hellip;</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner footer-inner--split">
+      <div style="display: flex; flex-direction: column; gap: 6px; align-items: flex-start;">
+        <p class="footer-text">
+          &copy; 2026 Madan Kumar PC
+          <span class="dot">&middot;</span>
+          Proudly built with Claude &amp; GitHub ❤️
+        </p>
+        <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="footer-link">
+          <i class="fa-brands fa-linkedin"></i> Connect on LinkedIn
+        </a>
+      </div>
+      <p class="footer-quote">
+        <span class="footer-quote-text"></span>
+        <span class="footer-quote-author"></span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+  (function() {
+    var grid = document.getElementById('res-grid');
+    if (!grid) return;
+
+    fetch('resources.json')
+      .then(function(r) { return r.json(); })
+      .then(function(resources) {
+        if (!resources.length) {
+          grid.innerHTML = '<p class="res-empty">No resources available yet — check back soon!</p>';
+          return;
+        }
+        grid.innerHTML = resources.map(function(r) {
+          var formats = (r.formats || []).map(function(f) {
+            return '<span class="res-format-badge">' + f + '</span>';
+          }).join('');
+          var tags = (r.tags || []).map(function(t) {
+            return '<span class="res-tag">' + t + '</span>';
+          }).join('');
+          var thumb = r.image
+            ? '<img class="res-thumb" src="' + r.image + '" alt="' + r.title.replace(/"/g, '&quot;') + '" loading="lazy">'
+            : '<div class="res-thumb-placeholder"><i class="fa-solid fa-book-open"></i></div>';
+          return '<article class="res-card fade-up">' +
+            thumb +
+            '<div class="res-body">' +
+              '<div class="res-formats">' + formats + '</div>' +
+              '<h2 class="res-title">' + r.title + '</h2>' +
+              '<p class="res-desc">' + r.description + '</p>' +
+              '<div class="res-tags">' + tags + '</div>' +
+            '</div>' +
+            '<div class="res-footer">' +
+              '<a href="' + r.url + '" target="_blank" rel="noopener noreferrer" class="res-btn">' +
+                '<i class="fa-solid fa-bag-shopping"></i> Get it now' +
+              '</a>' +
+            '</div>' +
+          '</article>';
+        }).join('');
+
+        grid.querySelectorAll('.fade-up').forEach(function(el, i) {
+          el.style.transitionDelay = (i * 80) + 'ms';
+          setTimeout(function() { el.classList.add('visible'); }, 20);
+        });
+      })
+      .catch(function() {
+        grid.innerHTML = '<p class="res-empty">Unable to load resources. Please try again later.</p>';
+      });
+  })();
+  </script>
+  <script data-goatcounter="https://pcmadankumar.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
