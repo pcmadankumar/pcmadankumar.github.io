@@ -1,5 +1,17 @@
 [
   {
+    "id": "igcse-cs-starter",
+    "title": "IGCSE Computer Science (0478) Starter Pack",
+    "description": "A complete ready-to-use kit for IGCSE Computer Science — includes a quick-start PDF to orient students, a comprehensive full-module PDF, and an editable PPTX presentation ready for classroom delivery.",
+    "subject": "IGCSE Computer Science",
+    "code": "0478",
+    "formats": ["PDF", "PPTX"],
+    "image": "assets/resources/igcse-cs-starter.jpg",
+    "url": "https://madankumar25.gumroad.com/l/IGCSEComputerScience",
+    "featured": true,
+    "tags": ["IGCSE", "Computer Science", "0478", "Cambridge"]
+  },
+  {
     "id": "igcse-gp-starter",
     "title": "IGCSE Global Perspectives (0457) Starter Pack",
     "description": "A complete ready-to-use kit for IGCSE Global Perspectives — includes a quick-start PDF to orient students, a comprehensive full-module PDF, and an editable PPTX presentation ready for classroom delivery.",
