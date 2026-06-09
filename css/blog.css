@@ -555,6 +555,13 @@
   display: inline-block;
 }
 
+#cusdis_thread iframe {
+  width: 100% !important;
+  min-height: 600px;
+  border: none;
+  display: block;
+}
+
 /* ============================================================
    READING PROGRESS BAR
    ============================================================ */
