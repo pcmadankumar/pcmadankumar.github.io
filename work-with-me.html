@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d0d0d">
+  <meta name="author" content="Madan Kumar PC">
+  <meta name="description" content="Work with Madan Kumar PC — Cambridge programme advisory, career counselling, teacher training, AI in education consulting, and more. First session always free.">
+  <link rel="canonical" href="https://pcmadankumar.github.io/work-with-me.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Madan Kumar PC">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:title" content="Work with Me | Madan Kumar PC">
+  <meta property="og:description" content="Cambridge programme advisory, career counselling, teacher training, and AI in education consulting. First session always free.">
+  <meta property="og:url" content="https://pcmadankumar.github.io/work-with-me.html">
+  <meta property="og:image" content="https://pcmadankumar.github.io/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Madan Kumar PC — Cambridge Programme Coordinator &amp; Educational Consultant">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Work with Me | Madan Kumar PC">
+  <meta name="twitter:description" content="Cambridge programme advisory, career counselling, teacher training, and AI in education consulting. First session always free.">
+  <meta name="twitter:image" content="https://pcmadankumar.github.io/assets/og-image.jpg">
+  <title>Work with Me | Madan Kumar PC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="alternate" type="text/plain" href="llms.txt" />
+  <link rel="alternate" type="text/plain" href="humans.txt" />
+  <link rel="alternate" type="text/markdown" href="index.md" />
+  <link rel="alternate" type="application/schema+json" href="index.schema.json" />
+  <link rel="alternate" type="application/rss+xml" href="index.xml" />
+  <link rel="alternate" type="application/manifest+json" href="index.manifest.json" />
+  <link rel="alternate" type="application/ld+json" href="index.og.json" />
+  <link rel="alternate" type="application/x-yaml" href="index.yaml" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pcmadankumar.github.io/" },
+      { "@type": "ListItem", "position": 2, "name": "Work with Me", "item": "https://pcmadankumar.github.io/work-with-me.html" }
+    ]
+  }
+  </script>
+  <style>
+    /* ============================================================
+       PAGE-SPECIFIC: work-with-me.html
+       ============================================================ */
+
+    .wm-statement {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      color: var(--color-muted);
+      font-style: italic;
+      line-height: 1.9;
+      padding: 26px 36px;
+      border-left: 3px solid var(--color-gold);
+      background: rgba(201, 168, 76, 0.04);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    /* --- Service Cards --- */
+    .wm-service-card {
+      position: relative;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      transition: var(--transition);
+      box-shadow: var(--shadow-gold);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      overflow: hidden;
+    }
+    .wm-service-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--color-gold), var(--color-gold-light), var(--color-gold), transparent);
+      background-size: 200% auto;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .wm-service-card:hover {
+      border-color: rgba(201, 168, 76, 0.3);
+      transform: translateY(-4px);
+      box-shadow: 0 16px 48px rgba(201, 168, 76, 0.28), 0 0 0 1px rgba(201, 168, 76, 0.2);
+    }
+    .wm-service-card:hover::before {
+      opacity: 1;
+      animation: shimmer 1.5s linear infinite;
+    }
+    .wm-free-badge {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      font-size: 0.6rem;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: #0a0a0a;
+      background: var(--color-gold);
+      border-radius: 4px;
+      padding: 2px 7px;
+      opacity: 0.65;
+    }
+    .wm-service-icon {
+      width: 52px;
+      height: 52px;
+      background: rgba(201, 168, 76, 0.1);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      color: var(--color-gold);
+      flex-shrink: 0;
+      margin-bottom: 4px;
+    }
+    .wm-service-title {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--color-white);
+      line-height: 1.4;
+    }
+    .wm-service-audience {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--color-gold);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .wm-service-desc {
+      font-size: 0.875rem;
+      color: var(--color-muted);
+      line-height: 1.65;
+      margin-top: 2px;
+    }
+
+    /* --- How It Works Steps --- */
+    .wm-steps-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-top: 40px;
+    }
+    .wm-step-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 36px 28px 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      transition: var(--transition);
+      box-shadow: var(--shadow-gold);
+      position: relative;
+    }
+    .wm-step-card:hover {
+      border-color: rgba(201, 168, 76, 0.3);
+      transform: translateY(-4px);
+      box-shadow: 0 16px 48px rgba(201, 168, 76, 0.28);
+    }
+    .wm-step-num {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      font-weight: 700;
+      color: rgba(201, 168, 76, 0.12);
+      line-height: 1;
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      user-select: none;
+    }
+    .wm-step-icon {
+      width: 52px;
+      height: 52px;
+      background: rgba(201, 168, 76, 0.1);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      color: var(--color-gold);
+    }
+    .wm-step-title {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--color-white);
+    }
+    .wm-step-desc {
+      font-size: 0.9rem;
+      color: var(--color-muted);
+      line-height: 1.75;
+    }
+
+    /* --- CTA Section --- */
+    .wm-cta-bg {
+      background: var(--color-surface);
+      border-top: 1px solid var(--color-border);
+    }
+    .wm-cta-grid {
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+      gap: 64px;
+      align-items: start;
+    }
+    .wm-channels {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .wm-channel-btn {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 20px;
+      background: var(--color-bg);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius);
+      text-decoration: none;
+      transition: var(--transition);
+      color: var(--color-white);
+    }
+    .wm-channel-btn:hover {
+      border-color: rgba(201, 168, 76, 0.3);
+      transform: translateX(4px);
+      color: var(--color-white);
+    }
+    .wm-channel-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.15rem;
+      flex-shrink: 0;
+    }
+    .wm-channel-icon--email { background: rgba(201, 168, 76, 0.12); color: var(--color-gold); }
+    .wm-channel-icon--wa { background: rgba(37, 211, 102, 0.12); color: #25D366; }
+    .wm-channel-label {
+      font-size: 0.72rem;
+      color: var(--color-muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .wm-channel-value {
+      font-size: 0.92rem;
+      color: var(--color-white);
+      font-weight: 500;
+    }
+    .wm-or-divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--color-muted);
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin: 2px 0;
+    }
+    .wm-or-divider::before,
+    .wm-or-divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--color-border);
+    }
+    .wm-certs-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--color-gold);
+      margin-top: 28px;
+      transition: color 0.2s;
+    }
+    .wm-certs-link:hover { color: var(--color-gold-light); }
+
+    /* --- Responsive --- */
+    @media (max-width: 1024px) {
+      .wm-cta-grid { grid-template-columns: 1fr; gap: 48px; }
+    }
+    @media (max-width: 768px) {
+      .wm-steps-grid { grid-template-columns: 1fr; }
+      .wm-statement { padding: 20px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation"></nav>
+
+  <main class="page-content" id="main-content">
+
+    <!-- Page Hero -->
+    <div class="page-hero">
+      <div class="container">
+        <h1 class="page-hero-title fade-up">Work with <span>Me</span></h1>
+        <p class="page-hero-sub fade-up">Cambridge. Career. EdTech. Consulting. All grounded in 15+ years of classroom reality.</p>
+      </div>
+    </div>
+
+    <!-- Personal Statement -->
+    <section class="section" style="padding-bottom: 48px;">
+      <div class="container">
+        <blockquote class="wm-statement fade-up">
+          After 15 years working inside schools — building Cambridge programmes, guiding students at crossroads, training teachers, and helping institutions make sense of AI in education — I have come to believe that the best outcomes start with listening. My approach is built around your specific context, not templates or one-size solutions. Every engagement is structured, documented, and ends with clear next steps for both of us.
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Stats Band -->
+    <div class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card fade-up">
+            <div class="stat-number">15<span style="font-size:1.5rem;">+</span></div>
+            <div class="stat-label">Years in Education</div>
+          </div>
+          <div class="stat-card fade-up">
+            <div class="stat-number">5</div>
+            <div class="stat-label">Cambridge Schools Supported</div>
+          </div>
+          <div class="stat-card fade-up">
+            <div class="stat-number">30<span style="font-size:1.5rem;">+</span></div>
+            <div class="stat-label">Certifications Earned</div>
+          </div>
+          <div class="stat-card fade-up">
+            <div class="stat-number" style="font-size:1.7rem; letter-spacing:-0.01em;">Pan-India</div>
+            <div class="stat-label">&amp; International</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+
+        <div class="section-header fade-up">
+          <h2 class="section-title">How I Can Help</h2>
+          <p class="section-subtitle">Six focused areas of engagement — each one drawn from real-world practice.</p>
+        </div>
+
+        <div class="certs-grid" data-stagger="90">
+
+          <!-- 1 -->
+          <div class="wm-service-card fade-up">
+            <span class="wm-free-badge">Free</span>
+            <div class="wm-service-icon"><i class="fa-solid fa-school"></i></div>
+            <div class="wm-service-title">Cambridge Programme Setup &amp; Advisory</div>
+            <div class="wm-service-audience">For Schools — IGCSE / AS / A Level</div>
+            <p class="wm-service-desc">From initial affiliation planning to curriculum mapping — I help schools navigate the Cambridge setup process with clarity and confidence. Backed by experience supporting 5 schools through launch and programme expansion.</p>
+          </div>
+
+          <!-- 2 -->
+          <div class="wm-service-card fade-up">
+            <span class="wm-free-badge">Free</span>
+            <div class="wm-service-icon"><i class="fa-solid fa-clipboard-check"></i></div>
+            <div class="wm-service-title">Cambridge Exam Officer — Handholding &amp; Training</div>
+            <div class="wm-service-audience">For New Exam Officers at Cambridge Schools</div>
+            <p class="wm-service-desc">Complete, step-by-step guidance from the Cambridge Portal to results day — structured training, documentation support, and ongoing availability for every question along the way.</p>
+          </div>
+
+          <!-- 3 -->
+          <div class="wm-service-card fade-up">
+            <span class="wm-free-badge">Free</span>
+            <div class="wm-service-icon"><i class="fa-solid fa-compass"></i></div>
+            <div class="wm-service-title">1:1 Career Counselling</div>
+            <div class="wm-service-audience">For Students in Grades 9–12</div>
+            <p class="wm-service-desc">CAP-accredited, personalised career guidance. We work through subject choices, university options, and long-term direction — at your pace, grounded in real data, not sales pitches.</p>
+          </div>
+
+          <!-- 4 -->
+          <div class="wm-service-card fade-up">
+            <span class="wm-free-badge">Free</span>
+            <div class="wm-service-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <div class="wm-service-title">Teacher Training Workshops</div>
+            <div class="wm-service-audience">For School Faculty &amp; Department Heads</div>
+            <p class="wm-service-desc">Focused, practical workshops on pedagogy, Cambridge curriculum delivery, AI tools in education, and professional development — designed around your school's actual needs, not a fixed syllabus.</p>
+          </div>
+
+          <!-- 5 -->
+          <div class="wm-service-card fade-up">
+            <span class="wm-free-badge">Free</span>
+            <div class="wm-service-icon"><i class="fa-solid fa-robot"></i></div>
+            <div class="wm-service-title">AI in Education Consulting</div>
+            <div class="wm-service-audience">For School Leadership &amp; EdTech Teams</div>
+            <p class="wm-service-desc">Practical guidance on integrating AI into teaching, learning, and school operations — built on real classroom experience and up-to-date knowledge of tools that actually work in school settings.</p>
+          </div>
+
+          <!-- 6 -->
+          <div class="wm-service-card fade-up">
+            <span class="wm-free-badge">Free</span>
+            <div class="wm-service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="wm-service-title">IT / EdTech Consulting</div>
+            <div class="wm-service-audience">For Schools &amp; EdTech Startups</div>
+            <p class="wm-service-desc">Strategic and operational support for technology decisions — drawing on experience at Infosys and Ernst &amp; Young, combined with 10+ years of school-based EdTech adoption and implementation.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+
+        <div class="section-header fade-up">
+          <h2 class="section-title">How It Works</h2>
+          <p class="section-subtitle">Simple, structured, and respectful of your time.</p>
+        </div>
+
+        <div class="wm-steps-grid" data-stagger="100">
+
+          <div class="wm-step-card fade-up">
+            <span class="wm-step-num">01</span>
+            <div class="wm-step-icon"><i class="fa-solid fa-comments"></i></div>
+            <div class="wm-step-title">Free Discovery Session</div>
+            <p class="wm-step-desc">A focused one-hour conversation — online or in person — to understand your context, goals, and challenges. No obligation, no pitch. Just listening.</p>
+          </div>
+
+          <div class="wm-step-card fade-up">
+            <span class="wm-step-num">02</span>
+            <div class="wm-step-icon"><i class="fa-solid fa-list-check"></i></div>
+            <div class="wm-step-title">Structured Engagements</div>
+            <p class="wm-step-desc">Periodic, focused sessions built around your requirements. Every meeting ends with clear action items — for you and for me. We move forward together, not just talk.</p>
+          </div>
+
+          <div class="wm-step-card fade-up">
+            <span class="wm-step-num">03</span>
+            <div class="wm-step-icon"><i class="fa-solid fa-file-lines"></i></div>
+            <div class="wm-step-title">Documented Outcomes</div>
+            <p class="wm-step-desc">Every engagement is clearly documented. You leave with a record you can act on independently — not just notes from a conversation that fades over time.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Credentials Highlight -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+
+        <div class="section-header fade-up">
+          <h2 class="section-title">Backed by Recognised Credentials</h2>
+          <p class="section-subtitle">A selection most relevant to this work — from 30+ certifications earned.</p>
+        </div>
+
+        <div class="certs-grid" data-stagger="90" style="grid-template-columns: repeat(2, 1fr);">
+
+          <div class="cert-card fade-up">
+            <div class="cert-card-header">
+              <div class="cert-icon"><i class="fa-solid fa-user-tie"></i></div>
+              <img class="cert-logo" src="images/logos/ICCC-logo.png" alt="ICCC Foundation">
+            </div>
+            <div class="cert-name">International Certified Career Coach (ICCC)</div>
+            <div class="cert-issuer">ICCC Foundation — Career Guidance &amp; Coaching</div>
+            <div class="cert-date"><i class="fa-regular fa-calendar"></i> March 2024</div>
+          </div>
+
+          <div class="cert-card fade-up">
+            <div class="cert-card-header">
+              <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+              <img class="cert-logo" src="images/logos/THE.jpg" alt="Times Higher Education">
+            </div>
+            <div class="cert-name">Certified Counsellor — CAP Accredited</div>
+            <div class="cert-issuer">Counsellor Accreditation Programme (CAP) — Times Higher Education</div>
+            <div class="cert-date"><i class="fa-regular fa-calendar"></i> Ongoing</div>
+          </div>
+
+          <div class="cert-card fade-up">
+            <div class="cert-card-header">
+              <div class="cert-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+              <img class="cert-logo" src="images/logos/Cambridge_University_Press_and_Assessment.jpeg" alt="Cambridge University Press &amp; Assessment">
+            </div>
+            <div class="cert-name">Cambridge Exam Officer Update &amp; How to Run Exams</div>
+            <div class="cert-issuer">Cambridge University Press &amp; Assessment</div>
+            <div class="cert-date"><i class="fa-regular fa-calendar"></i> 2024</div>
+          </div>
+
+          <div class="cert-card fade-up">
+            <div class="cert-card-header">
+              <div class="cert-icon"><i class="fa-solid fa-robot"></i></div>
+              <img class="cert-logo" src="images/logos/iSP_International_Schools_Partnership.jpeg" alt="International Schools Partnership">
+            </div>
+            <div class="cert-name">Empowering Educators: Navigating the World of AI</div>
+            <div class="cert-issuer">International Schools Partnership Limited</div>
+            <div class="cert-date"><i class="fa-regular fa-calendar"></i> April 2025</div>
+          </div>
+
+        </div>
+
+        <a href="certifications.html" class="wm-certs-link fade-up">
+          <i class="fa-solid fa-arrow-right"></i> View all 30+ certifications
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" style="background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+      <div class="container">
+
+        <div class="section-header fade-up">
+          <h2 class="section-title">What People Say</h2>
+          <p class="section-subtitle">Recommended by colleagues, leaders, and fellow educators.</p>
+        </div>
+
+        <div class="testimonials-grid" data-stagger="120">
+
+          <div class="testimonial-card fade-up">
+            <div class="testimonial-quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <div class="testimonial-preview">
+              Working under the leadership of Madan Kumar in the field of career counselling has been a truly inspiring experience. He brings a rare combination of empathy, clarity, and innovation to the role — always putting student well-being at the forefront while encouraging the team to think creatively and stay ahead of the curve. One of the most admirable aspects of Madan's leadership is his genuine curiosity and forward-looking mindset, especially when it comes to exploring the role of AI in education and career guidance.
+            </div>
+            <button class="testimonial-readmore" onclick="openTestimonialModal('wm-modal-amutha')">Read more &raquo;</button>
+            <div class="testimonial-footer">
+              <div class="testimonial-name">Amutha A</div>
+              <div class="testimonial-role">Career Counselor</div>
+              <div class="testimonial-company">The Indian Public School, Erode &amp; Salem</div>
+              <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="testimonial-linkedin">
+                <i class="fa-brands fa-linkedin"></i> Recommended on LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-up">
+            <div class="testimonial-quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <div class="testimonial-preview">
+              A fantastic resource person and Mentor of our team. Madhan possesses in-depth knowledge in Cambridge curriculum, Career guidance and AI for Educators. I always admire his lifelong learnership.
+            </div>
+            <button class="testimonial-readmore" onclick="openTestimonialModal('wm-modal-kali')">Read more &raquo;</button>
+            <div class="testimonial-footer">
+              <div class="testimonial-name">Kali Prakash</div>
+              <div class="testimonial-role">Director</div>
+              <div class="testimonial-company">Panmayam Agro (OPC) Pvt Ltd</div>
+              <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="testimonial-linkedin">
+                <i class="fa-brands fa-linkedin"></i> Recommended on LinkedIn
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+          <a href="testimonials.html" class="btn btn-outline fade-up">
+            <i class="fa-solid fa-quote-left"></i> View All Recommendations
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA / Enquire -->
+    <section class="section wm-cta-bg" id="enquire">
+      <div class="container">
+
+        <div class="section-header fade-up">
+          <h2 class="section-title">Let's Start a Conversation</h2>
+          <p class="section-subtitle">
+            <i class="fa-solid fa-circle-check" style="color: var(--color-gold); margin-right: 6px;"></i>
+            <strong style="color: var(--color-gold);">First session is free for all services.</strong>
+            &nbsp;Reach out below — I respond within 24 hours.
+          </p>
+        </div>
+
+        <div class="wm-cta-grid">
+
+          <!-- Enquiry Form -->
+          <div class="contact-form-card fade-up">
+            <div class="contact-form-header">
+              <h3 class="contact-heading">Send an Enquiry</h3>
+              <p class="contact-subheading">Let me know what you need and I'll get back to you.</p>
+            </div>
+            <form id="wmContactForm" class="contact-form" novalidate>
+              <input type="hidden" name="access_key" value="00102c06-02e5-498f-a8df-92f5e91b1403">
+              <input type="hidden" name="subject" id="wmEmailSubject" value="">
+              <input type="hidden" name="from_name" value="Work With Me Enquiry">
+              <input type="checkbox" name="botcheck" style="display:none;" tabindex="-1" autocomplete="off">
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="wm_name">Name <span class="form-required">*</span></label>
+                  <input type="text" id="wm_name" name="name" placeholder="Your full name" required>
+                </div>
+                <div class="form-group">
+                  <label for="wm_email">Email <span class="form-required">*</span></label>
+                  <input type="email" id="wm_email" name="email" placeholder="your@email.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="wm_service">Service I'm interested in</label>
+                <select id="wm_service" name="service">
+                  <option value="" disabled selected>Select a service (optional)</option>
+                  <option value="Cambridge Programme Setup &amp; Advisory">Cambridge Programme Setup &amp; Advisory</option>
+                  <option value="Cambridge Exam Officer — Handholding &amp; Training">Cambridge Exam Officer — Handholding &amp; Training</option>
+                  <option value="1:1 Career Counselling">1:1 Career Counselling</option>
+                  <option value="Teacher Training Workshops">Teacher Training Workshops</option>
+                  <option value="AI in Education Consulting">AI in Education Consulting</option>
+                  <option value="IT / EdTech Consulting">IT / EdTech Consulting</option>
+                  <option value="General Enquiry">General Enquiry</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="wm_message">Message <span class="form-required">*</span></label>
+                <textarea id="wm_message" name="message" rows="5" placeholder="Tell me a little about what you're looking for..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-contact-submit" id="wmSubmitBtn">
+                <i class="fa-solid fa-paper-plane"></i> <span>Send Enquiry</span>
+              </button>
+
+              <div id="wmFormSuccess" class="form-feedback form-success" style="display:none;">
+                <i class="fa-solid fa-circle-check"></i> Thank you! I'll get back to you within 24 hours.
+              </div>
+              <div id="wmFormError" class="form-feedback form-error" style="display:none;">
+                <i class="fa-solid fa-triangle-exclamation"></i> Something went wrong. Please try again or reach out directly.
+              </div>
+            </form>
+          </div>
+
+          <!-- Direct Channels -->
+          <div class="fade-up">
+            <h3 class="contact-heading" style="margin-bottom: 8px;">Or reach out directly</h3>
+            <p class="contact-subheading" style="margin-bottom: 28px;">Available via email or WhatsApp. Online sessions via Google Meet.</p>
+
+            <div class="wm-channels">
+
+              <a href="mailto:pcmadankumar@gmail.com" class="wm-channel-btn">
+                <div class="wm-channel-icon wm-channel-icon--email">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <div class="wm-channel-label">Email</div>
+                  <div class="wm-channel-value">pcmadankumar@gmail.com</div>
+                </div>
+              </a>
+
+              <div class="wm-or-divider">or</div>
+
+              <a href="https://wa.me/918971661564?text=Hi%20Madan%2C%20I%27d%20like%20to%20enquire%20about%20your%20services" target="_blank" rel="noopener" class="wm-channel-btn">
+                <div class="wm-channel-icon wm-channel-icon--wa">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div>
+                  <div class="wm-channel-label">WhatsApp</div>
+                  <div class="wm-channel-value">+91 89716 61564</div>
+                </div>
+              </a>
+
+            </div>
+
+            <p style="font-size: 0.82rem; color: var(--color-muted); margin-top: 28px; line-height: 1.75;">
+              <i class="fa-solid fa-location-dot" style="color: var(--color-gold); margin-right: 6px;"></i>
+              In-person sessions available across Tamil Nadu.
+              <br>Online sessions via Google Meet — available pan-India and internationally.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       MODALS
+       ============================================================ -->
+
+  <!-- Modal — Amutha A -->
+  <div id="wm-modal-amutha" role="dialog" aria-modal="true" aria-label="Recommendation from Amutha A"
+       style="display:none; position:fixed; top:0; left:0; right:0; bottom:0;
+              background:rgba(0,0,0,0.78); z-index:2000;
+              align-items:center; justify-content:center; padding:24px;"
+       onclick="if(event.target===this) closeTestimonialModal('wm-modal-amutha')">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeTestimonialModal('wm-modal-amutha')" aria-label="Close">&times;</button>
+      <div class="testimonial-quote-icon" style="margin-bottom:20px;"><i class="fa-solid fa-quote-left"></i></div>
+      <p class="modal-text">Working under the leadership of Madan Kumar in the field of career counselling has been a truly inspiring experience. He brings a rare combination of empathy, clarity, and innovation to the role — always putting student well-being at the forefront while encouraging the team to think creatively and stay ahead of the curve.</p>
+      <p class="modal-text">One of the most admirable aspects of Madan's leadership is his genuine curiosity and forward-looking mindset, especially when it comes to exploring the role of AI in education and career guidance. He actively seeks out new ways to integrate technology into counselling practices, and his initiatives have sparked meaningful conversations and improvements within our team.</p>
+      <p class="modal-text">Madan's recent achievement — completing a specialized program in AI applications for education — reflects not only his commitment to personal growth but also his vision for the future of student support. He doesn't just talk about innovation; he takes the lead in learning and implementing it, setting an example for the entire team.</p>
+      <p class="modal-text">I feel truly fortunate to work with someone who leads with both heart and foresight. Madan Kumar is not just a team lead — he's a trailblazer in our field, and I'm excited to see the continued impact of his work.</p>
+      <div class="modal-author">
+        <div class="testimonial-name">Amutha A</div>
+        <div class="testimonial-role">Career Counselor</div>
+        <div class="testimonial-company">The Indian Public School, Erode &amp; Salem</div>
+        <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="testimonial-linkedin" style="margin-top:8px;">
+          <i class="fa-brands fa-linkedin"></i> Recommended on LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal — Kali Prakash -->
+  <div id="wm-modal-kali" role="dialog" aria-modal="true" aria-label="Recommendation from Kali Prakash"
+       style="display:none; position:fixed; top:0; left:0; right:0; bottom:0;
+              background:rgba(0,0,0,0.78); z-index:2000;
+              align-items:center; justify-content:center; padding:24px;"
+       onclick="if(event.target===this) closeTestimonialModal('wm-modal-kali')">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeTestimonialModal('wm-modal-kali')" aria-label="Close">&times;</button>
+      <div class="testimonial-quote-icon" style="margin-bottom:20px;"><i class="fa-solid fa-quote-left"></i></div>
+      <p class="modal-text">A fantastic resource person and Mentor of our team. Madhan possesses in-depth knowledge in Cambridge curriculum, Career guidance and AI for Educators. I always admire his lifelong learnership.</p>
+      <div class="modal-author">
+        <div class="testimonial-name">Kali Prakash</div>
+        <div class="testimonial-role">Director</div>
+        <div class="testimonial-company">Panmayam Agro (OPC) Pvt Ltd</div>
+        <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="testimonial-linkedin" style="margin-top:8px;">
+          <i class="fa-brands fa-linkedin"></i> Recommended on LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner footer-inner--split">
+      <div style="display: flex; flex-direction: column; gap: 6px; align-items: flex-start;">
+        <p class="footer-text">
+          &copy; 2026 Madan Kumar PC
+          <span class="dot">·</span>
+          Proudly built with Claude &amp; GitHub ❤️
+        </p>
+        <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="footer-link">
+          <i class="fa-brands fa-linkedin"></i> Connect on LinkedIn
+        </a>
+      </div>
+      <p class="footer-quote">
+        <span class="footer-quote-text"></span>
+        <span class="footer-quote-author"></span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Modal scripts -->
+  <script>
+    function openTestimonialModal(id) {
+      var modal = document.getElementById(id);
+      if (!modal) return;
+      modal.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    }
+    function closeTestimonialModal(id) {
+      var modal = document.getElementById(id);
+      if (!modal) return;
+      modal.style.display = 'none';
+      document.body.style.overflow = '';
+    }
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        ['wm-modal-amutha', 'wm-modal-kali'].forEach(function(id) {
+          closeTestimonialModal(id);
+        });
+      }
+    });
+  </script>
+
+  <!-- Enquiry form handler -->
+  <script>
+    (function () {
+      var form = document.getElementById('wmContactForm');
+      if (!form) return;
+
+      form.addEventListener('submit', async function (e) {
+        e.preventDefault();
+
+        var nameVal    = document.getElementById('wm_name').value.trim();
+        var serviceEl  = document.getElementById('wm_service');
+        var serviceVal = serviceEl ? serviceEl.value : '';
+        var submitBtn  = document.getElementById('wmSubmitBtn');
+        var successMsg = document.getElementById('wmFormSuccess');
+        var errorMsg   = document.getElementById('wmFormError');
+
+        document.getElementById('wmEmailSubject').value =
+          'Work With Me Enquiry from ' + nameVal + (serviceVal ? ' — ' + serviceVal : '');
+
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> <span>Sending…</span>';
+        successMsg.style.display = 'none';
+        errorMsg.style.display   = 'none';
+
+        var formData = new FormData(form);
+
+        try {
+          var response = await fetch('https://api.web3forms.com/submit', {
+            method : 'POST',
+            body   : formData
+          });
+          var data = await response.json();
+
+          if (data.success) {
+            successMsg.style.display = 'flex';
+            form.reset();
+          } else {
+            errorMsg.style.display = 'flex';
+          }
+        } catch (err) {
+          errorMsg.style.display = 'flex';
+        }
+
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> <span>Send Enquiry</span>';
+      });
+    })();
+  </script>
+
+  <script data-goatcounter="https://pcmadankumar.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

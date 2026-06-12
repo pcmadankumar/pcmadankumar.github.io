@@ -66,7 +66,13 @@
           '</ul>' +
         '</li>' +
         '<li><a href="' + p + '/blog/index.html"' + (onBlog ? ' class="nav-active"' : '') + '>Blog</a></li>' +
-        '<li><a href="' + p + '/contact.html"' + a('contact.html') + '>Contact</a></li>' +
+        '<li class="nav-dropdown">' +
+          '<a href="#" class="nav-dropdown-toggle">Reach <i class="fa-solid fa-chevron-down nav-chevron"></i></a>' +
+          '<ul class="nav-dropdown-menu">' +
+            '<li><a href="' + p + '/work-with-me.html"' + a('work-with-me.html') + '>Work with me</a></li>' +
+            '<li><a href="' + p + '/contact.html"' + a('contact.html') + '>Contact me</a></li>' +
+          '</ul>' +
+        '</li>' +
       '</ul>' +
     '</div>';
 

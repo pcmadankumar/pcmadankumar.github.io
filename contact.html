@@ -193,6 +193,20 @@
             </div>
 
             <div class="form-group">
+              <label for="cf_service">Service I'm interested in</label>
+              <select id="cf_service" name="service">
+                <option value="" disabled selected>Select a service (optional)</option>
+                <option value="Cambridge Programme Setup &amp; Advisory">Cambridge Programme Setup &amp; Advisory</option>
+                <option value="Cambridge Exam Officer — Handholding &amp; Training">Cambridge Exam Officer — Handholding &amp; Training</option>
+                <option value="1:1 Career Counselling">1:1 Career Counselling</option>
+                <option value="Teacher Training Workshops">Teacher Training Workshops</option>
+                <option value="AI in Education Consulting">AI in Education Consulting</option>
+                <option value="IT / EdTech Consulting">IT / EdTech Consulting</option>
+                <option value="General Enquiry">General Enquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group">
               <label for="cf_message">Message <span class="form-required">*</span></label>
               <textarea id="cf_message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
             </div>
@@ -247,13 +261,15 @@
 
         var nameVal    = document.getElementById('cf_name').value.trim();
         var subjectVal = document.getElementById('cf_subject').value.trim();
+        var serviceEl  = document.getElementById('cf_service');
+        var serviceVal = serviceEl ? serviceEl.value : '';
         var submitBtn  = document.getElementById('submitBtn');
         var successMsg = document.getElementById('formSuccess');
         var errorMsg   = document.getElementById('formError');
 
         // Build the email subject line dynamically
         document.getElementById('emailSubject').value =
-          'New message from ' + nameVal + ' \u2014 Portfolio Contact Form';
+          'New message from ' + nameVal + (serviceVal ? ' \u2014 ' + serviceVal : '') + ' \u2014 Portfolio Contact Form';
 
         // UI: loading state
         submitBtn.disabled = true;
