@@ -43,34 +43,24 @@
       '<ul class="nav-links">' +
         '<li><a href="' + p + '/index.html"' + (onIndex ? ' class="nav-active"' : '') + '>About</a></li>' +
         '<li class="nav-dropdown">' +
-          '<a href="#" class="nav-dropdown-toggle">Competence <i class="fa-solid fa-chevron-down nav-chevron"></i></a>' +
+          '<a href="#" class="nav-dropdown-toggle">Capability <i class="fa-solid fa-chevron-down nav-chevron"></i></a>' +
           '<ul class="nav-dropdown-menu">' +
+            '<li><a href="' + p + '/experience.html"' + a('experience.html') + '>Experience</a></li>' +
             '<li><a href="' + p + '/education.html"' + a('education.html') + '>Education</a></li>' +
             '<li><a href="' + p + '/skills.html"' + a('skills.html') + '>Skills</a></li>' +
-            '<li><a href="' + p + '/experience.html"' + a('experience.html') + '>Experience</a></li>' +
-          '</ul>' +
-        '</li>' +
-        '<li class="nav-dropdown">' +
-          '<a href="#" class="nav-dropdown-toggle">Credentials <i class="fa-solid fa-chevron-down nav-chevron"></i></a>' +
-          '<ul class="nav-dropdown-menu">' +
             '<li><a href="' + p + '/achievements.html"' + a('achievements.html') + '>Achievements</a></li>' +
-            '<li><a href="' + p + '/testimonials.html"' + a('testimonials.html') + '>Testimonials</a></li>' +
             '<li><a href="' + p + '/certifications.html"' + a('certifications.html') + '>Certifications</a></li>' +
             '<li><a href="' + p + '/work_projects.html"' + a('work_projects.html') + '>Work Projects</a></li>' +
-          '</ul>' +
-        '</li>' +
-        '<li class="nav-dropdown">' +
-          '<a href="#" class="nav-dropdown-toggle">Shop <i class="fa-solid fa-chevron-down nav-chevron"></i></a>' +
-          '<ul class="nav-dropdown-menu">' +
-            '<li><a href="' + p + '/resources.html"' + a('resources.html') + '>Resources</a></li>' +
+            '<li><a href="' + p + '/testimonials.html"' + a('testimonials.html') + '>Testimonials</a></li>' +
           '</ul>' +
         '</li>' +
         '<li><a href="' + p + '/blog/index.html"' + (onBlog ? ' class="nav-active"' : '') + '>Blog</a></li>' +
+        '<li><a href="' + p + '/resources.html"' + a('resources.html') + '>Resources</a></li>' +
         '<li class="nav-dropdown">' +
-          '<a href="#" class="nav-dropdown-toggle">Reach <i class="fa-solid fa-chevron-down nav-chevron"></i></a>' +
+          '<a href="#" class="nav-dropdown-toggle">Contact <i class="fa-solid fa-chevron-down nav-chevron"></i></a>' +
           '<ul class="nav-dropdown-menu">' +
-            '<li><a href="' + p + '/work-with-me.html"' + a('work-with-me.html') + '>Work with me</a></li>' +
-            '<li><a href="' + p + '/contact.html"' + a('contact.html') + '>Contact me</a></li>' +
+            '<li><a href="' + p + '/work-with-me.html"' + a('work-with-me.html') + '>Work with Me</a></li>' +
+            '<li><a href="' + p + '/contact.html"' + a('contact.html') + '>Contact Me</a></li>' +
           '</ul>' +
         '</li>' +
       '</ul>' +
