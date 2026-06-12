@@ -1,5 +1,25 @@
 [
   {
+    "id": "chemical-engineering-why-research-matters",
+    "title": "Chemical Engineering & Why Research Matters",
+    "date": "2026-06-12",
+    "excerpt": "Key takeaways from a session by Prof. Kannan Kandasamy at TIPS School Erode — what chemical engineering is, why the world urgently needs it, career scope in India and abroad, and a seven-step research roadmap any IGCSE student can start today.",
+    "tags": ["Pick, Learn and Share", "Career Counselling", "Chemical Engineering", "Research", "Students"],
+    "readTime": 12,
+    "image": "assets/blog/chemical-engineering-why-research-matters/hero.png",
+    "file": "posts/chemical-engineering-why-research-matters.html"
+  },
+  {
+    "id": "inside-iit-bombay-jee-advanced",
+    "title": "Inside IIT Bombay: What the Open House Told JEE Advanced Qualifiers",
+    "date": "2026-06-10",
+    "excerpt": "Key takeaways from IIT Bombay's official JEE Advanced Open House — flexible curriculum, open labs, AI + X philosophy, global exchange, and a first-year playbook for making the most of four years at India's flagship engineering institution.",
+    "tags": ["Pick, Learn and Share", "Career Counselling", "IIT Bombay", "JEE", "India", "Students"],
+    "readTime": 8,
+    "image": "assets/blog/inside-iit-bombay-jee-advanced/hero.jpg",
+    "file": "posts/inside-iit-bombay-jee-advanced.html"
+  },
+  {
     "id": "built-for-this",
     "title": "Built for This: A Guide to Thriving as a Student",
     "date": "2026-06-09",
@@ -8,6 +28,16 @@
     "readTime": 7,
     "image": "assets/blog/built-for-this/hero.jpg",
     "file": "posts/built-for-this.html"
+  },
+  {
+    "id": "mae-sports-education-student-athletes",
+    "title": "Game Plan for College: How MAE Sports & Education Helps Student-Athletes Find Their Best Fit and Earn Athletic Scholarships",
+    "date": "2026-06-08",
+    "excerpt": "Key takeaways from a May 2026 ISP webinar by Macarena Aguirre — how the US athletic scholarship process works, what counsellors need to know, and how to support student-athletes from any sport level through MAE Sports & Education.",
+    "tags": ["Pick, Learn and Share", "Career Counselling", "Sports Scholarships", "University", "Students"],
+    "readTime": 9,
+    "image": "assets/blog/mae-sports-education-student-athletes/hero.png",
+    "file": "posts/mae-sports-education-student-athletes.html"
   },
   {
     "id": "psychology-of-career-decisions",
