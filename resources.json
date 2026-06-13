@@ -24,6 +24,18 @@
     "tags": ["IGCSE", "Global Perspectives", "0457", "Cambridge"]
   },
   {
+    "id": "asa-gp",
+    "title": "AS and A Level Global Perspectives (9239) Teaching Pack",
+    "description": "A comprehensive ready-to-use teaching pack for AS and A Level Global Perspectives — covers the official 2027-2029 syllabus across four papers (2 in AS, 2 in A), with structured guidance and 50+ editable teacher slides in PowerPoint and PDF formats.",
+    "subject": "AS and A Level Global Perspectives",
+    "code": "9239",
+    "formats": ["PDF", "PPTX"],
+    "image": "assets/resources/asa-gp.png",
+    "url": "https://madankumar25.gumroad.com/l/asaglobalperspectives",
+    "featured": true,
+    "tags": ["AS Level", "A Level", "Global Perspectives", "9239", "Cambridge"]
+  },
+  {
     "id": "asa-cs",
     "title": "AS and A Level Computer Science (9618) Teaching Pack",
     "description": "A comprehensive ready-to-use teaching pack for AS and A Level Computer Science — covers the official 2027-2029 syllabus across four papers (2 in AS, 2 in A), with 38+ topics and 50+ editable teacher slides in PowerPoint and PDF formats.",
