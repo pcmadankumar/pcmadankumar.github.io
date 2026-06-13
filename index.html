@@ -352,8 +352,8 @@
     var timer;
 
     function buildSlide(r) {
-      var imgHtml = r.image
-        ? '<img class="hrc-thumb" src="' + r.image + '" alt="' + r.title + '" loading="lazy">'
+      var imgHtml = r.icon
+        ? '<img class="hrc-thumb" src="' + r.icon + '" alt="' + r.title + '" loading="lazy">'
         : '<div class="hrc-thumb-placeholder"><i class="fa-solid fa-book-open"></i></div>';
       var badges = (r.formats || []).map(function(f) {
         return '<span class="res-format-badge">' + f + '</span>';

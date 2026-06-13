@@ -6,7 +6,8 @@
     "subject": "IGCSE Computer Science",
     "code": "0478",
     "formats": ["PDF", "PPTX"],
-    "image": "assets/resources/igcsecomcover.png",
+    "icon": "assets/resources/igcsecscover.jpg",
+    "cover": "assets/resources/igcsecomcover.png",
     "url": "https://madankumar25.gumroad.com/l/IGCSEComputerScience",
     "featured": true,
     "tags": ["IGCSE", "Computer Science", "0478", "Cambridge"]
@@ -18,7 +19,8 @@
     "subject": "IGCSE Global Perspectives",
     "code": "0457",
     "formats": ["PDF", "PPTX"],
-    "image": "assets/resources/igcsegpcover.webp",
+    "icon": "assets/resources/igcsegpicon.png",
+    "cover": "assets/resources/igcsegpcover.webp",
     "url": "https://madankumar25.gumroad.com/l/IGCSEGPStarter",
     "featured": true,
     "tags": ["IGCSE", "Global Perspectives", "0457", "Cambridge"]
@@ -30,7 +32,8 @@
     "subject": "AS and A Level Global Perspectives",
     "code": "9239",
     "formats": ["PDF", "PPTX"],
-    "image": "assets/resources/asa-gp.png",
+    "icon": "assets/resources/asa-gp-icon.png",
+    "cover": "assets/resources/asa-gp-cover.png",
     "url": "https://madankumar25.gumroad.com/l/asaglobalperspectives",
     "featured": true,
     "tags": ["AS Level", "A Level", "Global Perspectives", "9239", "Cambridge"]
@@ -42,7 +45,8 @@
     "subject": "AS and A Level Computer Science",
     "code": "9618",
     "formats": ["PDF", "PPTX"],
-    "image": "assets/resources/asa-cs.jpg",
+    "icon": "assets/resources/asa-cs-icon.png",
+    "cover": "assets/resources/asa-cs-cover.png",
     "url": "https://madankumar25.gumroad.com/l/asacomputerscience",
     "featured": true,
     "tags": ["AS Level", "A Level", "Computer Science", "9618", "Cambridge"]

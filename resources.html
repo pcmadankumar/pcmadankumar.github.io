@@ -97,8 +97,8 @@
           var tags = (r.tags || []).map(function(t) {
             return '<span class="res-tag">' + t + '</span>';
           }).join('');
-          var thumb = r.image
-            ? '<img class="res-thumb" src="' + r.image + '" alt="' + r.title.replace(/"/g, '&quot;') + '" loading="lazy">'
+          var thumb = r.cover
+            ? '<img class="res-thumb" src="' + r.cover + '" alt="' + r.title.replace(/"/g, '&quot;') + '" loading="lazy">'
             : '<div class="res-thumb-placeholder"><i class="fa-solid fa-book-open"></i></div>';
           return '<article class="res-card fade-up">' +
             thumb +
