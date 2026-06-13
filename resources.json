@@ -6,7 +6,7 @@
     "subject": "IGCSE Computer Science",
     "code": "0478",
     "formats": ["PDF", "PPTX"],
-    "image": "assets/resources/igcse-cs-starter.jpg",
+    "image": "assets/resources/igcsecomcover.png",
     "url": "https://madankumar25.gumroad.com/l/IGCSEComputerScience",
     "featured": true,
     "tags": ["IGCSE", "Computer Science", "0478", "Cambridge"]
@@ -18,7 +18,7 @@
     "subject": "IGCSE Global Perspectives",
     "code": "0457",
     "formats": ["PDF", "PPTX"],
-    "image": "assets/resources/igcse-gp-starter.jpg",
+    "image": "assets/resources/igcsegpcover.webp",
     "url": "https://madankumar25.gumroad.com/l/IGCSEGPStarter",
     "featured": true,
     "tags": ["IGCSE", "Global Perspectives", "0457", "Cambridge"]
