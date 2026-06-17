@@ -1,5 +1,25 @@
 [
   {
+    "id": "data-new-currency",
+    "title": "Data — The New Currency of the Modern World",
+    "date": "2026-06-17",
+    "excerpt": "Session notes from a 75-minute Future Pathways talk at TIPS Erode — what data is, how every profession is now data-driven, and why data careers that need zero coding are among the best opportunities open to Humanities, Arts and Commerce students today.",
+    "tags": ["Pick, Learn and Share", "Career Counselling", "AI", "EdTech", "Students"],
+    "readTime": 14,
+    "image": "assets/blog/data-new-currency/hero.jpg",
+    "file": "posts/data-new-currency.html"
+  },
+  {
+    "id": "process-to-outcomes",
+    "title": "Process to Outcomes",
+    "date": "2026-06-17",
+    "excerpt": "An educator's reflections on how AI is shifting the unit of value from process to outcome — and why the same shift matters just as much in classrooms and counselling rooms as it does in boardrooms.",
+    "tags": ["Pick, Learn and Share", "AI", "EdTech", "Mindset", "Career Counselling"],
+    "readTime": 9,
+    "image": "assets/blog/process-to-outcomes/hero.png",
+    "file": "posts/process-to-outcomes.html"
+  },
+  {
     "id": "chemical-engineering-why-research-matters",
     "title": "Chemical Engineering & Why Research Matters",
     "date": "2026-06-12",
