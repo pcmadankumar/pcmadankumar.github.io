@@ -1,5 +1,85 @@
 [
   {
+    "id": "university-spotlight-ucl",
+    "title": "University Spotlight: UCL — Virtual Tour Guide",
+    "date": "2026-06-27",
+    "excerpt": "An in-depth guide for parents on University College London — ranked #8 globally and in the QS top 10 for the 15th consecutive year (QS 2027) — covering CBSE and Cambridge A Level admission requirements, UCL's London advantage, research strengths, and financial support for Indian students.",
+    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "readTime": 15,
+    "image": "assets/blog/university-spotlight-ucl/hero.png",
+    "file": "posts/university-spotlight-ucl.html"
+  },
+  {
+    "id": "university-spotlight-stanford",
+    "title": "University Spotlight: Stanford — Virtual Tour Guide",
+    "date": "2026-06-26",
+    "excerpt": "An in-depth guide for parents on Stanford University — ranked #2 globally (tied with ICL, QS 2027) — covering CBSE and Cambridge A Level admission requirements, Stanford's holistic admissions process, need-blind financial aid, and the unique Silicon Valley advantage for Indian students.",
+    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "readTime": 15,
+    "image": "assets/blog/university-spotlight-stanford/hero.png",
+    "file": "posts/university-spotlight-stanford.html"
+  },
+  {
+    "id": "university-spotlight-cambridge",
+    "title": "University Spotlight: Cambridge — Virtual Tour Guide",
+    "date": "2026-06-25",
+    "excerpt": "An in-depth guide for parents on the University of Cambridge — ranked #6 globally (QS 2027) and THE joint #3 — covering CBSE and Cambridge A Level admission requirements, the supervision system, UCAS process, admissions tests (STEP, ENGAA, TMUA), and the unique Cambridge application for Indian students.",
+    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "readTime": 18,
+    "image": "assets/blog/university-spotlight-cambridge/hero.png",
+    "file": "posts/university-spotlight-cambridge.html"
+  },
+  {
+    "id": "university-spotlight-harvard",
+    "title": "University Spotlight: Harvard — Virtual Tour Guide",
+    "date": "2026-06-24",
+    "excerpt": "An in-depth guide for parents on Harvard University — ranked #5 globally (QS 2027) — covering CBSE and Cambridge A Level admission requirements, Harvard's holistic admissions process, need-blind financial aid, and what makes a competitive Harvard application.",
+    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "readTime": 16,
+    "image": "assets/blog/university-spotlight-harvard/hero.png",
+    "file": "posts/university-spotlight-harvard.html"
+  },
+  {
+    "id": "university-spotlight-oxford",
+    "title": "University Spotlight: Oxford — Virtual Tour Guide",
+    "date": "2026-06-23",
+    "excerpt": "An in-depth guide for parents on the University of Oxford — ranked #4 globally (QS 2027) and THE #1 for 10 consecutive years — covering CBSE and Cambridge A Level admission requirements, the tutorial system, UCAS process, admissions tests, and interview preparation for Indian students.",
+    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "readTime": 16,
+    "image": "assets/blog/university-spotlight-oxford/hero.png",
+    "file": "posts/university-spotlight-oxford.html"
+  },
+  {
+    "id": "university-spotlight-icl",
+    "title": "University Spotlight: Imperial College London — Virtual Tour Guide",
+    "date": "2026-06-22",
+    "excerpt": "An in-depth guide for parents on Imperial College London — ranked #2 globally and #1 in the UK for STEM (QS 2027) — covering CBSE and Cambridge A Level admission requirements, IELTS waivers, fees, scholarships, and career outcomes in science and engineering.",
+    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "readTime": 15,
+    "image": "assets/blog/university-spotlight-icl/hero.png",
+    "file": "posts/university-spotlight-icl.html"
+  },
+  {
+    "id": "university-spotlight-mit",
+    "title": "University Spotlight: MIT — Virtual Tour Guide",
+    "date": "2026-06-21",
+    "excerpt": "An in-depth guide for parents on MIT — ranked #1 globally for 15 consecutive years (QS 2027) — covering CBSE and Cambridge A Level admission requirements, SAT strategy, need-blind financial aid, and how to build a competitive MIT application.",
+    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "readTime": 14,
+    "image": "assets/blog/university-spotlight-mit/hero.png",
+    "file": "posts/university-spotlight-mit.html"
+  },
+  {
+    "id": "university-spotlight-nus",
+    "title": "University Spotlight: NUS — Virtual Tour Guide",
+    "date": "2026-06-20",
+    "excerpt": "An in-depth guide for parents on NUS — ranked #10 globally and #1 in Asia (QS 2027) — covering CBSE and Cambridge A Level admission requirements, the MOE Tuition Grant, NUS International Undergraduate Scholarship, and why Singapore is one of the best destinations for Indian students.",
+    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "readTime": 13,
+    "image": "assets/blog/university-spotlight-nus/hero.jpg",
+    "file": "posts/university-spotlight-nus.html"
+  },
+  {
     "id": "data-new-currency",
     "title": "Data — The New Currency of the Modern World",
     "date": "2026-06-16",
