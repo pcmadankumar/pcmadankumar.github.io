@@ -1,5 +1,15 @@
 [
   {
+    "id": "study-abroad-rethink",
+    "title": "The Rupee, the Visa, and the Rethink",
+    "date": "2026-07-01",
+    "excerpt": "India now sends over 1.2 million students abroad a year — but a weak rupee and tightening visas have quietly changed the maths. A calmer, numbers-first reading of the BBC's 'rethink' story: what's really shifting, why demand is re-routing (not collapsing), and the three questions every family should ask before committing.",
+    "tags": ["Pick, Learn and Share", "Article Reflection", "Study Abroad", "Career Counselling", "Parents"],
+    "readTime": 8,
+    "image": "assets/blog/study-abroad-rethink/hero.png",
+    "file": "posts/study-abroad-rethink.html"
+  },
+  {
     "id": "the-cartoon-ape-that-cost-a-million-dollars",
     "title": "The Cartoon Ape That Cost a Million Dollars",
     "date": "2026-06-30",
