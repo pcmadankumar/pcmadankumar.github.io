@@ -1,5 +1,25 @@
 [
   {
+    "id": "the-cartoon-ape-that-cost-a-million-dollars",
+    "title": "The Cartoon Ape That Cost a Million Dollars",
+    "date": "2026-06-30",
+    "excerpt": "Justin Bieber paid $1.3M for a cartoon ape; by 2026 it was worth about 1% of that. A reflection on the NFT bubble, the greater fool theory, and the one hard data skill it should teach every student — separating real innovation from the hype wrapped around it.",
+    "tags": ["Pick, Learn and Share", "Article Reflection", "Data Literacy", "Critical Thinking", "Students"],
+    "readTime": 7,
+    "image": "assets/blog/the-cartoon-ape-that-cost-a-million-dollars/hero.png",
+    "file": "posts/the-cartoon-ape-that-cost-a-million-dollars.html"
+  },
+  {
+    "id": "germany-undergraduate-admissions",
+    "title": "Germany: Undergraduate Admissions",
+    "date": "2026-06-29",
+    "excerpt": "A counselling-ready guide to Germany undergraduate admissions in 2026 — the four pathways after Class 12, what 'free' tuition really costs, the new 70% Class 12 rule, APS, the blocked account, funding, and a Cambridge A-Level edge. Distilled from a Future Pathways session and fact-checked figure by figure.",
+    "tags": ["Pick, Learn and Share", "Future Pathways", "Study Abroad", "Career Counselling", "Parents"],
+    "readTime": 13,
+    "image": "assets/blog/germany-undergraduate-admissions/hero.png",
+    "file": "posts/germany-undergraduate-admissions.html"
+  },
+  {
     "id": "university-spotlight-ucl",
     "title": "University Spotlight: UCL — Virtual Tour Guide",
     "date": "2026-06-27",
