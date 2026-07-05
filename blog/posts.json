@@ -1,5 +1,15 @@
 [
   {
+    "id": "two-numbers-that-should-keep-us-awake",
+    "title": "Two Numbers That Should Keep Us Awake: 69 Percent and Seven",
+    "date": "2026-07-04",
+    "excerpt": "India's own think-tank confirms it: 69% of promoted Class V children cannot do basic division, and a landmark survey found 93% of teenagers can name only about seven careers. A reflection on the EducationWorld editorial and the NITI Aayog report — one a crisis of foundation, the other a crisis of imagination, and why only the second is squarely within a counsellor's reach.",
+    "tags": ["Pick, Learn and Share", "Article Reflection", "Career Counselling", "Education", "India", "Students", "Parents"],
+    "readTime": 9,
+    "image": "assets/blog/two-numbers-that-should-keep-us-awake/hero.png",
+    "file": "posts/two-numbers-that-should-keep-us-awake.html"
+  },
+  {
     "id": "study-abroad-rethink",
     "title": "The Rupee, the Visa, and the Rethink",
     "date": "2026-07-01",
