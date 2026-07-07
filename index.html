@@ -127,7 +127,7 @@
         <!-- Right Column — Photo -->
         <div class="hero-photo-wrap fade-up">
           <div class="hero-photo-frame">
-            <img src="assets/profile.jpg" alt="Madan Kumar PC — Professional portrait" loading="eager" fetchpriority="high">
+            <picture><source type="image/webp" srcset="assets/profile.webp"><img src="assets/profile.jpg" alt="Madan Kumar PC — Professional portrait" loading="eager" fetchpriority="high"></picture>
           </div>
         </div>
       </div>
@@ -315,7 +315,7 @@
         var top3 = posts.slice(0, 3);
         grid.innerHTML = top3.map(function(p) {
           var thumb = p.image
-            ? '<a href="blog/' + p.file + '" tabindex="-1" aria-hidden="true"><img class="hb-thumb" src="' + p.image + '" alt="' + p.title.replace(/"/g,'&quot;') + '" loading="lazy"></a>'
+            ? '<a href="blog/' + p.file + '" tabindex="-1" aria-hidden="true"><picture><source type="image/webp" srcset="' + p.image.replace(/\.(png|jpe?g)(\?.*)?$/i, '.webp') + '"><img class="hb-thumb" src="' + p.image + '" alt="' + p.title.replace(/"/g,'&quot;') + '" loading="lazy"></picture></a>'
             : '';
           var tags = p.tags.slice(0, 2).map(function(t) {
             return '<span class="blog-tag">' + t + '</span>';
@@ -354,7 +354,7 @@
 
     function buildSlide(r) {
       var imgHtml = r.icon
-        ? '<img class="hrc-thumb" src="' + r.icon + '" alt="' + r.title + '" loading="lazy">'
+        ? '<picture><source type="image/webp" srcset="' + r.icon.replace(/\.(png|jpe?g)(\?.*)?$/i, '.webp') + '"><img class="hrc-thumb" src="' + r.icon + '" alt="' + r.title + '" loading="lazy"></picture>'
         : '<div class="hrc-thumb-placeholder"><i class="fa-solid fa-book-open"></i></div>';
       var badges = (r.formats || []).map(function(f) {
         return '<span class="res-format-badge">' + f + '</span>';
@@ -393,7 +393,8 @@
     fetch('resources.json')
       .then(function(r) { return r.json(); })
       .then(function(data) {
-        items = data;
+        // Homepage carousel shows my own products only — recommended ("Worth Your Time") items live on the resources page.
+        items = data.filter(function(r) { return (r.type || 'mine') === 'mine'; });
         if (!items.length) { carousel.closest('.home-res').style.display = 'none'; return; }
         track.innerHTML = items.map(buildSlide).join('');
         if (items.length < 2) {

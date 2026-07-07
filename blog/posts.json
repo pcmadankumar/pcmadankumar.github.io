@@ -1,5 +1,25 @@
 [
   {
+    "id": "university-spotlight-caltech",
+    "title": "University Spotlight: Caltech — Virtual Tour Guide",
+    "date": "2026-07-07",
+    "excerpt": "An in-depth guide for parents on Caltech (California Institute of Technology) — ranked #7 globally (QS 2027) — covering CBSE, State Board and Cambridge A Level admission requirements, the STEM-only core curriculum, the critical financial-aid rule for international students, and an honest fit conversation. The tenth edition completes the QS global top 10.",
+    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "readTime": 15,
+    "image": "assets/blog/university-spotlight-caltech/hero.png",
+    "file": "posts/university-spotlight-caltech.html"
+  },
+  {
+    "id": "university-spotlight-eth-zurich",
+    "title": "University Spotlight: ETH Zurich — Virtual Tour Guide",
+    "date": "2026-07-06",
+    "excerpt": "An in-depth guide for parents on ETH Zurich — ranked #8 globally and #1 in continental Europe (QS 2027) — covering the two honest pathways for Indian students (German-taught Bachelor's and English-taught Master's), ETH's remarkable affordability, the ESOP scholarship, and Swiss visa rules.",
+    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "readTime": 15,
+    "image": "assets/blog/university-spotlight-eth-zurich/hero.png",
+    "file": "posts/university-spotlight-eth-zurich.html"
+  },
+  {
     "id": "two-numbers-that-should-keep-us-awake",
     "title": "Two Numbers That Should Keep Us Awake: 69 Percent and Seven",
     "date": "2026-07-04",

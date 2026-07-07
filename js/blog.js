@@ -105,7 +105,7 @@
       }).join('');
 
       var thumbHtml = post.image
-        ? '<a href="' + post.file + '" tabindex="-1" aria-hidden="true"><img class="blog-card-thumb" src="../' + escHtml(post.image) + '" alt="' + escHtml(post.title) + '" loading="lazy"></a>'
+        ? '<a href="' + post.file + '" tabindex="-1" aria-hidden="true"><picture><source type="image/webp" srcset="../' + escHtml(toWebp(post.image)) + '"><img class="blog-card-thumb" src="../' + escHtml(post.image) + '" alt="' + escHtml(post.title) + '" loading="lazy"></picture></a>'
         : '';
 
       return '<article class="blog-card fade-up">' +
@@ -183,6 +183,10 @@
     return new Date(str).toLocaleDateString('en-IN', {
       year: 'numeric', month: 'short', day: 'numeric'
     });
+  }
+
+  function toWebp(str) {
+    return String(str).replace(/\.(png|jpe?g)(\?.*)?$/i, '.webp');
   }
 
   function escHtml(str) {

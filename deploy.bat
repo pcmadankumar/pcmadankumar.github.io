@@ -7,7 +7,7 @@ setlocal EnableDelayedExpansion
 ::  Usage: Double-click this file from File Explorer
 :: ============================================================
 
-set REPO_URL=https://github.com/pcmadankumar-crypto/pcmadankumar.github.io.git
+set REPO_URL=https://github.com/pcmadankumar/pcmadankumar.github.io.git
 set REPO_DIR=%~dp0..\pcmadankumar.github.io
 set SITE_DIR=%~dp0
 
@@ -44,7 +44,7 @@ if "!GITHUB_PAT!"=="" (
 )
 
 :: Build authenticated URL
-set "AUTH_URL=https://!GITHUB_PAT!@github.com/pcmadankumar-crypto/pcmadankumar.github.io.git"
+set "AUTH_URL=https://!GITHUB_PAT!@github.com/pcmadankumar/pcmadankumar.github.io.git"
 echo  [OK] GitHub token loaded.
 
 :: ---- Step 3: Clone repo if not present, otherwise pull ----

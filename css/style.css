@@ -2723,6 +2723,83 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 @media (max-width: 960px) { .res-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .res-grid { grid-template-columns: 1fr; gap: 20px; } }
 
+/* --- Resources: sections ("My Resources" + "Worth Your Time") --- */
+.res-section { margin-bottom: 56px; }
+.res-section:last-child { margin-bottom: 0; }
+.res-section .res-grid { margin-bottom: 0; }
+
+.res-section-title {
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--color-white);
+  margin: 0 0 6px;
+}
+.res-section-title span { color: var(--color-gold); }
+
+.res-section-intro {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 0 28px;
+}
+
+/* Recommended ("Worth Your Time") card variant */
+.res-card--rec { border-color: rgba(201, 168, 76, 0.18); }
+
+.res-rec-label {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  background: rgba(10, 10, 10, 0.72);
+  border: 1px solid rgba(201, 168, 76, 0.4);
+  border-radius: 999px;
+  padding: 4px 10px;
+  backdrop-filter: blur(4px);
+}
+
+.res-attribution {
+  font-size: 0.8rem;
+  color: var(--color-gold);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.res-attribution span { color: var(--color-muted); }
+
+.res-thanks {
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--color-muted);
+  border-left: 2px solid rgba(201, 168, 76, 0.4);
+  padding-left: 10px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Outline "Visit resource" button — visually distinct from the solid gold "Get it now" */
+.res-btn--visit {
+  background: transparent;
+  color: var(--color-gold);
+  border: 1px solid var(--color-gold);
+}
+.res-btn--visit:hover {
+  background: rgba(201, 168, 76, 0.12);
+  color: var(--color-gold-light);
+  box-shadow: none;
+}
+
 /* ============================================================
    HOMEPAGE RESOURCES CAROUSEL
    ============================================================ */
