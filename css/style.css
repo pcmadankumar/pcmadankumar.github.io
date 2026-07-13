@@ -94,15 +94,40 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .gold { color: var(--color-gold); }
 .muted { color: var(--color-muted); }
 
-/* --- Scroll Animation --- */
-.fade-up {
+/* --- Scroll Animation ---
+   Gated behind html.js (set by a one-line head script) so content
+   stays visible when JavaScript is unavailable (F6). */
+html.js .fade-up {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
-.fade-up.visible {
+html.js .fade-up.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Directional reveal variants (A2) — same IntersectionObserver trigger */
+html.js .fade-left {
+  opacity: 0;
+  transform: translateX(-26px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+html.js .fade-right {
+  opacity: 0;
+  transform: translateX(26px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+html.js .scale-in {
+  opacity: 0;
+  transform: scale(0.94);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+html.js .fade-left.visible,
+html.js .fade-right.visible,
+html.js .scale-in.visible {
+  opacity: 1;
+  transform: none;
 }
 
 /* ============================================================
@@ -222,8 +247,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     width: 100%;
     flex-direction: column;
     gap: 0;
-    background: rgba(10, 10, 10, 0.98);
-    backdrop-filter: blur(10px);
+    /* Solid background (F9): translucent + blur let the hero photo
+       bleed through the open menu on some devices */
+    background: #0a0a0a;
     border-bottom: 1px solid var(--color-border);
     padding: 16px 0;
     display: none;
@@ -533,6 +559,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   padding-left: 32px;
 }
 
+/* Faint track — the gold .timeline-progress line draws over it as
+   the visitor scrolls (A3). Without JS the track shows the original
+   gold gradient so nothing looks broken. */
 .timeline::before {
   content: '';
   position: absolute;
@@ -541,6 +570,21 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   bottom: 0;
   width: 2px;
   background: linear-gradient(to bottom, var(--color-gold), transparent);
+}
+
+html.js .timeline::before {
+  background: var(--color-border);
+}
+
+.timeline-progress {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 2px;
+  height: 0;
+  background: linear-gradient(to bottom, var(--color-gold-light), var(--color-gold));
+  box-shadow: 0 0 8px rgba(201, 168, 76, 0.45);
+  pointer-events: none;
 }
 
 .timeline-company-group {
@@ -2156,14 +2200,25 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   box-shadow: 0 16px 48px rgba(201, 168, 76, 0.28), 0 0 0 1px rgba(201, 168, 76, 0.2);
 }
 
-/* 8 — Timeline Dot Pulse */
+/* 8 — Timeline Dot Ignite (A3): dots start dim and light up once
+   with a single pulse as their card scrolls into view. Replaces the
+   old infinite pulse on every dot. */
 @keyframes dot-pulse {
-  0%, 100% { box-shadow: 0 0 0 2px var(--color-gold); }
-  50%       { box-shadow: 0 0 0 8px rgba(201, 168, 76, 0.15), 0 0 0 2px var(--color-gold); }
+  0%   { box-shadow: 0 0 0 2px var(--color-gold); }
+  50%  { box-shadow: 0 0 0 10px rgba(201, 168, 76, 0.18), 0 0 0 2px var(--color-gold); }
+  100% { box-shadow: 0 0 0 2px var(--color-gold); }
 }
 
-.timeline-item::before {
-  animation: dot-pulse 2.5s ease-in-out infinite;
+html.js .timeline-item::before {
+  background: var(--color-border);
+  box-shadow: 0 0 0 2px var(--color-border);
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+html.js .timeline-item.lit::before {
+  background: var(--color-gold);
+  box-shadow: 0 0 0 2px var(--color-gold);
+  animation: dot-pulse 1.1s ease-out 1;
 }
 
 /* ============================================================
@@ -2991,6 +3046,246 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 /* ============================================================
+   FRONTEND REVIEW BATCH — F4/F8 + A1/A4/A5/A6/A8/A9/A10/A11/A12
+   ============================================================ */
+
+/* --- F4: reserve space for JS-injected sections (CLS fix).
+       Values measured from the populated layouts. --- */
+.home-res-track-wrap {
+  min-height: 330px;
+}
+
+.home-blog-grid {
+  min-height: 460px;
+}
+
+@media (max-width: 768px) {
+  .home-res-track-wrap { min-height: 540px; }
+  .home-blog-grid { min-height: 1300px; }
+}
+
+/* --- A8: skeleton placeholders while JSON content loads --- */
+.skel {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.skel::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+  background-size: 200% auto;
+  animation: shimmer 1.4s linear infinite;
+}
+
+.hb-skel { min-height: 380px; }
+.hrc-skel { min-height: 260px; width: 100%; flex-shrink: 0; }
+
+/* --- A7: carousel autoplay progress bar --- */
+.hrc-progress-wrap {
+  height: 2px;
+  background: var(--color-border);
+  border-radius: 2px;
+  margin-top: 14px;
+  overflow: hidden;
+}
+
+.hrc-progress {
+  height: 100%;
+  width: 0;
+  background: var(--color-gold);
+}
+
+/* --- F8: mobile hero — CTAs above the fold --- */
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding: 24px 0 48px;
+  }
+
+  .hero-photo-frame {
+    width: 160px;
+    height: 160px;
+  }
+
+  /* CTA buttons move above the long bio so they sit inside the
+     first screen; visual order only, markup unchanged */
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-greeting { order: 1; }
+  .hero-name     { order: 2; }
+  .hero-title    { order: 3; margin-bottom: 18px; padding-bottom: 18px; }
+  .hero-cta      { order: 4; margin-bottom: 26px; }
+  .hero-bio      { order: 5; margin-bottom: 0; }
+}
+
+/* --- A1: hero entrance choreography --- */
+html.js .hero-greeting.fade-up   { transition-delay: 0ms; }
+html.js .hero-name.fade-up       { transition-delay: 110ms; }
+html.js .hero-bio.fade-up        { transition-delay: 220ms; }
+html.js .hero-cta.fade-up        { transition-delay: 330ms; }
+
+html.js .hero-photo-wrap.fade-up {
+  transition-delay: 200ms;
+  transform: translateY(20px) scale(0.94);
+}
+html.js .hero-photo-wrap.fade-up.visible {
+  transform: none;
+}
+
+/* --- A4: cursor-following spotlight on cards (desktop pointer only) --- */
+.edu-card,
+.timeline-card {
+  position: relative;
+  overflow: hidden;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .edu-card::after,
+  .cert-card::after,
+  .achievement-card::after,
+  .proj-card::after,
+  .testimonial-card::after,
+  .timeline-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    opacity: 0;
+    background: radial-gradient(
+      240px circle at var(--mx, 50%) var(--my, 50%),
+      rgba(201, 168, 76, 0.12),
+      transparent 65%
+    );
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .edu-card:hover::after,
+  .cert-card:hover::after,
+  .achievement-card:hover::after,
+  .proj-card:hover::after,
+  .testimonial-card:hover::after,
+  .timeline-card:hover::after {
+    opacity: 1;
+  }
+}
+
+/* --- A5: button micro-interactions --- */
+.btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -80%;
+  width: 55%;
+  height: 100%;
+  background: linear-gradient(105deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  transform: skewX(-20deg);
+  transition: left 0.55s ease;
+  pointer-events: none;
+}
+
+.btn-primary:hover::before {
+  left: 130%;
+}
+
+.btn i {
+  transition: transform 0.25s ease;
+}
+
+.btn:hover i {
+  transform: translateY(-2px);
+}
+
+/* --- A6: cross-page crossfade (View Transitions API; progressive —
+       browsers without support keep instant navigation) --- */
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root) {
+  animation-duration: 220ms;
+}
+
+::view-transition-new(root) {
+  animation-duration: 220ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: none;
+  }
+}
+
+/* --- A9: hero scroll-down cue --- */
+.hero-scroll-cue {
+  position: absolute;
+  bottom: 26px;
+  left: 50%;
+  color: var(--color-gold);
+  font-size: 1.15rem;
+  opacity: 0.7;
+  animation: cue-bounce 2s ease-in-out infinite;
+  transition: opacity 0.4s ease;
+  z-index: 2;
+}
+
+.hero-scroll-cue.hidden {
+  opacity: 0;
+}
+
+@keyframes cue-bounce {
+  0%, 100% { transform: translate(-50%, 0); }
+  50%      { transform: translate(-50%, 9px); }
+}
+
+@media (max-width: 768px) {
+  .hero-scroll-cue { display: none; }
+}
+
+/* --- A10: slow drift/breathe on the hero glow --- */
+@keyframes hero-glow-drift {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 1; }
+  50%      { transform: translate(-70px, 50px) scale(1.18); opacity: 0.75; }
+}
+
+.hero::before {
+  animation: hero-glow-drift 38s ease-in-out infinite;
+}
+
+/* --- A11: counter finish pop --- */
+@keyframes stat-pop {
+  0%   { transform: scale(1); }
+  45%  { transform: scale(1.14); text-shadow: 0 0 18px rgba(201, 168, 76, 0.55); }
+  100% { transform: scale(1); }
+}
+
+.stat-number.counted {
+  animation: stat-pop 0.5s ease 1;
+}
+
+/* --- A12: rotating-role hero title — fixed min-height so the
+       type/erase cycle never shifts layout --- */
+html.js .hero-title {
+  min-height: 1.75em;
+}
+
+@media (max-width: 768px) {
+  html.js .hero-title { min-height: 3.4em; }
+}
+
+/* ============================================================
    ACCESSIBILITY — Reduced Motion (F1)
    Honours the OS-level "reduce motion" setting. Near-zero
    durations (not `none`) so transitionend/animationend events
@@ -3013,7 +3308,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   }
 
   /* Scroll-reveal content must never hide from reduced-motion users */
-  .fade-up {
+  .fade-up,
+  .fade-left,
+  .fade-right,
+  .scale-in {
     opacity: 1 !important;
     transform: none !important;
   }

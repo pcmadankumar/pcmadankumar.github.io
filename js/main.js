@@ -55,6 +55,16 @@ var REDUCED_MOTION = window.matchMedia
       toggle.setAttribute('aria-expanded', 'false');
     }
   });
+
+  // Close when the viewport crosses the desktop breakpoint (F7) —
+  // otherwise the open menu can stick over the page after a resize/rotation
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768 && links.classList.contains('open')) {
+      links.classList.remove('open');
+      toggle.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  }, { passive: true });
 })();
 
 /* --- Mobile Dropdown Toggle --- */
@@ -72,9 +82,9 @@ var REDUCED_MOTION = window.matchMedia
   });
 })();
 
-/* --- Scroll Fade-Up Animations --- */
+/* --- Scroll Fade-Up Animations (+ directional variants, A2) --- */
 (function initScrollAnimations() {
-  const elements = document.querySelectorAll('.fade-up');
+  const elements = document.querySelectorAll('.fade-up, .fade-left, .fade-right, .scale-in');
   if (!elements.length) return;
 
   const observer = new IntersectionObserver(
@@ -96,7 +106,7 @@ var REDUCED_MOTION = window.matchMedia
 (function initStaggered() {
   document.querySelectorAll('[data-stagger]').forEach(parent => {
     const delay = parseInt(parent.dataset.stagger) || 80;
-    parent.querySelectorAll('.fade-up').forEach((child, i) => {
+    parent.querySelectorAll('.fade-up, .fade-left, .fade-right, .scale-in').forEach((child, i) => {
       child.style.transitionDelay = `${i * delay}ms`;
     });
   });
@@ -128,7 +138,11 @@ var REDUCED_MOTION = window.matchMedia
         const progress = Math.min(elapsed / duration, 1);
         const eased    = 1 - Math.pow(1 - progress, 3);
         el.textContent = Math.round(eased * target) + suffix;
-        if (progress < 1) requestAnimationFrame(update);
+        if (progress < 1) {
+          requestAnimationFrame(update);
+        } else {
+          el.classList.add('counted'); // one-shot pop (A11)
+        }
       }
 
       requestAnimationFrame(update);
@@ -148,36 +162,118 @@ var REDUCED_MOTION = window.matchMedia
   }, { passive: true });
 })();
 
-/* --- Hero Typewriter (suggestion 4) --- */
-(function initHeroTypewriter() {
+/* --- Hero Rotating Roles (A12) ---
+   The full credentials line stays in the HTML for crawlers and
+   no-JS visitors; with JS the roles type/erase one at a time in a
+   fixed-height container (no wrap jank on mobile). */
+(function initHeroRoles() {
   var el = document.querySelector('.hero-title');
   if (!el) return;
 
-  /* Reduced motion: keep the title static; the .fade-up reveal
-     is made instant by the CSS reduced-motion block. */
+  /* Reduced motion: keep the full title static. */
   if (REDUCED_MOTION) return;
 
   var raw = el.textContent.replace(/\s+/g, ' ').trim();
+  var roles = raw.split('·').map(function (s) { return s.trim(); }).filter(Boolean);
+  if (roles.length < 2) return; // unexpected markup — leave static
+
   el.textContent = '';
   el.classList.remove('fade-up');
   el.style.opacity = '1';
   el.style.transform = 'none';
 
+  var textSpan = document.createElement('span');
+  el.appendChild(textSpan);
+
   var cursor = document.createElement('span');
   cursor.className = 'typewriter-cursor';
   el.appendChild(cursor);
 
-  var i = 0;
-  setTimeout(function () {
-    var timer = setInterval(function () {
-      if (i < raw.length) {
-        cursor.insertAdjacentText('beforebegin', raw[i++]);
+  var roleIdx = 0;
+  var TYPE_MS = 26, ERASE_MS = 12, HOLD_MS = 2100;
+
+  function typeRole() {
+    var text = roles[roleIdx];
+    var i = 0;
+    var t = setInterval(function () {
+      if (i < text.length) {
+        textSpan.textContent += text[i++];
       } else {
-        clearInterval(timer);
-        setTimeout(function () { cursor.remove(); }, 900);
+        clearInterval(t);
+        setTimeout(eraseRole, HOLD_MS);
       }
-    }, 22);
-  }, 700);
+    }, TYPE_MS);
+  }
+
+  function eraseRole() {
+    var t = setInterval(function () {
+      if (textSpan.textContent.length > 0) {
+        textSpan.textContent = textSpan.textContent.slice(0, -1);
+      } else {
+        clearInterval(t);
+        roleIdx = (roleIdx + 1) % roles.length;
+        setTimeout(typeRole, 300);
+      }
+    }, ERASE_MS);
+  }
+
+  setTimeout(typeRole, 700);
+})();
+
+/* --- Timeline Scroll Progress + Dot Ignite (A3, experience page) --- */
+(function initTimelineProgress() {
+  var timelines = document.querySelectorAll('.timeline');
+  if (!timelines.length) return;
+
+  timelines.forEach(function (tl) {
+    var bar = document.createElement('div');
+    bar.className = 'timeline-progress';
+    tl.appendChild(bar);
+
+    function update() {
+      var rect = tl.getBoundingClientRect();
+      var viewH = window.innerHeight;
+      /* progress = how far the viewport's 70% line has travelled
+         through the timeline element */
+      var passed = Math.min(Math.max(viewH * 0.7 - rect.top, 0), rect.height);
+      bar.style.height = passed + 'px';
+    }
+
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update, { passive: true });
+    update();
+  });
+
+  // Dots ignite once as their card enters view
+  var items = document.querySelectorAll('.timeline-item');
+  if (items.length && 'IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('lit');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -20% 0px' });
+    items.forEach(function (item) { io.observe(item); });
+  }
+})();
+
+/* --- Card Cursor Spotlight (A4, desktop pointer only) --- */
+(function initCardSpotlight() {
+  if (REDUCED_MOTION) return;
+  if (!window.matchMedia || !matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+
+  var cards = document.querySelectorAll(
+    '.edu-card, .cert-card, .achievement-card, .proj-card, .testimonial-card, .timeline-card'
+  );
+  cards.forEach(function (card) {
+    card.addEventListener('mousemove', function (e) {
+      var r = card.getBoundingClientRect();
+      card.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+      card.style.setProperty('--my', (e.clientY - r.top) + 'px');
+    });
+  });
 })();
 
 /* --- Skill Pill Stagger (suggestion 6) --- */
@@ -254,6 +350,18 @@ var REDUCED_MOTION = window.matchMedia
   const authEl = document.querySelector('.footer-quote-author');
   if (textEl) textEl.textContent = '\u201c' + q.text + '\u201d';
   if (authEl) authEl.textContent = '\u2014 ' + q.author;
+})();
+
+/* --- Hero Scroll Cue fade-out (A9) --- */
+(function initScrollCue() {
+  var cue = document.querySelector('.hero-scroll-cue');
+  if (!cue) return;
+  window.addEventListener('scroll', function onScroll() {
+    if (window.scrollY > 80) {
+      cue.classList.add('hidden');
+      window.removeEventListener('scroll', onScroll);
+    }
+  }, { passive: true });
 })();
 
 /* --- Back to Top Button --- */
