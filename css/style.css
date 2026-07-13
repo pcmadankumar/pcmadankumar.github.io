@@ -3,8 +3,8 @@
    Portfolio: Madan Kumar PC
    ============================================================ */
 
-/* --- Google Fonts --- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+/* --- Google Fonts: loaded via <link> tags in each page's <head> (F2) —
+       the old @import here caused a serial fetch + duplicate requests --- */
 
 /* --- CSS Variables --- */
 :root {
@@ -2987,5 +2987,34 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   }
   .hrc-body {
     padding: 20px 24px;
+  }
+}
+
+/* ============================================================
+   ACCESSIBILITY — Reduced Motion (F1)
+   Honours the OS-level "reduce motion" setting. Near-zero
+   durations (not `none`) so transitionend/animationend events
+   still fire for any JS listening to them. !important also
+   overrides the inline transition styles set by main.js
+   (skill pill stagger, blog-card delays).
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  /* Scroll-reveal content must never hide from reduced-motion users */
+  .fade-up {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }

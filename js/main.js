@@ -3,6 +3,10 @@
    Portfolio: Madan Kumar PC
    ============================================================ */
 
+/* --- Reduced Motion preference (F1) --- */
+var REDUCED_MOTION = window.matchMedia
+  && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
 /* --- Active Nav Link --- */
 (function setActiveNav() {
   // Skip if nav-active is already set in HTML (e.g. blog pages set it manually)
@@ -103,6 +107,13 @@
   const counters = document.querySelectorAll('[data-count]');
   if (!counters.length) return;
 
+  if (REDUCED_MOTION) {
+    counters.forEach(el => {
+      el.textContent = el.dataset.count + (el.dataset.suffix || '');
+    });
+    return;
+  }
+
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (!entry.isIntersecting) return;
@@ -141,6 +152,10 @@
 (function initHeroTypewriter() {
   var el = document.querySelector('.hero-title');
   if (!el) return;
+
+  /* Reduced motion: keep the title static; the .fade-up reveal
+     is made instant by the CSS reduced-motion block. */
+  if (REDUCED_MOTION) return;
 
   var raw = el.textContent.replace(/\s+/g, ' ').trim();
   el.textContent = '';
@@ -254,7 +269,7 @@
   }, { passive: true });
 
   btn.addEventListener('click', function () {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: REDUCED_MOTION ? 'auto' : 'smooth' });
   });
 })();
 
