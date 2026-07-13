@@ -94,6 +94,14 @@
       },
       {
         "@type": "Question",
+        "name": "How are ongoing engagements priced?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The first discovery session is always free. Ongoing engagements are priced per session or per programme depending on the service — the shape and scope are agreed together in that first conversation, before any commitment."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "How do I get started working with Madan Kumar PC?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -348,6 +356,84 @@
     }
     .wm-certs-link:hover { color: var(--color-gold-light); }
 
+    /* --- Pricing note (C2) --- */
+    .wm-pricing-note {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--color-muted);
+      max-width: 640px;
+      line-height: 1.7;
+      padding-left: 12px;
+      border-left: 2px solid rgba(201, 168, 76, 0.5);
+    }
+
+    .wm-pricing-note strong {
+      color: var(--color-gold);
+      font-weight: 600;
+    }
+
+    /* --- FAQ accordion (C6) --- */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      max-width: 820px;
+    }
+
+    .faq-item {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius);
+      transition: border-color 0.3s ease;
+    }
+
+    .faq-item:hover,
+    .faq-item[open] {
+      border-color: rgba(201, 168, 76, 0.35);
+    }
+
+    .faq-item summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 18px 22px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.97rem;
+      color: var(--color-white);
+      list-style: none;
+    }
+
+    .faq-item summary::-webkit-details-marker { display: none; }
+
+    .faq-item summary i {
+      color: var(--color-gold);
+      font-size: 0.8rem;
+      transition: transform 0.3s ease;
+      flex-shrink: 0;
+    }
+
+    .faq-item[open] summary i {
+      transform: rotate(180deg);
+    }
+
+    .faq-answer {
+      padding: 0 22px 20px;
+      color: var(--color-muted);
+      font-size: 0.92rem;
+      line-height: 1.8;
+    }
+
+    .faq-item[open] .faq-answer {
+      animation: faq-in 0.3s ease;
+    }
+
+    @keyframes faq-in {
+      from { opacity: 0; transform: translateY(-6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
     /* --- Responsive --- */
     @media (max-width: 1024px) {
       .wm-cta-grid { grid-template-columns: 1fr; gap: 48px; }
@@ -415,6 +501,7 @@
         <div class="section-header fade-up">
           <h2 class="section-title">How I Can Help</h2>
           <p class="section-subtitle">Six focused areas of engagement — each one drawn from real-world practice.</p>
+          <p class="wm-pricing-note">Every engagement starts with a <strong>free discovery session</strong>. Ongoing work is priced per session or per programme — we'll agree the shape and scope in that first conversation, before any commitment.</p>
         </div>
 
         <div class="certs-grid" data-stagger="90">
@@ -625,6 +712,46 @@
           </a>
         </div>
 
+      </div>
+    </section>
+
+    <!-- FAQ (C6) — visible mirror of the FAQPage schema in <head> -->
+    <section class="section" id="faq" style="padding-top: 0;">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Quick answers before we talk</p>
+        </div>
+        <div class="faq-list" data-stagger="70">
+          <details class="faq-item fade-up">
+            <summary>Is the first session free? <i class="fa-solid fa-chevron-down"></i></summary>
+            <div class="faq-answer">Yes — every engagement starts with a free one-hour discovery session to understand your context, goals, and challenges. No obligation, no pitch.</div>
+          </details>
+          <details class="faq-item fade-up">
+            <summary>How are ongoing engagements priced? <i class="fa-solid fa-chevron-down"></i></summary>
+            <div class="faq-answer">The first discovery session is always free. Ongoing engagements are priced per session or per programme depending on the service — the shape and scope are agreed together in that first conversation, before any commitment.</div>
+          </details>
+          <details class="faq-item fade-up">
+            <summary>What does Cambridge programme advisory involve? <i class="fa-solid fa-chevron-down"></i></summary>
+            <div class="faq-answer">Cambridge programme advisory covers initial affiliation planning, curriculum mapping, and implementation support for schools launching or expanding IGCSE, AS, and A Level programmes. I've supported 5 schools through this process.</div>
+          </details>
+          <details class="faq-item fade-up">
+            <summary>Who is career counselling suitable for? <i class="fa-solid fa-chevron-down"></i></summary>
+            <div class="faq-answer">1:1 career counselling is designed for students in Grades 9 to 12. Sessions cover subject choices, university options, and long-term direction — backed by CAP accreditation from Times Higher Education.</div>
+          </details>
+          <details class="faq-item fade-up">
+            <summary>What teacher training workshops are available? <i class="fa-solid fa-chevron-down"></i></summary>
+            <div class="faq-answer">Workshops cover Cambridge curriculum delivery, classroom management, AI tools in education, and professional development — designed around each school's specific needs rather than a fixed syllabus.</div>
+          </details>
+          <details class="faq-item fade-up">
+            <summary>Do you offer AI in education consulting? <i class="fa-solid fa-chevron-down"></i></summary>
+            <div class="faq-answer">Yes — AI in education consulting helps school leadership and EdTech teams integrate AI into teaching, learning, and school operations, drawing on real classroom experience and current knowledge of tools that work in school settings.</div>
+          </details>
+          <details class="faq-item fade-up">
+            <summary>How do I get started? <i class="fa-solid fa-chevron-down"></i></summary>
+            <div class="faq-answer">Reach out by email at <a href="mailto:pcmadankumar@gmail.com" style="color: var(--color-gold);">pcmadankumar@gmail.com</a> or via the enquiry form below. Every engagement begins with a free discovery session — a focused conversation to understand your context before any structured work begins.</div>
+          </details>
+        </div>
       </div>
     </section>
 

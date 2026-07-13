@@ -265,7 +265,7 @@ var REDUCED_MOTION = window.matchMedia
   if (!window.matchMedia || !matchMedia('(hover: hover) and (pointer: fine)').matches) return;
 
   var cards = document.querySelectorAll(
-    '.edu-card, .cert-card, .achievement-card, .proj-card, .testimonial-card, .timeline-card'
+    '.edu-card, .cert-card, .achievement-card, .proj-card, .testimonial-card, .audience-card, .timeline-card'
   );
   cards.forEach(function (card) {
     card.addEventListener('mousemove', function (e) {

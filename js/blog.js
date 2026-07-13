@@ -31,13 +31,16 @@
     });
 
   function buildTagFilters() {
-    var tags = [];
+    /* C12: order tags by post count, show top 8, tuck the rest
+       behind a "+ N more" expander */
+    var TOP_TAGS = 8;
+    var counts = {};
     allPosts.forEach(function (p) {
-      p.tags.forEach(function (t) {
-        if (tags.indexOf(t) === -1) tags.push(t);
-      });
+      p.tags.forEach(function (t) { counts[t] = (counts[t] || 0) + 1; });
     });
-    tags.sort();
+    var tags = Object.keys(counts).sort(function (a, b) {
+      return counts[b] - counts[a] || a.localeCompare(b);
+    });
 
     tagFilters.innerHTML = '<span class="tag-filter-label">Filter:</span>';
 
@@ -45,11 +48,24 @@
     allBtn.addEventListener('click', function () { setTag(null, allBtn); });
     tagFilters.appendChild(allBtn);
 
-    tags.forEach(function (tag) {
+    tags.forEach(function (tag, i) {
       var btn = makeTagBtn(tag, false);
+      if (i >= TOP_TAGS) btn.classList.add('tag-extra');
       btn.addEventListener('click', function () { setTag(tag, btn); });
       tagFilters.appendChild(btn);
     });
+
+    if (tags.length > TOP_TAGS) {
+      var moreBtn = document.createElement('button');
+      moreBtn.className = 'tag-filter-btn tag-more-btn';
+      var hiddenCount = tags.length - TOP_TAGS;
+      moreBtn.textContent = '+ ' + hiddenCount + ' more';
+      moreBtn.addEventListener('click', function () {
+        var expanded = tagFilters.classList.toggle('expanded');
+        moreBtn.textContent = expanded ? '− less' : '+ ' + hiddenCount + ' more';
+      });
+      tagFilters.appendChild(moreBtn);
+    }
   }
 
   function makeTagBtn(label, isActive) {
@@ -65,6 +81,12 @@
       b.classList.remove('active');
     });
     btn.classList.add('active');
+    /* if a hidden tag was activated via a post card, reveal the full list
+       so the active filter is visible */
+    if (btn.classList.contains('tag-extra') && !tagFilters.classList.contains('expanded')) {
+      var moreBtn = tagFilters.querySelector('.tag-more-btn');
+      if (moreBtn) moreBtn.click();
+    }
     currentPage = 1;
     applyFilters();
   }

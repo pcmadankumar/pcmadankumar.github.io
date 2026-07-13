@@ -603,3 +603,15 @@
   .social-share { gap: 8px; }
   .share-btn { padding: 7px 12px; font-size: 0.76rem; }
 }
+
+/* ============================================================
+   C12 — Collapsible tag filter wall
+   ============================================================ */
+#tag-filters:not(.expanded) .tag-extra {
+  display: none;
+}
+
+.tag-more-btn {
+  color: var(--color-gold) !important;
+  border-style: dashed !important;
+}

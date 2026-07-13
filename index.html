@@ -108,11 +108,11 @@
             10+ Years in Education &nbsp;·&nbsp; 5 Years in IT
           </p>
           <p class="hero-bio fade-up">
-            Passionate educator, career counsellor, and lifelong learner dedicated to empowering students
-            and educators alike. I coordinate Cambridge academic programmes across campuses, mentor high school
-            students toward their undergraduate futures, and run professional development workshops for teachers.
-            With a background spanning IT consulting at Ernst &amp; Young and Infosys to over a decade in
-            education, I bring a unique bridge between technology and pedagogy.
+            I spent five years in IT consulting at Ernst &amp; Young and Infosys — then moved into
+            education, where I coordinate Cambridge programmes across three campuses and lead a
+            counselling team that has guided 500+ students toward their undergraduate futures.
+            I run professional development workshops for teachers, advise schools on AI and EdTech
+            adoption, and bring a practical bridge between technology and pedagogy to everything I do.
           </p>
           <div class="hero-cta fade-up">
             <a href="experience.html" class="btn btn-primary">
@@ -159,6 +159,36 @@
         <div>
           <p>"The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn."</p>
           <span>— Alvin Toffler</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Audience Router (C5) -->
+    <section class="section" id="start-here" style="padding-bottom: 0;">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Where Should You Start?</h2>
+          <p class="section-subtitle">Tell me who you are — I'll point you to the right place</p>
+        </div>
+        <div class="audience-grid" data-stagger="110">
+          <a href="work-with-me.html#services" class="audience-card fade-up">
+            <div class="audience-icon"><i class="fa-solid fa-school"></i></div>
+            <div class="audience-title">I'm a School</div>
+            <p class="audience-desc">Launching or expanding Cambridge programmes, training exam officers, or adopting AI — advisory drawn from supporting 5 schools through the journey.</p>
+            <span class="audience-cta">Explore school services <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+          <a href="work-with-me.html#services" class="audience-card fade-up">
+            <div class="audience-icon"><i class="fa-solid fa-compass"></i></div>
+            <div class="audience-title">I'm a Student or Parent</div>
+            <p class="audience-desc">CAP-accredited 1:1 career counselling for Grades 9–12 — subject choices, university options, and long-term direction. The blog's university guides are a free place to begin.</p>
+            <span class="audience-cta">Start with counselling <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+          <a href="resources.html" class="audience-card fade-up">
+            <div class="audience-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <div class="audience-title">I'm a Teacher</div>
+            <p class="audience-desc">Ready-to-use Cambridge teaching packs for IGCSE and A Level subjects, plus practical workshops on pedagogy and AI tools in the classroom.</p>
+            <span class="audience-cta">Browse resources <i class="fa-solid fa-arrow-right"></i></span>
+          </a>
         </div>
       </div>
     </section>
@@ -386,6 +416,7 @@
           '<div class="hrc-body">' +
             '<div class="hrc-formats">' + badges + '</div>' +
             '<div class="hrc-title">' + r.title + '</div>' +
+            (r.bestFor ? '<div class="res-bestfor"><span>Best for:</span> ' + r.bestFor + '</div>' : '') +
             '<div class="hrc-desc">' + r.description + '</div>' +
             '<div class="hrc-tags">' + tags + '</div>' +
             '<div class="hrc-cta-line"><i class="fa-solid fa-arrow-right"></i> Get it now</div>' +

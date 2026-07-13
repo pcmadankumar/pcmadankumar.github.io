@@ -96,11 +96,15 @@
       var thumb = r.cover
         ? '<img class="res-thumb" src="' + r.cover + '" alt="' + esc(r.title) + '" loading="lazy">'
         : '<div class="res-thumb-placeholder"><i class="fa-solid fa-book-open"></i></div>';
+      var bestFor = r.bestFor
+        ? '<p class="res-bestfor"><span>Best for:</span> ' + r.bestFor + '</p>'
+        : '';
       return '<article class="res-card fade-up">' +
         thumb +
         '<div class="res-body">' +
           '<div class="res-formats">' + formats + '</div>' +
           '<h3 class="res-title">' + r.title + '</h3>' +
+          bestFor +
           '<p class="res-desc">' + r.description + '</p>' +
           '<div class="res-tags">' + tagsHtml(r) + '</div>' +
         '</div>' +
