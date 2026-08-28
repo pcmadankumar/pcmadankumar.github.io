@@ -86,6 +86,22 @@ if exist "%SITE_DIR%*.json" (
     xcopy /Y /Q "%SITE_DIR%*.json" "%REPO_DIR%\" >nul
     echo  [OK] JSON data files copied.
 )
+if exist "%SITE_DIR%*.txt" (
+    xcopy /Y /Q "%SITE_DIR%*.txt" "%REPO_DIR%\" >nul
+    echo  [OK] Text files ^(llms, humans, robots^) copied.
+)
+if exist "%SITE_DIR%*.xml" (
+    xcopy /Y /Q "%SITE_DIR%*.xml" "%REPO_DIR%\" >nul
+    echo  [OK] XML files ^(sitemap, feed^) copied.
+)
+if exist "%SITE_DIR%*.yaml" (
+    xcopy /Y /Q "%SITE_DIR%*.yaml" "%REPO_DIR%\" >nul
+    echo  [OK] YAML data files copied.
+)
+if exist "%SITE_DIR%*.md" (
+    xcopy /Y /Q "%SITE_DIR%*.md" "%REPO_DIR%\" >nul
+    echo  [OK] Markdown files copied.
+)
 if exist "%SITE_DIR%css\" (
     xcopy /E /Y /I /Q "%SITE_DIR%css" "%REPO_DIR%\css\" >nul
     echo  [OK] CSS copied.
@@ -97,6 +113,10 @@ if exist "%SITE_DIR%js\" (
 if exist "%SITE_DIR%assets\" (
     xcopy /E /Y /I /Q "%SITE_DIR%assets" "%REPO_DIR%\assets\" >nul
     echo  [OK] Assets ^(images^) copied.
+)
+if exist "%SITE_DIR%images\" (
+    xcopy /E /Y /I /Q "%SITE_DIR%images" "%REPO_DIR%\images\" >nul
+    echo  [OK] Logos ^(images folder^) copied.
 )
 if exist "%SITE_DIR%blog\" (
     xcopy /E /Y /I /Q "%SITE_DIR%blog" "%REPO_DIR%\blog\" >nul

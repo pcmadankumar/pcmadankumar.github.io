@@ -406,3 +406,23 @@ var REDUCED_MOTION = window.matchMedia
 
   linkedinLink.parentNode.insertBefore(nav, linkedinLink.nextSibling);
 })();
+
+/* --- <picture> WebP Fallback ---
+   A <picture> commits to the first matching <source>; if that file 404s the
+   browser shows a broken image instead of trying the <img src>. Strip the
+   sources and retry so a missing .webp degrades to the .png/.jpg original. */
+(function initPictureFallback() {
+  document.addEventListener('error', function (e) {
+    var img = e.target;
+    if (!img || img.tagName !== 'IMG' || img.dataset.fallbackApplied) return;
+    var picture = img.parentNode;
+    if (!picture || picture.tagName !== 'PICTURE') return;
+
+    img.dataset.fallbackApplied = '1';
+    var sources = picture.querySelectorAll('source');
+    for (var i = 0; i < sources.length; i++) {
+      sources[i].parentNode.removeChild(sources[i]);
+    }
+    img.src = img.getAttribute('src');
+  }, true);
+})();

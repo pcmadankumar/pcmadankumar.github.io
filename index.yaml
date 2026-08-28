@@ -1,4 +1,4 @@
-name: Madan Kumar PC
+﻿name: Madan Kumar PC
 url: https://pcmadankumar.github.io
 title: Cambridge Programme Coordinator & Educational Consultant
 tagline: >
@@ -369,6 +369,73 @@ projects:
     description: >
       Two-script Python toolkit. Script 1 bulk-downloads all Cambridge IGCSE and AS & A Level syllabuses (155+ subjects).
       Script 2 extracts exam series availability data and generates a colour-coded Excel report.
+  - name: University & Course Admissions Advisory Series
+    tech: ["University Admissions", "Entrance Exams", "Verified Sourcing", Word, PDF, Excel]
+    period: "2026 – Present"
+    description: >
+      Fact-checked advisory documents on competitive university and entrance-exam pathways — ESAT,
+      design programmes (NATA/UCEED/NID), Materials Science abroad, Biotechnology in India, and
+      Mathematics syllabus comparisons (SAT vs IPMAT vs Cambridge A Level). Every claim verified
+      against official university and board portals, with numbered endnotes and a full source list.
+  - name: ISP University Virtual Tour Series
+    tech: ["University Profiles", "QS Global Top 10", "Future Pathway Counselling"]
+    period: "2026 – Present"
+    description: >
+      12-part advisory series profiling QS Global Top 10 universities including MIT, Caltech, Yale,
+      and Princeton across academics, admissions, and student life, plus an NUS/NTU admissions addendum.
+      Used as a standing reference for Future Pathway counselling across all four TIPS campuses.
+  - name: Multilingualism Teacher Training Workshop
+    tech: ["CLIL Framework", "Learning Design", "Scaffolding Strategies", "Workshop Facilitation"]
+    period: "2026 – Present"
+    description: >
+      75-slide professional development workshop on supporting multilingual learners, covering Learning
+      Design theory, the CLIL framework, and classroom scaffolding. Includes a classroom case study,
+      four activities, a strategy toolkit, and a reflection handout. Runs as a 3.5-hour session or
+      two 90-minute twilight sessions.
+  - name: Safeguarding Teacher Training Presentation
+    tech: [Safeguarding, "ISP Compliance", "Teacher Training", "Reporting Procedures"]
+    period: "2026 – Present"
+    description: >
+      Professional development presentation on student safeguarding, built to meet ISP compliance
+      requirements for all TIPS teaching staff. Builds practical awareness of safeguarding
+      responsibilities and reporting procedures in the classroom.
+  - name: CBSE to Cambridge Teacher Induction Programme
+    tech: ["Cambridge Curriculum", "Command Words", "Curriculum Planning", "Live Polling"]
+    period: "2026 – Present"
+    description: >
+      Interactive 2-hour online induction for teachers moving from CBSE to the Cambridge curriculum,
+      covering application-based pedagogy, assessment and command words, and curriculum planning,
+      delivered with live polling. Being expanded into a 31-module induction series.
+  - name: Cambridge Exams Officer Training Modules
+    tech: ["Cambridge Handbook 2026", "Exam Administration", "Scenario-Based Learning"]
+    period: "2026 – Present"
+    description: >
+      Three-module training suite for new Cambridge Exams Officers, developed from the Cambridge
+      Handbook 2026 and a 20-question scoping survey. Covers entries and fees, coursework moderation,
+      secure storage and despatch, exam day, malpractice, results, and appeals through 24 scenario
+      exercises and a 70-question self-assessment quiz. Also produced as a centre-agnostic edition.
+  - name: Cambridge IGCSE Computer Science Question Bank (0478)
+    tech: ["Cambridge IGCSE 0478", "Past Paper Analysis", "Knowledge Organisers", SharePoint]
+    period: "2026 – Present"
+    description: >
+      Topic-wise question bank built entirely from official past papers and mark schemes across all
+      10 syllabus topics, classified by learning outcome and difficulty band. Complete at 53 papers
+      and nearly 4,000 marks, with knowledge organisers and a command-word guide.
+  - name: Cambridge AS & A Level Computer Science Question Bank (9618)
+    tech: ["Cambridge AS & A Level 9618", "Past Paper Analysis", "Authored Practice Papers", Python]
+    period: "2026 – Present"
+    description: >
+      Topic-wise bank from official 9618 past papers classified by learning objective and AS/A Level
+      difficulty band, extended with knowledge organisers, a command-word guide, topic worksheets,
+      and authored practice papers. Mid-build; Paper 4 (practical, Python) still to come.
+  - name: English Practice Paper & Worksheet Library
+    tech: ["Cambridge Lower Secondary", "IGCSE ESL", "AS Level General Paper", "Mark Schemes"]
+    period: "2026 – Present"
+    description: >
+      Original exam-style English materials for Cambridge Lower Secondary Stage 8 (22-paper series),
+      IGCSE English as a Second Language, and AS Level General Paper comprehension. All passages are
+      original, mirroring Cambridge question taxonomy, mark allocation, and levels-of-response grids.
+      Each paper ships with a full mark scheme, plus single-skill mini-worksheets.
   - name: Pragat — Evidence Portfolio
     tech: [Electron, React, TypeScript, SQLite, electron-vite, pdfkit]
     description: >

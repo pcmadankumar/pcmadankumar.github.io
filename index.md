@@ -1,4 +1,4 @@
-# Cambridge Programme Coordinator & Educational Consultant | Madan Kumar PC
+﻿# Cambridge Programme Coordinator & Educational Consultant | Madan Kumar PC
 
 **Site:** https://pcmadankumar.github.io  
 **Author:** Madan Kumar PC  
@@ -302,6 +302,51 @@ Multi-currency invoice management application for Cambridge Exam Coordinator wor
 **Tech:** Python, BeautifulSoup4, requests, pdfplumber, openpyxl | Demo available on request
 
 Two-script Python toolkit for Cambridge programme coordination. Script 1 bulk-downloads all Cambridge IGCSE and AS & A Level syllabuses (155+ subjects). Script 2 extracts exam series availability data and generates a colour-coded Excel report.
+
+### University & Course Admissions Advisory Series
+**Focus:** University Admissions, Entrance Exams, Verified Sourcing | **Formats:** Word, PDF, Excel | **Period:** 2026 – Present
+
+A growing library of fact-checked advisory documents guiding TIPS students through competitive university and entrance-exam pathways — ESAT, design programmes (NATA/UCEED/NID), Materials Science abroad, Biotechnology in India, and Mathematics syllabus comparisons (SAT vs IPMAT vs Cambridge A Level). Every claim is verified against official university and board portals, never aggregators, with numbered endnotes and a full source list.
+
+### ISP University Virtual Tour Series
+**Focus:** University Profiles, QS Global Top 10, Future Pathway Counselling | **Period:** 2026 – Present
+
+A 12-part advisory series profiling the world's top universities — covering academics, admissions, and student life for institutions across the QS Global Top 10, including MIT, Caltech, Yale, and Princeton. An additional addendum covers NUS and NTU admissions. Used as a standing reference for Future Pathway counselling sessions across all four TIPS campuses.
+
+### Multilingualism Teacher Training Workshop
+**Focus:** CLIL Framework, Learning Design, Scaffolding Strategies | **Period:** 2026 – Present
+
+A 75-slide professional development workshop helping teachers support multilingual learners, covering Learning Design theory, the CLIL framework, and classroom scaffolding strategies. Includes a real classroom case study, four hands-on activities, a teaching-strategy toolkit, and a companion reflection handout. Structured as a 3.5-hour in-person session or two 90-minute twilight sessions.
+
+### Safeguarding Teacher Training Presentation
+**Focus:** Safeguarding, ISP Compliance, Reporting Procedures | **Period:** 2026 – Present
+
+A professional development presentation on student safeguarding, built to meet ISP compliance requirements for all TIPS teaching staff. Designed to build practical awareness of safeguarding responsibilities and reporting procedures in the classroom.
+
+### CBSE to Cambridge Teacher Induction Programme
+**Focus:** Cambridge Curriculum, Command Words, Curriculum Planning | **Period:** 2026 – Present
+
+An interactive 2-hour induction session for teachers transitioning from the CBSE board to the Cambridge curriculum, covering the shift from rote learning to application-based pedagogy, assessment and command words, and curriculum planning. Delivered online using live polling and comparison-challenge activities. Now being expanded into a 31-module induction series.
+
+### Cambridge Exams Officer Training Modules
+**Focus:** Exam Administration, Scenario-Based Learning | **Period:** 2026 – Present
+
+A three-module training suite for new Cambridge Exams Officers, developed from the Cambridge Handbook 2026 and shaped by a 20-question scoping survey. Covers the full exam administration cycle — entries and fees, coursework moderation, secure storage and despatch, exam day procedures, malpractice, results, and appeals — through 24 scenario exercises and a 70-question self-assessment quiz. Also adapted into a centre-agnostic edition for external schools.
+
+### Cambridge IGCSE Computer Science Question Bank (0478)
+**Focus:** Past Paper Analysis, Knowledge Organisers, Examiner Reports | **Period:** 2026 – Present
+
+A topic-wise question bank built entirely from official Cambridge IGCSE Computer Science past papers, covering both papers across all 10 syllabus topics. Every question is extracted from real papers and mark schemes, classified by syllabus learning outcome and difficulty band. Complete at 53 papers and nearly 4,000 marks, with companion knowledge organisers and a command-word guide. Shared with TIPS Computer Science teachers via SharePoint.
+
+### Cambridge AS & A Level Computer Science Question Bank (9618)
+**Focus:** Past Paper Analysis, Authored Practice Papers, Topic Worksheets | **Period:** 2026 – Present
+
+A topic-wise question bank from official 9618 past papers, classified by syllabus learning objective and AS/A Level difficulty band. Extended with knowledge organisers, an examiner-report-informed command-word guide, topic worksheets, and a full set of authored practice papers matching the Cambridge exam-series blueprint. Currently mid-build, with Paper 4 (practical, Python) still to come.
+
+### English Practice Paper & Worksheet Library
+**Focus:** Cambridge Lower Secondary, IGCSE ESL, AS Level General Paper | **Period:** 2026 – Present
+
+A cross-level library of original English practice materials covering Cambridge Lower Secondary Stage 8 English (a complete 22-paper fiction and non-fiction series), IGCSE English as a Second Language, and AS Level English General Paper comprehension. Every passage is original while mirroring the exact question taxonomy, mark allocation, and levels-of-response grids of real Cambridge papers. Each paper ships with a detailed mark scheme, alongside single-skill mini-worksheets.
 
 ### Pragat — Evidence Portfolio
 **Tech:** Electron, React, TypeScript, SQLite, electron-vite, pdfkit | Demo available on request

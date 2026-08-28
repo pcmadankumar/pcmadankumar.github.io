@@ -141,6 +141,46 @@ Cambridge Syllabus Management Toolkit — two-script Python toolkit for Cambridg
   Tech: Python, BeautifulSoup4, requests, pdfplumber, openpyxl.
   Demo available on request.
 
+University & Course Admissions Advisory Series — fact-checked advisory documents on competitive university
+  and entrance-exam pathways (ESAT, NATA/UCEED/NID, Materials Science abroad, Biotechnology in India,
+  SAT vs IPMAT vs Cambridge A Level maths). Every claim verified against official university and board
+  portals with numbered endnotes. Ships as branded Word, PDF, and an Excel exam/deadline matrix.
+
+ISP University Virtual Tour Series — 12-part advisory series profiling QS Global Top 10 universities
+  (MIT, Caltech, Yale, Princeton and others) across academics, admissions, and student life, plus an
+  NUS/NTU admissions addendum. Used as a standing reference for Future Pathway counselling at TIPS.
+
+Multilingualism Teacher Training Workshop — 75-slide professional development workshop on supporting
+  multilingual learners; covers Learning Design theory, the CLIL framework, and classroom scaffolding.
+  Includes a classroom case study, four activities, a strategy toolkit, and a reflection handout.
+  Runs as a 3.5-hour session or two 90-minute twilight sessions.
+
+Safeguarding Teacher Training Presentation — professional development session on student safeguarding
+  built to ISP compliance requirements, covering safeguarding responsibilities and reporting procedures.
+
+CBSE to Cambridge Teacher Induction Programme — interactive 2-hour online induction for teachers moving
+  from CBSE to the Cambridge curriculum; covers application-based pedagogy, assessment and command words,
+  and curriculum planning, delivered with live polling. Being expanded into a 31-module induction series.
+
+Cambridge Exams Officer Training Modules — three-module training suite for new Cambridge Exams Officers,
+  developed from the Cambridge Handbook 2026 and a 20-question scoping survey. Covers entries and fees,
+  coursework moderation, secure storage and despatch, exam day, malpractice, results, and appeals through
+  24 scenario exercises and a 70-question self-assessment quiz. Also produced as a centre-agnostic edition.
+
+Cambridge IGCSE Computer Science Question Bank (0478) — topic-wise question bank built entirely from
+  official past papers and mark schemes across all 10 syllabus topics, classified by learning outcome and
+  difficulty band. 53 papers and nearly 4,000 marks, with knowledge organisers and a command-word guide.
+  Shared with TIPS Computer Science teachers via SharePoint.
+
+Cambridge AS & A Level Computer Science Question Bank (9618) — topic-wise bank from official 9618 past
+  papers classified by learning objective and AS/A Level difficulty band, extended with knowledge organisers,
+  a command-word guide, topic worksheets, and authored practice papers. Mid-build; Paper 4 (Python) pending.
+
+English Practice Paper & Worksheet Library — original exam-style English materials for Cambridge Lower
+  Secondary Stage 8 (22-paper series), IGCSE English as a Second Language, and AS Level General Paper
+  comprehension. All passages original, mirroring Cambridge question taxonomy, mark allocation, and
+  levels-of-response grids. Each paper ships with a full mark scheme, plus single-skill mini-worksheets.
+
 Pragat — Evidence Portfolio — standalone Windows desktop application for professional evidence management.
   Collects, organises, and exports evidence of professional work mapped to four role-specific KPI frameworks.
   Supports file attachments, hyperlinks, rich notes, and multi-KPI linking. Generates formal PDF reports
