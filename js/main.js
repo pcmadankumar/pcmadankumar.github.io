@@ -383,6 +383,9 @@ var REDUCED_MOTION = window.matchMedia
 
 /* --- Footer Nav Links --- */
 (function initFooterNav() {
+  // Rendered into the HTML at build time; only build it if that is missing.
+  if (document.querySelector('.footer-nav')) return;
+
   // Use the About link's href to compute path depth robustly
   var aboutLink = document.querySelector('.nav-links a[href$="index.html"]');
   if (!aboutLink) return;

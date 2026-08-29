@@ -44,7 +44,7 @@
     "@type": "Person",
     "name": "Madan Kumar PC",
     "url": "https://pcmadankumar.github.io",
-    "image": "https://pcmadankumar.github.io/assets/profile.jpg",
+    "image": "https://pcmadankumar.github.io/assets/profile.webp",
     "jobTitle": "Cambridge Programme Coordinator & Educational Consultant",
     "description": "Cambridge Programme Coordinator, CAP Accredited Career Counsellor, and EdTech advocate with 15+ years across education and IT.",
     "email": "pcmadankumar@gmail.com",
@@ -90,7 +90,38 @@
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
   <!-- Navigation -->
-  <nav class="nav" role="navigation" aria-label="Main navigation"></nav>
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+      <div class="nav-inner">
+      <a href="./index.html" class="nav-logo" style="font-family: 'Dancing Script', cursive; font-size: 1.65rem;">Madan Kumar PC</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="./index.html" class="nav-active">About</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle">Capability <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="./experience.html">Experience</a></li>
+            <li><a href="./education.html">Education</a></li>
+            <li><a href="./skills.html">Skills</a></li>
+            <li><a href="./achievements.html">Achievements</a></li>
+            <li><a href="./certifications.html">Certifications</a></li>
+            <li><a href="./work_projects.html">Work Projects</a></li>
+            <li><a href="./testimonials.html">Testimonials</a></li>
+          </ul>
+        </li>
+        <li><a href="./blog/index.html">Blog</a></li>
+        <li><a href="./resources.html">Resources</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle">Contact <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="./work-with-me.html">Work with Me</a></li>
+            <li><a href="./contact.html">Contact Me</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <main class="page-content" id="main-content">
 
@@ -127,7 +158,7 @@
         <!-- Right Column — Photo -->
         <div class="hero-photo-wrap fade-up">
           <div class="hero-photo-frame">
-            <picture><source type="image/webp" srcset="assets/profile.webp"><img src="assets/profile.jpg" alt="Madan Kumar PC — Professional portrait" loading="eager" fetchpriority="high"></picture>
+            <picture><source type="image/webp" srcset="assets/profile.webp"><img src="assets/profile.jpg" alt="Madan Kumar PC — Professional portrait" loading="eager" fetchpriority="high" width="427" height="640" decoding="async"></picture>
           </div>
         </div>
       </div>
@@ -326,6 +357,7 @@
         <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="footer-link">
           <i class="fa-brands fa-linkedin"></i> Connect on LinkedIn
         </a>
+        <nav class="footer-nav" aria-label="Quick links"><a href="./resources.html" class="footer-nav-link">Resources</a><span class="footer-nav-sep">·</span><a href="./blog/index.html" class="footer-nav-link">Blog</a><span class="footer-nav-sep">·</span><a href="./contact.html" class="footer-nav-link">Contact</a><span class="footer-nav-sep">·</span><a href="https://github.com/pcmadankumar" target="_blank" rel="noopener" class="footer-nav-link">GitHub</a></nav>
       </div>
       <p class="footer-quote">
         <span class="footer-quote-text"></span>
@@ -336,177 +368,7 @@
 
   <script src="js/nav.js"></script>
   <script src="js/main.js"></script>
-  <script>
-  (function() {
-    var grid = document.getElementById('home-blog-grid');
-    if (!grid) return;
-    fetch('blog/posts.json')
-      .then(function(r) { return r.json(); })
-      .then(function(posts) {
-        posts.sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
-        var top3 = posts.slice(0, 3);
-        grid.innerHTML = top3.map(function(p) {
-          var thumb = p.image
-            ? '<a href="blog/' + p.file + '" tabindex="-1" aria-hidden="true"><picture><source type="image/webp" srcset="' + p.image.replace(/\.(png|jpe?g)(\?.*)?$/i, '.webp') + '"><img class="hb-thumb" src="' + p.image + '" alt="' + p.title.replace(/"/g,'&quot;') + '" loading="lazy"></picture></a>'
-            : '';
-          var tags = p.tags.slice(0, 2).map(function(t) {
-            return '<span class="blog-tag">' + t + '</span>';
-          }).join('');
-          var date = new Date(p.date).toLocaleDateString('en-IN', { year:'numeric', month:'short', day:'numeric' });
-          return '<article class="hb-card fade-up">' +
-            thumb +
-            '<div class="hb-body">' +
-              '<div class="hb-meta"><i class="fa-solid fa-calendar-days"></i>' + date +
-                ' &nbsp;·&nbsp; <i class="fa-solid fa-clock"></i>' + p.readTime + ' min</div>' +
-              '<a href="blog/' + p.file + '" class="hb-title">' + p.title + '</a>' +
-              '<p class="hb-excerpt">' + p.excerpt + '</p>' +
-              '<div class="hb-tags">' + tags + '</div>' +
-            '</div>' +
-          '</article>';
-        }).join('');
-        grid.querySelectorAll('.fade-up').forEach(function(el, i) {
-          el.style.transitionDelay = (i * 80) + 'ms';
-          setTimeout(function() { el.classList.add('visible'); }, 20);
-        });
-      })
-      .catch(function() { grid.innerHTML = ''; });
-  })();
-  </script>
-  <script>
-  (function() {
-    var carousel = document.getElementById('home-res-carousel');
-    if (!carousel) return;
-    var track     = carousel.querySelector('.home-res-track');
-    var wrap      = carousel.querySelector('.home-res-track-wrap');
-    var dotsWrap  = carousel.querySelector('.hrc-dots');
-    var btnPrev   = carousel.querySelector('.hrc-btn-prev');
-    var btnNext   = carousel.querySelector('.hrc-btn-next');
-    var progWrap  = carousel.querySelector('.hrc-progress-wrap');
-    var progress  = carousel.querySelector('.hrc-progress');
-    var current   = 0;
-    var items     = [];
-    var timer;
-    var AUTO_MS   = 5000;
-
-    /* A7: autoplay progress bar — restarts on every slide change */
-    function setProgress(run) {
-      if (!progress) return;
-      progress.style.transition = 'none';
-      progress.style.width = '0%';
-      if (run) {
-        void progress.offsetWidth; /* reflow so the new transition starts from 0 */
-        progress.style.transition = 'width ' + AUTO_MS + 'ms linear';
-        progress.style.width = '100%';
-      }
-    }
-
-    function buildSlide(r) {
-      var imgHtml = r.icon
-        ? '<picture><source type="image/webp" srcset="' + r.icon.replace(/\.(png|jpe?g)(\?.*)?$/i, '.webp') + '"><img class="hrc-thumb" src="' + r.icon + '" alt="' + r.title + '" loading="lazy"></picture>'
-        : '<div class="hrc-thumb-placeholder"><i class="fa-solid fa-book-open"></i></div>';
-      var badges = (r.formats || []).map(function(f) {
-        return '<span class="res-format-badge">' + f + '</span>';
-      }).join('');
-      var tags = (r.tags || []).map(function(t) {
-        return '<span class="res-tag">' + t + '</span>';
-      }).join('');
-      return '<div class="home-res-slide">' +
-        '<a class="hrc-card" href="' + r.url + '" target="_blank" rel="noopener">' +
-          imgHtml +
-          '<div class="hrc-body">' +
-            '<div class="hrc-formats">' + badges + '</div>' +
-            '<div class="hrc-title">' + r.title + '</div>' +
-            (r.bestFor ? '<div class="res-bestfor"><span>Best for:</span> ' + r.bestFor + '</div>' : '') +
-            '<div class="hrc-desc">' + r.description + '</div>' +
-            '<div class="hrc-tags">' + tags + '</div>' +
-            '<div class="hrc-cta-line"><i class="fa-solid fa-arrow-right"></i> Get it now</div>' +
-          '</div>' +
-        '</a>' +
-      '</div>';
-    }
-
-    function goTo(idx) {
-      current = (idx + items.length) % items.length;
-      track.style.transform = 'translateX(-' + (current * 100) + '%)';
-      dotsWrap.querySelectorAll('.hrc-dot').forEach(function(d, i) {
-        d.classList.toggle('active', i === current);
-      });
-    }
-
-    function startAuto() {
-      /* no autoplay for reduced-motion users or hidden tabs (A7) */
-      if ((typeof REDUCED_MOTION !== 'undefined' && REDUCED_MOTION) || document.hidden || items.length < 2) return;
-      stopAuto();
-      setProgress(true);
-      timer = setInterval(function() { goTo(current + 1); setProgress(true); }, AUTO_MS);
-    }
-
-    function stopAuto() { clearInterval(timer); timer = null; setProgress(false); }
-
-    /* A7: touch/pointer swipe with link-click suppression after a drag */
-    function enableDrag() {
-      var dragging = false, startX = 0, dx = 0, dragMoved = false;
-      wrap.style.touchAction = 'pan-y';
-      wrap.addEventListener('pointerdown', function(e) {
-        dragging = true; dragMoved = false; startX = e.clientX; dx = 0;
-        stopAuto();
-        track.style.transition = 'none';
-        if (wrap.setPointerCapture) wrap.setPointerCapture(e.pointerId);
-      });
-      wrap.addEventListener('pointermove', function(e) {
-        if (!dragging) return;
-        dx = e.clientX - startX;
-        if (Math.abs(dx) > 8) dragMoved = true;
-        track.style.transform = 'translateX(calc(-' + (current * 100) + '% + ' + dx + 'px))';
-      });
-      function release() {
-        if (!dragging) return;
-        dragging = false;
-        track.style.transition = '';
-        if (Math.abs(dx) > 60) { goTo(dx < 0 ? current + 1 : current - 1); }
-        else { goTo(current); }
-        startAuto();
-      }
-      wrap.addEventListener('pointerup', release);
-      wrap.addEventListener('pointercancel', release);
-      wrap.addEventListener('click', function(e) {
-        if (dragMoved) { e.preventDefault(); e.stopPropagation(); dragMoved = false; }
-      }, true);
-    }
-
-    fetch('resources.json')
-      .then(function(r) { return r.json(); })
-      .then(function(data) {
-        // Homepage carousel shows my own products only — recommended ("Worth Your Time") items live on the resources page.
-        items = data.filter(function(r) { return (r.type || 'mine') === 'mine'; });
-        if (!items.length) { carousel.closest('.home-res').style.display = 'none'; return; }
-        track.innerHTML = items.map(buildSlide).join('');
-        if (items.length < 2) {
-          btnPrev.style.display = 'none';
-          btnNext.style.display = 'none';
-          if (progWrap) progWrap.style.display = 'none';
-        } else {
-          items.forEach(function(_, i) {
-            var dot = document.createElement('button');
-            dot.className = 'hrc-dot' + (i === 0 ? ' active' : '');
-            dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
-            dot.addEventListener('click', function() { stopAuto(); goTo(i); startAuto(); });
-            dotsWrap.appendChild(dot);
-          });
-          btnPrev.addEventListener('click', function() { stopAuto(); goTo(current - 1); startAuto(); });
-          btnNext.addEventListener('click', function() { stopAuto(); goTo(current + 1); startAuto(); });
-          carousel.addEventListener('mouseenter', stopAuto);
-          carousel.addEventListener('mouseleave', startAuto);
-          enableDrag();
-          document.addEventListener('visibilitychange', function() {
-            if (document.hidden) { stopAuto(); } else { startAuto(); }
-          });
-          startAuto();
-        }
-      })
-      .catch(function() { carousel.closest('.home-res').style.display = 'none'; });
-  })();
-  </script>
+  <script src="js/page-home.js"></script>
 <script data-goatcounter="https://pcmadankumar.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </body>

@@ -11,7 +11,7 @@
                         "PPTX"
                     ],
         "icon":  "assets/resources/igcsecscover.jpg",
-        "cover":  "assets/resources/igcsecomcover.png",
+        "cover":  "assets/resources/igcsecomcover.jpg",
         "url":  "https://madankumar25.gumroad.com/l/IGCSEComputerScience",
         "featured":  true,
         "tags":  [
@@ -33,7 +33,7 @@
                         "PDF",
                         "PPTX"
                     ],
-        "icon":  "assets/resources/igcsegpicon.png",
+        "icon":  "assets/resources/igcsegpicon.jpg",
         "cover":  "assets/resources/igcsegpcover.webp",
         "url":  "https://madankumar25.gumroad.com/l/IGCSEGPStarter",
         "featured":  true,
@@ -56,8 +56,8 @@
                         "PDF",
                         "PPTX"
                     ],
-        "icon":  "assets/resources/asa-gp-icon.png",
-        "cover":  "assets/resources/asa-gp-cover.png",
+        "icon":  "assets/resources/asa-gp-icon.jpg",
+        "cover":  "assets/resources/asa-gp-cover.jpg",
         "url":  "https://madankumar25.gumroad.com/l/asaglobalperspectives",
         "featured":  true,
         "tags":  [
@@ -80,8 +80,8 @@
                         "PDF",
                         "PPTX"
                     ],
-        "icon":  "assets/resources/asa-cs-icon.png",
-        "cover":  "assets/resources/asa-cs-cover.png",
+        "icon":  "assets/resources/asa-cs-icon.jpg",
+        "cover":  "assets/resources/asa-cs-cover.jpg",
         "url":  "https://madankumar25.gumroad.com/l/asacomputerscience",
         "featured":  true,
         "tags":  [

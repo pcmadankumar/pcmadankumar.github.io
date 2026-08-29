@@ -53,7 +53,38 @@
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
   <!-- Navigation -->
-  <nav class="nav" role="navigation" aria-label="Main navigation"></nav>
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+      <div class="nav-inner">
+      <a href="./index.html" class="nav-logo" style="font-family: 'Dancing Script', cursive; font-size: 1.65rem;">Madan Kumar PC</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="./index.html">About</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle">Capability <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="./experience.html">Experience</a></li>
+            <li><a href="./education.html">Education</a></li>
+            <li><a href="./skills.html">Skills</a></li>
+            <li><a href="./achievements.html">Achievements</a></li>
+            <li><a href="./certifications.html">Certifications</a></li>
+            <li><a href="./work_projects.html">Work Projects</a></li>
+            <li><a href="./testimonials.html">Testimonials</a></li>
+          </ul>
+        </li>
+        <li><a href="./blog/index.html">Blog</a></li>
+        <li><a href="./resources.html">Resources</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle">Contact <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="./work-with-me.html">Work with Me</a></li>
+            <li><a href="./contact.html" class="nav-active">Contact Me</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <main class="page-content" id="main-content">
 
@@ -143,7 +174,7 @@
             <div class="li-static-card">
               <div class="li-static-banner"></div>
               <div class="li-static-body">
-                <picture><source type="image/webp" srcset="assets/profile.webp"><img src="assets/profile.jpg" alt="Madan Kumar PC" class="li-static-avatar"></picture>
+                <picture><source type="image/webp" srcset="assets/profile.webp"><img src="assets/profile.jpg" alt="Madan Kumar PC" class="li-static-avatar" width="427" height="640" decoding="async"></picture>
                 <div class="li-static-name">Madan Kumar PC</div>
                 <div class="li-static-title">Cambridge Programme Coordinator &amp; Educational Consultant · CAP Accredited Career Counsellor · EdTech &amp; AI Advocate</div>
                 <div class="li-static-location">
@@ -240,6 +271,7 @@
         <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="footer-link">
           <i class="fa-brands fa-linkedin"></i> Connect on LinkedIn
         </a>
+        <nav class="footer-nav" aria-label="Quick links"><a href="./resources.html" class="footer-nav-link">Resources</a><span class="footer-nav-sep">·</span><a href="./blog/index.html" class="footer-nav-link">Blog</a><span class="footer-nav-sep">·</span><a href="./contact.html" class="footer-nav-link">Contact</a><span class="footer-nav-sep">·</span><a href="https://github.com/pcmadankumar" target="_blank" rel="noopener" class="footer-nav-link">GitHub</a></nav>
       </div>
       <p class="footer-quote">
         <span class="footer-quote-text"></span>
@@ -250,61 +282,8 @@
 
   <script src="js/nav.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/page-contact.js"></script>
   <!-- Contact Form Handler -->
-  <script>
-    (function () {
-      var form = document.getElementById('contactForm');
-      if (!form) return;
-
-      form.addEventListener('submit', async function (e) {
-        e.preventDefault();
-
-        var nameVal    = document.getElementById('cf_name').value.trim();
-        var subjectVal = document.getElementById('cf_subject').value.trim();
-        var serviceEl  = document.getElementById('cf_service');
-        var serviceVal = serviceEl ? serviceEl.value : '';
-        var submitBtn  = document.getElementById('submitBtn');
-        var successMsg = document.getElementById('formSuccess');
-        var errorMsg   = document.getElementById('formError');
-
-        // Build the email subject line dynamically
-        document.getElementById('emailSubject').value =
-          'New message from ' + nameVal + (serviceVal ? ' \u2014 ' + serviceVal : '') + ' \u2014 Portfolio Contact Form';
-
-        // UI: loading state
-        submitBtn.disabled = true;
-        submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> <span>Sending\u2026</span>';
-        successMsg.style.display = 'none';
-        errorMsg.style.display   = 'none';
-
-        // Collect form data and prepend user's subject into the message body
-        var formData  = new FormData(form);
-        var origMsg   = formData.get('message');
-        formData.set('message', 'Subject: ' + subjectVal + '\n\n' + origMsg);
-
-        try {
-          var response = await fetch('https://api.web3forms.com/submit', {
-            method : 'POST',
-            body   : formData
-          });
-          var data = await response.json();
-
-          if (data.success) {
-            successMsg.style.display = 'flex';
-            form.reset();
-          } else {
-            errorMsg.style.display = 'flex';
-          }
-        } catch (err) {
-          errorMsg.style.display = 'flex';
-        }
-
-        // UI: restore button
-        submitBtn.disabled = false;
-        submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> <span>Send Message</span>';
-      });
-    })();
-  </script>
 <script data-goatcounter="https://pcmadankumar.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </body>

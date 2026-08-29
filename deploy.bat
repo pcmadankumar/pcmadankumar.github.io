@@ -75,6 +75,23 @@ if not exist "%REPO_DIR%\" (
     echo  [OK] Up to date.
 )
 
+:: ---- Step 3b: Regenerate nav, blog cards and sitemap ----
+echo.
+echo  ---- Checking generated files ----
+where python >nul 2>&1
+if errorlevel 1 (
+    echo  [WARN] Python not found - skipping build.
+    echo         Nav, blog cards and sitemap.xml may be stale.
+) else (
+    python "%SITE_DIR%tools\build.py"
+    if errorlevel 1 (
+        echo  [ERROR] Build failed. Fix the error above and re-run.
+        pause
+        exit /b 1
+    )
+    echo  [OK] Generated files are current.
+)
+
 :: ---- Step 4: Copy all site files to repo ----
 echo.
 echo  ---- Copying site files ----

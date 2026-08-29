@@ -1,13 +1,17 @@
 /* ============================================================
-   nav.js — Dynamic Navigation Injection
+   nav.js — Navigation fallback (nav is static in the HTML)
    Portfolio: Madan Kumar PC
-   Edit THIS file to add/remove/rename nav items.
+   Nav items live in the HTML; regenerate with tools/build.py.
    ============================================================ */
 (function () {
   'use strict';
 
   var nav = document.querySelector('nav.nav');
   if (!nav) return;
+
+  /* The nav is rendered into the HTML at build time so that crawlers and
+     no-JS visitors get the links. Only build it here if that is missing. */
+  if (nav.children.length) return;
 
   /* --- Compute relative prefix based on URL depth --- */
   var depth;

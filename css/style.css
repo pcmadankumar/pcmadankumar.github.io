@@ -2244,6 +2244,46 @@ html.js .timeline-item.lit::before {
 }
 
 /* ============================================================
+   KEYBOARD FOCUS (F7)
+   Every interactive element gets a visible ring when reached by
+   keyboard. :focus-visible keeps it off for mouse clicks. The gold
+   ring sits at 8.66:1 against the page background.
+   ============================================================ */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible,
+summary:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--color-gold-light);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+/* Inside the nav bar the offset would clip against the bar edge */
+.nav a:focus-visible,
+.nav button:focus-visible {
+  outline-offset: 2px;
+}
+
+/* Cards and tiles already carry their own border; keep the ring tight */
+.cert-card a:focus-visible,
+.proj-card a:focus-visible,
+.blog-card a:focus-visible {
+  outline-offset: 2px;
+}
+
+/* Fallback for browsers without :focus-visible support */
+@supports not selector(:focus-visible) {
+  a:focus,
+  button:focus {
+    outline: 2px solid var(--color-gold-light);
+    outline-offset: 3px;
+  }
+}
+
+/* ============================================================
    STATS QUOTE ROW (moved out of stats-grid)
    ============================================================ */
 .stats-quote-row {

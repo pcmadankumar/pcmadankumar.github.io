@@ -10,10 +10,14 @@
   <link rel="canonical" href="https://pcmadankumar.github.io/resources.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Madan Kumar PC">
+  <meta property="og:locale" content="en_IN">
   <meta property="og:title" content="Resources &amp; Study Materials | Madan Kumar PC">
   <meta property="og:description" content="Curated teaching resources and study materials for Cambridge subjects — available on Gumroad.">
   <meta property="og:url" content="https://pcmadankumar.github.io/resources.html">
   <meta property="og:image" content="https://pcmadankumar.github.io/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Madan Kumar PC &mdash; Cambridge Programme Coordinator &amp; Educational Consultant">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Resources &amp; Study Materials | Madan Kumar PC">
   <meta name="twitter:description" content="Curated teaching resources and study materials for Cambridge subjects — available on Gumroad.">
@@ -24,13 +28,54 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/icons.css">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pcmadankumar.github.io/" },
+      { "@type": "ListItem", "position": 2, "name": "Resources & Study Materials", "item": "https://pcmadankumar.github.io/resources.html" }
+    ]
+  }
+  </script>
 </head>
 <body>
 
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
   <!-- Navigation -->
-  <nav class="nav" role="navigation" aria-label="Main navigation"></nav>
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+      <div class="nav-inner">
+      <a href="./index.html" class="nav-logo" style="font-family: 'Dancing Script', cursive; font-size: 1.65rem;">Madan Kumar PC</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="./index.html">About</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle">Capability <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="./experience.html">Experience</a></li>
+            <li><a href="./education.html">Education</a></li>
+            <li><a href="./skills.html">Skills</a></li>
+            <li><a href="./achievements.html">Achievements</a></li>
+            <li><a href="./certifications.html">Certifications</a></li>
+            <li><a href="./work_projects.html">Work Projects</a></li>
+            <li><a href="./testimonials.html">Testimonials</a></li>
+          </ul>
+        </li>
+        <li><a href="./blog/index.html">Blog</a></li>
+        <li><a href="./resources.html" class="nav-active">Resources</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle">Contact <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="./work-with-me.html">Work with Me</a></li>
+            <li><a href="./contact.html">Contact Me</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <main class="page-content" id="main-content">
 
@@ -68,6 +113,7 @@
         <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="footer-link">
           <i class="fa-brands fa-linkedin"></i> Connect on LinkedIn
         </a>
+        <nav class="footer-nav" aria-label="Quick links"><a href="./resources.html" class="footer-nav-link">Resources</a><span class="footer-nav-sep">·</span><a href="./blog/index.html" class="footer-nav-link">Blog</a><span class="footer-nav-sep">·</span><a href="./contact.html" class="footer-nav-link">Contact</a><span class="footer-nav-sep">·</span><a href="https://github.com/pcmadankumar" target="_blank" rel="noopener" class="footer-nav-link">GitHub</a></nav>
       </div>
       <p class="footer-quote">
         <span class="footer-quote-text"></span>
@@ -78,118 +124,7 @@
 
   <script src="js/nav.js"></script>
   <script src="js/main.js"></script>
-  <script>
-  (function() {
-    var root = document.getElementById('res-root');
-    if (!root) return;
-
-    function esc(s) { return String(s == null ? '' : s).replace(/"/g, '&quot;'); }
-    function tagsHtml(r) {
-      return (r.tags || []).map(function(t) { return '<span class="res-tag">' + t + '</span>'; }).join('');
-    }
-
-    // "My Resources" card — solid gold "Get it now" → Gumroad
-    function mineCard(r) {
-      var formats = (r.formats || []).map(function(f) {
-        return '<span class="res-format-badge">' + f + '</span>';
-      }).join('');
-      var thumb = r.cover
-        ? '<img class="res-thumb" src="' + r.cover + '" alt="' + esc(r.title) + '" loading="lazy">'
-        : '<div class="res-thumb-placeholder"><i class="fa-solid fa-book-open"></i></div>';
-      var bestFor = r.bestFor
-        ? '<p class="res-bestfor"><span>Best for:</span> ' + r.bestFor + '</p>'
-        : '';
-      return '<article class="res-card fade-up">' +
-        thumb +
-        '<div class="res-body">' +
-          '<div class="res-formats">' + formats + '</div>' +
-          '<h3 class="res-title">' + r.title + '</h3>' +
-          bestFor +
-          '<p class="res-desc">' + r.description + '</p>' +
-          '<div class="res-tags">' + tagsHtml(r) + '</div>' +
-        '</div>' +
-        '<div class="res-footer">' +
-          '<a href="' + r.url + '" target="_blank" rel="noopener noreferrer" class="res-btn">' +
-            '<i class="fa-solid fa-bag-shopping"></i> Get it now' +
-          '</a>' +
-        '</div>' +
-      '</article>';
-    }
-
-    // "Worth Your Time" card — others' work, attribution + thanks, outline "Visit resource"
-    function recCard(r) {
-      var thumb = r.cover
-        ? '<img class="res-thumb" src="' + r.cover + '" alt="' + esc(r.title) + '" loading="lazy">'
-        : '<div class="res-thumb-placeholder"><i class="fa-solid fa-bookmark"></i></div>';
-      var attr = r.author
-        ? '<p class="res-attribution"><i class="fa-solid fa-user-pen"></i> by ' + r.author +
-            (r.source ? ' &middot; <span>' + r.source + '</span>' : '') + '</p>'
-        : '';
-      var thanks = r.thanks ? '<p class="res-thanks">' + r.thanks + '</p>' : '';
-      return '<article class="res-card res-card--rec fade-up">' +
-        '<span class="res-rec-label"><i class="fa-solid fa-heart"></i> Recommended</span>' +
-        thumb +
-        '<div class="res-body">' +
-          attr +
-          '<h3 class="res-title">' + r.title + '</h3>' +
-          '<p class="res-desc">' + r.description + '</p>' +
-          thanks +
-          '<div class="res-tags">' + tagsHtml(r) + '</div>' +
-        '</div>' +
-        '<div class="res-footer">' +
-          '<a href="' + r.url + '" target="_blank" rel="noopener noreferrer" class="res-btn res-btn--visit">' +
-            '<i class="fa-solid fa-arrow-up-right-from-square"></i> Visit resource' +
-          '</a>' +
-        '</div>' +
-      '</article>';
-    }
-
-    function sectionBlock(title, intro, cardsHtml) {
-      return '<section class="res-section">' +
-        '<h2 class="res-section-title">' + title + '</h2>' +
-        '<p class="res-section-intro">' + intro + '</p>' +
-        '<div class="res-grid">' + cardsHtml + '</div>' +
-      '</section>';
-    }
-
-    fetch('resources.json')
-      .then(function(r) { return r.json(); })
-      .then(function(resources) {
-        var mine = resources.filter(function(r) { return (r.type || 'mine') === 'mine'; });
-        var rec  = resources.filter(function(r) { return r.type === 'recommended'; });
-
-        if (!mine.length && !rec.length) {
-          root.innerHTML = '<p class="res-empty">No resources available yet — check back soon!</p>';
-          return;
-        }
-
-        var html = '';
-        if (mine.length) {
-          html += sectionBlock(
-            'My <span>Resources</span>',
-            'Teaching aids I’ve built for Cambridge subjects — ready to use in class, available on Gumroad.',
-            mine.map(mineCard).join('')
-          );
-        }
-        if (rec.length) {
-          html += sectionBlock(
-            'Worth Your <span>Time</span>',
-            'Resources created by others that I genuinely rate — full credit to their authors. Every link goes to the original source.',
-            rec.map(recCard).join('')
-          );
-        }
-        root.innerHTML = html;
-
-        root.querySelectorAll('.fade-up').forEach(function(el, i) {
-          el.style.transitionDelay = (i * 80) + 'ms';
-          setTimeout(function() { el.classList.add('visible'); }, 20);
-        });
-      })
-      .catch(function() {
-        root.innerHTML = '<p class="res-empty">Unable to load resources. Please try again later.</p>';
-      });
-  })();
-  </script>
+  <script src="js/page-resources.js"></script>
   <script data-goatcounter="https://pcmadankumar.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
 </body>

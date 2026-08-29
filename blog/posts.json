@@ -26,7 +26,7 @@
     "excerpt": "India's own think-tank confirms it: 69% of promoted Class V children cannot do basic division, and a landmark survey found 93% of teenagers can name only about seven careers. A reflection on the EducationWorld editorial and the NITI Aayog report — one a crisis of foundation, the other a crisis of imagination, and why only the second is squarely within a counsellor's reach.",
     "tags": ["Pick, Learn and Share", "Article Reflection", "Career Counselling", "Education", "India", "Students", "Parents"],
     "readTime": 9,
-    "image": "assets/blog/two-numbers-that-should-keep-us-awake/hero.png",
+    "image": "assets/blog/two-numbers-that-should-keep-us-awake/hero.jpg",
     "file": "posts/two-numbers-that-should-keep-us-awake.html"
   },
   {
@@ -36,7 +36,7 @@
     "excerpt": "India now sends over 1.2 million students abroad a year — but a weak rupee and tightening visas have quietly changed the maths. A calmer, numbers-first reading of the BBC's 'rethink' story: what's really shifting, why demand is re-routing (not collapsing), and the three questions every family should ask before committing.",
     "tags": ["Pick, Learn and Share", "Article Reflection", "Study Abroad", "Career Counselling", "Parents"],
     "readTime": 8,
-    "image": "assets/blog/study-abroad-rethink/hero.png",
+    "image": "assets/blog/study-abroad-rethink/hero.jpg",
     "file": "posts/study-abroad-rethink.html"
   },
   {
@@ -46,7 +46,7 @@
     "excerpt": "Justin Bieber paid $1.3M for a cartoon ape; by 2026 it was worth about 1% of that. A reflection on the NFT bubble, the greater fool theory, and the one hard data skill it should teach every student — separating real innovation from the hype wrapped around it.",
     "tags": ["Pick, Learn and Share", "Article Reflection", "Data Literacy", "Critical Thinking", "Students"],
     "readTime": 7,
-    "image": "assets/blog/the-cartoon-ape-that-cost-a-million-dollars/hero.png",
+    "image": "assets/blog/the-cartoon-ape-that-cost-a-million-dollars/hero.jpg",
     "file": "posts/the-cartoon-ape-that-cost-a-million-dollars.html"
   },
   {
@@ -56,7 +56,7 @@
     "excerpt": "A counselling-ready guide to Germany undergraduate admissions in 2026 — the four pathways after Class 12, what 'free' tuition really costs, the new 70% Class 12 rule, APS, the blocked account, funding, and a Cambridge A-Level edge. Distilled from a Future Pathways session and fact-checked figure by figure.",
     "tags": ["Pick, Learn and Share", "Future Pathways", "Study Abroad", "Career Counselling", "Parents"],
     "readTime": 13,
-    "image": "assets/blog/germany-undergraduate-admissions/hero.png",
+    "image": "assets/blog/germany-undergraduate-admissions/hero.jpg",
     "file": "posts/germany-undergraduate-admissions.html"
   },
   {
@@ -66,7 +66,7 @@
     "excerpt": "An in-depth guide for parents on University College London — ranked #8 globally and in the QS top 10 for the 15th consecutive year (QS 2027) — covering CBSE and Cambridge A Level admission requirements, UCL's London advantage, research strengths, and financial support for Indian students.",
     "tags": ["University Virtual Tour", "University", "Students", "Parents"],
     "readTime": 15,
-    "image": "assets/blog/university-spotlight-ucl/hero.png",
+    "image": "assets/blog/university-spotlight-ucl/hero.jpg",
     "file": "posts/university-spotlight-ucl.html"
   },
   {
@@ -76,7 +76,7 @@
     "excerpt": "An in-depth guide for parents on Stanford University — ranked #2 globally (tied with ICL, QS 2027) — covering CBSE and Cambridge A Level admission requirements, Stanford's holistic admissions process, need-blind financial aid, and the unique Silicon Valley advantage for Indian students.",
     "tags": ["University Virtual Tour", "University", "Students", "Parents"],
     "readTime": 15,
-    "image": "assets/blog/university-spotlight-stanford/hero.png",
+    "image": "assets/blog/university-spotlight-stanford/hero.jpg",
     "file": "posts/university-spotlight-stanford.html"
   },
   {
@@ -86,7 +86,7 @@
     "excerpt": "An in-depth guide for parents on the University of Cambridge — ranked #6 globally (QS 2027) and THE joint #3 — covering CBSE and Cambridge A Level admission requirements, the supervision system, UCAS process, admissions tests (STEP, ENGAA, TMUA), and the unique Cambridge application for Indian students.",
     "tags": ["University Virtual Tour", "University", "Students", "Parents"],
     "readTime": 18,
-    "image": "assets/blog/university-spotlight-cambridge/hero.png",
+    "image": "assets/blog/university-spotlight-cambridge/hero.jpg",
     "file": "posts/university-spotlight-cambridge.html"
   },
   {
@@ -96,7 +96,7 @@
     "excerpt": "An in-depth guide for parents on Harvard University — ranked #5 globally (QS 2027) — covering CBSE and Cambridge A Level admission requirements, Harvard's holistic admissions process, need-blind financial aid, and what makes a competitive Harvard application.",
     "tags": ["University Virtual Tour", "University", "Students", "Parents"],
     "readTime": 16,
-    "image": "assets/blog/university-spotlight-harvard/hero.png",
+    "image": "assets/blog/university-spotlight-harvard/hero.jpg",
     "file": "posts/university-spotlight-harvard.html"
   },
   {
@@ -106,7 +106,7 @@
     "excerpt": "An in-depth guide for parents on the University of Oxford — ranked #4 globally (QS 2027) and THE #1 for 10 consecutive years — covering CBSE and Cambridge A Level admission requirements, the tutorial system, UCAS process, admissions tests, and interview preparation for Indian students.",
     "tags": ["University Virtual Tour", "University", "Students", "Parents"],
     "readTime": 16,
-    "image": "assets/blog/university-spotlight-oxford/hero.png",
+    "image": "assets/blog/university-spotlight-oxford/hero.jpg",
     "file": "posts/university-spotlight-oxford.html"
   },
   {
@@ -116,7 +116,7 @@
     "excerpt": "An in-depth guide for parents on Imperial College London — ranked #2 globally and #1 in the UK for STEM (QS 2027) — covering CBSE and Cambridge A Level admission requirements, IELTS waivers, fees, scholarships, and career outcomes in science and engineering.",
     "tags": ["University Virtual Tour", "University", "Students", "Parents"],
     "readTime": 15,
-    "image": "assets/blog/university-spotlight-icl/hero.png",
+    "image": "assets/blog/university-spotlight-icl/hero.jpg",
     "file": "posts/university-spotlight-icl.html"
   },
   {
@@ -126,7 +126,7 @@
     "excerpt": "An in-depth guide for parents on MIT — ranked #1 globally for 15 consecutive years (QS 2027) — covering CBSE and Cambridge A Level admission requirements, SAT strategy, need-blind financial aid, and how to build a competitive MIT application.",
     "tags": ["University Virtual Tour", "University", "Students", "Parents"],
     "readTime": 14,
-    "image": "assets/blog/university-spotlight-mit/hero.png",
+    "image": "assets/blog/university-spotlight-mit/hero.jpg",
     "file": "posts/university-spotlight-mit.html"
   },
   {
@@ -156,7 +156,7 @@
     "excerpt": "An educator's reflections on how AI is shifting the unit of value from process to outcome — and why the same shift matters just as much in classrooms and counselling rooms as it does in boardrooms.",
     "tags": ["Pick, Learn and Share", "AI", "EdTech", "Mindset", "Career Counselling"],
     "readTime": 9,
-    "image": "assets/blog/process-to-outcomes/hero.png",
+    "image": "assets/blog/process-to-outcomes/hero.jpg",
     "file": "posts/process-to-outcomes.html"
   },
   {
@@ -166,7 +166,7 @@
     "excerpt": "Key takeaways from a session by Prof. Kannan Kandasamy at TIPS School Erode — what chemical engineering is, why the world urgently needs it, career scope in India and abroad, and a seven-step research roadmap any IGCSE student can start today.",
     "tags": ["Pick, Learn and Share", "Career Counselling", "Chemical Engineering", "Research", "Students"],
     "readTime": 12,
-    "image": "assets/blog/chemical-engineering-why-research-matters/hero.png",
+    "image": "assets/blog/chemical-engineering-why-research-matters/hero.jpg",
     "file": "posts/chemical-engineering-why-research-matters.html"
   },
   {
@@ -196,7 +196,7 @@
     "excerpt": "Key takeaways from a May 2026 ISP webinar by Macarena Aguirre — how the US athletic scholarship process works, what counsellors need to know, and how to support student-athletes from any sport level through MAE Sports & Education.",
     "tags": ["Pick, Learn and Share", "Career Counselling", "Sports Scholarships", "University", "Students"],
     "readTime": 9,
-    "image": "assets/blog/mae-sports-education-student-athletes/hero.png",
+    "image": "assets/blog/mae-sports-education-student-athletes/hero.jpg",
     "file": "posts/mae-sports-education-student-athletes.html"
   },
   {
