@@ -226,6 +226,7 @@ Lifelong Learning · Learning Standards · Life Skills · Sketch Noting · Criti
 ### AI & EdTech
 | Certification | Issuer | Date |
 |---|---|---|
+| Critical Thinking in the AI Era | HP LIFE — HP Foundation | August 2026 |
 | ChatGPT Foundations for K-12 Educators | Common Sense Media | December 2024 |
 | The Future of Education: Harnessing Generative AI for Effective Teaching | Scrollwell | October 2023 |
 | Accelerate Learning with Digital Transformation using AI | Microsoft | October 2023 |
