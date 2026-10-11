@@ -22,7 +22,11 @@ location:
 
 stats:
   years_experience: "15+"
+  years_in_education: "10+"
   certifications: "30+"
+  campuses: 4
+  teachers_trained_per_cycle: "400+"
+  students_mentored: "500+"
   industry_domains: 2
 
 education:
@@ -44,34 +48,51 @@ education:
     date: Ongoing
 
 experience:
-  - role: Member — TIPS Learning and Research Institute
+  - role: Cambridge Implementation Coordinator — HQ
+    organisation: The Indian Public School (all four campuses)
+    period: "February 2024 – Present"
+    location: Tamil Nadu, India
+    result: Cambridge coordination across 4 campuses; advisory support to 5 Cambridge schools
+    responsibilities:
+      - Plan and execute Cambridge programme implementation across four campuses from HQ
+      - Own teaching and learning quality on the Cambridge pathway
+      - Turn Cambridge updates and new initiatives into campus-level action plans
+  - role: Exam Controller — Cambridge Examinations
+    organisation: The Indian Public School
+    period: "2018 – Present"
+    location: Erode, Tamil Nadu, India
+    result: Exam series run across 4 campuses; Exams Officers trained across campuses, latest ahead of the November 2026 series
+    responsibilities:
+      - Run the full Cambridge exam cycle from entries to post-results services
+      - Train and handhold new Exams Officers and invigilators across campuses
+      - Lead mock exams and results analysis
+  - role: Future Pathways (FP) Coordinator — Career Guidance and Placement Support
+    organisation: The Indian Public School (all four campuses)
+    period: "November 2020 – Present"
+    location: Erode, Tamil Nadu, India
+    result: 500+ students guided toward undergraduate decisions
+    responsibilities:
+      - Lead the FP counselling team across campuses
+      - Build fact-checked advisory series used as standing references in counselling
+      - Streamline career communication to parents
+  - role: Professional Development Coordinator (PDC) — TIPS Learning and Research Institute
     organisation: The Indian Public School
     period: "March 2024 – Present"
     location: Erode, Tamil Nadu, India
+    result: Training team for 400+ staff, two to three cycles a year, 50-hour annual target per teacher; ISP Futures Framework training 4 times to 250+ staff; CBSE-to-Cambridge induction 3 times, 50+ each; AI for Educators 8+ cohorts
     responsibilities:
-      - Creating and delivering professional development modules for teachers
-      - Modules on classroom management, AI for educators, assessment strategies
-      - Identifying and shortlisting EdTech partners for teacher training
-      - Complete training event management from planning to execution
-  - role: Cambridge Implementation Coordinator — HQ
-    organisation: The Indian Public School (Erode, Salem & Trichy Campuses)
-    period: "February 2024 – Present"
+      - Design and deliver professional development modules for teachers
+      - Develop internal trainers and shortlist EdTech training partners
+      - Run training events end to end with impact reporting
+  - role: ISP Futures Coordinator
+    organisation: International Schools Partnership (ISP) / The Indian Public School
+    period: "2025 – Present"
     location: Tamil Nadu, India
+    result: Future Pathways and Life Competencies streams owned across 4 campuses; Futures Framework training delivered 4 times to 250+ staff
     responsibilities:
-      - Plan and execute Cambridge academic programme implementations across campuses
-      - Handle curriculum quality execution and Cambridge pathway monitoring
-      - Follow up on Cambridge updates and strategise implementation
-      - Ensure policy adherence on Cambridge exam routines
-  - role: Head — Career Guidance and Placement Support
-    organisation: The Indian Public School (Erode, Salem & Trichy Campuses)
-    period: "November 2020 – Present"
-    location: Erode, Tamil Nadu, India
-    responsibilities:
-      - Identifying academic support programmes for student profile development
-      - Counselling students on undergraduate career pathways
-      - Streamlining career-related communication to parents
-      - Staying current on new-age careers and emerging industry trends
-  - role: Exam Officer & Global Perspectives Facilitator
+      - Coordinate the Future Pathways and Life Competencies streams of ISP Futures across four campuses
+      - Deliver the ISP Futures Framework training and align ISP Big 5 life competencies with Cambridge delivery
+  - role: Global Perspectives Facilitator & Exam Officer
     organisation: The Indian Public School, Erode International Campus
     period: "March 2018 – November 2020"
     duration: 2 Years 9 Months
@@ -80,7 +101,7 @@ experience:
       - Handled Global Perspectives (GP) for Grade 9 and above
       - Conducted and oversaw official Cambridge board examinations
       - Supported Cambridge Outstanding Top In India awards for IGCSE Global Perspectives
-      - Cambridge certified Exam Officer across Erode, Salem, and Trichy campuses
+      - Cambridge certified Exam Officer across the TIPS campuses
   - role: Computer Science Facilitator & Subject Matter Expert
     organisation: The Indian Public School (Cambridge Assessment International Education)
     period: "December 2015 – March 2018"
@@ -125,19 +146,23 @@ achievements:
   - title: Promoted to Exam Officer
     organisation: Cambridge Assessment International Education
     year: 2018
-    description: Recognised for excellence as CS facilitator; conducts official Cambridge board exams across three campuses
-  - title: Head — Career Guidance & Placement Support
+    description: Recognised for excellence as CS facilitator; conducts official Cambridge board exams across the TIPS campuses
+  - title: Future Pathways (FP) Coordinator — Career Guidance & Placement Support
     organisation: The Indian Public School, Erode
     year: 2020
-    description: Leads undergraduate placement team supporting high school students
+    description: Leads the FP team supporting high school students; 500+ students guided
   - title: Cambridge Implementation Coordinator — HQ
     organisation: The Indian Public School
     year: 2024
     description: Appointed at HQ level to oversee Cambridge implementations across allied campuses
-  - title: Member — TIPS Learning and Research Institute
+  - title: Professional Development Coordinator (PDC) — TIPS Learning and Research Institute
     organisation: The Indian Public School
     year: 2024
-    description: Selected to create and deliver educator professional development modules
+    description: Part of the training team taking 400+ staff through 50 hours of professional development a year
+  - title: Cambridge Outstanding Learner Awards — Top in India (IGCSE Global Perspectives)
+    organisation: Cambridge Assessment International Education
+    year: "2018–2020"
+    description: Facilitator for the IGCSE Global Perspectives learners who secured Top in India awards
   - title: CAP Accredited Counsellor
     organisation: Counsellor Accreditation Programme (CAP) — Times Higher Education
     year: Ongoing
@@ -358,9 +383,9 @@ projects:
     description: >
       Dark-themed, mobile-responsive personal portfolio site deployed on GitHub Pages.
       Built entirely with vanilla HTML, CSS, and JavaScript. No frameworks, no build tools, zero hosting cost.
-  - name: Dhuruv 4.0
-    tech: [React, TypeScript, "Node.js", SQLite, Tesseract.js, "Tailwind CSS"]
-    description: Locally hosted personal management system covering Contacts, Calendar, Finance, Goals, Tasks, Notes, Dashboard.
+  - name: Dhruv 5.0 — Personal OS
+    tech: [Electron, React, TypeScript, SQLite, Tesseract.js, "Tailwind CSS"]
+    description: Locally hosted personal operating system with ten modules — Daily Anchor, Dashboard, Health, Notes & Journal, Calendar, Tasks, Goals, Finance, Leaves, Contacts.
   - name: Markdown Viewer (Mark)
     tech: [Python, PyQt6, markdown2, Pygments, python-docx, PyInstaller]
     description: Standalone Windows desktop Markdown viewer and exporter.
@@ -463,6 +488,10 @@ pages:
     title: Recommendations | Madan Kumar PC
   - url: https://pcmadankumar.github.io/work_projects.html
     title: Work Projects | Madan Kumar PC
+  - url: https://pcmadankumar.github.io/trainings.html
+    title: Trainings Delivered | Madan Kumar PC
+  - url: https://pcmadankumar.github.io/work-with-me.html
+    title: Work with Me | Madan Kumar PC
   - url: https://pcmadankumar.github.io/contact.html
     title: Contact | Madan Kumar PC
 
@@ -470,5 +499,5 @@ site:
   built_with: [HTML5, CSS3, "Vanilla JavaScript"]
   hosted_on: GitHub Pages
   ai_assistant: Claude (Anthropic)
-  last_updated: "2026-04-17"
+  last_updated: "2026-10-11"
   language: en-IN

@@ -55,6 +55,7 @@
             '<li><a href="' + p + '/achievements.html"' + a('achievements.html') + '>Achievements</a></li>' +
             '<li><a href="' + p + '/certifications.html"' + a('certifications.html') + '>Certifications</a></li>' +
             '<li><a href="' + p + '/work_projects.html"' + a('work_projects.html') + '>Work Projects</a></li>' +
+            '<li><a href="' + p + '/trainings.html"' + a('trainings.html') + '>Trainings Delivered</a></li>' +
             '<li><a href="' + p + '/testimonials.html"' + a('testimonials.html') + '>Testimonials</a></li>' +
           '</ul>' +
         '</li>' +

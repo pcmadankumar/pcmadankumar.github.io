@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0d0d0d">
   <meta name="author" content="Madan Kumar PC">
-  <meta name="description" content="Work with Madan Kumar PC — Cambridge programme advisory, career counselling, teacher training, AI in education consulting, and more. First session always free.">
+  <meta name="description" content="Work with Madan Kumar PC — Cambridge programme advisory, career counselling, teacher training, AI in education consulting, and more. Free discovery call to start; workshops and programmes are priced per engagement.">
   <link rel="canonical" href="https://pcmadankumar.github.io/work-with-me.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Madan Kumar PC">
   <meta property="og:locale" content="en_IN">
   <meta property="og:title" content="Work with Me | Madan Kumar PC">
-  <meta property="og:description" content="Cambridge programme advisory, career counselling, teacher training, and AI in education consulting. First session always free.">
+  <meta property="og:description" content="Cambridge programme advisory, career counselling, teacher training, and AI in education consulting. Free discovery call to start; workshops and programmes are priced per engagement.">
   <meta property="og:url" content="https://pcmadankumar.github.io/work-with-me.html">
   <meta property="og:image" content="https://pcmadankumar.github.io/assets/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -20,7 +20,7 @@
   <meta property="og:image:alt" content="Madan Kumar PC — Cambridge Programme Coordinator &amp; Educational Consultant">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Work with Me | Madan Kumar PC">
-  <meta name="twitter:description" content="Cambridge programme advisory, career counselling, teacher training, and AI in education consulting. First session always free.">
+  <meta name="twitter:description" content="Cambridge programme advisory, career counselling, teacher training, and AI in education consulting. Free discovery call to start; workshops and programmes are priced per engagement.">
   <meta name="twitter:image" content="https://pcmadankumar.github.io/assets/og-image.jpg">
   <title>Work with Me | Madan Kumar PC</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -372,6 +372,34 @@
       font-weight: 600;
     }
 
+    /* --- Signature workshops --- */
+    .wm-ws-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+    @media (max-width: 820px) { .wm-ws-grid { grid-template-columns: 1fr; } }
+    .wm-ws-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      box-shadow: var(--shadow-gold);
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      transition: var(--transition);
+    }
+    .wm-ws-card:hover { border-color: rgba(201, 168, 76, 0.3); transform: translateY(-3px); }
+    .wm-ws-head { display: flex; gap: 14px; align-items: flex-start; }
+    .wm-ws-head .wm-service-icon { flex-shrink: 0; }
+    .wm-ws-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 0.8rem; color: var(--color-gold); }
+    .wm-ws-meta i { margin-right: 5px; }
+    .wm-ws-list { margin: 0; padding-left: 18px; list-style: disc; color: var(--color-text-muted, var(--color-muted)); font-size: 0.92rem; line-height: 1.6; }
+    .wm-ws-list li + li { margin-top: 4px; }
+    .wm-ws-takeaway { margin: 0; font-size: 0.9rem; color: var(--color-text); border-top: 1px solid var(--color-border); padding-top: 12px; }
+    .wm-ws-takeaway strong { color: var(--color-gold); }
+
     /* --- FAQ accordion (C6) --- */
     .faq-list {
       display: flex;
@@ -466,6 +494,7 @@
             <li><a href="./achievements.html">Achievements</a></li>
             <li><a href="./certifications.html">Certifications</a></li>
             <li><a href="./work_projects.html">Work Projects</a></li>
+            <li><a href="./trainings.html">Trainings Delivered</a></li>
             <li><a href="./testimonials.html">Testimonials</a></li>
           </ul>
         </li>
@@ -488,7 +517,7 @@
     <div class="page-hero">
       <div class="container">
         <h1 class="page-hero-title fade-up">Work with <span>Me</span></h1>
-        <p class="page-hero-sub fade-up">Cambridge. Career. EdTech. Consulting. All grounded in 15+ years of classroom reality.</p>
+        <p class="page-hero-sub fade-up">Cambridge. Future Pathways. Teacher training. AI. Grounded in 10+ years inside schools and 5 in IT consulting.</p>
       </div>
     </div>
 
@@ -496,7 +525,7 @@
     <section class="section" style="padding-bottom: 48px;">
       <div class="container">
         <blockquote class="wm-statement fade-up">
-          After 15 years working inside schools — building Cambridge programmes, guiding students at crossroads, training teachers, and helping institutions make sense of AI in education — I have come to believe that the best outcomes start with listening. My approach is built around your specific context, not templates or one-size solutions. Every engagement is structured, documented, and ends with clear next steps for both of us.
+          After more than ten years working inside schools — building Cambridge programmes across four campuses, guiding students at crossroads, training 400+ staff a cycle, and helping institutions make sense of AI in education — I have come to believe that the best outcomes start with listening. My approach is built around your specific context, not templates or one-size solutions. Every engagement is structured, documented, and ends with clear next steps for both of us.
         </blockquote>
       </div>
     </section>
@@ -506,7 +535,7 @@
       <div class="container">
         <div class="stats-grid">
           <div class="stat-card fade-up">
-            <div class="stat-number">15<span style="font-size:1.5rem;">+</span></div>
+            <div class="stat-number">10<span style="font-size:1.5rem;">+</span></div>
             <div class="stat-label">Years in Education</div>
           </div>
           <div class="stat-card fade-up">
@@ -514,8 +543,8 @@
             <div class="stat-label">Cambridge Schools Supported</div>
           </div>
           <div class="stat-card fade-up">
-            <div class="stat-number">30<span style="font-size:1.5rem;">+</span></div>
-            <div class="stat-label">Certifications Earned</div>
+            <div class="stat-number">400<span style="font-size:1.5rem;">+</span></div>
+            <div class="stat-label">Teachers Trained per Cycle</div>
           </div>
           <div class="stat-card fade-up">
             <div class="stat-number" style="font-size:1.7rem; letter-spacing:-0.01em;">Pan-India</div>
@@ -539,7 +568,7 @@
 
           <!-- 1 -->
           <div class="wm-service-card fade-up">
-            <span class="wm-free-badge">Free</span>
+            <span class="wm-free-badge">Free discovery call</span>
             <div class="wm-service-icon"><i class="fa-solid fa-school"></i></div>
             <div class="wm-service-title">Cambridge Programme Setup &amp; Advisory</div>
             <div class="wm-service-audience">For Schools — IGCSE / AS / A Level</div>
@@ -548,16 +577,17 @@
 
           <!-- 2 -->
           <div class="wm-service-card fade-up">
-            <span class="wm-free-badge">Free</span>
+            <span class="wm-free-badge">Free discovery call</span>
             <div class="wm-service-icon"><i class="fa-solid fa-clipboard-check"></i></div>
             <div class="wm-service-title">Cambridge Exam Officer — Handholding &amp; Training</div>
             <div class="wm-service-audience">For New Exam Officers at Cambridge Schools</div>
-            <p class="wm-service-desc">Complete, step-by-step guidance from the Cambridge Portal to results day — structured training, documentation support, and ongoing availability for every question along the way.</p>
+            <p class="wm-service-desc">Complete, step-by-step guidance from the Cambridge Portal to results day — structured training, invigilator briefings, documentation support, and ongoing availability for every question along the way.</p>
+            <a href="#workshops" class="proj-link"><i class="fa-solid fa-chevron-down"></i> See the Exams Officer bootcamp</a>
           </div>
 
           <!-- 3 -->
           <div class="wm-service-card fade-up">
-            <span class="wm-free-badge">Free</span>
+            <span class="wm-free-badge">Free discovery call</span>
             <div class="wm-service-icon"><i class="fa-solid fa-compass"></i></div>
             <div class="wm-service-title">1:1 Career Counselling</div>
             <div class="wm-service-audience">For Students in Grades 9–12</div>
@@ -566,16 +596,17 @@
 
           <!-- 4 -->
           <div class="wm-service-card fade-up">
-            <span class="wm-free-badge">Free</span>
+            <span class="wm-free-badge">Free discovery call</span>
             <div class="wm-service-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
             <div class="wm-service-title">Teacher Training Workshops</div>
             <div class="wm-service-audience">For School Faculty &amp; Department Heads</div>
-            <p class="wm-service-desc">Focused, practical workshops on pedagogy, Cambridge curriculum delivery, AI tools in education, and professional development — designed around your school's actual needs, not a fixed syllabus.</p>
+            <p class="wm-service-desc">Focused, practical workshops on pedagogy, Cambridge curriculum delivery, AI tools in education, and professional development — designed around your school's actual needs, not a fixed syllabus. Delivered to 400+ staff per cycle as part of the TIPS training team.</p>
+            <a href="#workshops" class="proj-link"><i class="fa-solid fa-chevron-down"></i> See signature workshops</a>
           </div>
 
           <!-- 5 -->
           <div class="wm-service-card fade-up">
-            <span class="wm-free-badge">Free</span>
+            <span class="wm-free-badge">Free discovery call</span>
             <div class="wm-service-icon"><i class="fa-solid fa-robot"></i></div>
             <div class="wm-service-title">AI in Education Consulting</div>
             <div class="wm-service-audience">For School Leadership &amp; EdTech Teams</div>
@@ -584,14 +615,122 @@
 
           <!-- 6 -->
           <div class="wm-service-card fade-up">
-            <span class="wm-free-badge">Free</span>
+            <span class="wm-free-badge">Free discovery call</span>
             <div class="wm-service-icon"><i class="fa-solid fa-laptop-code"></i></div>
             <div class="wm-service-title">IT / EdTech Consulting</div>
             <div class="wm-service-audience">For Schools &amp; EdTech Startups</div>
             <p class="wm-service-desc">Strategic and operational support for technology decisions — drawing on experience at Infosys and Ernst &amp; Young, combined with 10+ years of school-based EdTech adoption and implementation.</p>
+            <a href="trainings.html" class="proj-link"><i class="fa-solid fa-arrow-right"></i> Trainings delivered</a>
           </div>
 
         </div>
+      </div>
+    </section>
+
+    <!-- Signature Workshops -->
+    <section class="section" id="workshops" style="padding-top: 0;">
+      <div class="container">
+
+        <div class="section-header fade-up">
+          <h2 class="section-title">Signature Workshops</h2>
+          <p class="section-subtitle">Four named sessions, each with an outline, a duration, and what your teachers walk away with. All adapt to your school's context.</p>
+        </div>
+
+        <div class="wm-ws-grid" data-stagger="90">
+
+          <div class="wm-ws-card fade-up">
+            <div class="wm-ws-head">
+              <div class="wm-service-icon"><i class="fa-solid fa-rotate"></i></div>
+              <div>
+                <div class="wm-service-title">CBSE to Cambridge: Teacher Induction</div>
+                <div class="wm-service-audience">Teachers moving to Cambridge Lower Secondary, IGCSE or A Level</div>
+              </div>
+            </div>
+            <div class="wm-ws-meta">
+              <span><i class="fa-regular fa-clock"></i> 2 hours</span>
+              <span><i class="fa-solid fa-laptop"></i> Online or in person</span>
+              <span><i class="fa-solid fa-rotate"></i> Delivered 3 times, 50+ teachers each</span>
+            </div>
+            <ul class="wm-ws-list">
+              <li>From rote to application: what changes in the classroom</li>
+              <li>Assessment objectives and command words, with past-paper practice</li>
+              <li>Curriculum planning for a Cambridge unit</li>
+              <li>Live polling and comparison challenges, not passive slides</li>
+            </ul>
+            <p class="wm-ws-takeaway"><strong>Teachers walk away with:</strong> a command-word glossary, a unit-planning template, and a 31-module self-paced follow-up path.</p>
+          </div>
+
+          <div class="wm-ws-card fade-up">
+            <div class="wm-ws-head">
+              <div class="wm-service-icon"><i class="fa-solid fa-clipboard-check"></i></div>
+              <div>
+                <div class="wm-service-title">Cambridge Exams Officer Bootcamp</div>
+                <div class="wm-service-audience">New Exams Officers and the exam office team</div>
+              </div>
+            </div>
+            <div class="wm-ws-meta">
+              <span><i class="fa-regular fa-clock"></i> 1 day, or 3 × 2-hour modules</span>
+              <span><i class="fa-solid fa-book-open"></i> Built on the Cambridge Handbook 2026</span>
+              <span><i class="fa-solid fa-check"></i> 90-minute invigilator briefing add-on</span>
+            </div>
+            <ul class="wm-ws-list">
+              <li>Entries, fees and the exam-cycle calendar</li>
+              <li>Coursework moderation, secure storage and despatch</li>
+              <li>Exam-day conduct, malpractice, special consideration</li>
+              <li>Results, post-results services and appeals — 24 scenarios, 70-question self-check</li>
+            </ul>
+            <p class="wm-ws-takeaway"><strong>Teams walk away with:</strong> a dated exam-cycle checklist for their centre and a scenario bank to rehearse before each series.</p>
+          </div>
+
+          <div class="wm-ws-card fade-up">
+            <div class="wm-ws-head">
+              <div class="wm-service-icon"><i class="fa-solid fa-robot"></i></div>
+              <div>
+                <div class="wm-service-title">AI for Educators: Practical Classroom Tools</div>
+                <div class="wm-service-audience">All teaching staff, any board</div>
+              </div>
+            </div>
+            <div class="wm-ws-meta">
+              <span><i class="fa-regular fa-clock"></i> Half day (3 hours)</span>
+              <span><i class="fa-solid fa-laptop"></i> Hands-on, bring a laptop</span>
+              <span><i class="fa-solid fa-rotate"></i> 8+ cohorts of 20+ since 2024</span>
+            </div>
+            <ul class="wm-ws-list">
+              <li>What AI can and cannot do for a teacher today</li>
+              <li>Lesson planning and differentiation with AI</li>
+              <li>Assessment and feedback: faster without losing judgement</li>
+              <li>Academic integrity and a safe-use policy for students</li>
+            </ul>
+            <p class="wm-ws-takeaway"><strong>Teachers walk away with:</strong> three tested prompts for their own subject and a department AI-use checklist.</p>
+          </div>
+
+          <div class="wm-ws-card fade-up">
+            <div class="wm-ws-head">
+              <div class="wm-service-icon"><i class="fa-solid fa-language"></i></div>
+              <div>
+                <div class="wm-service-title">Supporting Multilingual Learners (CLIL)</div>
+                <div class="wm-service-audience">Subject teachers in English-medium classrooms</div>
+              </div>
+            </div>
+            <div class="wm-ws-meta">
+              <span><i class="fa-regular fa-clock"></i> 3.5 hours, or 2 × 90-minute twilights</span>
+              <span><i class="fa-solid fa-people-group"></i> Four hands-on activities</span>
+            </div>
+            <ul class="wm-ws-list">
+              <li>Learning Design theory and the CLIL framework</li>
+              <li>Scaffolding strategies for content and language together</li>
+              <li>A real classroom case study, worked in groups</li>
+              <li>Reflection handout for follow-up in department meetings</li>
+            </ul>
+            <p class="wm-ws-takeaway"><strong>Teachers walk away with:</strong> a teaching-strategy toolkit they can apply in the next lesson.</p>
+          </div>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 36px;">
+          <a href="trainings.html" class="btn btn-outline fade-up"><i class="fa-solid fa-chalkboard-user"></i> See trainings delivered</a>
+        </div>
+
       </div>
     </section>
 
@@ -713,6 +852,7 @@
               <div class="testimonial-name">Amutha A</div>
               <div class="testimonial-role">Career Counselor</div>
               <div class="testimonial-company">The Indian Public School, Erode &amp; Salem</div>
+              <div class="testimonial-date"><i class="fa-regular fa-calendar"></i> June 2025</div>
               <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="testimonial-linkedin">
                 <i class="fa-brands fa-linkedin"></i> Recommended on LinkedIn
               </a>
@@ -729,6 +869,7 @@
               <div class="testimonial-name">Kali Prakash</div>
               <div class="testimonial-role">Director</div>
               <div class="testimonial-company">Panmayam Agro (OPC) Pvt Ltd</div>
+              <div class="testimonial-date"><i class="fa-regular fa-calendar"></i> June 2025</div>
               <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="testimonial-linkedin">
                 <i class="fa-brands fa-linkedin"></i> Recommended on LinkedIn
               </a>
@@ -794,7 +935,7 @@
           <h2 class="section-title">Let's Start a Conversation</h2>
           <p class="section-subtitle">
             <i class="fa-solid fa-circle-check" style="color: var(--color-gold); margin-right: 6px;"></i>
-            <strong style="color: var(--color-gold);">First session is free for all services.</strong>
+            <strong style="color: var(--color-gold);">The first discovery call is free for every service.</strong>
             &nbsp;Reach out below — I respond within 24 hours.
           </p>
         </div>

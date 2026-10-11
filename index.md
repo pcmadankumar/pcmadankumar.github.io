@@ -32,7 +32,7 @@ Cambridge Programme Coordinator & Educational Consultant · The CAP Accredited C
 
 Passionate educator, career counsellor, and lifelong learner dedicated to empowering students and educators alike. I coordinate Cambridge academic programmes across campuses, mentor high school students toward their undergraduate futures, and run professional development workshops for teachers. With a background spanning IT consulting at Ernst & Young and Infosys to over a decade in education, I bring a unique bridge between technology and pedagogy.
 
-**Stats:** 15+ Years of Experience · 30+ Certifications · 2 Industry Domains
+**Stats:** 15+ Years Across IT & Education · 500+ Students Mentored · 400+ Teachers Trained per Cycle · 4 Campuses
 
 > "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn." — Alvin Toffler
 
@@ -50,7 +50,7 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 - linkedin.com/in/madankumarpc
 - github.com/pcmadankumar
 
-**Key Domains:** Cambridge Education · Career Guidance · EdTech & AI · IT Consulting · Teacher Training · Student Counselling · No-Code/AI-Assisted Development
+**Key Domains:** Cambridge Education · Future Pathways (FP) Counselling · EdTech & AI · IT Consulting · Teacher Training · Student Counselling · No-Code/AI-Assisted Development
 
 ---
 
@@ -58,39 +58,54 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 
 *A journey across Education and Information Technology — 15+ years of impact, growth, and leadership.*
 
-### The Indian Public School, Erode & Salem · 10 Years 4 Months
-
-#### Member — TIPS Learning and Research Institute
-**March 2024 – Present | Erode, Tamil Nadu, India**
-
-- Creating and delivering high-quality professional development modules for teachers.
-- Developed modules on classroom management, AI for educators, assessment strategies, and competitive exam preparation guidance.
-- Identifying and shortlisting potential EdTech partners inclined towards teacher training.
-- Complete training event management — from planning to execution.
+### The Indian Public School (TIPS) · Four campuses across Tamil Nadu · December 2015 – Present · 10+ Years
 
 #### Cambridge Implementation Coordinator — HQ
 **February 2024 – Present | Tamil Nadu, India**
 
-- Plan and execute Cambridge academic programme implementations across campuses.
-- Handle curriculum quality execution and monitor the progress of Cambridge pathway in allied campuses.
-- Follow up on Cambridge updates related to new initiatives and strategise implementation.
-- Ensure policy adherence on Cambridge exam routines and teacher–student engagement.
+- Plan and execute Cambridge programme implementation across four TIPS campuses from HQ — timetabling, class groupings, teaching-completion tracking, and monthly academic coordination meetings.
+- Own teaching and learning quality on the Cambridge pathway: revision question papers, lesson follow-ups, and policy adherence on exam routines.
+- Track Cambridge updates and new initiatives and turn them into campus-level action plans.
+- **Result:** Cambridge coordination across 4 campuses; advisory support to 5 Cambridge schools.
 
-#### Head — Career Guidance and Placement Support
+#### Exam Controller — Cambridge Examinations
+**2018 – Present | Erode, Tamil Nadu, India**
+
+- Run the full Cambridge exam cycle: entries, fees and international invoices, timetabling, secure storage, exam-day conduct, results release, and post-results services.
+- Train and handhold new Exams Officers and invigilators across campuses — built the three-module Exams Officer training suite from the Cambridge Handbook 2026.
+- Lead mock exams and results analysis that feed back into teaching plans.
+- **Result:** Exam series run across 4 campuses; Exams Officers trained across campuses, latest ahead of the November 2026 series.
+
+#### Future Pathways (FP) Coordinator — Career Guidance & Placement Support
 **November 2020 – Present | Erode, Tamil Nadu, India**
 
-- Identifying academic support programmes that help in student profile development.
-- Counselling students on career pathways beyond high school — undergraduate options and beyond.
-- Streamlining career-related communication to parents.
-- Staying current on new-age careers and emerging industry trends.
+- Lead the FP counselling team: 1:1 counselling, Subject Choices Day, university fairs, student portfolios, alumni network, and college admissions support.
+- Build fact-checked advisory series used as standing references in counselling sessions.
+- Streamline career communication to parents and keep the team current on new-age careers.
+- **Result:** 500+ students guided toward undergraduate decisions; CAP-accredited and ICCC-certified.
 
-#### Exam Officer & Global Perspectives Facilitator
+#### Professional Development Coordinator (PDC) — TIPS Learning & Research Institute
+**March 2024 – Present | Erode, Tamil Nadu, India**
+
+- Part of the training team that delivers whole-school professional development to 400+ staff, two to three times a year, helping every teacher reach a 50-hour annual training target.
+- Design and deliver modules: CBSE-to-Cambridge induction, AI for educators, classroom management, assessment strategies, multilingual learners, and safeguarding.
+- Develop internal trainers, shortlist EdTech training partners, and run training events end to end with impact reporting.
+- **Result:** ISP Futures Framework training delivered 4 times to 250+ staff; CBSE-to-Cambridge induction 3 times, 50+ teachers each; AI for Educators 8+ cohorts since 2024. See [Trainings Delivered](trainings.html).
+
+#### ISP Futures Coordinator
+**2025 – Present | Tamil Nadu, India**
+
+- Coordinate two of the five ISP Futures streams — Future Pathways and Life Competencies — across all four TIPS campuses.
+- Deliver the ISP Futures Framework training to staff and align the ISP Big 5 life competencies with Cambridge delivery.
+- **Result:** 2 streams owned across 4 campuses; Futures Framework training delivered 4 times to 250+ staff.
+
+#### Global Perspectives Facilitator & Exam Officer
 **March 2018 – November 2020 · 2 Years 9 Months | Erode, Tamil Nadu, India**
 
 - Handled Global Perspectives (GP) for Grade 9 and above, alongside Computer Science.
 - Promoted to Exam Officer role to conduct and oversee official Cambridge board examinations.
 - Provided pivotal facilitator support in securing Cambridge Outstanding Top In India awards for IGCSE Global Perspectives.
-- Cambridge certified Exam Officer with experience in solving exam-related issues across three campuses — Erode, Salem and Trichy.
+- Cambridge certified Exam Officer, resolving exam-related issues across the TIPS campuses.
 - Part of many Cambridge training sessions and Cambridge community meets in South India — both as delegate and presenter.
 
 #### Computer Science Facilitator & Subject Matter Expert
@@ -187,9 +202,10 @@ Lifelong Learning · Learning Standards · Life Skills · Sketch Noting · Criti
 | Achievement | Organisation | Year |
 |---|---|---|
 | Promoted to Exam Officer | Cambridge Assessment International Education | 2018 |
-| Head — Career Guidance & Placement Support | The Indian Public School, Erode | 2020 |
+| Future Pathways (FP) Coordinator — Career Guidance & Placement Support | The Indian Public School, Erode | 2020 |
 | Cambridge Implementation Coordinator — HQ | The Indian Public School | 2024 |
-| Member — TIPS Learning and Research Institute | The Indian Public School | 2024 |
+| Professional Development Coordinator (PDC) — TIPS Learning and Research Institute | The Indian Public School | 2024 |
+| Cambridge Outstanding Learner Awards — Top in India, IGCSE Global Perspectives (facilitator) | Cambridge Assessment International Education | 2018–2020 |
 | CAP Accredited Counsellor | Counsellor Accreditation Programme (CAP) — Times Higher Education | Ongoing |
 | Contributor — Cambridge Collaborative Action Groups | Cambridge Assessment International Education | Ongoing |
 
@@ -284,7 +300,7 @@ Lifelong Learning · Learning Standards · Life Skills · Sketch Noting · Criti
 
 A build-to-learn effort that grew into a fully deployed personal portfolio website on GitHub Pages — showcasing professional experience, skills, certifications, and achievements sourced from a LinkedIn profile export. The site is dark-themed, mobile-responsive, and features smooth scroll animations built entirely with vanilla HTML, CSS, and JavaScript. Deployed via a one-command Windows .bat script with no frameworks, no build tools, and zero hosting cost.
 
-### Dhuruv 4.0 — Personal Management System
+### Dhruv 5.0 — Personal OS
 **Tech:** React, TypeScript, Node.js, SQLite, Tesseract.js, Tailwind CSS | Demo available on request
 
 Locally hosted personal management system covering Contacts, Calendar, Finance, Goals, Tasks, Notes, and Dashboard.

@@ -1,6 +1,6 @@
 # llms.txt — Madan Kumar PC | Portfolio
 # https://pcmadankumar.github.io
-# Last updated: 2026-04-12
+# Last updated: 2026-10-11
 
 ## About This Site
 
@@ -25,22 +25,37 @@ and information technology.
 
 ---
 
-## Current Roles (as of 2026)
+## Current Roles (as of October 2026)
+
+The Indian Public School (TIPS) has four campuses in Tamil Nadu (Erode HQ, Salem, Trichy and a fourth campus).
 
 1. Cambridge Implementation Coordinator — HQ
-   Organisation: The Indian Public School (Erode, Salem & Trichy Campuses)
+   Organisation: The Indian Public School (all four campuses)
    Since: February 2024
-   Scope: Plans and executes Cambridge academic programme implementations across multiple campuses.
+   Scope: Plans and executes Cambridge academic programme implementation across four campuses; advisory support to 5 Cambridge schools.
 
-2. Head — Career Guidance and Placement Support
-   Organisation: The Indian Public School, Erode
+2. Exam Controller — Cambridge Examinations
+   Organisation: The Indian Public School
+   Since: 2018
+   Scope: Runs the full Cambridge exam cycle; trains new Exams Officers and invigilators.
+
+3. Future Pathways (FP) Coordinator — Career Guidance and Placement Support
+   Organisation: The Indian Public School (all four campuses)
    Since: November 2020
-   Scope: Leads the team supporting high school students in undergraduate placement and career counselling.
+   Scope: Leads the FP counselling team; 500+ students guided toward undergraduate decisions.
 
-3. Member — TIPS Learning and Research Institute
+4. Professional Development Coordinator (PDC) — TIPS Learning and Research Institute
    Organisation: The Indian Public School
    Since: March 2024
-   Scope: Creates and delivers professional development modules for educators on AI, classroom management, and assessment.
+   Scope: Part of the training team that delivers whole-school professional development to 400+ staff two to three
+   times a year, helping every teacher reach a 50-hour annual training target. ISP Futures Framework training
+   delivered 4 times to 250+ staff; CBSE-to-Cambridge induction 3 times, 50+ teachers each; AI for Educators in
+   8+ cohorts of 20+ since 2024. See https://pcmadankumar.github.io/trainings.html
+
+5. ISP Futures Coordinator
+   Organisation: International Schools Partnership (ISP) / The Indian Public School
+   Since: 2025
+   Scope: Owns two of the five ISP Futures streams — Future Pathways and Life Competencies — across four campuses.
 
 ---
 
@@ -49,10 +64,13 @@ and information technology.
 Madan Kumar PC has worked across two distinct industries:
 
 ### Education (10+ years — 2015 to present)
-- The Indian Public School, Erode & Salem (10 years 4 months)
+- The Indian Public School, four campuses (10+ years, Dec 2015–present)
   - Cambridge Implementation Coordinator — HQ (Feb 2024–present)
-  - Head, Career Guidance & Placement Support (Nov 2020–present)
-  - Exam Officer & Global Perspectives Facilitator (Mar 2018–Nov 2020)
+  - Exam Controller — Cambridge Examinations (2018–present)
+  - Future Pathways (FP) Coordinator — Career Guidance & Placement Support (Nov 2020–present)
+  - Professional Development Coordinator (PDC), TIPS Learning and Research Institute (Mar 2024–present)
+  - ISP Futures Coordinator (2025–present)
+  - Global Perspectives Facilitator & Exam Officer (Mar 2018–Nov 2020)
   - Computer Science Facilitator & Subject Matter Expert (Dec 2015–Mar 2018)
 
 ### Information Technology (5 years — 2011 to 2015)
@@ -107,9 +125,10 @@ Languages: Tamil (Native / Bilingual), English (Full Professional), Malayalam (E
 ## Key Achievements
 
 - Promoted to Cambridge Exam Officer (2018) — recognised for excellence as a Computer Science facilitator
-- Appointed Head of Career Guidance & Placement Support (2020) — leads undergraduate placement team
-- Appointed Cambridge Implementation Coordinator — HQ (2024) — oversees multiple allied campuses
-- Selected as Member, TIPS Learning and Research Institute (2024) — educator professional development
+- Appointed Future Pathways (FP) Coordinator — Career Guidance & Placement Support (2020) — 500+ students guided
+- Appointed Cambridge Implementation Coordinator — HQ (2024) — oversees all four campuses
+- Appointed Professional Development Coordinator (PDC), TIPS Learning and Research Institute (2024) — training team for 400+ staff
+- Facilitator for IGCSE Global Perspectives learners who won Cambridge Outstanding Learner Awards — Top in India (2018–2020)
 - Holds CAP Accreditation for student counselling and career guidance
 - Contributor to Cambridge Collaborative Action Groups for affiliated school decisions
 
@@ -121,8 +140,9 @@ Personal Portfolio Website — https://pcmadankumar.github.io
   A build-to-learn project; dark-themed, mobile-responsive static site deployed on GitHub Pages.
   Tech: HTML5, CSS3, JavaScript.
 
-Dhuruv 4.0 — locally hosted personal management system (Contacts, Calendar, Finance, Goals, Tasks, Notes, Dashboard).
-  Tech: React, TypeScript, Node.js, SQLite, Tesseract.js, Tailwind CSS.
+Dhruv 5.0 — locally hosted personal operating system with ten modules (Daily Anchor, Dashboard, Health, Notes & Journal,
+  Calendar, Tasks, Goals, Finance, Leaves, Contacts).
+  Tech: Electron, React, TypeScript, SQLite, Tesseract.js, Tailwind CSS.
   Demo available on request.
 
 Markdown Viewer (Mark) — standalone Windows desktop Markdown viewer and exporter.
@@ -202,6 +222,9 @@ Pragat — Evidence Portfolio — standalone Windows desktop application for pro
 | Certifications | https://pcmadankumar.github.io/certifications.html | Professional certifications |
 | Testimonials | https://pcmadankumar.github.io/testimonials.html | LinkedIn recommendations |
 | Work Projects | https://pcmadankumar.github.io/work_projects.html | Built projects with descriptions |
+| Trainings Delivered | https://pcmadankumar.github.io/trainings.html | Trainings delivered: audience, participants, dates |
+| Work with Me | https://pcmadankumar.github.io/work-with-me.html | Services, signature workshops, FAQ |
+| Resources | https://pcmadankumar.github.io/resources.html | Cambridge teaching packs |
 | Contact | https://pcmadankumar.github.io/contact.html | Contact details and form |
 
 ---
