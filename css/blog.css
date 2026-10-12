@@ -83,6 +83,24 @@
   border-color: var(--color-gold);
   color: var(--color-gold);
 }
+.blog-category-filters { margin-bottom: 10px; }
+.cat-filter-btn {
+  font-size: 0.86rem;
+  padding: 7px 16px;
+  border-radius: 10px;
+  color: var(--color-text, #e8e8e8);
+}
+.cat-filter-btn .cat-count {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 7px;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--color-muted);
+}
+.cat-filter-btn.active { background: rgba(201, 168, 76, 0.14); }
+.cat-filter-btn.active .cat-count { background: var(--color-gold); color: #0a0a0a; }
 
 /* Result count */
 .blog-result-count {

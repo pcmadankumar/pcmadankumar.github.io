@@ -8,11 +8,18 @@
   var filtered = [];
   var currentPage = 1;
   var activeTag = null;
+  var activeCategory = null;
+  var CATEGORIES = [
+    { key: 'futurepathways', label: 'Future Pathways' },
+    { key: 'training',       label: 'Training' },
+    { key: 'mindset',        label: 'Mindset & Productivity' }
+  ];
 
   var grid       = document.getElementById('blog-grid');
   var pagination = document.getElementById('blog-pagination');
   var searchEl   = document.getElementById('blog-search');
   var tagFilters = document.getElementById('tag-filters');
+  var catFilters = document.getElementById('category-filters');
   var countEl    = document.getElementById('blog-result-count');
 
   if (!grid) return;
@@ -20,11 +27,10 @@
   fetch('posts.json')
     .then(function (r) { return r.json(); })
     .then(function (posts) {
-      /* student and parent guides live on Future Pathways; list the rest here */
-      posts = posts.filter(function (p) { return p.audience !== 'students'; });
       allPosts = posts.sort(function (a, b) {
         return new Date(b.date) - new Date(a.date);
       });
+      buildCategoryFilters();
       buildTagFilters();
       applyFilters();
     })
@@ -32,12 +38,52 @@
       grid.innerHTML = '<div class="blog-empty"><i class="fa-solid fa-circle-exclamation"></i><p>Could not load posts.</p></div>';
     });
 
+  function buildCategoryFilters() {
+    if (!catFilters) return;
+    var counts = {};
+    allPosts.forEach(function (p) { counts[p.category] = (counts[p.category] || 0) + 1; });
+    catFilters.innerHTML = '<span class="tag-filter-label">Category:</span>';
+    var allBtn = makeCatBtn('All', allPosts.length, true);
+    allBtn.addEventListener('click', function () { setCategory(null, allBtn); });
+    catFilters.appendChild(allBtn);
+    CATEGORIES.forEach(function (c) {
+      if (!counts[c.key]) return;
+      var btn = makeCatBtn(c.label, counts[c.key], false);
+      btn.addEventListener('click', function () { setCategory(c.key, btn); });
+      catFilters.appendChild(btn);
+    });
+  }
+
+  function makeCatBtn(label, count, isActive) {
+    var btn = document.createElement('button');
+    btn.className = 'tag-filter-btn cat-filter-btn' + (isActive ? ' active' : '');
+    btn.innerHTML = escHtml(label) + ' <span class="cat-count">' + count + '</span>';
+    return btn;
+  }
+
+  function setCategory(key, btn) {
+    activeCategory = key;
+    activeTag = null;
+    catFilters.querySelectorAll('.cat-filter-btn').forEach(function (b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+    tagFilters.classList.remove('expanded');
+    buildTagFilters();
+    currentPage = 1;
+    applyFilters();
+  }
+
+  function postsInCategory() {
+    return activeCategory
+      ? allPosts.filter(function (p) { return p.category === activeCategory; })
+      : allPosts;
+  }
+
   function buildTagFilters() {
     /* C12: order tags by post count, show top 8, tuck the rest
-       behind a "+ N more" expander */
+       behind a "+ N more" expander. Tags come from the active category only. */
     var TOP_TAGS = 8;
     var counts = {};
-    allPosts.forEach(function (p) {
+    postsInCategory().forEach(function (p) {
       p.tags.forEach(function (t) { counts[t] = (counts[t] || 0) + 1; });
     });
     var tags = Object.keys(counts).sort(function (a, b) {
@@ -95,7 +141,7 @@
 
   function applyFilters() {
     var q = searchEl ? searchEl.value.toLowerCase().trim() : '';
-    filtered = allPosts.filter(function (post) {
+    filtered = postsInCategory().filter(function (post) {
       var matchTag = !activeTag || post.tags.indexOf(activeTag) !== -1;
       var matchSearch = !q ||
         post.title.toLowerCase().indexOf(q) !== -1 ||
@@ -132,7 +178,7 @@
         ? '<a href="' + post.file + '" tabindex="-1" aria-hidden="true"><picture><source type="image/webp" srcset="../' + escHtml(toWebp(post.image)) + '"><img class="blog-card-thumb" src="../' + escHtml(post.image) + '" alt="' + escHtml(post.title) + '" loading="lazy"></picture></a>'
         : '';
 
-      return '<article class="blog-card fade-up">' +
+      return '<article class="blog-card fade-up" data-category="' + escHtml(post.category || '') + '">' +
         thumbHtml +
         '<div class="blog-card-body">' +
         '<div class="blog-card-meta">' +

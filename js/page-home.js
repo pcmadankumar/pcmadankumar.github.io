@@ -8,7 +8,6 @@
     fetch('blog/posts.json')
       .then(function(r) { return r.json(); })
       .then(function(posts) {
-        posts = posts.filter(function(p) { return p.audience !== 'students'; });
         posts.sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
         var top3 = posts.slice(0, 3);
         grid.innerHTML = top3.map(function(p) {

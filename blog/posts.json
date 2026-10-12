@@ -1,5 +1,22 @@
 [
   {
+    "id": "everyone-talks-everyone-learns",
+    "title": "Everyone Talks, Everyone Learns",
+    "date": "2026-10-12",
+    "excerpt": "Three hands go up. The same three as yesterday. One child answers and the rest watch. Four articles on oracy — two by Tom Sherrington, one from the Blackpool Research School, one written for Indian schools — say the same thing: if talking helps learning, everyone needs to talk. What they taught me, and five moves to try tomorrow.",
+    "tags": [
+      "Pick, Learn and Share",
+      "Article Reflection",
+      "Teacher Training",
+      "Oracy",
+      "Classroom Practice"
+    ],
+    "readTime": 6,
+    "image": "assets/blog/everyone-talks-everyone-learns/hero.jpg",
+    "file": "posts/everyone-talks-everyone-learns.html",
+    "category": "training"
+  },
+  {
     "id": "university-spotlight-caltech",
     "title": "University Spotlight: Caltech — Virtual Tour Guide",
     "date": "2026-07-07",
@@ -13,7 +30,8 @@
     "readTime": 15,
     "image": "assets/blog/university-spotlight-caltech/hero.png",
     "file": "posts/university-spotlight-caltech.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/universities/caltech/"
   },
   {
     "id": "university-spotlight-eth-zurich",
@@ -29,7 +47,8 @@
     "readTime": 15,
     "image": "assets/blog/university-spotlight-eth-zurich/hero.png",
     "file": "posts/university-spotlight-eth-zurich.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/universities/eth-zurich/"
   },
   {
     "id": "two-numbers-that-should-keep-us-awake",
@@ -48,7 +67,8 @@
     "readTime": 9,
     "image": "assets/blog/two-numbers-that-should-keep-us-awake/hero.jpg",
     "file": "posts/two-numbers-that-should-keep-us-awake.html",
-    "audience": "counsellors"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/two-numbers-that-should-keep-us-awake/"
   },
   {
     "id": "study-abroad-rethink",
@@ -65,7 +85,8 @@
     "readTime": 8,
     "image": "assets/blog/study-abroad-rethink/hero.jpg",
     "file": "posts/study-abroad-rethink.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/countries/the-rupee-the-visa-and-the-rethink/"
   },
   {
     "id": "the-cartoon-ape-that-cost-a-million-dollars",
@@ -82,7 +103,8 @@
     "readTime": 7,
     "image": "assets/blog/the-cartoon-ape-that-cost-a-million-dollars/hero.jpg",
     "file": "posts/the-cartoon-ape-that-cost-a-million-dollars.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/the-cartoon-ape-that-cost-a-million-dollars/"
   },
   {
     "id": "germany-undergraduate-admissions",
@@ -99,7 +121,8 @@
     "readTime": 13,
     "image": "assets/blog/germany-undergraduate-admissions/hero.jpg",
     "file": "posts/germany-undergraduate-admissions.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/countries/germany-undergraduate-admissions/"
   },
   {
     "id": "university-spotlight-ucl",
@@ -115,7 +138,8 @@
     "readTime": 15,
     "image": "assets/blog/university-spotlight-ucl/hero.jpg",
     "file": "posts/university-spotlight-ucl.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/universities/ucl/"
   },
   {
     "id": "university-spotlight-stanford",
@@ -131,7 +155,8 @@
     "readTime": 15,
     "image": "assets/blog/university-spotlight-stanford/hero.jpg",
     "file": "posts/university-spotlight-stanford.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/universities/stanford-university/"
   },
   {
     "id": "university-spotlight-cambridge",
@@ -147,7 +172,8 @@
     "readTime": 18,
     "image": "assets/blog/university-spotlight-cambridge/hero.jpg",
     "file": "posts/university-spotlight-cambridge.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/universities/university-of-cambridge/"
   },
   {
     "id": "university-spotlight-harvard",
@@ -163,7 +189,8 @@
     "readTime": 16,
     "image": "assets/blog/university-spotlight-harvard/hero.jpg",
     "file": "posts/university-spotlight-harvard.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/universities/harvard-university/"
   },
   {
     "id": "university-spotlight-oxford",
@@ -179,7 +206,8 @@
     "readTime": 16,
     "image": "assets/blog/university-spotlight-oxford/hero.jpg",
     "file": "posts/university-spotlight-oxford.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/universities/university-of-oxford/"
   },
   {
     "id": "university-spotlight-icl",
@@ -195,7 +223,8 @@
     "readTime": 15,
     "image": "assets/blog/university-spotlight-icl/hero.jpg",
     "file": "posts/university-spotlight-icl.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/universities/imperial-college-london/"
   },
   {
     "id": "university-spotlight-mit",
@@ -211,7 +240,8 @@
     "readTime": 14,
     "image": "assets/blog/university-spotlight-mit/hero.jpg",
     "file": "posts/university-spotlight-mit.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/universities/mit/"
   },
   {
     "id": "university-spotlight-nus",
@@ -227,7 +257,8 @@
     "readTime": 13,
     "image": "assets/blog/university-spotlight-nus/hero.jpg",
     "file": "posts/university-spotlight-nus.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/universities/nus/"
   },
   {
     "id": "data-new-currency",
@@ -244,7 +275,8 @@
     "readTime": 14,
     "image": "assets/blog/data-new-currency/hero.jpg",
     "file": "posts/data-new-currency.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/data-the-new-currency-of-the-modern-world/"
   },
   {
     "id": "process-to-outcomes",
@@ -261,7 +293,7 @@
     "readTime": 9,
     "image": "assets/blog/process-to-outcomes/hero.jpg",
     "file": "posts/process-to-outcomes.html",
-    "audience": "counsellors"
+    "category": "futurepathways"
   },
   {
     "id": "chemical-engineering-why-research-matters",
@@ -278,7 +310,8 @@
     "readTime": 12,
     "image": "assets/blog/chemical-engineering-why-research-matters/hero.jpg",
     "file": "posts/chemical-engineering-why-research-matters.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/chemical-engineering-and-why-research-matters/"
   },
   {
     "id": "inside-iit-bombay-jee-advanced",
@@ -296,7 +329,8 @@
     "readTime": 8,
     "image": "assets/blog/inside-iit-bombay-jee-advanced/hero.jpg",
     "file": "posts/inside-iit-bombay-jee-advanced.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/universities/inside-iit-bombay/"
   },
   {
     "id": "built-for-this",
@@ -312,7 +346,8 @@
     "readTime": 7,
     "image": "assets/blog/built-for-this/hero.jpg",
     "file": "posts/built-for-this.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/built-for-this/"
   },
   {
     "id": "mae-sports-education-student-athletes",
@@ -329,7 +364,8 @@
     "readTime": 9,
     "image": "assets/blog/mae-sports-education-student-athletes/hero.jpg",
     "file": "posts/mae-sports-education-student-athletes.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/opportunities/us-athletic-scholarships-for-student-athletes/"
   },
   {
     "id": "psychology-of-career-decisions",
@@ -345,7 +381,8 @@
     "readTime": 10,
     "image": "assets/blog/psychology-of-career-decisions/hero.jpg",
     "file": "posts/psychology-of-career-decisions.html",
-    "audience": "counsellors"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/the-psychology-of-career-decisions/"
   },
   {
     "id": "critical-thinking-career-counselling",
@@ -361,7 +398,8 @@
     "readTime": 8,
     "image": "assets/blog/critical-thinking-career-counselling/hero.jpg",
     "file": "posts/critical-thinking-career-counselling.html",
-    "audience": "counsellors"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/critical-thinking-in-career-counselling/"
   },
   {
     "id": "making-the-most-of-a-campus-visit",
@@ -377,7 +415,7 @@
     "readTime": 7,
     "image": "assets/blog/making-the-most-of-a-campus-visit/hero.jpg",
     "file": "posts/making-the-most-of-a-campus-visit.html",
-    "audience": "counsellors"
+    "category": "futurepathways"
   },
   {
     "id": "ucas-personal-statements-guide",
@@ -394,7 +432,8 @@
     "readTime": 6,
     "image": "assets/blog/ucas-personal-statements-guide/hero.jpg",
     "file": "posts/ucas-personal-statements-guide.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/countries/ucas-personal-statements/"
   },
   {
     "id": "ai-relevance-in-industry-dynamics",
@@ -411,7 +450,8 @@
     "readTime": 7,
     "image": "assets/blog/ai-relevance-in-industry-dynamics/hero.jpg",
     "file": "posts/ai-relevance-in-industry-dynamics.html",
-    "audience": "counsellors"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/relevance-of-ai-in-industry-5-takeaways/"
   },
   {
     "id": "psychometric-tests-what-students-need-to-know",
@@ -428,7 +468,8 @@
     "readTime": 5,
     "image": "assets/blog/psychometric-tests-what-students-need-to-know/hero.jpg",
     "file": "posts/psychometric-tests-what-students-need-to-know.html",
-    "audience": "counsellors"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/psychometric-tests/"
   },
   {
     "id": "econometrics-for-career-counsellors",
@@ -445,7 +486,8 @@
     "readTime": 10,
     "image": "assets/blog/econometrics-for-career-counsellors/hero.jpg",
     "file": "posts/econometrics-for-career-counsellors.html",
-    "audience": "counsellors"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/econometrics-and-career-pathways/"
   },
   {
     "id": "econometrics-in-the-classroom",
@@ -462,7 +504,7 @@
     "readTime": 10,
     "image": "assets/blog/econometrics-in-the-classroom/hero.jpg",
     "file": "posts/econometrics-in-the-classroom.html",
-    "audience": "teachers"
+    "category": "training"
   },
   {
     "id": "you-are-your-only-competition",
@@ -478,7 +520,8 @@
     "readTime": 6,
     "image": "assets/blog/you-are-your-only-competition/mirror.webp",
     "file": "posts/you-are-your-only-competition.html",
-    "audience": "general"
+    "category": "mindset",
+    "canonical": "https://futurepathways.github.io/careers/you-are-your-only-competition/"
   },
   {
     "id": "getting-started-with-cambridge-curriculum",
@@ -493,7 +536,7 @@
     "readTime": 5,
     "image": "assets/blog/getting-started-with-cambridge-curriculum/hero.jpg",
     "file": "posts/getting-started-with-cambridge-curriculum.html",
-    "audience": "teachers"
+    "category": "training"
   },
   {
     "id": "ai-in-education-what-teachers-need-to-know",
@@ -508,7 +551,7 @@
     "readTime": 7,
     "image": "assets/blog/ai-in-education-what-teachers-need-to-know/hero.jpg",
     "file": "posts/ai-in-education-what-teachers-need-to-know.html",
-    "audience": "teachers"
+    "category": "training"
   },
   {
     "id": "career-counselling-tips-for-high-school-students",
@@ -523,7 +566,8 @@
     "readTime": 6,
     "image": "assets/blog/career-counselling-tips-for-high-school-students/hero.jpg",
     "file": "posts/career-counselling-tips-for-high-school-students.html",
-    "audience": "students"
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/10-career-counselling-tips/"
   },
   {
     "id": "scrolling-vs-studying-dopamine-detox",
@@ -539,7 +583,8 @@
     "readTime": 9,
     "image": "assets/blog/scrolling-vs-studying/hero.jpg",
     "file": "posts/scrolling-vs-studying-dopamine-detox.html",
-    "audience": "students"
+    "category": "mindset",
+    "canonical": "https://futurepathways.github.io/careers/scrolling-vs-studying-dopamine-detox/"
   },
   {
     "id": "your-digital-stuff-is-a-mess-lets-fix-it",
@@ -555,6 +600,7 @@
     "readTime": 6,
     "image": "assets/blog/digital-stuff/hero.jpg",
     "file": "posts/your-digital-stuff-is-a-mess-lets-fix-it.html",
-    "audience": "students"
+    "category": "mindset",
+    "canonical": "https://futurepathways.github.io/careers/your-digital-stuff-is-a-mess/"
   }
 ]

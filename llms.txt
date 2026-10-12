@@ -225,8 +225,9 @@ Pragat — Evidence Portfolio — standalone Windows desktop application for pro
 
 Future Pathways — https://futurepathways.github.io/ — is the careers, courses, countries, universities and
 opportunities guidance site built, written and run by Madan Kumar PC for students in Grades 6 to 12 and their
-parents. The student and parent guides that began on this blog (university virtual tours, admissions guides,
-career posts) are published there. This portfolio's blog now lists posts for teachers, counsellors and school leaders.
+parents. The student and parent guides on this blog are also published there, and each such post here carries a
+canonical link to its Future Pathways copy. The blog is organised in three categories: Future Pathways, Training,
+and Mindset & Productivity.
 
 ## Site Pages
 
