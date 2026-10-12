@@ -173,14 +173,14 @@ ISP University Virtual Tour Series — 12-part advisory series profiling QS Glob
 Multilingualism Teacher Training Workshop — 75-slide professional development workshop on supporting
   multilingual learners; covers Learning Design theory, the CLIL framework, and classroom scaffolding.
   Includes a classroom case study, four activities, a strategy toolkit, and a reflection handout.
-  Runs as a 3.5-hour session or two 90-minute twilight sessions.
+  Runs as a 3.5-hour session or two twilight sessions.
 
 Safeguarding Teacher Training Presentation — professional development session on student safeguarding
   built to ISP compliance requirements, covering safeguarding responsibilities and reporting procedures.
 
 CBSE to Cambridge Teacher Induction Programme — interactive 2-hour online induction for teachers moving
   from CBSE to the Cambridge curriculum; covers application-based pedagogy, assessment and command words,
-  and curriculum planning, delivered with live polling. Being expanded into a 31-module induction series.
+  and curriculum planning, delivered with live polling. Being expanded into a self-paced induction series in Microsoft Teams.
 
 Cambridge Exams Officer Training Modules — three-module training suite for new Cambridge Exams Officers,
   developed from the Cambridge Handbook 2026 and a 20-question scoping survey. Covers entries and fees,

@@ -25,7 +25,7 @@ stats:
   years_in_education: "10+"
   certifications: "30+"
   campuses: 4
-  teachers_trained_per_cycle: "400+"
+  staff_trained_per_cycle: "400+"
   students_mentored: "500+"
   industry_domains: 2
 
@@ -419,7 +419,7 @@ projects:
       75-slide professional development workshop on supporting multilingual learners, covering Learning
       Design theory, the CLIL framework, and classroom scaffolding. Includes a classroom case study,
       four activities, a strategy toolkit, and a reflection handout. Runs as a 3.5-hour session or
-      two 90-minute twilight sessions.
+      two twilight sessions.
   - name: Safeguarding Teacher Training Presentation
     tech: [Safeguarding, "ISP Compliance", "Teacher Training", "Reporting Procedures"]
     period: "2026 – Present"
@@ -433,7 +433,7 @@ projects:
     description: >
       Interactive 2-hour online induction for teachers moving from CBSE to the Cambridge curriculum,
       covering application-based pedagogy, assessment and command words, and curriculum planning,
-      delivered with live polling. Being expanded into a 31-module induction series.
+      delivered with live polling. Being expanded into a self-paced induction series in Microsoft Teams.
   - name: Cambridge Exams Officer Training Modules
     tech: ["Cambridge Handbook 2026", "Exam Administration", "Scenario-Based Learning"]
     period: "2026 – Present"

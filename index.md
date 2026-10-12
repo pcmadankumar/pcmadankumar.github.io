@@ -32,7 +32,7 @@ Cambridge Programme Coordinator & Educational Consultant · The CAP Accredited C
 
 Passionate educator, career counsellor, and lifelong learner dedicated to empowering students and educators alike. I coordinate Cambridge academic programmes across campuses, mentor high school students toward their undergraduate futures, and run professional development workshops for teachers. With a background spanning IT consulting at Ernst & Young and Infosys to over a decade in education, I bring a unique bridge between technology and pedagogy.
 
-**Stats:** 15+ Years Across IT & Education · 500+ Students Mentored · 400+ Teachers Trained per Cycle · 4 Campuses
+**Stats:** 15+ Years Across IT & Education · 500+ Students Mentored · 400+ Staff Trained per Cycle · 4 Campuses
 
 > "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn." — Alvin Toffler
 
@@ -333,7 +333,7 @@ A 12-part advisory series profiling the world's top universities — covering ac
 ### Multilingualism Teacher Training Workshop
 **Focus:** CLIL Framework, Learning Design, Scaffolding Strategies | **Period:** 2026 – Present
 
-A 75-slide professional development workshop helping teachers support multilingual learners, covering Learning Design theory, the CLIL framework, and classroom scaffolding strategies. Includes a real classroom case study, four hands-on activities, a teaching-strategy toolkit, and a companion reflection handout. Structured as a 3.5-hour in-person session or two 90-minute twilight sessions.
+A 75-slide professional development workshop helping teachers support multilingual learners, covering Learning Design theory, the CLIL framework, and classroom scaffolding strategies. Includes a real classroom case study, four hands-on activities, a teaching-strategy toolkit, and a companion reflection handout. Structured as a 3.5-hour in-person session or split across two twilight sessions.
 
 ### Safeguarding Teacher Training Presentation
 **Focus:** Safeguarding, ISP Compliance, Reporting Procedures | **Period:** 2026 – Present
@@ -343,7 +343,7 @@ A professional development presentation on student safeguarding, built to meet I
 ### CBSE to Cambridge Teacher Induction Programme
 **Focus:** Cambridge Curriculum, Command Words, Curriculum Planning | **Period:** 2026 – Present
 
-An interactive 2-hour induction session for teachers transitioning from the CBSE board to the Cambridge curriculum, covering the shift from rote learning to application-based pedagogy, assessment and command words, and curriculum planning. Delivered online using live polling and comparison-challenge activities. Now being expanded into a 31-module induction series.
+An interactive 2-hour induction session for teachers transitioning from the CBSE board to the Cambridge curriculum, covering the shift from rote learning to application-based pedagogy, assessment and command words, and curriculum planning. Delivered online using live polling and comparison-challenge activities. Now being expanded into a self-paced induction series in Microsoft Teams for deeper onboarding.
 
 ### Cambridge Exams Officer Training Modules
 **Focus:** Exam Administration, Scenario-Based Learning | **Period:** 2026 – Present
