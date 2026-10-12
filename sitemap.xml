@@ -50,14 +50,26 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://pcmadankumar.github.io/trainings.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://pcmadankumar.github.io/training/delivered.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pcmadankumar.github.io/future-pathways.html</loc>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pcmadankumar.github.io/testimonials.html</loc>
     <lastmod>2026-06-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pcmadankumar.github.io/training/index.html</loc>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

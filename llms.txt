@@ -48,13 +48,19 @@ The Indian Public School (TIPS) has four campuses in Tamil Nadu (Erode HQ, Salem
    Organisation: The Indian Public School
    Since: March 2024
    Scope: Part of the training team that delivers whole-school professional development to 400+ staff two to three
-   times a year, helping every teacher reach a 50-hour annual training target. ISP Futures Framework training
-   delivered 4 times to 250+ staff; CBSE-to-Cambridge induction 3 times, 50+ teachers each; AI for Educators in
-   8+ cohorts of 20+ since 2024. See https://pcmadankumar.github.io/trainings.html
+   times a year (Training Nexus cycles in May, September and December), helping every teacher reach a 50-hour
+   annual training target. Role: planning sessions, stay-and-training logistics across four campuses, and training
+   topics. Latest cycle 480+ staff (25–26 September 2026). May 2026 cycle impact: 2,500+ feedback responses,
+   teacher confidence 7.1 → 9.0 out of 10, NPS 80, 9.3/10 would recommend. Campus-level training data analysis each
+   cycle; co-authored the six-pillar PD framework and the trainer benefit policy; part of the editing and design team
+   of the monthly training newsletter. Futures Framework training delivered 4 times to 250+ staff; CBSE-to-Cambridge
+   induction 3 times, 50+ teachers each; AI for Educators in 8+ cohorts of 20+ since 2024, plus an open session in
+   February 2025 for 123 participants; LinkedIn branding workshop for 30 trainers (February 2026); School Support Hub
+   session (May 2026). See https://pcmadankumar.github.io/training/delivered.html
 
 5. ISP Futures Coordinator
    Organisation: International Schools Partnership (ISP) / The Indian Public School
-   Since: 2025
+   Since: June 2025
    Scope: Owns two of the five ISP Futures streams — Future Pathways and Life Competencies — across four campuses.
 
 ---
@@ -69,7 +75,7 @@ Madan Kumar PC has worked across two distinct industries:
   - Exam Controller — Cambridge Examinations (2018–present)
   - Future Pathways (FP) Coordinator — Career Guidance & Placement Support (Nov 2020–present)
   - Professional Development Coordinator (PDC), TIPS Learning and Research Institute (Mar 2024–present)
-  - ISP Futures Coordinator (2025–present)
+  - ISP Futures Coordinator (June 2025–present)
   - Global Perspectives Facilitator & Exam Officer (Mar 2018–Nov 2020)
   - Computer Science Facilitator & Subject Matter Expert (Dec 2015–Mar 2018)
 
@@ -128,7 +134,7 @@ Languages: Tamil (Native / Bilingual), English (Full Professional), Malayalam (E
 - Appointed Future Pathways (FP) Coordinator — Career Guidance & Placement Support (2020) — 500+ students guided
 - Appointed Cambridge Implementation Coordinator — HQ (2024) — oversees all four campuses
 - Appointed Professional Development Coordinator (PDC), TIPS Learning and Research Institute (2024) — training team for 400+ staff
-- Facilitator for IGCSE Global Perspectives learners who won Cambridge Outstanding Learner Awards — Top in India (2018–2020)
+- Facilitator for IGCSE Global Perspectives learners who won Cambridge Outstanding Learner Awards — Top in India (November 2021 and November 2022 series)
 - Holds CAP Accreditation for student counselling and career guidance
 - Contributor to Cambridge Collaborative Action Groups for affiliated school decisions
 
@@ -170,6 +176,11 @@ ISP University Virtual Tour Series — 12-part advisory series profiling QS Glob
   (MIT, Caltech, Yale, Princeton and others) across academics, admissions, and student life, plus an
   NUS/NTU admissions addendum. Used as a standing reference for Future Pathway counselling at TIPS.
 
+Professional Development Analytics & the Six-Pillar Framework — training-hours dashboards per campus, honour rolls,
+  a six-pillar classification of ~1,000 external trainings, and a post-session impact model (confidence before/after
+  paired with NPS). Co-authored the six-pillar PD framework and the trainer benefit policy. May 2026 cycle: 2,500+
+  responses, confidence 7.1 → 9.0, NPS 80.
+
 Multilingualism Teacher Training Workshop — 75-slide professional development workshop on supporting
   multilingual learners; covers Learning Design theory, the CLIL framework, and classroom scaffolding.
   Includes a classroom case study, four activities, a strategy toolkit, and a reflection handout.
@@ -210,6 +221,13 @@ Pragat — Evidence Portfolio — standalone Windows desktop application for pro
 
 ---
 
+## Future Pathways (separate site)
+
+Future Pathways — https://futurepathways.github.io/ — is the careers, courses, countries, universities and
+opportunities guidance site built, written and run by Madan Kumar PC for students in Grades 6 to 12 and their
+parents. The student and parent guides that began on this blog (university virtual tours, admissions guides,
+career posts) are published there. This portfolio's blog now lists posts for teachers, counsellors and school leaders.
+
 ## Site Pages
 
 | Page | URL | Description |
@@ -222,7 +240,9 @@ Pragat — Evidence Portfolio — standalone Windows desktop application for pro
 | Certifications | https://pcmadankumar.github.io/certifications.html | Professional certifications |
 | Testimonials | https://pcmadankumar.github.io/testimonials.html | LinkedIn recommendations |
 | Work Projects | https://pcmadankumar.github.io/work_projects.html | Built projects with descriptions |
-| Trainings Delivered | https://pcmadankumar.github.io/trainings.html | Trainings delivered: audience, participants, dates |
+| Training | https://pcmadankumar.github.io/training/index.html | Training for schools and teachers: signature workshops, who it is for, how it works |
+| Trainings Delivered | https://pcmadankumar.github.io/training/delivered.html | Trainings delivered: audience, participants, dates |
+| Future Pathways | https://pcmadankumar.github.io/future-pathways.html | The student and parent guidance site Madan built and runs: https://futurepathways.github.io/ |
 | Work with Me | https://pcmadankumar.github.io/work-with-me.html | Services, signature workshops, FAQ |
 | Resources | https://pcmadankumar.github.io/resources.html | Cambridge teaching packs |
 | Contact | https://pcmadankumar.github.io/contact.html | Contact details and form |

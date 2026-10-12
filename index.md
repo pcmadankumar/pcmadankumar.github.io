@@ -87,13 +87,13 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 #### Professional Development Coordinator (PDC) — TIPS Learning & Research Institute
 **March 2024 – Present | Erode, Tamil Nadu, India**
 
-- Part of the training team that delivers whole-school professional development to 400+ staff, two to three times a year, helping every teacher reach a 50-hour annual training target.
-- Design and deliver modules: CBSE-to-Cambridge induction, AI for educators, classroom management, assessment strategies, multilingual learners, and safeguarding.
-- Develop internal trainers, shortlist EdTech training partners, and run training events end to end with impact reporting.
-- **Result:** ISP Futures Framework training delivered 4 times to 250+ staff; CBSE-to-Cambridge induction 3 times, 50+ teachers each; AI for Educators 8+ cohorts since 2024. See [Trainings Delivered](trainings.html).
+- Part of the training team that delivers whole-school professional development to 400+ staff three times a year (Training Nexus cycles in May, September and December): planning sessions, stay-and-training logistics across four campuses, and training topics.
+- Design and deliver modules: CBSE-to-Cambridge induction, AI for educators, Futures Framework, School Support Hub, LinkedIn branding for trainers, multilingual learners, and safeguarding.
+- Campus-level training data analysis each cycle; co-authored the six-pillar PD framework and the trainer benefit policy; part of the editing and design team of the monthly training newsletter.
+- **Result:** Latest cycle 480+ staff (September 2026); May 2026 cycle confidence 7.1 → 9.0 across 2,500+ responses, NPS 80; Futures Framework delivered 4 times to 250+ staff; AI for Educators 8+ cohorts. See [Trainings Delivered](training/delivered.html).
 
 #### ISP Futures Coordinator
-**2025 – Present | Tamil Nadu, India**
+**June 2025 – Present | Tamil Nadu, India**
 
 - Coordinate two of the five ISP Futures streams — Future Pathways and Life Competencies — across all four TIPS campuses.
 - Deliver the ISP Futures Framework training to staff and align the ISP Big 5 life competencies with Cambridge delivery.
@@ -205,7 +205,7 @@ Lifelong Learning · Learning Standards · Life Skills · Sketch Noting · Criti
 | Future Pathways (FP) Coordinator — Career Guidance & Placement Support | The Indian Public School, Erode | 2020 |
 | Cambridge Implementation Coordinator — HQ | The Indian Public School | 2024 |
 | Professional Development Coordinator (PDC) — TIPS Learning and Research Institute | The Indian Public School | 2024 |
-| Cambridge Outstanding Learner Awards — Top in India, IGCSE Global Perspectives (facilitator) | Cambridge Assessment International Education | 2018–2020 |
+| Cambridge Outstanding Learner Awards — Top in India, IGCSE Global Perspectives (facilitator) | Cambridge Assessment International Education | Nov 2021, Nov 2022 |
 | CAP Accredited Counsellor | Counsellor Accreditation Programme (CAP) — Times Higher Education | Ongoing |
 | Contributor — Cambridge Collaborative Action Groups | Cambridge Assessment International Education | Ongoing |
 

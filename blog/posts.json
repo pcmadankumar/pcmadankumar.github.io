@@ -4,339 +4,557 @@
     "title": "University Spotlight: Caltech — Virtual Tour Guide",
     "date": "2026-07-07",
     "excerpt": "An in-depth guide for parents on Caltech (California Institute of Technology) — ranked #7 globally (QS 2027) — covering CBSE, State Board and Cambridge A Level admission requirements, the STEM-only core curriculum, the critical financial-aid rule for international students, and an honest fit conversation. The tenth edition completes the QS global top 10.",
-    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "tags": [
+      "University Virtual Tour",
+      "University",
+      "Students",
+      "Parents"
+    ],
     "readTime": 15,
     "image": "assets/blog/university-spotlight-caltech/hero.png",
-    "file": "posts/university-spotlight-caltech.html"
+    "file": "posts/university-spotlight-caltech.html",
+    "audience": "students"
   },
   {
     "id": "university-spotlight-eth-zurich",
     "title": "University Spotlight: ETH Zurich — Virtual Tour Guide",
     "date": "2026-07-06",
     "excerpt": "An in-depth guide for parents on ETH Zurich — ranked #8 globally and #1 in continental Europe (QS 2027) — covering the two honest pathways for Indian students (German-taught Bachelor's and English-taught Master's), ETH's remarkable affordability, the ESOP scholarship, and Swiss visa rules.",
-    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "tags": [
+      "University Virtual Tour",
+      "University",
+      "Students",
+      "Parents"
+    ],
     "readTime": 15,
     "image": "assets/blog/university-spotlight-eth-zurich/hero.png",
-    "file": "posts/university-spotlight-eth-zurich.html"
+    "file": "posts/university-spotlight-eth-zurich.html",
+    "audience": "students"
   },
   {
     "id": "two-numbers-that-should-keep-us-awake",
     "title": "Two Numbers That Should Keep Us Awake: 69 Percent and Seven",
     "date": "2026-07-04",
     "excerpt": "India's own think-tank confirms it: 69% of promoted Class V children cannot do basic division, and a landmark survey found 93% of teenagers can name only about seven careers. A reflection on the EducationWorld editorial and the NITI Aayog report — one a crisis of foundation, the other a crisis of imagination, and why only the second is squarely within a counsellor's reach.",
-    "tags": ["Pick, Learn and Share", "Article Reflection", "Career Counselling", "Education", "India", "Students", "Parents"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Article Reflection",
+      "Career Counselling",
+      "Education",
+      "India",
+      "Students",
+      "Parents"
+    ],
     "readTime": 9,
     "image": "assets/blog/two-numbers-that-should-keep-us-awake/hero.jpg",
-    "file": "posts/two-numbers-that-should-keep-us-awake.html"
+    "file": "posts/two-numbers-that-should-keep-us-awake.html",
+    "audience": "counsellors"
   },
   {
     "id": "study-abroad-rethink",
     "title": "The Rupee, the Visa, and the Rethink",
     "date": "2026-07-01",
     "excerpt": "India now sends over 1.2 million students abroad a year — but a weak rupee and tightening visas have quietly changed the maths. A calmer, numbers-first reading of the BBC's 'rethink' story: what's really shifting, why demand is re-routing (not collapsing), and the three questions every family should ask before committing.",
-    "tags": ["Pick, Learn and Share", "Article Reflection", "Study Abroad", "Career Counselling", "Parents"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Article Reflection",
+      "Study Abroad",
+      "Career Counselling",
+      "Parents"
+    ],
     "readTime": 8,
     "image": "assets/blog/study-abroad-rethink/hero.jpg",
-    "file": "posts/study-abroad-rethink.html"
+    "file": "posts/study-abroad-rethink.html",
+    "audience": "students"
   },
   {
     "id": "the-cartoon-ape-that-cost-a-million-dollars",
     "title": "The Cartoon Ape That Cost a Million Dollars",
     "date": "2026-06-30",
     "excerpt": "Justin Bieber paid $1.3M for a cartoon ape; by 2026 it was worth about 1% of that. A reflection on the NFT bubble, the greater fool theory, and the one hard data skill it should teach every student — separating real innovation from the hype wrapped around it.",
-    "tags": ["Pick, Learn and Share", "Article Reflection", "Data Literacy", "Critical Thinking", "Students"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Article Reflection",
+      "Data Literacy",
+      "Critical Thinking",
+      "Students"
+    ],
     "readTime": 7,
     "image": "assets/blog/the-cartoon-ape-that-cost-a-million-dollars/hero.jpg",
-    "file": "posts/the-cartoon-ape-that-cost-a-million-dollars.html"
+    "file": "posts/the-cartoon-ape-that-cost-a-million-dollars.html",
+    "audience": "students"
   },
   {
     "id": "germany-undergraduate-admissions",
     "title": "Germany: Undergraduate Admissions",
     "date": "2026-06-29",
     "excerpt": "A counselling-ready guide to Germany undergraduate admissions in 2026 — the four pathways after Class 12, what 'free' tuition really costs, the new 70% Class 12 rule, APS, the blocked account, funding, and a Cambridge A-Level edge. Distilled from a Future Pathways session and fact-checked figure by figure.",
-    "tags": ["Pick, Learn and Share", "Future Pathways", "Study Abroad", "Career Counselling", "Parents"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Future Pathways",
+      "Study Abroad",
+      "Career Counselling",
+      "Parents"
+    ],
     "readTime": 13,
     "image": "assets/blog/germany-undergraduate-admissions/hero.jpg",
-    "file": "posts/germany-undergraduate-admissions.html"
+    "file": "posts/germany-undergraduate-admissions.html",
+    "audience": "students"
   },
   {
     "id": "university-spotlight-ucl",
     "title": "University Spotlight: UCL — Virtual Tour Guide",
     "date": "2026-06-27",
     "excerpt": "An in-depth guide for parents on University College London — ranked #8 globally and in the QS top 10 for the 15th consecutive year (QS 2027) — covering CBSE and Cambridge A Level admission requirements, UCL's London advantage, research strengths, and financial support for Indian students.",
-    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "tags": [
+      "University Virtual Tour",
+      "University",
+      "Students",
+      "Parents"
+    ],
     "readTime": 15,
     "image": "assets/blog/university-spotlight-ucl/hero.jpg",
-    "file": "posts/university-spotlight-ucl.html"
+    "file": "posts/university-spotlight-ucl.html",
+    "audience": "students"
   },
   {
     "id": "university-spotlight-stanford",
     "title": "University Spotlight: Stanford — Virtual Tour Guide",
     "date": "2026-06-26",
     "excerpt": "An in-depth guide for parents on Stanford University — ranked #2 globally (tied with ICL, QS 2027) — covering CBSE and Cambridge A Level admission requirements, Stanford's holistic admissions process, need-blind financial aid, and the unique Silicon Valley advantage for Indian students.",
-    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "tags": [
+      "University Virtual Tour",
+      "University",
+      "Students",
+      "Parents"
+    ],
     "readTime": 15,
     "image": "assets/blog/university-spotlight-stanford/hero.jpg",
-    "file": "posts/university-spotlight-stanford.html"
+    "file": "posts/university-spotlight-stanford.html",
+    "audience": "students"
   },
   {
     "id": "university-spotlight-cambridge",
     "title": "University Spotlight: Cambridge — Virtual Tour Guide",
     "date": "2026-06-25",
     "excerpt": "An in-depth guide for parents on the University of Cambridge — ranked #6 globally (QS 2027) and THE joint #3 — covering CBSE and Cambridge A Level admission requirements, the supervision system, UCAS process, admissions tests (STEP, ENGAA, TMUA), and the unique Cambridge application for Indian students.",
-    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "tags": [
+      "University Virtual Tour",
+      "University",
+      "Students",
+      "Parents"
+    ],
     "readTime": 18,
     "image": "assets/blog/university-spotlight-cambridge/hero.jpg",
-    "file": "posts/university-spotlight-cambridge.html"
+    "file": "posts/university-spotlight-cambridge.html",
+    "audience": "students"
   },
   {
     "id": "university-spotlight-harvard",
     "title": "University Spotlight: Harvard — Virtual Tour Guide",
     "date": "2026-06-24",
     "excerpt": "An in-depth guide for parents on Harvard University — ranked #5 globally (QS 2027) — covering CBSE and Cambridge A Level admission requirements, Harvard's holistic admissions process, need-blind financial aid, and what makes a competitive Harvard application.",
-    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "tags": [
+      "University Virtual Tour",
+      "University",
+      "Students",
+      "Parents"
+    ],
     "readTime": 16,
     "image": "assets/blog/university-spotlight-harvard/hero.jpg",
-    "file": "posts/university-spotlight-harvard.html"
+    "file": "posts/university-spotlight-harvard.html",
+    "audience": "students"
   },
   {
     "id": "university-spotlight-oxford",
     "title": "University Spotlight: Oxford — Virtual Tour Guide",
     "date": "2026-06-23",
     "excerpt": "An in-depth guide for parents on the University of Oxford — ranked #4 globally (QS 2027) and THE #1 for 10 consecutive years — covering CBSE and Cambridge A Level admission requirements, the tutorial system, UCAS process, admissions tests, and interview preparation for Indian students.",
-    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "tags": [
+      "University Virtual Tour",
+      "University",
+      "Students",
+      "Parents"
+    ],
     "readTime": 16,
     "image": "assets/blog/university-spotlight-oxford/hero.jpg",
-    "file": "posts/university-spotlight-oxford.html"
+    "file": "posts/university-spotlight-oxford.html",
+    "audience": "students"
   },
   {
     "id": "university-spotlight-icl",
     "title": "University Spotlight: Imperial College London — Virtual Tour Guide",
     "date": "2026-06-22",
     "excerpt": "An in-depth guide for parents on Imperial College London — ranked #2 globally and #1 in the UK for STEM (QS 2027) — covering CBSE and Cambridge A Level admission requirements, IELTS waivers, fees, scholarships, and career outcomes in science and engineering.",
-    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "tags": [
+      "University Virtual Tour",
+      "University",
+      "Students",
+      "Parents"
+    ],
     "readTime": 15,
     "image": "assets/blog/university-spotlight-icl/hero.jpg",
-    "file": "posts/university-spotlight-icl.html"
+    "file": "posts/university-spotlight-icl.html",
+    "audience": "students"
   },
   {
     "id": "university-spotlight-mit",
     "title": "University Spotlight: MIT — Virtual Tour Guide",
     "date": "2026-06-21",
     "excerpt": "An in-depth guide for parents on MIT — ranked #1 globally for 15 consecutive years (QS 2027) — covering CBSE and Cambridge A Level admission requirements, SAT strategy, need-blind financial aid, and how to build a competitive MIT application.",
-    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "tags": [
+      "University Virtual Tour",
+      "University",
+      "Students",
+      "Parents"
+    ],
     "readTime": 14,
     "image": "assets/blog/university-spotlight-mit/hero.jpg",
-    "file": "posts/university-spotlight-mit.html"
+    "file": "posts/university-spotlight-mit.html",
+    "audience": "students"
   },
   {
     "id": "university-spotlight-nus",
     "title": "University Spotlight: NUS — Virtual Tour Guide",
     "date": "2026-06-20",
     "excerpt": "An in-depth guide for parents on NUS — ranked #10 globally and #1 in Asia (QS 2027) — covering CBSE and Cambridge A Level admission requirements, the MOE Tuition Grant, NUS International Undergraduate Scholarship, and why Singapore is one of the best destinations for Indian students.",
-    "tags": ["University Virtual Tour", "University", "Students", "Parents"],
+    "tags": [
+      "University Virtual Tour",
+      "University",
+      "Students",
+      "Parents"
+    ],
     "readTime": 13,
     "image": "assets/blog/university-spotlight-nus/hero.jpg",
-    "file": "posts/university-spotlight-nus.html"
+    "file": "posts/university-spotlight-nus.html",
+    "audience": "students"
   },
   {
     "id": "data-new-currency",
     "title": "Data — The New Currency of the Modern World",
     "date": "2026-06-16",
     "excerpt": "Session notes from a 75-minute Future Pathways talk at TIPS Erode — what data is, how every profession is now data-driven, and why data careers that need zero coding are among the best opportunities open to Humanities, Arts and Commerce students today.",
-    "tags": ["Pick, Learn and Share", "Career Counselling", "AI", "EdTech", "Students"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Career Counselling",
+      "AI",
+      "EdTech",
+      "Students"
+    ],
     "readTime": 14,
     "image": "assets/blog/data-new-currency/hero.jpg",
-    "file": "posts/data-new-currency.html"
+    "file": "posts/data-new-currency.html",
+    "audience": "students"
   },
   {
     "id": "process-to-outcomes",
     "title": "Process to Outcomes",
     "date": "2026-06-17",
     "excerpt": "An educator's reflections on how AI is shifting the unit of value from process to outcome — and why the same shift matters just as much in classrooms and counselling rooms as it does in boardrooms.",
-    "tags": ["Pick, Learn and Share", "AI", "EdTech", "Mindset", "Career Counselling"],
+    "tags": [
+      "Pick, Learn and Share",
+      "AI",
+      "EdTech",
+      "Mindset",
+      "Career Counselling"
+    ],
     "readTime": 9,
     "image": "assets/blog/process-to-outcomes/hero.jpg",
-    "file": "posts/process-to-outcomes.html"
+    "file": "posts/process-to-outcomes.html",
+    "audience": "counsellors"
   },
   {
     "id": "chemical-engineering-why-research-matters",
     "title": "Chemical Engineering & Why Research Matters",
     "date": "2026-06-12",
     "excerpt": "Key takeaways from a session by Prof. Kannan Kandasamy at TIPS School Erode — what chemical engineering is, why the world urgently needs it, career scope in India and abroad, and a seven-step research roadmap any IGCSE student can start today.",
-    "tags": ["Pick, Learn and Share", "Career Counselling", "Chemical Engineering", "Research", "Students"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Career Counselling",
+      "Chemical Engineering",
+      "Research",
+      "Students"
+    ],
     "readTime": 12,
     "image": "assets/blog/chemical-engineering-why-research-matters/hero.jpg",
-    "file": "posts/chemical-engineering-why-research-matters.html"
+    "file": "posts/chemical-engineering-why-research-matters.html",
+    "audience": "students"
   },
   {
     "id": "inside-iit-bombay-jee-advanced",
     "title": "Inside IIT Bombay: What the Open House Told JEE Advanced Qualifiers",
     "date": "2026-06-10",
     "excerpt": "Key takeaways from IIT Bombay's official JEE Advanced Open House — flexible curriculum, open labs, AI + X philosophy, global exchange, and a first-year playbook for making the most of four years at India's flagship engineering institution.",
-    "tags": ["Pick, Learn and Share", "Career Counselling", "IIT Bombay", "JEE", "India", "Students"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Career Counselling",
+      "IIT Bombay",
+      "JEE",
+      "India",
+      "Students"
+    ],
     "readTime": 8,
     "image": "assets/blog/inside-iit-bombay-jee-advanced/hero.jpg",
-    "file": "posts/inside-iit-bombay-jee-advanced.html"
+    "file": "posts/inside-iit-bombay-jee-advanced.html",
+    "audience": "students"
   },
   {
     "id": "built-for-this",
     "title": "Built for This: A Guide to Thriving as a Student",
     "date": "2026-06-09",
     "excerpt": "What you believe shapes what you do — and what you do shapes who you become. A practical guide to the beliefs, habits, and mindset shifts that help students go from getting by to truly thriving.",
-    "tags": ["Mindset", "Students", "Self-Development", "Personal Growth"],
+    "tags": [
+      "Mindset",
+      "Students",
+      "Self-Development",
+      "Personal Growth"
+    ],
     "readTime": 7,
     "image": "assets/blog/built-for-this/hero.jpg",
-    "file": "posts/built-for-this.html"
+    "file": "posts/built-for-this.html",
+    "audience": "students"
   },
   {
     "id": "mae-sports-education-student-athletes",
     "title": "Game Plan for College: How MAE Sports & Education Helps Student-Athletes Find Their Best Fit and Earn Athletic Scholarships",
     "date": "2026-06-08",
     "excerpt": "Key takeaways from a May 2026 ISP webinar by Macarena Aguirre — how the US athletic scholarship process works, what counsellors need to know, and how to support student-athletes from any sport level through MAE Sports & Education.",
-    "tags": ["Pick, Learn and Share", "Career Counselling", "Sports Scholarships", "University", "Students"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Career Counselling",
+      "Sports Scholarships",
+      "University",
+      "Students"
+    ],
     "readTime": 9,
     "image": "assets/blog/mae-sports-education-student-athletes/hero.jpg",
-    "file": "posts/mae-sports-education-student-athletes.html"
+    "file": "posts/mae-sports-education-student-athletes.html",
+    "audience": "students"
   },
   {
     "id": "psychology-of-career-decisions",
     "title": "The Psychology of Career Decisions: Why Students Don't Choose Careers Rationally",
     "date": "2026-06-06",
     "excerpt": "Key takeaways from a TEDxWesleyanU talk by Sharon Belden Castonguay — why career decisions are mostly irrational, how the social surround limits student choices, and what it means to treat identity as a script rather than an equation.",
-    "tags": ["Pick, Learn and Share", "Career Counselling", "Psychology", "Students"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Career Counselling",
+      "Psychology",
+      "Students"
+    ],
     "readTime": 10,
     "image": "assets/blog/psychology-of-career-decisions/hero.jpg",
-    "file": "posts/psychology-of-career-decisions.html"
+    "file": "posts/psychology-of-career-decisions.html",
+    "audience": "counsellors"
   },
   {
     "id": "critical-thinking-career-counselling",
     "title": "Critical Thinking in Career Counselling: Using the RED Model to Strengthen Your Practice",
     "date": "2026-06-02",
     "excerpt": "A structured guide for career counsellors on applying the RED model — Recognise Assumptions, Evaluate Arguments, Draw Conclusions — to sharpen your own practice and build critical thinking skills in students.",
-    "tags": ["Pick, Learn and Share", "Career Counselling", "Critical Thinking", "Students"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Career Counselling",
+      "Critical Thinking",
+      "Students"
+    ],
     "readTime": 8,
     "image": "assets/blog/critical-thinking-career-counselling/hero.jpg",
-    "file": "posts/critical-thinking-career-counselling.html"
+    "file": "posts/critical-thinking-career-counselling.html",
+    "audience": "counsellors"
   },
   {
     "id": "making-the-most-of-a-campus-visit",
     "title": "Making the Most of a Campus Visit: The 5Ws for Counsellors",
     "date": "2026-03-19",
     "excerpt": "Key takeaways from an IACAC webinar on campus visits — a practical 5W framework covering preparation, observation, note-taking, and follow-through for school counsellors.",
-    "tags": ["Pick, Learn and Share", "Career Counselling", "University", "Students"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Career Counselling",
+      "University",
+      "Students"
+    ],
     "readTime": 7,
     "image": "assets/blog/making-the-most-of-a-campus-visit/hero.jpg",
-    "file": "posts/making-the-most-of-a-campus-visit.html"
+    "file": "posts/making-the-most-of-a-campus-visit.html",
+    "audience": "counsellors"
   },
   {
     "id": "ucas-personal-statements-guide",
     "title": "UCAS Personal Statements: What University Admissions Truly Want",
     "date": "2026-03-18",
     "excerpt": "Key takeaways from a Unifrog webinar on UCAS personal statements — what UK university admissions teams truly want, common pitfalls to avoid, and the Sutton Trust research that shows why counsellor support matters.",
-    "tags": ["Pick, Learn and Share", "UCAS", "University", "Students", "Career Counselling"],
+    "tags": [
+      "Pick, Learn and Share",
+      "UCAS",
+      "University",
+      "Students",
+      "Career Counselling"
+    ],
     "readTime": 6,
     "image": "assets/blog/ucas-personal-statements-guide/hero.jpg",
-    "file": "posts/ucas-personal-statements-guide.html"
+    "file": "posts/ucas-personal-statements-guide.html",
+    "audience": "students"
   },
   {
     "id": "ai-relevance-in-industry-dynamics",
     "title": "Relevance of AI in Current Industry Dynamics: 5 Takeaways for Counsellors",
     "date": "2026-03-18",
     "excerpt": "Five key takeaways from the Salesforce Great Asia AI Summit and an HBR Ideacast podcast — grounding counsellors in the real-world AI conversation so they can answer students' hardest questions about computer science and data science.",
-    "tags": ["Pick, Learn and Share", "AI", "Career Counselling", "Industry Insights", "Students"],
+    "tags": [
+      "Pick, Learn and Share",
+      "AI",
+      "Career Counselling",
+      "Industry Insights",
+      "Students"
+    ],
     "readTime": 7,
     "image": "assets/blog/ai-relevance-in-industry-dynamics/hero.jpg",
-    "file": "posts/ai-relevance-in-industry-dynamics.html"
+    "file": "posts/ai-relevance-in-industry-dynamics.html",
+    "audience": "counsellors"
   },
   {
     "id": "psychometric-tests-what-students-need-to-know",
     "title": "Psychometric Tests: What Students and Counsellors Need to Know",
     "date": "2026-03-17",
     "excerpt": "Key takeaways from a Unifrog webinar on psychometric testing — helping counsellors prepare students for the assessments used by companies like Nestlé and Rolls-Royce, and the direct link to Unifrog's self-assessment tools.",
-    "tags": ["Pick, Learn and Share", "Career Counselling", "Students", "Psychometric Tests", "Unifrog"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Career Counselling",
+      "Students",
+      "Psychometric Tests",
+      "Unifrog"
+    ],
     "readTime": 5,
     "image": "assets/blog/psychometric-tests-what-students-need-to-know/hero.jpg",
-    "file": "posts/psychometric-tests-what-students-need-to-know.html"
+    "file": "posts/psychometric-tests-what-students-need-to-know.html",
+    "audience": "counsellors"
   },
   {
     "id": "econometrics-for-career-counsellors",
     "title": "Econometrics & Career Pathways: A Guide for High School Career Counsellors",
     "date": "2026-05-27",
     "excerpt": "A practical guide for career counsellors on surfacing econometrics and data career pathways early — linking subject choices to global job roles, earning potential, and free tools students can start using today.",
-    "tags": ["Pick, Learn and Share", "Career Counselling", "Econometrics", "Data Science", "Students"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Career Counselling",
+      "Econometrics",
+      "Data Science",
+      "Students"
+    ],
     "readTime": 10,
     "image": "assets/blog/econometrics-for-career-counsellors/hero.jpg",
-    "file": "posts/econometrics-for-career-counsellors.html"
+    "file": "posts/econometrics-for-career-counsellors.html",
+    "audience": "counsellors"
   },
   {
     "id": "econometrics-in-the-classroom",
     "title": "Econometrics in the Classroom: Key Insights for Economics & Mathematics Teachers",
     "date": "2026-05-20",
     "excerpt": "Key takeaways from a FutureWise webinar on econometrics — helping Economics and Mathematics teachers connect classroom theory to real-world data careers through correlation, regression, and the power of Y = MX + B.",
-    "tags": ["Pick, Learn and Share", "Economics", "Mathematics", "Econometrics", "Teacher Training"],
+    "tags": [
+      "Pick, Learn and Share",
+      "Economics",
+      "Mathematics",
+      "Econometrics",
+      "Teacher Training"
+    ],
     "readTime": 10,
     "image": "assets/blog/econometrics-in-the-classroom/hero.jpg",
-    "file": "posts/econometrics-in-the-classroom.html"
+    "file": "posts/econometrics-in-the-classroom.html",
+    "audience": "teachers"
   },
   {
     "id": "you-are-your-only-competition",
     "title": "You Are Your Only Competition",
     "date": "2026-03-14",
     "excerpt": "The most successful people aren't trying to beat others — they compete only with who they were yesterday. Here's why self-competition is the most powerful mindset shift you can make.",
-    "tags": ["Mindset", "Self-Development", "Motivation", "Personal Growth"],
+    "tags": [
+      "Mindset",
+      "Self-Development",
+      "Motivation",
+      "Personal Growth"
+    ],
     "readTime": 6,
     "image": "assets/blog/you-are-your-only-competition/mirror.webp",
-    "file": "posts/you-are-your-only-competition.html"
+    "file": "posts/you-are-your-only-competition.html",
+    "audience": "general"
   },
   {
     "id": "getting-started-with-cambridge-curriculum",
     "title": "Getting Started with Cambridge Curriculum",
     "date": "2026-05-01",
     "excerpt": "An introduction to the Cambridge International curriculum framework, its core principles, and how it transforms student learning outcomes in international schools.",
-    "tags": ["Cambridge", "Education", "Curriculum"],
+    "tags": [
+      "Cambridge",
+      "Education",
+      "Curriculum"
+    ],
     "readTime": 5,
     "image": "assets/blog/getting-started-with-cambridge-curriculum/hero.jpg",
-    "file": "posts/getting-started-with-cambridge-curriculum.html"
+    "file": "posts/getting-started-with-cambridge-curriculum.html",
+    "audience": "teachers"
   },
   {
     "id": "ai-in-education-what-teachers-need-to-know",
     "title": "Artificial Intelligence in Education: What Teachers Need to Know",
     "date": "2026-04-15",
     "excerpt": "A practical guide for educators on how AI tools are reshaping classrooms, and how to harness them responsibly for better learning outcomes.",
-    "tags": ["AI", "EdTech", "Teacher Training"],
+    "tags": [
+      "AI",
+      "EdTech",
+      "Teacher Training"
+    ],
     "readTime": 7,
     "image": "assets/blog/ai-in-education-what-teachers-need-to-know/hero.jpg",
-    "file": "posts/ai-in-education-what-teachers-need-to-know.html"
+    "file": "posts/ai-in-education-what-teachers-need-to-know.html",
+    "audience": "teachers"
   },
   {
     "id": "career-counselling-tips-for-high-school-students",
     "title": "10 Career Counselling Tips Every High School Student Should Know",
     "date": "2026-04-01",
     "excerpt": "From building a strong academic profile to choosing the right university pathway, these ten tips will help high school students navigate their future with confidence.",
-    "tags": ["Career Counselling", "Students", "University"],
+    "tags": [
+      "Career Counselling",
+      "Students",
+      "University"
+    ],
     "readTime": 6,
     "image": "assets/blog/career-counselling-tips-for-high-school-students/hero.jpg",
-    "file": "posts/career-counselling-tips-for-high-school-students.html"
+    "file": "posts/career-counselling-tips-for-high-school-students.html",
+    "audience": "students"
   },
   {
     "id": "scrolling-vs-studying-dopamine-detox",
     "title": "Scrolling Vs Studying: A Short Guide to Dopamine Detox",
     "date": "2025-10-13",
     "excerpt": "Why does studying feel like climbing Everest while scrolling feels effortless? The answer lies in dopamine — and here's a practical detox plan to reset your brain's reward system.",
-    "tags": ["EdTech", "Focus", "Digital Wellbeing", "Students"],
+    "tags": [
+      "EdTech",
+      "Focus",
+      "Digital Wellbeing",
+      "Students"
+    ],
     "readTime": 9,
     "image": "assets/blog/scrolling-vs-studying/hero.jpg",
-    "file": "posts/scrolling-vs-studying-dopamine-detox.html"
+    "file": "posts/scrolling-vs-studying-dopamine-detox.html",
+    "audience": "students"
   },
   {
     "id": "your-digital-stuff-is-a-mess-lets-fix-it",
     "title": "Your Digital Stuff is a Mess? Let's Fix It!",
     "date": "2025-07-01",
     "excerpt": "Folders everywhere, missing files, inbox overflowing — your digital life is a mess and it's costing you time and peace of mind. Here's a simple, actionable plan to organise it once and for all.",
-    "tags": ["Productivity", "Organization", "Digital Life", "Students"],
+    "tags": [
+      "Productivity",
+      "Organization",
+      "Digital Life",
+      "Students"
+    ],
     "readTime": 6,
     "image": "assets/blog/digital-stuff/hero.jpg",
-    "file": "posts/your-digital-stuff-is-a-mess-lets-fix-it.html"
+    "file": "posts/your-digital-stuff-is-a-mess-lets-fix-it.html",
+    "audience": "students"
   }
 ]

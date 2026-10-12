@@ -79,14 +79,14 @@ experience:
     organisation: The Indian Public School
     period: "March 2024 – Present"
     location: Erode, Tamil Nadu, India
-    result: Training team for 400+ staff, two to three cycles a year, 50-hour annual target per teacher; ISP Futures Framework training 4 times to 250+ staff; CBSE-to-Cambridge induction 3 times, 50+ each; AI for Educators 8+ cohorts
+    result: Training team for 400+ staff, three Training Nexus cycles a year, 50-hour annual target per teacher; latest cycle 480+ staff (September 2026); May 2026 impact 2,500+ responses, confidence 7.1 to 9.0, NPS 80; Futures Framework training 4 times to 250+ staff; CBSE-to-Cambridge induction 3 times, 50+ each; AI for Educators 8+ cohorts
     responsibilities:
-      - Design and deliver professional development modules for teachers
-      - Develop internal trainers and shortlist EdTech training partners
-      - Run training events end to end with impact reporting
+      - Plan sessions, manage logistics and deliver topics for the Training Nexus cycles (May, September, December)
+      - Campus-level training data analysis each cycle; co-authored the six-pillar PD framework and trainer benefit policy
+      - Part of the editing and design team of the monthly training newsletter
   - role: ISP Futures Coordinator
     organisation: International Schools Partnership (ISP) / The Indian Public School
-    period: "2025 – Present"
+    period: "June 2025 – Present"
     location: Tamil Nadu, India
     result: Future Pathways and Life Competencies streams owned across 4 campuses; Futures Framework training delivered 4 times to 250+ staff
     responsibilities:
@@ -161,8 +161,8 @@ achievements:
     description: Part of the training team taking 400+ staff through 50 hours of professional development a year
   - title: Cambridge Outstanding Learner Awards — Top in India (IGCSE Global Perspectives)
     organisation: Cambridge Assessment International Education
-    year: "2018–2020"
-    description: Facilitator for the IGCSE Global Perspectives learners who secured Top in India awards
+    year: "November 2021 and November 2022 series"
+    description: Facilitator support for the IGCSE Global Perspectives learners who secured Top in India awards
   - title: CAP Accredited Counsellor
     organisation: Counsellor Accreditation Programme (CAP) — Times Higher Education
     year: Ongoing
@@ -488,8 +488,12 @@ pages:
     title: Recommendations | Madan Kumar PC
   - url: https://pcmadankumar.github.io/work_projects.html
     title: Work Projects | Madan Kumar PC
-  - url: https://pcmadankumar.github.io/trainings.html
+  - url: https://pcmadankumar.github.io/training/index.html
+    title: Training for Schools & Teachers | Madan Kumar PC
+  - url: https://pcmadankumar.github.io/training/delivered.html
     title: Trainings Delivered | Madan Kumar PC
+  - url: https://pcmadankumar.github.io/future-pathways.html
+    title: Future Pathways | Madan Kumar PC
   - url: https://pcmadankumar.github.io/work-with-me.html
     title: Work with Me | Madan Kumar PC
   - url: https://pcmadankumar.github.io/contact.html

@@ -20,6 +20,8 @@
   fetch('posts.json')
     .then(function (r) { return r.json(); })
     .then(function (posts) {
+      /* student and parent guides live on Future Pathways; list the rest here */
+      posts = posts.filter(function (p) { return p.audience !== 'students'; });
       allPosts = posts.sort(function (a, b) {
         return new Date(b.date) - new Date(a.date);
       });
