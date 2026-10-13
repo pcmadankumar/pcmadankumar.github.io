@@ -56,12 +56,17 @@
             '<li><a href="' + p + '/achievements.html"' + a('achievements.html') + '>Achievements</a></li>' +
             '<li><a href="' + p + '/certifications.html"' + a('certifications.html') + '>Certifications</a></li>' +
             '<li><a href="' + p + '/work_projects.html"' + a('work_projects.html') + '>Work Projects</a></li>' +
-            '<li><a href="' + p + '/training/delivered.html"' + (onTraining && filename === 'delivered.html' ? ' class="nav-active"' : '') + '>Trainings Delivered</a></li>' +
             '<li><a href="' + p + '/future-pathways.html"' + a('future-pathways.html') + '>Future Pathways</a></li>' +
             '<li><a href="' + p + '/testimonials.html"' + a('testimonials.html') + '>Testimonials</a></li>' +
           '</ul>' +
         '</li>' +
-        '<li><a href="' + p + '/training/index.html"' + (onTraining ? ' class="nav-active"' : '') + '>Training</a></li>' +
+        '<li class="nav-dropdown">' +
+          '<a href="' + p + '/training/index.html" class="nav-dropdown-toggle' + (onTraining ? ' nav-active' : '') + '">Training <i class="fa-solid fa-chevron-down nav-chevron"></i></a>' +
+          '<ul class="nav-dropdown-menu">' +
+            '<li><a href="' + p + '/training/index.html"' + (onTraining && filename === 'index.html' ? ' class="nav-active"' : '') + '>Training for Schools</a></li>' +
+            '<li><a href="' + p + '/training/delivered.html"' + (onTraining && filename === 'delivered.html' ? ' class="nav-active"' : '') + '>Trainings Delivered</a></li>' +
+          '</ul>' +
+        '</li>' +
         '<li><a href="' + p + '/blog/index.html"' + (onBlog ? ' class="nav-active"' : '') + '>Blog</a></li>' +
         '<li><a href="' + p + '/resources.html"' + a('resources.html') + '>Resources</a></li>' +
         '<li class="nav-dropdown">' +
