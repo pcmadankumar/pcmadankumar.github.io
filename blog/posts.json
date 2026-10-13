@@ -1,5 +1,24 @@
 [
   {
+    "id": "global-companies-are-coming-to-india",
+    "title": "Global Companies Are Coming to India. Is Your Child Ready to Walk Through the Door?",
+    "date": "2026-10-13",
+    "excerpt": "GitLab is shrinking almost everywhere and growing in India. Cursor, DigiKey, DePuy Synthes, Anthropic and OpenAI are opening Bengaluru offices, and India's Global Capability Centres are set to hire around 510,000 people in 2026 — 64 percent of those roles needing AI, data or automation skills. What this means for students and parents, and five skills to start building now.",
+    "tags": [
+      "Article Reflection",
+      "Career Counselling",
+      "Industry Insights",
+      "AI",
+      "Students",
+      "Parents"
+    ],
+    "readTime": 6,
+    "image": "assets/blog/global-companies-are-coming-to-india/hero.jpg",
+    "file": "posts/global-companies-are-coming-to-india.html",
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/global-companies-are-coming-to-india/"
+  },
+  {
     "id": "everyone-talks-everyone-learns",
     "title": "Everyone Talks, Everyone Learns",
     "date": "2026-10-12",
