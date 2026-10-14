@@ -419,8 +419,7 @@
     "readTime": 10,
     "image": "assets/blog/psychology-of-career-decisions/hero.jpg",
     "file": "posts/psychology-of-career-decisions.html",
-    "category": "futurepathways",
-    "canonical": "https://futurepathways.github.io/careers/the-psychology-of-career-decisions/"
+    "category": "futurepathways"
   },
   {
     "id": "critical-thinking-career-counselling",
@@ -436,8 +435,7 @@
     "readTime": 8,
     "image": "assets/blog/critical-thinking-career-counselling/hero.jpg",
     "file": "posts/critical-thinking-career-counselling.html",
-    "category": "futurepathways",
-    "canonical": "https://futurepathways.github.io/careers/critical-thinking-in-career-counselling/"
+    "category": "futurepathways"
   },
   {
     "id": "making-the-most-of-a-campus-visit",
@@ -488,8 +486,7 @@
     "readTime": 7,
     "image": "assets/blog/ai-relevance-in-industry-dynamics/hero.jpg",
     "file": "posts/ai-relevance-in-industry-dynamics.html",
-    "category": "futurepathways",
-    "canonical": "https://futurepathways.github.io/careers/relevance-of-ai-in-industry-5-takeaways/"
+    "category": "futurepathways"
   },
   {
     "id": "psychometric-tests-what-students-need-to-know",
@@ -524,8 +521,7 @@
     "readTime": 10,
     "image": "assets/blog/econometrics-for-career-counsellors/hero.jpg",
     "file": "posts/econometrics-for-career-counsellors.html",
-    "category": "futurepathways",
-    "canonical": "https://futurepathways.github.io/careers/econometrics-and-career-pathways/"
+    "category": "futurepathways"
   },
   {
     "id": "econometrics-in-the-classroom",
