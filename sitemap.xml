@@ -102,6 +102,12 @@
 
   <!-- ===== Blog Posts ===== -->
   <url>
+    <loc>https://pcmadankumar.github.io/blog/posts/more-than-a-scoreboard.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://pcmadankumar.github.io/blog/posts/global-companies-are-coming-to-india.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>yearly</changefreq>

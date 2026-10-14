@@ -1,5 +1,24 @@
 [
   {
+    "id": "more-than-a-scoreboard",
+    "title": "More Than a Scoreboard",
+    "date": "2026-10-14",
+    "excerpt": "India's sports economy crossed ₹18,864 crore in 2025 and the Union Budget gave sport its highest allocation yet. Most of the jobs are not on the field. Four articles, six career doors — management, analytics, sports science, media, law, technology — a reality check on cricket's share, and five things families can do now.",
+    "tags": [
+      "Article Reflection",
+      "Career Counselling",
+      "Sports Careers",
+      "India",
+      "Students",
+      "Parents"
+    ],
+    "readTime": 4,
+    "image": "assets/blog/more-than-a-scoreboard/hero.jpg",
+    "file": "posts/more-than-a-scoreboard.html",
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/more-than-a-scoreboard/"
+  },
+  {
     "id": "global-companies-are-coming-to-india",
     "title": "Global Companies Are Coming to India. Is Your Child Ready to Walk Through the Door?",
     "date": "2026-10-13",

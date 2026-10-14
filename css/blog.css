@@ -382,6 +382,11 @@
 .post-content li { margin-bottom: 8px; list-style: disc; }
 .post-content ol li { list-style: decimal; }
 
+.post-content a,
+.post-content li,
+.post-content p {
+  overflow-wrap: anywhere;
+}
 .post-content a {
   color: var(--color-gold);
   text-decoration: underline;
