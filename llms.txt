@@ -27,19 +27,19 @@ and information technology.
 
 ## Current Roles (as of October 2026)
 
-The Indian Public School (TIPS) has four campuses in Tamil Nadu (Erode HQ, Salem, Trichy and a fourth campus).
+The Indian Public School (TIPS) has four campuses in Tamil Nadu, with headquarters in Erode.
 
 1. Cambridge Implementation Coordinator — HQ
    Organisation: The Indian Public School (all four campuses)
    Since: February 2024
-   Scope: Plans and executes Cambridge academic programme implementation across four campuses; advisory support to 5 Cambridge schools.
+   Scope: Plans and executes Cambridge academic programme implementation across 3 Cambridge campuses; advisory support to 5 Cambridge schools.
 
 2. Exam Controller — Cambridge Examinations
    Organisation: The Indian Public School
    Since: 2018
    Scope: Runs the full Cambridge exam cycle; trains new Exams Officers and invigilators.
 
-3. Future Pathways (FP) Coordinator — Career Guidance and Placement Support
+3. Future Pathways (FP) Coordinator
    Organisation: The Indian Public School (all four campuses)
    Since: November 2020
    Scope: Leads the FP counselling team; 500+ students guided toward undergraduate decisions.
@@ -61,7 +61,7 @@ The Indian Public School (TIPS) has four campuses in Tamil Nadu (Erode HQ, Salem
 5. ISP Futures Coordinator
    Organisation: International Schools Partnership (ISP) / The Indian Public School
    Since: June 2025
-   Scope: Owns two of the five ISP Futures streams — Future Pathways and Life Competencies — across four campuses.
+   Scope: Owns two of the six ISP Futures pillars — Future Pathways and Life Competencies — across four campuses.
 
 ---
 
@@ -73,7 +73,7 @@ Madan Kumar PC has worked across two distinct industries:
 - The Indian Public School, four campuses (10+ years, Dec 2015–present)
   - Cambridge Implementation Coordinator — HQ (Feb 2024–present)
   - Exam Controller — Cambridge Examinations (2018–present)
-  - Future Pathways (FP) Coordinator — Career Guidance & Placement Support (Nov 2020–present)
+  - Future Pathways (FP) Coordinator (Nov 2020–present)
   - Professional Development Coordinator (PDC), TIPS Learning and Research Institute (Mar 2024–present)
   - ISP Futures Coordinator (June 2025–present)
   - Global Perspectives Facilitator & Exam Officer (Mar 2018–Nov 2020)
@@ -131,8 +131,8 @@ Languages: Tamil (Native / Bilingual), English (Full Professional), Malayalam (E
 ## Key Achievements
 
 - Promoted to Cambridge Exam Officer (2018) — recognised for excellence as a Computer Science facilitator
-- Appointed Future Pathways (FP) Coordinator — Career Guidance & Placement Support (2020) — 500+ students guided
-- Appointed Cambridge Implementation Coordinator — HQ (2024) — oversees all four campuses
+- Appointed Future Pathways (FP) Coordinator (2020) — 500+ students guided
+- Appointed Cambridge Implementation Coordinator — HQ (2024) — oversees 3 Cambridge campuses
 - Appointed Professional Development Coordinator (PDC), TIPS Learning and Research Institute (2024) — training team for 400+ staff
 - Facilitator for IGCSE Global Perspectives learners who won Cambridge Outstanding Learner Awards — Top in India (November 2021 and November 2022 series)
 - Holds CAP Accreditation for student counselling and career guidance
@@ -181,7 +181,7 @@ Professional Development Analytics & the Six-Pillar Framework — training-hours
   paired with NPS). Co-authored the six-pillar PD framework and the trainer benefit policy. May 2026 cycle: 2,500+
   responses, confidence 7.1 → 9.0, NPS 80.
 
-Multilingualism Teacher Training Workshop — 75-slide professional development workshop on supporting
+Multilingualism Teacher Training Workshop — 70+ slide professional development workshop on supporting
   multilingual learners; covers Learning Design theory, the CLIL framework, and classroom scaffolding.
   Includes a classroom case study, four activities, a strategy toolkit, and a reflection handout.
   Runs as a 3.5-hour session or two twilight sessions.

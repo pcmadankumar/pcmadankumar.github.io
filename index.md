@@ -63,10 +63,10 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 #### Cambridge Implementation Coordinator — HQ
 **February 2024 – Present | Tamil Nadu, India**
 
-- Plan and execute Cambridge programme implementation across four TIPS campuses from HQ — timetabling, class groupings, teaching-completion tracking, and monthly academic coordination meetings.
+- Plan and execute Cambridge programme implementation across 3 Cambridge campuses from HQ — timetabling, class groupings, teaching-completion tracking, and monthly academic coordination meetings.
 - Own teaching and learning quality on the Cambridge pathway: revision question papers, lesson follow-ups, and policy adherence on exam routines.
 - Track Cambridge updates and new initiatives and turn them into campus-level action plans.
-- **Result:** Cambridge coordination across 4 campuses; advisory support to 5 Cambridge schools.
+- **Result:** Cambridge coordination across 3 Cambridge campuses; advisory support to 5 Cambridge schools.
 
 #### Exam Controller — Cambridge Examinations
 **2018 – Present | Erode, Tamil Nadu, India**
@@ -74,9 +74,9 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 - Run the full Cambridge exam cycle: entries, fees and international invoices, timetabling, secure storage, exam-day conduct, results release, and post-results services.
 - Train and handhold new Exams Officers and invigilators across campuses — built the three-module Exams Officer training suite from the Cambridge Handbook 2026.
 - Lead mock exams and results analysis that feed back into teaching plans.
-- **Result:** Exam series run across 4 campuses; Exams Officers trained across campuses, latest ahead of the November 2026 series.
+- **Result:** Exam series run across 3 Cambridge campuses; Exams Officers trained across campuses, latest ahead of the November 2026 series.
 
-#### Future Pathways (FP) Coordinator — Career Guidance & Placement Support
+#### Future Pathways (FP) Coordinator
 **November 2020 – Present | Erode, Tamil Nadu, India**
 
 - Lead the FP counselling team: 1:1 counselling, Subject Choices Day, university fairs, student portfolios, alumni network, and college admissions support.
@@ -95,9 +95,9 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 #### ISP Futures Coordinator
 **June 2025 – Present | Tamil Nadu, India**
 
-- Coordinate two of the five ISP Futures streams — Future Pathways and Life Competencies — across all four TIPS campuses.
+- Coordinate two of the six ISP Futures pillars — Future Pathways and Life Competencies — across all four TIPS campuses.
 - Deliver the ISP Futures Framework training to staff and align the ISP Big 5 life competencies with Cambridge delivery.
-- **Result:** 2 streams owned across 4 campuses; Futures Framework training delivered 4 times to 250+ staff.
+- **Result:** 2 of 6 pillars owned across 4 campuses; Futures Framework training delivered 4 times to 250+ staff.
 
 #### Global Perspectives Facilitator & Exam Officer
 **March 2018 – November 2020 · 2 Years 9 Months | Erode, Tamil Nadu, India**
@@ -201,8 +201,8 @@ Lifelong Learning · Learning Standards · Life Skills · Sketch Noting · Criti
 
 | Achievement | Organisation | Year |
 |---|---|---|
-| Promoted to Exam Officer | Cambridge Assessment International Education | 2018 |
-| Future Pathways (FP) Coordinator — Career Guidance & Placement Support | The Indian Public School, Erode | 2020 |
+| Promoted to Exam Officer | The Indian Public School (Cambridge examinations) | 2018 |
+| Future Pathways (FP) Coordinator | The Indian Public School, Erode | 2020 |
 | Cambridge Implementation Coordinator — HQ | The Indian Public School | 2024 |
 | Professional Development Coordinator (PDC) — TIPS Learning and Research Institute | The Indian Public School | 2024 |
 | Cambridge Outstanding Learner Awards — Top in India, IGCSE Global Perspectives (facilitator) | Cambridge Assessment International Education | Nov 2021, Nov 2022 |
@@ -333,7 +333,7 @@ A 12-part advisory series profiling the world's top universities — covering ac
 ### Multilingualism Teacher Training Workshop
 **Focus:** CLIL Framework, Learning Design, Scaffolding Strategies | **Period:** 2026 – Present
 
-A 75-slide professional development workshop helping teachers support multilingual learners, covering Learning Design theory, the CLIL framework, and classroom scaffolding strategies. Includes a real classroom case study, four hands-on activities, a teaching-strategy toolkit, and a companion reflection handout. Structured as a 3.5-hour in-person session or split across two twilight sessions.
+A 70+ slide professional development workshop helping teachers support multilingual learners, covering Learning Design theory, the CLIL framework, and classroom scaffolding strategies. Includes a real classroom case study, four hands-on activities, a teaching-strategy toolkit, and a companion reflection handout. Structured as a 3.5-hour in-person session or split across two twilight sessions.
 
 ### Safeguarding Teacher Training Presentation
 **Focus:** Safeguarding, ISP Compliance, Reporting Procedures | **Period:** 2026 – Present

@@ -43,11 +43,11 @@
         "@type": "Country",
         "name": "India"
       },
-      "description": "Plans and executes Cambridge academic programme implementations across Erode, Salem, and Trichy campuses."
+      "description": "Plans and executes Cambridge academic programme implementations across 3 Cambridge campuses."
     },
     {
       "@type": "Occupation",
-      "name": "Future Pathways (FP) Coordinator — Career Guidance and Placement Support",
+      "name": "Future Pathways (FP) Coordinator",
       "occupationLocation": {
         "@type": "City",
         "name": "Erode, Tamil Nadu, India"

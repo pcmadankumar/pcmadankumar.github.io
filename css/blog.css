@@ -384,8 +384,17 @@
 
 .post-content a,
 .post-content li,
-.post-content p {
+.post-content p,
+.post-content span {
   overflow-wrap: anywhere;
+}
+.post-content div[style*="grid-template-columns"] { min-width: 0; }
+@media (max-width: 600px) {
+  .post-content div[style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
+    gap: 2px 0 !important;
+  }
+  .post-content div[style*="grid-template-columns"] > span:nth-child(odd) { margin-top: 8px; }
 }
 .post-content a {
   color: var(--color-gold);
