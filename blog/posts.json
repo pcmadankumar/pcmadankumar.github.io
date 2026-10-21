@@ -1,5 +1,53 @@
 [
   {
+    "id": "school-doesnt-run-the-way-it-used-to",
+    "title": "School Doesn't Run the Way It Used To",
+    "date": "2026-10-20",
+    "excerpt": "Day order timetables, a core subject handed to an outside partner, students choosing which teacher's session to attend, month-long centres of knowledge. Schools are changing how they run, much of it borrowed from college. What it gives children, what the evidence says, and what it quietly asks of the teachers who make it work.",
+    "tags": [
+      "Teacher Training",
+      "School Leadership",
+      "Education",
+      "Timetabling"
+    ],
+    "readTime": 9,
+    "image": "assets/blog/school-doesnt-run-the-way-it-used-to/hero.jpg",
+    "file": "posts/school-doesnt-run-the-way-it-used-to.html",
+    "category": "training"
+  },
+  {
+    "id": "what-dr-harish-chaudhry-taught-me-about-schools",
+    "title": "Papaya Trees, Night Canteens and Principals' Trophies: What Dr. Harish Chaudhry Taught Me About Schools",
+    "date": "2026-10-17",
+    "excerpt": "An IIT Delhi professor's life story, from a family that lived on papaya for a year to 93 principals' offices with only six holding books. What Dr. Harish Chaudhry taught me about the teachers students remember, the learning that happens outside the timetable, and why school leaders need books on their desks, not trophies.",
+    "tags": [
+      "Pick, Learn and Share",
+      "Teacher Training",
+      "School Leadership"
+    ],
+    "readTime": 6,
+    "image": "assets/blog/what-dr-harish-chaudhry-taught-me-about-schools/hero.jpg",
+    "file": "posts/what-dr-harish-chaudhry-taught-me-about-schools.html",
+    "category": "training"
+  },
+  {
+    "id": "from-study-to-career-australia-canada",
+    "title": "From Study to Career: What Australia and Canada Do to Make International Students Job Ready",
+    "date": "2026-10-16",
+    "excerpt": "\"Will my child get a job after this?\" Four university recruiters from Deakin, Griffith, Laurier and Saint Mary's on how Australia builds work into the degree and Canada pays students through co-op, plus the work and visa rules checked in October 2026, and what parents, students and counsellors should ask.",
+    "tags": [
+      "Study Abroad",
+      "Career Counselling",
+      "Students",
+      "Parents"
+    ],
+    "readTime": 6,
+    "image": "assets/blog/from-study-to-career-australia-canada/hero.jpg",
+    "file": "posts/from-study-to-career-australia-canada.html",
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/countries/from-study-to-career-australia-canada/"
+  },
+  {
     "id": "more-than-a-scoreboard",
     "title": "More Than a Scoreboard",
     "date": "2026-10-14",
@@ -299,6 +347,23 @@
     "canonical": "https://futurepathways.github.io/universities/nus/"
   },
   {
+    "id": "process-to-outcomes",
+    "title": "Process to Outcomes",
+    "date": "2026-06-17",
+    "excerpt": "An educator's reflections on how AI is shifting the unit of value from process to outcome — and why the same shift matters just as much in classrooms and counselling rooms as it does in boardrooms.",
+    "tags": [
+      "Pick, Learn and Share",
+      "AI",
+      "EdTech",
+      "Mindset",
+      "Career Counselling"
+    ],
+    "readTime": 9,
+    "image": "assets/blog/process-to-outcomes/hero.jpg",
+    "file": "posts/process-to-outcomes.html",
+    "category": "futurepathways"
+  },
+  {
     "id": "data-new-currency",
     "title": "Data — The New Currency of the Modern World",
     "date": "2026-06-16",
@@ -315,23 +380,6 @@
     "file": "posts/data-new-currency.html",
     "category": "futurepathways",
     "canonical": "https://futurepathways.github.io/careers/data-the-new-currency-of-the-modern-world/"
-  },
-  {
-    "id": "process-to-outcomes",
-    "title": "Process to Outcomes",
-    "date": "2026-06-17",
-    "excerpt": "An educator's reflections on how AI is shifting the unit of value from process to outcome — and why the same shift matters just as much in classrooms and counselling rooms as it does in boardrooms.",
-    "tags": [
-      "Pick, Learn and Share",
-      "AI",
-      "EdTech",
-      "Mindset",
-      "Career Counselling"
-    ],
-    "readTime": 9,
-    "image": "assets/blog/process-to-outcomes/hero.jpg",
-    "file": "posts/process-to-outcomes.html",
-    "category": "futurepathways"
   },
   {
     "id": "chemical-engineering-why-research-matters",
@@ -438,6 +486,86 @@
     "category": "futurepathways"
   },
   {
+    "id": "econometrics-for-career-counsellors",
+    "title": "Econometrics & Career Pathways: A Guide for High School Career Counsellors",
+    "date": "2026-05-27",
+    "excerpt": "A practical guide for career counsellors on surfacing econometrics and data career pathways early — linking subject choices to global job roles, earning potential, and free tools students can start using today.",
+    "tags": [
+      "Pick, Learn and Share",
+      "Career Counselling",
+      "Econometrics",
+      "Data Science",
+      "Students"
+    ],
+    "readTime": 10,
+    "image": "assets/blog/econometrics-for-career-counsellors/hero.jpg",
+    "file": "posts/econometrics-for-career-counsellors.html",
+    "category": "futurepathways"
+  },
+  {
+    "id": "econometrics-in-the-classroom",
+    "title": "Econometrics in the Classroom: Key Insights for Economics & Mathematics Teachers",
+    "date": "2026-05-20",
+    "excerpt": "Key takeaways from a FutureWise webinar on econometrics — helping Economics and Mathematics teachers connect classroom theory to real-world data careers through correlation, regression, and the power of Y = MX + B.",
+    "tags": [
+      "Pick, Learn and Share",
+      "Economics",
+      "Mathematics",
+      "Econometrics",
+      "Teacher Training"
+    ],
+    "readTime": 10,
+    "image": "assets/blog/econometrics-in-the-classroom/hero.jpg",
+    "file": "posts/econometrics-in-the-classroom.html",
+    "category": "training"
+  },
+  {
+    "id": "getting-started-with-cambridge-curriculum",
+    "title": "Getting Started with Cambridge Curriculum",
+    "date": "2026-05-01",
+    "excerpt": "An introduction to the Cambridge International curriculum framework, its core principles, and how it transforms student learning outcomes in international schools.",
+    "tags": [
+      "Cambridge",
+      "Education",
+      "Curriculum"
+    ],
+    "readTime": 5,
+    "image": "assets/blog/getting-started-with-cambridge-curriculum/hero.jpg",
+    "file": "posts/getting-started-with-cambridge-curriculum.html",
+    "category": "training"
+  },
+  {
+    "id": "ai-in-education-what-teachers-need-to-know",
+    "title": "Artificial Intelligence in Education: What Teachers Need to Know",
+    "date": "2026-04-15",
+    "excerpt": "A practical guide for educators on how AI tools are reshaping classrooms, and how to harness them responsibly for better learning outcomes.",
+    "tags": [
+      "AI",
+      "EdTech",
+      "Teacher Training"
+    ],
+    "readTime": 7,
+    "image": "assets/blog/ai-in-education-what-teachers-need-to-know/hero.jpg",
+    "file": "posts/ai-in-education-what-teachers-need-to-know.html",
+    "category": "training"
+  },
+  {
+    "id": "career-counselling-tips-for-high-school-students",
+    "title": "10 Career Counselling Tips Every High School Student Should Know",
+    "date": "2026-04-01",
+    "excerpt": "From building a strong academic profile to choosing the right university pathway, these ten tips will help high school students navigate their future with confidence.",
+    "tags": [
+      "Career Counselling",
+      "Students",
+      "University"
+    ],
+    "readTime": 6,
+    "image": "assets/blog/career-counselling-tips-for-high-school-students/hero.jpg",
+    "file": "posts/career-counselling-tips-for-high-school-students.html",
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/10-career-counselling-tips/"
+  },
+  {
     "id": "making-the-most-of-a-campus-visit",
     "title": "Making the Most of a Campus Visit: The 5Ws for Counsellors",
     "date": "2026-03-19",
@@ -507,40 +635,6 @@
     "canonical": "https://futurepathways.github.io/careers/psychometric-tests/"
   },
   {
-    "id": "econometrics-for-career-counsellors",
-    "title": "Econometrics & Career Pathways: A Guide for High School Career Counsellors",
-    "date": "2026-05-27",
-    "excerpt": "A practical guide for career counsellors on surfacing econometrics and data career pathways early — linking subject choices to global job roles, earning potential, and free tools students can start using today.",
-    "tags": [
-      "Pick, Learn and Share",
-      "Career Counselling",
-      "Econometrics",
-      "Data Science",
-      "Students"
-    ],
-    "readTime": 10,
-    "image": "assets/blog/econometrics-for-career-counsellors/hero.jpg",
-    "file": "posts/econometrics-for-career-counsellors.html",
-    "category": "futurepathways"
-  },
-  {
-    "id": "econometrics-in-the-classroom",
-    "title": "Econometrics in the Classroom: Key Insights for Economics & Mathematics Teachers",
-    "date": "2026-05-20",
-    "excerpt": "Key takeaways from a FutureWise webinar on econometrics — helping Economics and Mathematics teachers connect classroom theory to real-world data careers through correlation, regression, and the power of Y = MX + B.",
-    "tags": [
-      "Pick, Learn and Share",
-      "Economics",
-      "Mathematics",
-      "Econometrics",
-      "Teacher Training"
-    ],
-    "readTime": 10,
-    "image": "assets/blog/econometrics-in-the-classroom/hero.jpg",
-    "file": "posts/econometrics-in-the-classroom.html",
-    "category": "training"
-  },
-  {
     "id": "you-are-your-only-competition",
     "title": "You Are Your Only Competition",
     "date": "2026-03-14",
@@ -556,52 +650,6 @@
     "file": "posts/you-are-your-only-competition.html",
     "category": "mindset",
     "canonical": "https://futurepathways.github.io/careers/you-are-your-only-competition/"
-  },
-  {
-    "id": "getting-started-with-cambridge-curriculum",
-    "title": "Getting Started with Cambridge Curriculum",
-    "date": "2026-05-01",
-    "excerpt": "An introduction to the Cambridge International curriculum framework, its core principles, and how it transforms student learning outcomes in international schools.",
-    "tags": [
-      "Cambridge",
-      "Education",
-      "Curriculum"
-    ],
-    "readTime": 5,
-    "image": "assets/blog/getting-started-with-cambridge-curriculum/hero.jpg",
-    "file": "posts/getting-started-with-cambridge-curriculum.html",
-    "category": "training"
-  },
-  {
-    "id": "ai-in-education-what-teachers-need-to-know",
-    "title": "Artificial Intelligence in Education: What Teachers Need to Know",
-    "date": "2026-04-15",
-    "excerpt": "A practical guide for educators on how AI tools are reshaping classrooms, and how to harness them responsibly for better learning outcomes.",
-    "tags": [
-      "AI",
-      "EdTech",
-      "Teacher Training"
-    ],
-    "readTime": 7,
-    "image": "assets/blog/ai-in-education-what-teachers-need-to-know/hero.jpg",
-    "file": "posts/ai-in-education-what-teachers-need-to-know.html",
-    "category": "training"
-  },
-  {
-    "id": "career-counselling-tips-for-high-school-students",
-    "title": "10 Career Counselling Tips Every High School Student Should Know",
-    "date": "2026-04-01",
-    "excerpt": "From building a strong academic profile to choosing the right university pathway, these ten tips will help high school students navigate their future with confidence.",
-    "tags": [
-      "Career Counselling",
-      "Students",
-      "University"
-    ],
-    "readTime": 6,
-    "image": "assets/blog/career-counselling-tips-for-high-school-students/hero.jpg",
-    "file": "posts/career-counselling-tips-for-high-school-students.html",
-    "category": "futurepathways",
-    "canonical": "https://futurepathways.github.io/careers/10-career-counselling-tips/"
   },
   {
     "id": "scrolling-vs-studying-dopamine-detox",
