@@ -236,6 +236,11 @@ skills:
     - name: Malayalam
       proficiency: Elementary
 
+memberships:
+  - name: International Association for College Admission Counseling (International ACAC)
+    type: Individual member
+    since: November 2025
+
 certifications:
   career_guidance:
     - name: International Certified Career Coach (ICCC)

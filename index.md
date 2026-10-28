@@ -207,6 +207,7 @@ Lifelong Learning · Learning Standards · Life Skills · Sketch Noting · Criti
 | Professional Development Coordinator (PDC) — TIPS Learning and Research Institute | The Indian Public School | 2024 |
 | Cambridge Outstanding Learner Awards — Top in India, IGCSE Global Perspectives (facilitator) | Cambridge Assessment International Education | Nov 2021, Nov 2022 |
 | CAP Accredited Counsellor | Counsellor Accreditation Programme (CAP) — Times Higher Education | Ongoing |
+| Individual Member — International ACAC | International Association for College Admission Counseling | Since Nov 2025 |
 | Contributor — Cambridge Collaborative Action Groups | Cambridge Assessment International Education | Ongoing |
 
 ---

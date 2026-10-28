@@ -35,6 +35,11 @@
       "addressCountry": "IN"
     }
   },
+  "memberOf": {
+    "@type": "Organization",
+    "name": "International Association for College Admission Counseling (International ACAC)",
+    "url": "https://www.internationalacac.org/"
+  },
   "hasOccupation": [
     {
       "@type": "Occupation",
