@@ -102,6 +102,12 @@
 
   <!-- ===== Blog Posts ===== -->
   <url>
+    <loc>https://pcmadankumar.github.io/blog/posts/when-the-machine-can-write-the-code.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://pcmadankumar.github.io/blog/posts/school-doesnt-run-the-way-it-used-to.html</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>yearly</changefreq>
@@ -138,18 +144,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pcmadankumar.github.io/blog/posts/university-spotlight-caltech.html</loc>
-    <lastmod>2026-07-07</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pcmadankumar.github.io/blog/posts/university-spotlight-eth-zurich.html</loc>
-    <lastmod>2026-07-06</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://pcmadankumar.github.io/blog/posts/two-numbers-that-should-keep-us-awake.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>yearly</changefreq>
@@ -170,54 +164,6 @@
   <url>
     <loc>https://pcmadankumar.github.io/blog/posts/germany-undergraduate-admissions.html</loc>
     <lastmod>2026-06-29</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pcmadankumar.github.io/blog/posts/university-spotlight-ucl.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pcmadankumar.github.io/blog/posts/university-spotlight-stanford.html</loc>
-    <lastmod>2026-06-26</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pcmadankumar.github.io/blog/posts/university-spotlight-cambridge.html</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pcmadankumar.github.io/blog/posts/university-spotlight-harvard.html</loc>
-    <lastmod>2026-06-24</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pcmadankumar.github.io/blog/posts/university-spotlight-oxford.html</loc>
-    <lastmod>2026-06-23</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pcmadankumar.github.io/blog/posts/university-spotlight-icl.html</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pcmadankumar.github.io/blog/posts/university-spotlight-mit.html</loc>
-    <lastmod>2026-06-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://pcmadankumar.github.io/blog/posts/university-spotlight-nus.html</loc>
-    <lastmod>2026-06-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>

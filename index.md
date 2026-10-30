@@ -69,7 +69,7 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 - **Result:** Cambridge coordination across 3 Cambridge campuses; advisory support to 5 Cambridge schools.
 
 #### Exam Controller — Cambridge Examinations
-**2018 – Present | Erode, Tamil Nadu, India**
+**July 2021 – Present (Exam Officer June 2018 – June 2021) | Tamil Nadu, India**
 
 - Run the full Cambridge exam cycle: entries, fees and international invoices, timetabling, secure storage, exam-day conduct, results release, and post-results services.
 - Train and handhold new Exams Officers and invigilators across campuses — built the three-module Exams Officer training suite from the Cambridge Handbook 2026.
@@ -77,7 +77,7 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 - **Result:** Exam series run across 3 Cambridge campuses; Exams Officers trained across campuses, latest ahead of the November 2026 series.
 
 #### Future Pathways (FP) Coordinator
-**November 2020 – Present | Erode, Tamil Nadu, India**
+**November 2020 – Present | Tamil Nadu, India**
 
 - Lead the FP counselling team: 1:1 counselling, Subject Choices Day, university fairs, student portfolios, alumni network, and college admissions support.
 - Build fact-checked advisory series used as standing references in counselling sessions.
@@ -85,7 +85,7 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 - **Result:** 500+ students guided toward undergraduate decisions; CAP-accredited and ICCC-certified.
 
 #### Professional Development Coordinator (PDC) — TIPS Learning & Research Institute
-**March 2024 – Present | Erode, Tamil Nadu, India**
+**March 2024 – Present | Tamil Nadu, India**
 
 - Part of the training team that delivers whole-school professional development to 400+ staff three times a year (Training Nexus cycles in May, September and December): planning sessions, stay-and-training logistics across four campuses, and training topics.
 - Design and deliver modules: CBSE-to-Cambridge induction, AI for educators, Futures Framework, School Support Hub, LinkedIn branding for trainers, multilingual learners, and safeguarding.
@@ -100,7 +100,7 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 - **Result:** 2 of 6 pillars owned across 4 campuses; Futures Framework training delivered 4 times to 250+ staff.
 
 #### Global Perspectives Facilitator & Exam Officer
-**March 2018 – November 2020 · 2 Years 9 Months | Erode, Tamil Nadu, India**
+**March 2018 – November 2020 · 2 Years 9 Months | Tamil Nadu, India**
 
 - Handled Global Perspectives (GP) for Grade 9 and above, alongside Computer Science.
 - Promoted to Exam Officer role to conduct and oversee official Cambridge board examinations.
@@ -109,7 +109,7 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 - Part of many Cambridge training sessions and Cambridge community meets in South India — both as delegate and presenter.
 
 #### Computer Science Facilitator & Subject Matter Expert
-**December 2015 – March 2018 · 2 Years 4 Months | Erode, Tamil Nadu, India**
+**December 2015 – March 2018 · 2 Years 4 Months | Tamil Nadu, India**
 
 - Handled Grade 6 to 12 Information & Communication Technology and Computer Science in the Cambridge curriculum.
 - Prepared assessments and engaging, activity-based lesson plans aligned with Cambridge standards.
@@ -139,7 +139,7 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 ### Infosys · 2 Years 2 Months
 
 #### System Engineer — Education and Research Scholar
-**May 2011 – March 2013 · 1 Year 11 Months | Erode, Tamil Nadu, India**
+**May 2011 – March 2013 · 1 Year 11 Months | Mysuru, Karnataka, India**
 
 - Delivered corporate and fresher training programmes on Java, JSP, Oracle, SQL, and Cloud Infrastructure.
 
@@ -166,7 +166,7 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 | Credential | Institution | Date |
 |---|---|---|
 | International Certified Career Coach (ICCC) | ICCC Foundation | March 2024 |
-| Certified Counsellor (CAP Accredited) | Times Higher Education | Ongoing |
+| Certified Counsellor (CAP Accredited) | Times Higher Education | 2025 |
 
 ---
 
@@ -202,11 +202,11 @@ Lifelong Learning · Learning Standards · Life Skills · Sketch Noting · Criti
 | Achievement | Organisation | Year |
 |---|---|---|
 | Promoted to Exam Officer | The Indian Public School (Cambridge examinations) | 2018 |
-| Future Pathways (FP) Coordinator | The Indian Public School, Erode | 2020 |
+| Future Pathways (FP) Coordinator | The Indian Public School | 2020 |
 | Cambridge Implementation Coordinator — HQ | The Indian Public School | 2024 |
 | Professional Development Coordinator (PDC) — TIPS Learning and Research Institute | The Indian Public School | 2024 |
-| Cambridge Outstanding Learner Awards — Top in India, IGCSE Global Perspectives (facilitator) | Cambridge Assessment International Education | Nov 2021, Nov 2022 |
-| CAP Accredited Counsellor | Counsellor Accreditation Programme (CAP) — Times Higher Education | Ongoing |
+| Cambridge Outstanding Learner Awards — Top in India, IGCSE (as Computer Science and Global Perspectives teacher) | Cambridge Assessment International Education | Nov 2021, Nov 2022 |
+| CAP Accredited Counsellor | Counsellor Accreditation Programme (CAP) — Times Higher Education | 2025 |
 | Individual Member — International ACAC | International Association for College Admission Counseling | Since Nov 2025 |
 | Contributor — Cambridge Collaborative Action Groups | Cambridge Assessment International Education | Ongoing |
 
@@ -218,7 +218,7 @@ Lifelong Learning · Learning Standards · Life Skills · Sketch Noting · Criti
 | Certification | Issuer | Date |
 |---|---|---|
 | International Certified Career Coach (ICCC) | ICCC Foundation | March 2024 |
-| Certified Counsellor — CAP Accredited | Counsellor Accreditation Programme (CAP) — Times Higher Education | Ongoing |
+| Certified Counsellor — CAP Accredited | Counsellor Accreditation Programme (CAP) — Times Higher Education | 2025 |
 | Educators' Guide to College Admissions and the Common App | The Next Genius Foundation | September 2023 |
 
 ### International Schools Partnership (ISP)
@@ -284,9 +284,6 @@ Lifelong Learning · Learning Standards · Life Skills · Sketch Noting · Criti
 | Certification | Issuer | Date |
 |---|---|---|
 | Introduction to Internet of Things and Cloud | Udemy | April 2019 |
-| Excel Formulas and Functions with Excel Formulas Cheat Sheet | Udemy | April 2017 |
-| Google Calendar: Virtual Assistant | Pasha Academy | November 2021 |
-| How to Design an Awesome Letterhead in Adobe Illustrator | Udemy | April 2019 |
 | Masterclass on Creating Designs Using Canva | upEducators | October 2023 |
 
 ---
@@ -326,10 +323,10 @@ Two-script Python toolkit for Cambridge programme coordination. Script 1 bulk-do
 
 A growing library of fact-checked advisory documents guiding TIPS students through competitive university and entrance-exam pathways — ESAT, design programmes (NATA/UCEED/NID), Materials Science abroad, Biotechnology in India, and Mathematics syllabus comparisons (SAT vs IPMAT vs Cambridge A Level). Every claim is verified against official university and board portals, never aggregators, with numbered endnotes and a full source list.
 
-### ISP University Virtual Tour Series
+### University Virtual Tour Series
 **Focus:** University Profiles, QS Global Top 10, Future Pathway Counselling | **Period:** 2026 – Present
 
-A 12-part advisory series profiling the world's top universities — covering academics, admissions, and student life for institutions across the QS Global Top 10, including MIT, Caltech, Yale, and Princeton. An additional addendum covers NUS and NTU admissions. Used as a standing reference for Future Pathway counselling sessions across all four TIPS campuses.
+A 12-part advisory series profiling leading universities — the QS top 10 (MIT, Imperial, Stanford, Oxford, Harvard, Cambridge, Caltech, ETH Zurich, UCL and NUS) plus Yale and Princeton — covering academics, admissions, and student life. An additional addendum covers NUS and NTU admissions. Used as a standing reference for Future Pathways counselling across all four campuses.
 
 ### Multilingualism Teacher Training Workshop
 **Focus:** CLIL Framework, Learning Design, Scaffolding Strategies | **Period:** 2026 – Present

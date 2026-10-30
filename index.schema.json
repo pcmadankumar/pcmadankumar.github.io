@@ -30,7 +30,6 @@
     "name": "The Indian Public School",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Erode",
       "addressRegion": "Tamil Nadu",
       "addressCountry": "IN"
     }
@@ -55,7 +54,7 @@
       "name": "Future Pathways (FP) Coordinator",
       "occupationLocation": {
         "@type": "City",
-        "name": "Erode, Tamil Nadu, India"
+        "name": "Tamil Nadu, India"
       },
       "description": "Leads the team supporting high school students in undergraduate placement and career counselling."
     },
@@ -64,7 +63,7 @@
       "name": "Professional Development Coordinator (PDC) — TIPS Learning and Research Institute",
       "occupationLocation": {
         "@type": "City",
-        "name": "Erode, Tamil Nadu, India"
+        "name": "Tamil Nadu, India"
       },
       "description": "Creates and delivers professional development modules for educators on AI, classroom management, and assessment."
     }

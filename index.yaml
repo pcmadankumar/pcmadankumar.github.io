@@ -45,7 +45,7 @@ education:
   - degree: Certified Counsellor — CAP Accredited
     institution: Counsellor Accreditation Programme (CAP), Times Higher Education
     type: professional_accreditation
-    date: Ongoing
+    date: 2025
 
 experience:
   - role: Cambridge Implementation Coordinator — HQ
@@ -59,8 +59,8 @@ experience:
       - Turn Cambridge updates and new initiatives into campus-level action plans
   - role: Exam Controller — Cambridge Examinations
     organisation: The Indian Public School
-    period: "2018 – Present"
-    location: Erode, Tamil Nadu, India
+    period: "July 2021 – Present (Exam Officer June 2018 – June 2021)"
+    location: Tamil Nadu, India
     result: Exam series run across 3 Cambridge campuses; Exams Officers trained across campuses, latest ahead of the November 2026 series
     responsibilities:
       - Run the full Cambridge exam cycle from entries to post-results services
@@ -69,7 +69,7 @@ experience:
   - role: Future Pathways (FP) Coordinator
     organisation: The Indian Public School (all four campuses)
     period: "November 2020 – Present"
-    location: Erode, Tamil Nadu, India
+    location: Tamil Nadu, India
     result: 500+ students guided toward undergraduate decisions
     responsibilities:
       - Lead the FP counselling team across campuses
@@ -78,7 +78,7 @@ experience:
   - role: Professional Development Coordinator (PDC) — TIPS Learning and Research Institute
     organisation: The Indian Public School
     period: "March 2024 – Present"
-    location: Erode, Tamil Nadu, India
+    location: Tamil Nadu, India
     result: Training team for 400+ staff, three Training Nexus cycles a year, 50-hour annual target per teacher; latest cycle 480+ staff (September 2026); May 2026 impact 2,500+ responses, confidence 7.1 to 9.0, NPS 80; Futures Framework training 4 times to 250+ staff; CBSE-to-Cambridge induction 3 times, 50+ each; AI for Educators 8+ cohorts
     responsibilities:
       - Plan sessions, manage logistics and deliver topics for the Training Nexus cycles (May, September, December)
@@ -93,10 +93,10 @@ experience:
       - Coordinate the Future Pathways and Life Competencies streams of ISP Futures across four campuses
       - Deliver the ISP Futures Framework training and align ISP Big 5 life competencies with Cambridge delivery
   - role: Global Perspectives Facilitator & Exam Officer
-    organisation: The Indian Public School, Erode International Campus
+    organisation: The Indian Public School (Cambridge International)
     period: "March 2018 – November 2020"
     duration: 2 Years 9 Months
-    location: Erode, Tamil Nadu, India
+    location: Tamil Nadu, India
     responsibilities:
       - Handled Global Perspectives (GP) for Grade 9 and above
       - Conducted and oversaw official Cambridge board examinations
@@ -106,7 +106,7 @@ experience:
     organisation: The Indian Public School (Cambridge Assessment International Education)
     period: "December 2015 – March 2018"
     duration: 2 Years 4 Months
-    location: Erode, Tamil Nadu, India
+    location: Tamil Nadu, India
     responsibilities:
       - Handled Grade 6 to 12 ICT and Computer Science in Cambridge curriculum
       - Prepared assessments and activity-based lesson plans aligned with Cambridge standards
@@ -130,7 +130,7 @@ experience:
     organisation: Infosys
     period: "May 2011 – March 2013"
     duration: 1 Year 11 Months
-    location: Erode, Tamil Nadu, India
+    location: Mysuru, Karnataka, India
     responsibilities:
       - Delivered corporate and fresher training on Java, JSP, Oracle, SQL, and Cloud Infrastructure
   - role: Internship Trainee
@@ -148,7 +148,7 @@ achievements:
     year: 2018
     description: Recognised for excellence as CS facilitator; conducts official Cambridge board exams across the TIPS campuses
   - title: Future Pathways (FP) Coordinator
-    organisation: The Indian Public School, Erode
+    organisation: The Indian Public School
     year: 2020
     description: Leads the FP team supporting high school students; 500+ students guided
   - title: Cambridge Implementation Coordinator — HQ
@@ -162,10 +162,10 @@ achievements:
   - title: Cambridge Outstanding Learner Awards — Top in India (IGCSE Global Perspectives)
     organisation: Cambridge Assessment International Education
     year: "November 2021 and November 2022 series"
-    description: Facilitator support for the IGCSE Global Perspectives learners who secured Top in India awards
+    description: Computer Science and Global Perspectives teacher to the IGCSE learners who secured Top in India awards
   - title: CAP Accredited Counsellor
     organisation: Counsellor Accreditation Programme (CAP) — Times Higher Education
-    year: Ongoing
+    year: "2025"
     description: Professional recognition for student counselling and career guidance expertise
   - title: Contributor — Cambridge Collaborative Action Groups
     organisation: Cambridge Assessment International Education
@@ -248,7 +248,7 @@ certifications:
       date: March 2024
     - name: Certified Counsellor — CAP Accredited
       issuer: Counsellor Accreditation Programme (CAP) — Times Higher Education
-      date: Ongoing
+      date: 2025
     - name: Educators' Guide to College Admissions and the Common App
       issuer: The Next Genius Foundation
       date: September 2023
@@ -367,15 +367,6 @@ certifications:
     - name: Introduction to Internet of Things and Cloud
       issuer: Udemy
       date: April 2019
-    - name: Excel Formulas and Functions with Excel Formulas Cheat Sheet
-      issuer: Udemy
-      date: April 2017
-    - name: Google Calendar - Virtual Assistant
-      issuer: Pasha Academy
-      date: November 2021
-    - name: How to Design an Awesome Letterhead in Adobe Illustrator
-      issuer: Udemy
-      date: April 2019
     - name: Masterclass on Creating Designs Using Canva
       issuer: upEducators
       date: October 2023
@@ -410,13 +401,13 @@ projects:
       design programmes (NATA/UCEED/NID), Materials Science abroad, Biotechnology in India, and
       Mathematics syllabus comparisons (SAT vs IPMAT vs Cambridge A Level). Every claim verified
       against official university and board portals, with numbered endnotes and a full source list.
-  - name: ISP University Virtual Tour Series
+  - name: University Virtual Tour Series
     tech: ["University Profiles", "QS Global Top 10", "Future Pathway Counselling"]
     period: "2026 – Present"
     description: >
-      12-part advisory series profiling QS Global Top 10 universities including MIT, Caltech, Yale,
-      and Princeton across academics, admissions, and student life, plus an NUS/NTU admissions addendum.
-      Used as a standing reference for Future Pathway counselling across all four TIPS campuses.
+      12-part advisory series profiling the QS top 10 (MIT, Imperial, Stanford, Oxford, Harvard, Cambridge, Caltech, ETH Zurich, UCL and NUS) plus Yale and Princeton across academics, admissions and
+      student life, plus an NUS/NTU admissions addendum. Used as a standing reference for Future Pathways
+      counselling across all four campuses.
   - name: Multilingualism Teacher Training Workshop
     tech: ["CLIL Framework", "Learning Design", "Scaffolding Strategies", "Workshop Facilitation"]
     period: "2026 – Present"
@@ -469,12 +460,6 @@ projects:
       IGCSE English as a Second Language, and AS Level General Paper comprehension. All passages are
       original, mirroring Cambridge question taxonomy, mark allocation, and levels-of-response grids.
       Each paper ships with a full mark scheme, plus single-skill mini-worksheets.
-  - name: Pragat — Evidence Portfolio
-    tech: [Electron, React, TypeScript, SQLite, electron-vite, pdfkit]
-    description: >
-      Standalone Windows desktop application for professional evidence management.
-      Collects and organises evidence mapped to four role-specific KPI frameworks.
-      Generates PDF reports and Markdown exports.
 
 pages:
   - url: https://pcmadankumar.github.io/
@@ -508,5 +493,5 @@ site:
   built_with: [HTML5, CSS3, "Vanilla JavaScript"]
   hosted_on: GitHub Pages
   ai_assistant: Claude (Anthropic)
-  last_updated: "2026-10-11"
+  last_updated: "2026-10-30"
   language: en-IN

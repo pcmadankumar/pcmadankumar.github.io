@@ -3464,3 +3464,27 @@ html.js .hero-title {
     transform: none !important;
   }
 }
+
+
+/* --- Small-phone and touch fixes (30 Oct 2026 review) --- */
+.edu-card > div { min-width: 0; }
+.edu-card { overflow-wrap: anywhere; }
+@media (max-width: 400px) {
+  .contact-form-card { padding: 28px 18px; }
+  .contact-form-card input,
+  .contact-form-card select,
+  .contact-form-card textarea { min-width: 0; max-width: 100%; }
+  .edu-card { padding: 24px 18px; }
+}
+/* carousel dots: keep the small visual dot, give it a 24px tap area */
+.hrc-dot {
+  box-sizing: content-box;
+  padding: 8px;
+  background-clip: content-box;
+}
+
+/* slide-in animations must never widen the page on small phones */
+main.page-content { overflow-x: clip; }
+/* let the Work with Me enquiry and contact columns shrink below their longest line */
+.wm-cta-grid > * { min-width: 0; }
+.wm-channel-btn { overflow-wrap: anywhere; }

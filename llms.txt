@@ -1,6 +1,6 @@
 # llms.txt — Madan Kumar PC | Portfolio
 # https://pcmadankumar.github.io
-# Last updated: 2026-10-11
+# Last updated: 2026-10-30
 
 ## About This Site
 
@@ -27,7 +27,7 @@ and information technology.
 
 ## Current Roles (as of October 2026)
 
-The Indian Public School (TIPS) has four campuses in Tamil Nadu, with headquarters in Erode.
+The Indian Public School (TIPS) has four campuses in Tamil Nadu.
 
 1. Cambridge Implementation Coordinator — HQ
    Organisation: The Indian Public School (all four campuses)
@@ -36,7 +36,7 @@ The Indian Public School (TIPS) has four campuses in Tamil Nadu, with headquarte
 
 2. Exam Controller — Cambridge Examinations
    Organisation: The Indian Public School
-   Since: 2018
+   Since: July 2021 (Exam Officer June 2018 – June 2021)
    Scope: Runs the full Cambridge exam cycle; trains new Exams Officers and invigilators.
 
 3. Future Pathways (FP) Coordinator
@@ -72,7 +72,7 @@ Madan Kumar PC has worked across two distinct industries:
 ### Education (10+ years — 2015 to present)
 - The Indian Public School, four campuses (10+ years, Dec 2015–present)
   - Cambridge Implementation Coordinator — HQ (Feb 2024–present)
-  - Exam Controller — Cambridge Examinations (2018–present)
+  - Exam Controller — Cambridge Examinations (July 2021–present; Exam Officer June 2018–June 2021)
   - Future Pathways (FP) Coordinator (Nov 2020–present)
   - Professional Development Coordinator (PDC), TIPS Learning and Research Institute (Mar 2024–present)
   - ISP Futures Coordinator (June 2025–present)
@@ -104,7 +104,7 @@ Madan Kumar PC has worked across two distinct industries:
 ## Key Certifications
 
 - International Certified Career Coach (ICCC) — ICCC Foundation (March 2024)
-- CAP Accredited Counsellor — Times Higher Education (Counsellor Accreditation Programme)
+- CAP Accredited Counsellor — Times Higher Education (Counsellor Accreditation Programme), 2025
 - Cambridge Certified Exam Officer — Cambridge Assessment International Education
 - 30+ professional certifications across career coaching, Cambridge education, AI, and EdTech
 
@@ -134,11 +134,11 @@ Languages: Tamil (Native / Bilingual), English (Full Professional), Malayalam (E
 
 ## Key Achievements
 
-- Promoted to Cambridge Exam Officer (2018) — recognised for excellence as a Computer Science facilitator
+- Promoted to Cambridge Exam Officer (June 2018) — recognised for excellence as a Computer Science facilitator
 - Appointed Future Pathways (FP) Coordinator (2020) — 500+ students guided
 - Appointed Cambridge Implementation Coordinator — HQ (2024) — oversees 3 Cambridge campuses
 - Appointed Professional Development Coordinator (PDC), TIPS Learning and Research Institute (2024) — training team for 400+ staff
-- Facilitator for IGCSE Global Perspectives learners who won Cambridge Outstanding Learner Awards — Top in India (November 2021 and November 2022 series)
+- Computer Science and Global Perspectives teacher to IGCSE learners who won Cambridge Outstanding Learner Awards — Top in India (November 2021 and November 2022 series)
 - Holds CAP Accreditation for student counselling and career guidance
 - Contributor to Cambridge Collaborative Action Groups for affiliated school decisions
 
@@ -176,9 +176,9 @@ University & Course Admissions Advisory Series — fact-checked advisory documen
   SAT vs IPMAT vs Cambridge A Level maths). Every claim verified against official university and board
   portals with numbered endnotes. Ships as branded Word, PDF, and an Excel exam/deadline matrix.
 
-ISP University Virtual Tour Series — 12-part advisory series profiling QS Global Top 10 universities
-  (MIT, Caltech, Yale, Princeton and others) across academics, admissions, and student life, plus an
-  NUS/NTU admissions addendum. Used as a standing reference for Future Pathway counselling at TIPS.
+University Virtual Tour Series — 12-part advisory series profiling the QS top 10 (MIT, Imperial, Stanford, Oxford, Harvard, Cambridge, Caltech, ETH Zurich, UCL and NUS) plus Yale and Princeton
+  across academics, admissions, and student life, plus an NUS/NTU admissions addendum. Used as a standing
+  reference for Future Pathways counselling.
 
 Professional Development Analytics & the Six-Pillar Framework — training-hours dashboards per campus, honour rolls,
   a six-pillar classification of ~1,000 external trainings, and a post-session impact model (confidence before/after
@@ -216,12 +216,6 @@ English Practice Paper & Worksheet Library — original exam-style English mater
   comprehension. All passages original, mirroring Cambridge question taxonomy, mark allocation, and
   levels-of-response grids. Each paper ships with a full mark scheme, plus single-skill mini-worksheets.
 
-Pragat — Evidence Portfolio — standalone Windows desktop application for professional evidence management.
-  Collects, organises, and exports evidence of professional work mapped to four role-specific KPI frameworks.
-  Supports file attachments, hyperlinks, rich notes, and multi-KPI linking. Generates formal PDF reports
-  for leadership and a Markdown export for AI-assisted self-reflection on work quality.
-  Tech: Electron, React, TypeScript, SQLite, electron-vite, pdfkit.
-  Demo available on request.
 
 ---
 

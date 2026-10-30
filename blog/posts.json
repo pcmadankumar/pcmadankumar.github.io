@@ -1,5 +1,22 @@
 [
   {
+    "id": "when-the-machine-can-write-the-code",
+    "title": "When the Machine Can Write the Code, What Are We Teaching?",
+    "date": "2026-10-30",
+    "excerpt": "If AI can write the code, what are we teaching? Cambridge's 2029 Computer Science syllabus, England's curriculum review, CBSE's computational thinking and AI from Class 3, an NUS-Google white paper and an essay on what computing science is for. Where they agree, the tension over breadth, and three practical steps for classrooms.",
+    "tags": [
+      "AI",
+      "EdTech",
+      "Cambridge",
+      "Teacher Training",
+      "Computer Science"
+    ],
+    "readTime": 8,
+    "image": "assets/blog/when-the-machine-can-write-the-code/hero.jpg",
+    "file": "posts/when-the-machine-can-write-the-code.html",
+    "category": "training"
+  },
+  {
     "id": "school-doesnt-run-the-way-it-used-to",
     "title": "School Doesn't Run the Way It Used To",
     "date": "2026-10-20",
@@ -106,7 +123,7 @@
     "id": "university-spotlight-caltech",
     "title": "University Spotlight: Caltech — Virtual Tour Guide",
     "date": "2026-07-07",
-    "excerpt": "An in-depth guide for parents on Caltech (California Institute of Technology) — ranked #7 globally (QS 2027) — covering CBSE, State Board and Cambridge A Level admission requirements, the STEM-only core curriculum, the critical financial-aid rule for international students, and an honest fit conversation. The tenth edition completes the QS global top 10.",
+    "excerpt": "An in-depth guide for parents on Caltech (California Institute of Technology) — ranked #7 globally (QS 2027) — covering CBSE, State Board and Cambridge A Level admission requirements, the STEM-only core curriculum, the critical financial-aid rule for international students, and an honest fit conversation. The tenth edition completes the QS global top 10. (Kept up to date on Future Pathways.)",
     "tags": [
       "University Virtual Tour",
       "University",
@@ -123,7 +140,7 @@
     "id": "university-spotlight-eth-zurich",
     "title": "University Spotlight: ETH Zurich — Virtual Tour Guide",
     "date": "2026-07-06",
-    "excerpt": "An in-depth guide for parents on ETH Zurich — ranked #8 globally and #1 in continental Europe (QS 2027) — covering the two honest pathways for Indian students (German-taught Bachelor's and English-taught Master's), ETH's remarkable affordability, the ESOP scholarship, and Swiss visa rules.",
+    "excerpt": "An in-depth guide for parents on ETH Zurich — ranked #8 globally and #1 in continental Europe (QS 2027) — covering the two honest pathways for Indian students (German-taught Bachelor's and English-taught Master's), ETH's remarkable affordability, the ESOP scholarship, and Swiss visa rules. (Kept up to date on Future Pathways.)",
     "tags": [
       "University Virtual Tour",
       "University",
@@ -214,7 +231,7 @@
     "id": "university-spotlight-ucl",
     "title": "University Spotlight: UCL — Virtual Tour Guide",
     "date": "2026-06-27",
-    "excerpt": "An in-depth guide for parents on University College London — ranked #8 globally and in the QS top 10 for the 15th consecutive year (QS 2027) — covering CBSE and Cambridge A Level admission requirements, UCL's London advantage, research strengths, and financial support for Indian students.",
+    "excerpt": "An in-depth guide for parents on University College London — ranked #8 globally and in the QS top 10 for the 15th consecutive year (QS 2027) — covering CBSE and Cambridge A Level admission requirements, UCL's London advantage, research strengths, and financial support for Indian students. (Kept up to date on Future Pathways.)",
     "tags": [
       "University Virtual Tour",
       "University",
@@ -231,7 +248,7 @@
     "id": "university-spotlight-stanford",
     "title": "University Spotlight: Stanford — Virtual Tour Guide",
     "date": "2026-06-26",
-    "excerpt": "An in-depth guide for parents on Stanford University — ranked #2 globally (tied with ICL, QS 2027) — covering CBSE and Cambridge A Level admission requirements, Stanford's holistic admissions process, need-blind financial aid, and the unique Silicon Valley advantage for Indian students.",
+    "excerpt": "An in-depth guide for parents on Stanford University — ranked #2 globally (tied with ICL, QS 2027) — covering CBSE and Cambridge A Level admission requirements, Stanford's holistic admissions process, need-blind financial aid, and the unique Silicon Valley advantage for Indian students. (Kept up to date on Future Pathways.)",
     "tags": [
       "University Virtual Tour",
       "University",
@@ -248,7 +265,7 @@
     "id": "university-spotlight-cambridge",
     "title": "University Spotlight: Cambridge — Virtual Tour Guide",
     "date": "2026-06-25",
-    "excerpt": "An in-depth guide for parents on the University of Cambridge — ranked #6 globally (QS 2027) and THE joint #3 — covering CBSE and Cambridge A Level admission requirements, the supervision system, UCAS process, admissions tests (STEP, ENGAA, TMUA), and the unique Cambridge application for Indian students.",
+    "excerpt": "An in-depth guide for parents on the University of Cambridge — ranked #6 globally (QS 2027) and THE joint #3 — covering CBSE and Cambridge A Level admission requirements, the supervision system, UCAS process, admissions tests (STEP, ENGAA, TMUA), and the unique Cambridge application for Indian students. (Kept up to date on Future Pathways.)",
     "tags": [
       "University Virtual Tour",
       "University",
@@ -265,7 +282,7 @@
     "id": "university-spotlight-harvard",
     "title": "University Spotlight: Harvard — Virtual Tour Guide",
     "date": "2026-06-24",
-    "excerpt": "An in-depth guide for parents on Harvard University — ranked #5 globally (QS 2027) — covering CBSE and Cambridge A Level admission requirements, Harvard's holistic admissions process, need-blind financial aid, and what makes a competitive Harvard application.",
+    "excerpt": "An in-depth guide for parents on Harvard University — ranked #5 globally (QS 2027) — covering CBSE and Cambridge A Level admission requirements, Harvard's holistic admissions process, need-blind financial aid, and what makes a competitive Harvard application. (Kept up to date on Future Pathways.)",
     "tags": [
       "University Virtual Tour",
       "University",
@@ -282,7 +299,7 @@
     "id": "university-spotlight-oxford",
     "title": "University Spotlight: Oxford — Virtual Tour Guide",
     "date": "2026-06-23",
-    "excerpt": "An in-depth guide for parents on the University of Oxford — ranked #4 globally (QS 2027) and THE #1 for 10 consecutive years — covering CBSE and Cambridge A Level admission requirements, the tutorial system, UCAS process, admissions tests, and interview preparation for Indian students.",
+    "excerpt": "An in-depth guide for parents on the University of Oxford — ranked #4 globally (QS 2027) and THE #1 for 10 consecutive years — covering CBSE and Cambridge A Level admission requirements, the tutorial system, UCAS process, admissions tests, and interview preparation for Indian students. (Kept up to date on Future Pathways.)",
     "tags": [
       "University Virtual Tour",
       "University",
@@ -299,7 +316,7 @@
     "id": "university-spotlight-icl",
     "title": "University Spotlight: Imperial College London — Virtual Tour Guide",
     "date": "2026-06-22",
-    "excerpt": "An in-depth guide for parents on Imperial College London — ranked #2 globally and #1 in the UK for STEM (QS 2027) — covering CBSE and Cambridge A Level admission requirements, IELTS waivers, fees, scholarships, and career outcomes in science and engineering.",
+    "excerpt": "An in-depth guide for parents on Imperial College London — ranked #2 globally and #1 in the UK for STEM (QS 2027) — covering CBSE and Cambridge A Level admission requirements, IELTS waivers, fees, scholarships, and career outcomes in science and engineering. (Kept up to date on Future Pathways.)",
     "tags": [
       "University Virtual Tour",
       "University",
@@ -316,7 +333,7 @@
     "id": "university-spotlight-mit",
     "title": "University Spotlight: MIT — Virtual Tour Guide",
     "date": "2026-06-21",
-    "excerpt": "An in-depth guide for parents on MIT — ranked #1 globally for 15 consecutive years (QS 2027) — covering CBSE and Cambridge A Level admission requirements, SAT strategy, need-blind financial aid, and how to build a competitive MIT application.",
+    "excerpt": "An in-depth guide for parents on MIT — ranked #1 globally for 15 consecutive years (QS 2027) — covering CBSE and Cambridge A Level admission requirements, SAT strategy, need-blind financial aid, and how to build a competitive MIT application. (Kept up to date on Future Pathways.)",
     "tags": [
       "University Virtual Tour",
       "University",
@@ -333,7 +350,7 @@
     "id": "university-spotlight-nus",
     "title": "University Spotlight: NUS — Virtual Tour Guide",
     "date": "2026-06-20",
-    "excerpt": "An in-depth guide for parents on NUS — ranked #10 globally and #1 in Asia (QS 2027) — covering CBSE and Cambridge A Level admission requirements, the MOE Tuition Grant, NUS International Undergraduate Scholarship, and why Singapore is one of the best destinations for Indian students.",
+    "excerpt": "An in-depth guide for parents on NUS — ranked #10 globally and #1 in Asia (QS 2027) — covering CBSE and Cambridge A Level admission requirements, the MOE Tuition Grant, NUS International Undergraduate Scholarship, and why Singapore is one of the best destinations for Indian students. (Kept up to date on Future Pathways.)",
     "tags": [
       "University Virtual Tour",
       "University",
@@ -367,7 +384,7 @@
     "id": "data-new-currency",
     "title": "Data — The New Currency of the Modern World",
     "date": "2026-06-16",
-    "excerpt": "Session notes from a 75-minute Future Pathways talk at TIPS Erode — what data is, how every profession is now data-driven, and why data careers that need zero coding are among the best opportunities open to Humanities, Arts and Commerce students today.",
+    "excerpt": "Session notes from a 75-minute Future Pathways talk at TIPS — what data is, how every profession is now data-driven, and why data careers that need zero coding are among the best opportunities open to Humanities, Arts and Commerce students today.",
     "tags": [
       "Pick, Learn and Share",
       "Career Counselling",
@@ -385,7 +402,7 @@
     "id": "chemical-engineering-why-research-matters",
     "title": "Chemical Engineering & Why Research Matters",
     "date": "2026-06-12",
-    "excerpt": "Key takeaways from a session by Prof. Kannan Kandasamy at TIPS School Erode — what chemical engineering is, why the world urgently needs it, career scope in India and abroad, and a seven-step research roadmap any IGCSE student can start today.",
+    "excerpt": "Key takeaways from a session by Prof. Kannan Kandasamy at TIPS — what chemical engineering is, why the world urgently needs it, career scope in India and abroad, and a seven-step research roadmap any IGCSE student can start today.",
     "tags": [
       "Pick, Learn and Share",
       "Career Counselling",
