@@ -1,5 +1,38 @@
 [
   {
+    "id": "from-rocket-labs-to-your-pocket",
+    "title": "From Rocket Labs to Your Pocket: Where Everyday Technology Really Comes From",
+    "date": "2026-11-10",
+    "excerpt": "The phone camera began in space, the internet as a military-funded research network, and election ink in a Delhi lab. Sixteen organisations in India and abroad, from NASA and CERN to ISRO, DRDO, BARC, NPCI and CSIR, what each gave the public, and the usual route a student takes to work there.",
+    "tags": [
+      "Career Counselling",
+      "Industry Insights",
+      "Students",
+      "Parents"
+    ],
+    "readTime": 7,
+    "image": "assets/blog/from-rocket-labs-to-your-pocket/hero.jpg",
+    "file": "posts/from-rocket-labs-to-your-pocket.html",
+    "category": "futurepathways",
+    "canonical": "https://futurepathways.github.io/careers/from-rocket-labs-to-your-pocket/"
+  },
+  {
+    "id": "the-great-gamble-gita-gopinath",
+    "title": "The Great Gamble, and the Quieter One in Our Classrooms",
+    "date": "2026-11-10",
+    "excerpt": "Former IMF Chief Economist Gita Gopinath calls today's world economy a great gamble: AI investment offsetting tariffs and debt. The part that stayed with me is about learning. Her warning on cognitive surrender, her evidence from Harvard classrooms, three habits for students, and three questions every school department should ask.",
+    "tags": [
+      "Pick, Learn and Share",
+      "AI",
+      "Teacher Training",
+      "Education"
+    ],
+    "readTime": 5,
+    "image": "assets/blog/the-great-gamble-gita-gopinath/hero.jpg",
+    "file": "posts/the-great-gamble-gita-gopinath.html",
+    "category": "training"
+  },
+  {
     "id": "when-the-machine-can-write-the-code",
     "title": "When the Machine Can Write the Code, What Are We Teaching?",
     "date": "2026-10-30",
