@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <script>document.documentElement.classList.add('js');</script>
+  <script>/*theme-init*/(function(){var d=document.documentElement,t=null;d.classList.add('js');try{t=localStorage.getItem('mk-theme')}catch(e){}d.setAttribute('data-theme',t==='light'?'light':'dark')})();</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="CkhIvHQiwvfybTPuHpEAg6DX5Ofo2TZp2kCGlo9l9nY" />
   <meta name="theme-color" content="#0d0d0d">
@@ -29,7 +29,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/icons.css">
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="alternate" type="text/plain" href="llms.txt" />
   <link rel="alternate" type="text/plain" href="humans.txt" />
   <link rel="alternate" type="text/markdown" href="index.md" />
@@ -89,6 +89,7 @@
     ]
   }
   </script>
+  <link rel="stylesheet" href="css/theme.css">
 </head>
 <body>
 
@@ -97,10 +98,7 @@
   <!-- Navigation -->
   <nav class="nav" role="navigation" aria-label="Main navigation">
       <div class="nav-inner">
-      <a href="./index.html" class="nav-logo" style="font-family: 'Dancing Script', cursive; font-size: 1.65rem;">Madan Kumar PC</a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+      <a href="./index.html" class="nav-logo" aria-label="Madan Kumar PC, home"><span class="nav-mono" aria-hidden="true">MK</span><span class="nav-word">Madan Kumar <b>PC</b></span></a>
       <ul class="nav-links">
         <li><a href="./index.html" class="nav-active">About</a></li>
         <li class="nav-dropdown">
@@ -129,6 +127,12 @@
         <li><a href="./work-with-me.html">Work with Me</a></li>
         <li><a href="./contact.html">Contact</a></li>
       </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch light / dark theme"><i class="fa-solid fa-sun theme-icon-sun" aria-hidden="true"></i><i class="fa-solid fa-moon theme-icon-moon" aria-hidden="true"></i></button>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
   </nav>
 
@@ -139,14 +143,15 @@
       <div class="hero-inner">
         <!-- Left Column -->
         <div class="hero-text">
-          <p class="hero-greeting fade-up">Hello, I'm</p>
+          <p class="hero-greeting hero-kicker fade-up">Hello, I'm</p>
           <h1 class="hero-name fade-up">Madan Kumar PC</h1>
-          <p class="hero-title fade-up">
-            Cambridge Programme Coordinator &amp; Educational Consultant &nbsp;·&nbsp;
-            The CAP Accredited Counsellor &nbsp;·&nbsp;
-            AI, EdTech &amp; Global Perspectives &nbsp;·&nbsp;
-            10+ Years in Education &nbsp;·&nbsp; 5 Years in IT
-          </p>
+          <ul class="hero-title hero-roles fade-up">
+            <li>Cambridge Programme Coordinator &amp; Educational Consultant</li>
+            <li>The CAP Accredited Counsellor</li>
+            <li>AI, EdTech &amp; Global Perspectives</li>
+            <li>10+ Years in Education</li>
+            <li>5 Years in IT</li>
+          </ul>
           <p class="hero-bio fade-up">
             I spent five years in IT consulting at Ernst &amp; Young and Infosys — then moved into
             education, where I coordinate Cambridge programmes across 3 Cambridge campuses, run exams as Exam Controller, and lead a

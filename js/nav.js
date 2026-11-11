@@ -41,10 +41,7 @@
   /* --- Inject nav HTML --- */
   nav.innerHTML =
     '<div class="nav-inner">' +
-      '<a href="' + p + '/index.html" class="nav-logo" style="font-family: \'Dancing Script\', cursive; font-size: 1.65rem;">Madan Kumar PC</a>' +
-      '<button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">' +
-        '<span></span><span></span><span></span>' +
-      '</button>' +
+      '<a href="' + p + '/index.html" class="nav-logo" aria-label="Madan Kumar PC, home"><span class="nav-mono" aria-hidden="true">MK</span><span class="nav-word">Madan Kumar <b>PC</b></span></a>' +
       '<ul class="nav-links">' +
         '<li><a href="' + p + '/index.html"' + (onIndex ? ' class="nav-active"' : '') + '>About</a></li>' +
         '<li class="nav-dropdown">' +
@@ -69,9 +66,14 @@
         '</li>' +
         '<li><a href="' + p + '/blog/index.html"' + (onBlog ? ' class="nav-active"' : '') + '>Blog</a></li>' +
         '<li><a href="' + p + '/resources.html"' + a('resources.html') + '>Resources</a></li>' +
+        '<li><a href="https://futurepathways.github.io/" class="nav-sister" target="_blank" rel="noopener">Future Pathways <i class="fa-solid fa-arrow-up-right-from-square nav-ext-icon" aria-hidden="true"></i></a></li>' +
         '<li><a href="' + p + '/work-with-me.html"' + a('work-with-me.html') + '>Work with Me</a></li>' +
         '<li><a href="' + p + '/contact.html"' + a('contact.html') + '>Contact</a></li>' +
       '</ul>' +
+      '<div class="nav-actions">' +
+        '<button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch light / dark theme"><i class="fa-solid fa-sun theme-icon-sun" aria-hidden="true"></i><i class="fa-solid fa-moon theme-icon-moon" aria-hidden="true"></i></button>' +
+        '<button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>' +
+      '</div>' +
     '</div>';
 
 })();

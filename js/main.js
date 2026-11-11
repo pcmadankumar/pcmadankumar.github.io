@@ -25,6 +25,31 @@ var REDUCED_MOTION = window.matchMedia
   });
 })();
 
+/* --- Light / dark theme toggle ---
+   The head script (written by tools/build.py) sets data-theme before first paint;
+   this only flips it and remembers the choice. */
+(function initThemeToggle() {
+  const root = document.documentElement;
+  const sync = () => {
+    const light = root.getAttribute('data-theme') === 'light';
+    document.querySelectorAll('.theme-toggle').forEach(b => {
+      b.setAttribute('aria-label', light ? 'Switch to dark theme' : 'Switch to light theme');
+      b.setAttribute('aria-pressed', String(light));
+    });
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', light ? '#f7f5ef' : '#07080b');
+  };
+  document.querySelectorAll('.theme-toggle').forEach(b => {
+    b.addEventListener('click', () => {
+      const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('mk-theme', next); } catch (e) { /* private mode */ }
+      sync();
+    });
+  });
+  sync();
+})();
+
 /* --- Hamburger Menu --- */
 (function initHamburger() {
   const toggle = document.querySelector('.nav-toggle');

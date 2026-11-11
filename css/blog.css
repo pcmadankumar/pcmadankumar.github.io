@@ -96,11 +96,11 @@
   padding: 0 7px;
   border-radius: 999px;
   font-size: 0.7rem;
-  background: rgba(255, 255, 255, 0.06);
+  background: var(--tint-2);
   color: var(--color-muted);
 }
 .cat-filter-btn.active { background: rgba(201, 168, 76, 0.14); }
-.cat-filter-btn.active .cat-count { background: var(--color-gold); color: #0a0a0a; }
+.cat-filter-btn.active .cat-count { background: var(--color-gold); color: var(--on-gold); }
 
 /* Result count */
 .blog-result-count {
@@ -279,7 +279,7 @@
 
 .page-btn.active {
   background: var(--color-gold);
-  color: #0a0a0a;
+  color: var(--on-gold);
   border-color: var(--color-gold);
 }
 
@@ -477,7 +477,7 @@
 }
 
 .post-content tbody tr:nth-child(even) td {
-  background: rgba(255, 255, 255, 0.02);
+  background: var(--tint-1);
 }
 
 /* Callout boxes */

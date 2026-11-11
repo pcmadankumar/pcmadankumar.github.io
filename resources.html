@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <script>document.documentElement.classList.add('js');</script>
+  <script>/*theme-init*/(function(){var d=document.documentElement,t=null;d.classList.add('js');try{t=localStorage.getItem('mk-theme')}catch(e){}d.setAttribute('data-theme',t==='light'?'light':'dark')})();</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0d0d0d">
   <meta name="author" content="Madan Kumar PC">
@@ -27,7 +27,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/icons.css">
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -38,6 +38,7 @@
     ]
   }
   </script>
+  <link rel="stylesheet" href="css/theme.css">
 </head>
 <body>
 
@@ -46,10 +47,7 @@
   <!-- Navigation -->
   <nav class="nav" role="navigation" aria-label="Main navigation">
       <div class="nav-inner">
-      <a href="./index.html" class="nav-logo" style="font-family: 'Dancing Script', cursive; font-size: 1.65rem;">Madan Kumar PC</a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+      <a href="./index.html" class="nav-logo" aria-label="Madan Kumar PC, home"><span class="nav-mono" aria-hidden="true">MK</span><span class="nav-word">Madan Kumar <b>PC</b></span></a>
       <ul class="nav-links">
         <li><a href="./index.html">About</a></li>
         <li class="nav-dropdown">
@@ -78,6 +76,12 @@
         <li><a href="./work-with-me.html">Work with Me</a></li>
         <li><a href="./contact.html">Contact</a></li>
       </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch light / dark theme"><i class="fa-solid fa-sun theme-icon-sun" aria-hidden="true"></i><i class="fa-solid fa-moon theme-icon-moon" aria-hidden="true"></i></button>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
   </nav>
 

@@ -6,24 +6,69 @@
 /* --- Google Fonts: loaded via <link> tags in each page's <head> (F2) —
        the old @import here caused a serial fetch + duplicate requests --- */
 
-/* --- CSS Variables --- */
+/* --- Design tokens ---
+   Dark "gold-tech" theme is the default; html[data-theme="light"] switches to light.
+   Note: --color-white is the main TEXT colour (name kept for compatibility), so it is
+   dark ink in the light theme. --on-gold is text placed on a gold background. */
 :root {
-  --color-bg:        #0a0a0a;
-  --color-surface:   #141414;
-  --color-surface-2: #1e1e1e;
-  --color-gold:      #C9A84C;
-  --color-gold-light:#E8C96A;
-  --color-white:     #F5F5F5;
-  --color-muted:     #888888;
-  --color-border:    #2a2a2a;
-  --font-display:    'Playfair Display', serif;
-  --font-body:       'Inter', sans-serif;
+  color-scheme: dark;
+  --color-bg:        #07080b;
+  --color-surface:   #111216;
+  --color-surface-2: #1a1b21;
+  --color-gold:      #d4b25a;
+  --color-gold-light:#f0d68a;
+  --color-cyan:      #5ee7ff;
+  --color-white:     #eef0f4;
+  --color-muted:     #959cab;
+  --color-border:    #23252d;
+  --on-gold:         #0a0a0a;
+  --glass:           rgba(17, 18, 22, 0.66);
+  --header-bg:       rgba(7, 8, 11, 0.78);
+  --menu-bg:         #0d0e12;
+  --chip-bg:         rgba(7, 8, 11, 0.72);
+  --tint-1:          rgba(255, 255, 255, 0.03);
+  --tint-2:          rgba(255, 255, 255, 0.05);
+  --grid-line:       rgba(212, 178, 90, 0.045);
+  --glow-gold-bg:    rgba(212, 178, 90, 0.13);
+  --glow-cyan-bg:    rgba(94, 231, 255, 0.08);
+  --grad-gold:       linear-gradient(115deg, #f6e3a6 0%, #d4b25a 45%, #b8862f 100%);
+  --font-display:    'Space Grotesk', 'Segoe UI', system-ui, sans-serif;
+  --font-body:       'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono:       'JetBrains Mono', ui-monospace, Consolas, monospace;
   --transition:      all 0.3s ease;
   --shadow-gold:     0 4px 24px rgba(201, 168, 76, 0.08);
   --shadow-gold-md:  0 8px 32px rgba(201, 168, 76, 0.15);
-  --radius:          8px;
-  --radius-lg:       16px;
+  --glow:            0 0 0 1px rgba(212, 178, 90, 0.35), 0 14px 40px -14px rgba(212, 178, 90, 0.45);
+  --radius:          10px;
+  --radius-lg:       18px;
   --nav-height:      70px;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --color-bg:        #f7f5ef;
+  --color-surface:   #ffffff;
+  --color-surface-2: #f1ede2;
+  --color-gold:      #8a6a12;
+  --color-gold-light:#6f550c;
+  --color-cyan:      #0e7490;
+  --color-white:     #15171d;
+  --color-muted:     #555b6a;
+  --color-border:    #e2dccb;
+  --on-gold:         #ffffff;
+  --glass:           rgba(255, 255, 255, 0.78);
+  --header-bg:       rgba(247, 245, 239, 0.84);
+  --menu-bg:         #fffdf8;
+  --chip-bg:         rgba(255, 255, 255, 0.85);
+  --tint-1:          rgba(20, 22, 30, 0.025);
+  --tint-2:          rgba(20, 22, 30, 0.045);
+  --grid-line:       rgba(138, 106, 18, 0.06);
+  --glow-gold-bg:    rgba(201, 168, 76, 0.16);
+  --glow-cyan-bg:    rgba(14, 116, 144, 0.07);
+  --grad-gold:       linear-gradient(115deg, #b8862f 0%, #8a6a12 55%, #5e470a 100%);
+  --shadow-gold:     0 4px 20px rgba(120, 90, 20, 0.08);
+  --shadow-gold-md:  0 10px 30px rgba(120, 90, 20, 0.14);
+  --glow:            0 0 0 1px rgba(138, 106, 18, 0.35), 0 14px 34px -16px rgba(138, 106, 18, 0.45);
 }
 
 /* --- Reset & Base --- */
@@ -40,7 +85,7 @@ html {
 
 body {
   background-color: var(--color-bg);
-  background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-image: radial-gradient(var(--tint-1) 1px, transparent 1px);
   background-size: 28px 28px;
   color: var(--color-white);
   font-family: var(--font-body);
@@ -139,8 +184,8 @@ html.js .scale-in.visible {
   left: 0;
   width: 100%;
   height: var(--nav-height);
-  background: rgba(10, 10, 10, 0.95);
-  backdrop-filter: blur(10px);
+  background: var(--header-bg);
+  backdrop-filter: blur(14px) saturate(140%);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--color-border);
   z-index: 1000;
@@ -249,7 +294,7 @@ html.js .scale-in.visible {
     gap: 0;
     /* Solid background (F9): translucent + blur let the hero photo
        bleed through the open menu on some devices */
-    background: #0a0a0a;
+    background: var(--menu-bg);
     border-bottom: 1px solid var(--color-border);
     padding: 16px 0;
     display: none;
@@ -449,14 +494,14 @@ html.js .scale-in.visible {
 
 .btn-primary {
   background: var(--color-gold);
-  color: #0a0a0a;
+  color: var(--on-gold);
 }
 
 .btn-primary:hover {
   background: var(--color-gold-light);
   box-shadow: 0 4px 20px rgba(201, 168, 76, 0.35);
   transform: translateY(-2px);
-  color: #0a0a0a;
+  color: var(--on-gold);
 }
 
 .btn-outline {
@@ -749,7 +794,7 @@ html.js .timeline::before {
 
 .skill-pill:hover {
   background: var(--color-gold);
-  color: #0a0a0a;
+  color: var(--on-gold);
   border-color: var(--color-gold);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(201, 168, 76, 0.25);
@@ -1003,7 +1048,7 @@ html.js .timeline::before {
   height: 52px;
   object-fit: contain;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--tint-2);
   padding: 5px;
   border: 1px solid rgba(201, 168, 76, 0.18);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
@@ -1246,7 +1291,7 @@ html.js .timeline::before {
   align-items: center;
   gap: 8px;
   background: var(--color-gold);
-  color: #0a0a0a;
+  color: var(--on-gold);
   font-family: var(--font-body);
   font-size: 0.95rem;
   font-weight: 700;
@@ -1464,7 +1509,7 @@ html.js .timeline::before {
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(12, 12, 12, 0.98);
+  background: var(--menu-bg);
   border: 1px solid var(--color-border);
   border-radius: 10px;
   padding: 12px 0 8px;
@@ -1495,7 +1540,7 @@ html.js .timeline::before {
 .nav-dropdown-menu a:hover,
 .nav-dropdown-menu a.nav-active {
   color: var(--color-gold);
-  background: rgba(255,255,255,0.04);
+  background: var(--tint-2);
 }
 
 @media (max-width: 1100px) {
@@ -1642,7 +1687,7 @@ html.js .timeline::before {
 }
 
 .testimonial-readmore:hover {
-  color: #fff;
+  color: var(--color-white);
 }
 
 /* --- Testimonial Modal --- */
@@ -1673,7 +1718,7 @@ html.js .timeline::before {
   animation: modalIn 0.22s ease;
   /* Firefox */
   scrollbar-width: thin;
-  scrollbar-color: var(--color-gold) #1a1a1a;
+  scrollbar-color: var(--color-gold) var(--color-surface-2);
 }
 
 /* Chrome, Opera, Safari, Edge */
@@ -1682,7 +1727,7 @@ html.js .timeline::before {
 }
 
 .modal-box::-webkit-scrollbar-track {
-  background: #1a1a1a;
+  background: var(--color-surface-2);
   border-radius: 0 16px 16px 0;
 }
 
@@ -1692,7 +1737,7 @@ html.js .timeline::before {
 }
 
 .modal-box::-webkit-scrollbar-thumb:hover {
-  background: #fff;
+  background: var(--color-white);
 }
 
 @keyframes modalIn {
@@ -2246,7 +2291,7 @@ html.js .timeline-item.lit::before {
   left: 1rem;
   padding: 0.5rem 1.2rem;
   background: var(--color-gold);
-  color: #0a0a0a;
+  color: var(--on-gold);
   font-weight: 700;
   font-size: 0.875rem;
   border-radius: 0 0 8px 8px;
@@ -2257,7 +2302,7 @@ html.js .timeline-item.lit::before {
 }
 .skip-link:focus {
   top: 0;
-  outline: 2px solid #fff;
+  outline: 2px solid var(--color-white);
   outline-offset: 2px;
 }
 
@@ -2636,7 +2681,7 @@ textarea:focus-visible {
 
 #back-to-top:hover {
   background: var(--color-gold);
-  color: #0a0a0a;
+  color: var(--on-gold);
   border-color: var(--color-gold);
   box-shadow: 0 4px 18px rgba(201, 168, 76, 0.35);
 }
@@ -2798,7 +2843,7 @@ textarea:focus-visible {
   gap: 8px;
   padding: 11px 22px;
   background: var(--color-gold);
-  color: #0a0a0a;
+  color: var(--on-gold);
   border-radius: var(--radius);
   font-size: 0.875rem;
   font-weight: 700;
@@ -2813,7 +2858,7 @@ textarea:focus-visible {
   background: var(--color-gold-light);
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(201, 168, 76, 0.35);
-  color: #0a0a0a;
+  color: var(--on-gold);
 }
 
 .res-loading,
@@ -2872,7 +2917,7 @@ textarea:focus-visible {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--color-gold);
-  background: rgba(10, 10, 10, 0.72);
+  background: var(--chip-bg);
   border: 1px solid rgba(201, 168, 76, 0.4);
   border-radius: 999px;
   padding: 4px 10px;
@@ -3133,7 +3178,7 @@ textarea:focus-visible {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+  background: linear-gradient(90deg, transparent, var(--tint-2), transparent);
   background-size: 200% auto;
   animation: shimmer 1.4s linear infinite;
 }
