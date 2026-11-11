@@ -59,7 +59,7 @@ var REDUCED_MOTION = window.matchMedia
   // Close when the viewport crosses the desktop breakpoint (F7) —
   // otherwise the open menu can stick over the page after a resize/rotation
   window.addEventListener('resize', () => {
-    if (window.innerWidth > 768 && links.classList.contains('open')) {
+    if (window.innerWidth > 1100 && links.classList.contains('open')) {
       links.classList.remove('open');
       toggle.classList.remove('open');
       toggle.setAttribute('aria-expanded', 'false');

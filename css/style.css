@@ -237,7 +237,7 @@ html.js .scale-in.visible {
 }
 
 /* Mobile Nav */
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .nav-toggle { display: flex; }
 
   .nav-links {
@@ -1498,7 +1498,7 @@ html.js .timeline::before {
   background: rgba(255,255,255,0.04);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .nav-dropdown-menu {
     position: static;
     transform: none;
@@ -3488,3 +3488,23 @@ main.page-content { overflow-x: clip; }
 /* let the Work with Me enquiry and contact columns shrink below their longest line */
 .wm-cta-grid > * { min-width: 0; }
 .wm-channel-btn { overflow-wrap: anywhere; }
+
+/* Sister-site link (Future Pathways) in the main menu */
+.nav-links a.nav-sister { color: var(--color-gold); white-space: nowrap; }
+.nav-links a.nav-sister:hover { color: var(--color-gold-light); }
+.nav-ext-icon { font-size: 0.7em; margin-left: 3px; vertical-align: 1px; }
+@media (min-width: 1101px) {
+  .nav-links { gap: 22px; }
+  .nav-links a { font-size: 0.8rem; letter-spacing: 0.03em; white-space: nowrap; }
+  .nav-logo { flex-shrink: 0; margin-right: 24px; }
+}
+
+/* Sanskrit meaning under an app's name (projects page) */
+.proj-meaning {
+  margin: -4px 0 10px;
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--color-gold);
+  opacity: 0.85;
+}
+.proj-meaning span[lang] { font-style: normal; margin-right: 2px; }
