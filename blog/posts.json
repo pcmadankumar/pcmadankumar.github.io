@@ -1,5 +1,21 @@
 [
   {
+    "id": "learning-the-hard-way-ramgopal-rao",
+    "title": "Learning the Hard Way: Ramgopal Rao on AI, Judgment and What Schools Must Protect",
+    "date": "2026-11-11",
+    "excerpt": "Professor V. Ramgopal Rao, former IIT Delhi Director and now BITS Pilani Vice Chancellor, says AI makes experts ten times faster but can mislead students with no body of work of their own. Why he would give zero marks for a one-prompt answer, what BITS is changing, why teachers need AI access first, and three changes for schools.",
+    "tags": [
+      "Pick, Learn and Share",
+      "AI",
+      "Teacher Training",
+      "Education"
+    ],
+    "readTime": 6,
+    "image": "assets/blog/learning-the-hard-way-ramgopal-rao/hero.jpg",
+    "file": "posts/learning-the-hard-way-ramgopal-rao.html",
+    "category": "training"
+  },
+  {
     "id": "from-rocket-labs-to-your-pocket",
     "title": "From Rocket Labs to Your Pocket: Where Everyday Technology Really Comes From",
     "date": "2026-11-10",
