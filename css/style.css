@@ -1987,6 +1987,8 @@ html.js .timeline::before {
 /* Status badges (badge-maker SVGs in images/badges/) */
 .proj-badges { display: flex; flex-wrap: wrap; gap: 6px; margin: -2px 0 8px; }
 .proj-badges img { height: 20px; width: auto; }
+.proj-status { font-size: 0.8rem; color: var(--color-gold); margin: -2px 0 10px; line-height: 1.5; }
+.proj-status i { margin-right: 6px; }
 
 .proj-period {
   font-size: 0.8rem;

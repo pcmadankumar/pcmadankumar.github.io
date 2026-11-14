@@ -388,11 +388,6 @@ projects:
   - name: Invoice Tracker
     tech: [React, TypeScript, "Node.js", SQLite, "Tailwind CSS", Chart.js]
     description: Multi-currency invoice management application for Cambridge Exam Coordinator workflows.
-  - name: Cambridge Syllabus Management Toolkit
-    tech: [Python, BeautifulSoup4, requests, pdfplumber, openpyxl]
-    description: >
-      Two-script Python toolkit. Script 1 bulk-downloads all Cambridge IGCSE and AS & A Level syllabuses (155+ subjects).
-      Script 2 extracts exam series availability data and generates a colour-coded Excel report.
   - name: University & Course Admissions Advisory Series
     tech: ["University Admissions", "Entrance Exams", "Verified Sourcing", Word, PDF, Excel]
     period: "2026 – Present"

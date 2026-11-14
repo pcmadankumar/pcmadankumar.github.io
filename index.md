@@ -1,4 +1,4 @@
-﻿# Cambridge Programme Coordinator & Educational Consultant | Madan Kumar PC
+# Cambridge Programme Coordinator & Educational Consultant | Madan Kumar PC
 
 **Site:** https://pcmadankumar.github.io  
 **Author:** Madan Kumar PC  
@@ -312,11 +312,6 @@ Standalone Windows desktop Markdown viewer and exporter.
 **Tech:** React, TypeScript, Node.js, SQLite, Tailwind CSS, Chart.js | Demo available on request
 
 Multi-currency invoice management application for Cambridge Exam Coordinator workflows.
-
-### Cambridge Syllabus Management Toolkit
-**Tech:** Python, BeautifulSoup4, requests, pdfplumber, openpyxl | Demo available on request
-
-Two-script Python toolkit for Cambridge programme coordination. Script 1 bulk-downloads all Cambridge IGCSE and AS & A Level syllabuses (155+ subjects). Script 2 extracts exam series availability data and generates a colour-coded Excel report.
 
 ### University & Course Admissions Advisory Series
 **Focus:** University Admissions, Entrance Exams, Verified Sourcing | **Formats:** Word, PDF, Excel | **Period:** 2026 – Present

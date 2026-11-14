@@ -163,14 +163,6 @@ Invoice Tracker — multi-currency invoice management app for Cambridge Exam Coo
   Tech: React, TypeScript, Node.js, SQLite, Tailwind CSS, Chart.js.
   Demo available on request.
 
-Cambridge Syllabus Management Toolkit — two-script Python toolkit for Cambridge programme coordination.
-  Script 1 bulk-downloads all Cambridge IGCSE and AS & A Level syllabuses (155+ subjects) from the
-  Cambridge International website, organised by qualification level and subject code.
-  Script 2 reads each syllabus PDF, extracts exam series availability and administrative zone data,
-  and generates a colour-coded Excel report with separate sheets for IGCSE and AS & A Level.
-  Tech: Python, BeautifulSoup4, requests, pdfplumber, openpyxl.
-  Demo available on request.
-
 University & Course Admissions Advisory Series — fact-checked advisory documents on competitive university
   and entrance-exam pathways (ESAT, NATA/UCEED/NID, Materials Science abroad, Biotechnology in India,
   SAT vs IPMAT vs Cambridge A Level maths). Every claim verified against official university and board
