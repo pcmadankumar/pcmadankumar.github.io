@@ -299,17 +299,17 @@ Lifelong Learning · Learning Standards · Life Skills · Sketch Noting · Criti
 A build-to-learn effort that grew into a fully deployed personal portfolio website on GitHub Pages — showcasing professional experience, skills, certifications, and achievements sourced from a LinkedIn profile export. The site is dark-themed, mobile-responsive, and features smooth scroll animations built entirely with vanilla HTML, CSS, and JavaScript. Deployed via a one-command Windows .bat script with no frameworks, no build tools, and zero hosting cost.
 
 ### Dhruv 5.0 — Personal OS
-**Tech:** React, TypeScript, Node.js, SQLite, Tesseract.js, Tailwind CSS | Demo available on request
+**Tech:** React, TypeScript, Node.js, SQLite, Tesseract.js, Tailwind CSS | Screenshots (sample data) on the Projects page
 
 Locally hosted personal management system covering Contacts, Calendar, Finance, Goals, Tasks, Notes, and Dashboard.
 
 ### Markdown Viewer (Mark)
-**Tech:** Python, PyQt6, markdown2, Pygments, python-docx, PyInstaller | Demo available on request
+**Tech:** Python, PyQt6, markdown2, Pygments, python-docx, PyInstaller | Screenshots (sample data) on the Projects page
 
 Standalone Windows desktop Markdown viewer and exporter.
 
 ### Invoice Tracker
-**Tech:** React, TypeScript, Node.js, SQLite, Tailwind CSS, Chart.js | Demo available on request
+**Tech:** React, TypeScript, Node.js, SQLite, Tailwind CSS, Chart.js | Screenshots (sample data) on the Projects page
 
 Multi-currency invoice management application for Cambridge Exam Coordinator workflows.
 
@@ -359,7 +359,7 @@ A topic-wise question bank from official 9618 past papers, classified by syllabu
 A cross-level library of original English practice materials covering Cambridge Lower Secondary Stage 8 English (a complete 22-paper fiction and non-fiction series), IGCSE English as a Second Language, and AS Level English General Paper comprehension. Every passage is original while mirroring the exact question taxonomy, mark allocation, and levels-of-response grids of real Cambridge papers. Each paper ships with a detailed mark scheme, alongside single-skill mini-worksheets.
 
 ### Pragat — Evidence Portfolio
-**Tech:** Electron, React, TypeScript, SQLite, electron-vite, pdfkit | Demo available on request
+**Tech:** Electron, React, TypeScript, SQLite, electron-vite, pdfkit | Screenshots (sample data) on the Projects page
 
 Standalone Windows desktop application for professional evidence management. Collects, organises, and exports evidence mapped to four role-specific KPI frameworks. Generates PDF reports and Markdown exports for AI-assisted self-reflection.
 

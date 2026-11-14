@@ -153,15 +153,15 @@ Personal Portfolio Website — https://pcmadankumar.github.io
 Dhruv 5.0 — locally hosted personal operating system with ten modules (Daily Anchor, Dashboard, Health, Notes & Journal,
   Calendar, Tasks, Goals, Finance, Leaves, Contacts).
   Tech: Electron, React, TypeScript, SQLite, Tesseract.js, Tailwind CSS.
-  Demo available on request.
+  Screenshots (sample data) on the Projects page.
 
 Markdown Viewer (Mark) — standalone Windows desktop Markdown viewer and exporter.
   Tech: Python, PyQt6, markdown2, Pygments, python-docx, PyInstaller.
-  Demo available on request.
+  Screenshots (sample data) on the Projects page.
 
 Invoice Tracker — multi-currency invoice management app for Cambridge Exam Coordinator workflows.
   Tech: React, TypeScript, Node.js, SQLite, Tailwind CSS, Chart.js.
-  Demo available on request.
+  Screenshots (sample data) on the Projects page.
 
 University & Course Admissions Advisory Series — fact-checked advisory documents on competitive university
   and entrance-exam pathways (ESAT, NATA/UCEED/NID, Materials Science abroad, Biotechnology in India,
