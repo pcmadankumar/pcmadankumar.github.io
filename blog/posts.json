@@ -1,5 +1,22 @@
 [
   {
+    "id": "prototyping-the-future-yossi-matias",
+    "title": "Prototyping the Future: Why AI Gives Every Researcher a Lab of Their Own",
+    "date": "2026-11-14",
+    "excerpt": "Bell Labs and NASA prototyped the future for decades. Google Research head Yossi Matias says AI now gives every researcher a virtual lab, raises our goals through ambient intelligence and puts bigger problems within reach. What that means for students and schools.",
+    "tags": [
+      "Pick, Learn and Share",
+      "AI",
+      "Industry Insights",
+      "Career Counselling",
+      "Education"
+    ],
+    "readTime": 7,
+    "image": "assets/blog/prototyping-the-future-yossi-matias/hero.jpg",
+    "file": "posts/prototyping-the-future-yossi-matias.html",
+    "category": "training"
+  },
+  {
     "id": "learning-the-hard-way-ramgopal-rao",
     "title": "Learning the Hard Way: Ramgopal Rao on AI, Judgment and What Schools Must Protect",
     "date": "2026-11-11",
