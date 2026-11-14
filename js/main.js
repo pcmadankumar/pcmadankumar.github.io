@@ -42,9 +42,14 @@ var REDUCED_MOTION = window.matchMedia
   document.querySelectorAll('.theme-toggle').forEach(b => {
     b.addEventListener('click', () => {
       const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-      root.setAttribute('data-theme', next);
-      try { localStorage.setItem('mk-theme', next); } catch (e) { /* private mode */ }
-      sync();
+      const apply = () => {
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('mk-theme', next); } catch (e) { /* private mode */ }
+        sync();
+      };
+      // a short cross-fade instead of a hard cut (motion pass); instant when unsupported or reduced
+      if (document.startViewTransition && !REDUCED_MOTION) document.startViewTransition(apply);
+      else apply();
     });
   });
   sync();
@@ -107,34 +112,47 @@ var REDUCED_MOTION = window.matchMedia
   });
 })();
 
-/* --- Scroll Fade-Up Animations (+ directional variants, A2) --- */
+/* --- Scroll reveals with batch-relative stagger (motion pass) ---
+   Items that enter the viewport together cascade in document order, capped
+   at 400 ms; an item reached later starts at once, so long grids never keep
+   the reader waiting. The delay is cleared after the reveal so hover
+   effects on those cards respond instantly. */
 (function initScrollAnimations() {
-  const elements = document.querySelectorAll('.fade-up, .fade-left, .fade-right, .scale-in');
+  var SEL = '.fade-up, .fade-left, .fade-right, .scale-in';
+  var elements = document.querySelectorAll(SEL);
   if (!elements.length) return;
+  var MAX_STAGGER = 400;
 
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
-  );
-
-  elements.forEach(el => observer.observe(el));
-})();
-
-/* --- Staggered Children Animation --- */
-(function initStaggered() {
-  document.querySelectorAll('[data-stagger]').forEach(parent => {
-    const delay = parseInt(parent.dataset.stagger) || 80;
-    parent.querySelectorAll('.fade-up, .fade-left, .fade-right, .scale-in').forEach((child, i) => {
-      child.style.transitionDelay = `${i * delay}ms`;
+  function clearDelay(el) {
+    el.addEventListener('transitionend', function done(e) {
+      if (e.target !== el || e.propertyName !== 'opacity') return;
+      el.style.transitionDelay = '';
+      el.removeEventListener('transitionend', done);
     });
-  });
+  }
+
+  var observer = new IntersectionObserver(function (entries) {
+    var counts = new Map();
+    entries
+      .filter(function (e) { return e.isIntersecting; })
+      .map(function (e) { return e.target; })
+      .sort(function (a, b) {
+        return (a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING) ? -1 : 1;
+      })
+      .forEach(function (el) {
+        var parent = el.parentElement && el.parentElement.closest('[data-stagger]');
+        if (parent && !REDUCED_MOTION) {
+          var step = parseInt(parent.dataset.stagger, 10) || 80;
+          var k = counts.get(parent) || 0;
+          counts.set(parent, k + 1);
+          if (k) { el.style.transitionDelay = Math.min(k * step, MAX_STAGGER) + 'ms'; clearDelay(el); }
+        }
+        el.classList.add('visible');
+        observer.unobserve(el);
+      });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+  elements.forEach(function (el) { observer.observe(el); });
 })();
 
 /* --- Animated Counters (stats row) --- */
@@ -310,8 +328,8 @@ var REDUCED_MOTION = window.matchMedia
     pills.forEach(function (pill, i) {
       pill.style.opacity = '0';
       pill.style.transform = 'translateY(10px)';
-      pill.style.transition = 'opacity 0.35s ease, transform 0.35s ease';
-      pill.style.transitionDelay = (i * 55) + 'ms';
+      pill.style.transition = 'opacity 0.45s cubic-bezier(0.16, 1, 0.3, 1), transform 0.45s cubic-bezier(0.16, 1, 0.3, 1)';
+      pill.style.transitionDelay = Math.min(i * 35, 420) + 'ms';
     });
 
     var observer = new IntersectionObserver(function (entries) {
@@ -320,6 +338,12 @@ var REDUCED_MOTION = window.matchMedia
         pills.forEach(function (pill) {
           pill.style.opacity = '1';
           pill.style.transform = 'translateY(0)';
+          // hand control back to the stylesheet once it has landed (hover effects stay instant)
+          pill.addEventListener('transitionend', function done(e) {
+            if (e.propertyName !== 'opacity') return;
+            pill.style.transition = pill.style.transitionDelay = pill.style.transform = pill.style.opacity = '';
+            pill.removeEventListener('transitionend', done);
+          });
         });
         observer.unobserve(entry.target);
       });
