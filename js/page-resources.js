@@ -39,6 +39,34 @@
       '</article>';
     }
 
+    // "Products" card — software I build and sell; links to the product's own page
+    function productCard(r) {
+      var badges = (r.badges || []).map(function(b) {
+        return '<span class="res-format-badge">' + b + '</span>';
+      }).join('');
+      var thumb = r.cover
+        ? '<img class="res-thumb" src="' + r.cover + '" alt="' + esc(r.title) + '" loading="lazy">'
+        : '<div class="res-thumb-placeholder"><i class="fa-solid fa-laptop-code"></i></div>';
+      var bestFor = r.bestFor
+        ? '<p class="res-bestfor"><span>Best for:</span> ' + r.bestFor + '</p>'
+        : '';
+      return '<article class="res-card res-card--product fade-up">' +
+        thumb +
+        '<div class="res-body">' +
+          '<div class="res-formats">' + badges + '</div>' +
+          '<h3 class="res-title">' + r.title + '</h3>' +
+          bestFor +
+          '<p class="res-desc">' + r.description + '</p>' +
+          '<div class="res-tags">' + tagsHtml(r) + '</div>' +
+        '</div>' +
+        '<div class="res-footer">' +
+          '<a href="' + r.url + '" class="res-btn">' +
+            '<i class="fa-solid fa-arrow-right"></i> View ' + esc((r.title || '').split(' \u2014 ')[0]) +
+          '</a>' +
+        '</div>' +
+      '</article>';
+    }
+
     // "Worth Your Time" card — others' work, attribution + thanks, outline "Visit resource"
     function recCard(r) {
       var thumb = r.cover
@@ -80,13 +108,21 @@
       .then(function(resources) {
         var mine = resources.filter(function(r) { return (r.type || 'mine') === 'mine'; });
         var rec  = resources.filter(function(r) { return r.type === 'recommended'; });
+        var products = resources.filter(function(r) { return r.type === 'product'; });
 
-        if (!mine.length && !rec.length) {
+        if (!mine.length && !rec.length && !products.length) {
           root.innerHTML = '<p class="res-empty">No resources available yet — check back soon!</p>';
           return;
         }
 
         var html = '';
+        if (products.length) {
+          html += sectionBlock(
+            '<span>Products</span>',
+            'Software I build and sell \u2014 tools I use every week, polished for everyone.',
+            products.map(productCard).join('')
+          );
+        }
         if (mine.length) {
           html += sectionBlock(
             'My <span>Resources</span>',
