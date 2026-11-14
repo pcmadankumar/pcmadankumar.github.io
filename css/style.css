@@ -1978,6 +1978,16 @@ html.js .timeline::before {
   letter-spacing: 0.03em;
 }
 
+/* Tech stack icons (skillicons.dev) — swap with the light/dark toggle */
+.skill-icons { display: block; height: 30px; width: auto; max-width: 100%; flex-basis: 100%; object-fit: contain; object-position: left; margin-bottom: 2px; }
+.skill-icons--light { display: none; }
+:root[data-theme="light"] .skill-icons--dark { display: none; }
+:root[data-theme="light"] .skill-icons--light { display: block; }
+
+/* Status badges (badge-maker SVGs in images/badges/) */
+.proj-badges { display: flex; flex-wrap: wrap; gap: 6px; margin: -2px 0 8px; }
+.proj-badges img { height: 20px; width: auto; }
+
 .proj-period {
   font-size: 0.8rem;
   color: var(--color-muted);
