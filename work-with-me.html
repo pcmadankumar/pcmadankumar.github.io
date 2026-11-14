@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -506,8 +506,13 @@
         <li><a href="./blog/index.html">Blog</a></li>
         <li><a href="./resources.html">Resources</a></li>
         <li><a href="https://futurepathways.github.io/" class="nav-sister" target="_blank" rel="noopener" title="Future Pathways: career guidance for students and parents (opens in a new tab)">Future Pathways <i class="fa-solid fa-arrow-up-right-from-square nav-ext-icon" aria-hidden="true"></i></a></li>
-        <li><a href="./work-with-me.html" class="nav-active">Work with Me</a></li>
-        <li><a href="./contact.html">Contact</a></li>
+        <li class="nav-dropdown">
+          <a href="./work-with-me.html" class="nav-dropdown-toggle nav-active">Work with Me <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="./work-with-me.html" class="nav-active">How I Can Help</a></li>
+            <li><a href="./contact.html">Get in Touch</a></li>
+          </ul>
+        </li>
       </ul>
       <div class="nav-actions">
         <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch light / dark theme"><i class="fa-solid fa-sun theme-icon-sun" aria-hidden="true"></i><i class="fa-solid fa-moon theme-icon-moon" aria-hidden="true"></i></button>

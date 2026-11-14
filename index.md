@@ -292,76 +292,157 @@ Lifelong Learning · Learning Standards · Life Skills · Sketch Noting · Criti
 
 *Every project here carries the fingerprints of three organisations that believed in me — Infosys, Ernst & Young, and The Indian Public School — each one adding a layer that the next built upon.*
 
-### Personal Portfolio Website
-**Tech:** HTML5, CSS3, JavaScript, GitHub Pages | **Period:** 2025 – Present  
-**URL:** https://pcmadankumar.github.io
+### Teacher Professional Development Projects
+
+#### Professional Development Analytics & the Six-Pillar Framework
+**Tech / focus:** Training Analytics, NPS & Confidence Model, Six-Pillar Framework, Impact Reporting, Newsletter | **Period:** 2025 – Present | **Status:** updated periodically  
+
+The data layer behind a four-campus teacher-training programme. Each cycle: training-hours dashboards per campus and section, honour rolls extracted from the school information system, a six-pillar classification of about 1,000 external trainings with the portals behind each, and a post-session impact model that pairs before-and-after confidence with Net Promoter Score to rank sessions. Co-authored the six-pillar professional development framework that moved appraisal from three "buckets" to six measurable pillars, and the trainer benefit policy that rewards teachers who learn 50+ hours and deliver 4–6. Findings are published in a monthly training newsletter, where I am part of the editing and design team.
+
+*Detailed presentation with activities, prepared and updated periodically*
+
+#### Multilingualism Teacher Training Workshop
+**Tech / focus:** CLIL Framework, Learning Design, Scaffolding Strategies, Workshop Facilitation | **Period:** 2026 – Present | **Status:** updated periodically  
+
+A 70+ slide professional development workshop designed to help teachers support multilingual learners, built incrementally from ISP module notes into a full session on Learning Design theory, the CLIL framework, and classroom scaffolding strategies. Includes a real classroom case study, four hands-on activities, a practical teaching-strategy toolkit, and a companion handout for follow-up reflection. Structured as a 3.5-hour in-person session or split across two twilight sessions. Delivered to TIPS teaching staff as part of ongoing pedagogical development.
+
+*Detailed presentation with activities, prepared and updated periodically*
+
+#### Safeguarding Teacher Training Presentation
+**Tech / focus:** Safeguarding, ISP Compliance, Teacher Training, Reporting Procedures | **Period:** 2026 – Present | **Status:** updated periodically  
+
+A professional development presentation on student safeguarding, built to meet ISP compliance requirements for all TIPS teaching staff. Developed section by section from official safeguarding source material into a structured, teacher-facing session. Designed to build practical awareness of safeguarding responsibilities and reporting procedures in the classroom. Delivered as part of the standing TIPS PD calendar.
+
+*Detailed presentation with activities, prepared and updated periodically*
+
+#### CBSE to Cambridge Teacher Induction Programme
+**Tech / focus:** Cambridge Curriculum, Command Words, Curriculum Planning, Live Polling, Online Delivery | **Period:** 2026 – Present | **Status:** updated periodically  
+
+An interactive 2-hour induction session for teachers transitioning from the CBSE board to the Cambridge curriculum, covering the shift from rote learning to application-based pedagogy, assessment and command words, and curriculum planning. Delivered online three times, to 50+ Lower Secondary and IGCSE/A Level teachers each time, using live polling and comparison-challenge activities rather than passive slides. Built from original blog research plus official Cambridge guidance. Now being expanded into a self-paced induction series in Microsoft Teams for deeper onboarding.
+
+*Detailed presentation with activities, prepared and updated periodically*
+
+#### Cambridge Exams Officer Training Modules
+**Tech / focus:** Cambridge Handbook 2026, Exam Administration, Scenario-Based Learning, Self-Assessment Quiz, Centre-Agnostic Edition | **Period:** 2026 – Present | **Status:** updated periodically  
+
+A complete three-module training suite built to onboard new Cambridge Exams Officers, developed from the Cambridge Handbook 2026 and shaped by a 20-question scoping survey to reflect real TIPS operating conditions. Covers the full exam administration cycle — entries and fees, coursework moderation, secure storage and despatch, exam day procedures, malpractice, results, and appeals — through 24 realistic scenario exercises and a 70-question self-assessment quiz. Built first to train a new Exams Officer ahead of the November 2026 series, then adapted into a generic, centre-agnostic version suitable for external schools. A free 12-slide taster deck was also produced alongside a commercial listing, exploring the suite as a standalone resource beyond TIPS.
+
+*Detailed presentation with activities, prepared and updated periodically*
+
+### Learning and Research Projects
+
+#### Personal Portfolio Website
+**Tech / focus:** HTML5, CSS3, JavaScript, GitHub Pages | **Period:** 2025 – Present | **Status:** live  
+**Link:** https://pcmadankumar.github.io  
 
 A build-to-learn effort that grew into a fully deployed personal portfolio website on GitHub Pages — showcasing professional experience, skills, certifications, and achievements sourced from a LinkedIn profile export. The site is dark-themed, mobile-responsive, and features smooth scroll animations built entirely with vanilla HTML, CSS, and JavaScript. Deployed via a one-command Windows .bat script with no frameworks, no build tools, and zero hosting cost.
 
-### Dhruv 5.0 — Personal OS
-**Tech:** React, TypeScript, Node.js, SQLite, Tesseract.js, Tailwind CSS | Screenshots (sample data) on the Projects page
+#### Cambridge IGCSE Computer Science Question Bank (0478)
+**Tech / focus:** Cambridge IGCSE 0478, Past Paper Analysis, Knowledge Organisers, Examiner Reports, SharePoint | **Period:** 2026 – Present | **Status:** prepared and used  
 
-Locally hosted personal management system covering Contacts, Calendar, Finance, Goals, Tasks, Notes, and Dashboard.
+A topic-wise question bank built entirely from official Cambridge IGCSE Computer Science past papers, covering both papers in full across all 10 syllabus topics. Every question is extracted from real question papers and mark schemes, classified by syllabus learning outcome, and tagged by difficulty band — no authored content, only verified past-paper material. Complete at 53 papers and nearly 4,000 marks, with companion knowledge organisers and a command-word exam-technique guide layered in from published examiner reports. Shared with Computer Science teachers across TIPS campuses via SharePoint as a live revision resource.
 
-### Markdown Viewer (Mark)
-**Tech:** Python, PyQt6, markdown2, Pygments, python-docx, PyInstaller | Screenshots (sample data) on the Projects page
+#### Cambridge AS & A Level Computer Science Question Bank (9618)
+**Tech / focus:** Python, Cambridge AS & A Level 9618, Past Paper Analysis, Authored Practice Papers, Topic Worksheets | **Period:** 2026 – Present | **Status:** prepared and used  
 
-Standalone Windows desktop Markdown viewer and exporter.
+A topic-wise question bank built the same way as its IGCSE counterpart, extracting and classifying questions from official 9618 past papers by syllabus learning objective and AS/A Level difficulty band. Now expanded well beyond the original bank with dedicated knowledge organisers, an examiner-report-informed command-word guide, topic worksheets, and a full set of authored practice papers built to match the Cambridge exam-series blueprint. Currently mid-build, with recent exam series still being processed and Paper 4 (practical, Python) still to come. Built for the same purpose — giving Computer Science teachers a reliable, syllabus-anchored revision resource.
 
-### Invoice Tracker
-**Tech:** React, TypeScript, Node.js, SQLite, Tailwind CSS, Chart.js | Screenshots (sample data) on the Projects page
+#### English Practice Paper & Worksheet Library (Lower Secondary, IGCSE ESL & AS Level General Paper)
+**Tech / focus:** Cambridge Lower Secondary, IGCSE ESL, AS Level General Paper, Original Passages, Mark Schemes | **Period:** 2026 – Present | **Status:** prepared and used  
 
-Multi-currency invoice management application for Cambridge Exam Coordinator workflows.
+A cross-level library of original English practice materials built to give students authentic, exam-style rehearsal beyond what past papers alone can offer. Covers Cambridge Lower Secondary Stage 8 English (a complete 22-paper fiction and non-fiction series), IGCSE English as a Second Language, and AS Level English General Paper Section A and B comprehension papers. Every passage is original to avoid copyright issues while mirroring the exact question taxonomy, mark allocation, and levels-of-response grids of the real Cambridge papers. Each paper ships as a full question paper plus a detailed mark scheme, with shorter mini-worksheets built for targeted, single-skill practice. Built to give TIPS English teachers a constantly refreshable bank of exam-realistic material.
 
-### University & Course Admissions Advisory Series
-**Focus:** University Admissions, Entrance Exams, Verified Sourcing | **Formats:** Word, PDF, Excel | **Period:** 2026 – Present
+### Future Pathways (FP) & Career Guidance Projects
 
-A growing library of fact-checked advisory documents guiding TIPS students through competitive university and entrance-exam pathways — ESAT, design programmes (NATA/UCEED/NID), Materials Science abroad, Biotechnology in India, and Mathematics syllabus comparisons (SAT vs IPMAT vs Cambridge A Level). Every claim is verified against official university and board portals, never aggregators, with numbered endnotes and a full source list.
+#### Future Pathways — Career Guidance Website
+**Tech / focus:** Astro, TypeScript, GitHub Actions, GitHub Pages, Pagefind | **Period:** 2026 – Present | **Status:** live  
+**Link:** https://futurepathways.github.io/  
 
-### University Virtual Tour Series
-**Focus:** University Profiles, QS Global Top 10, Future Pathway Counselling | **Period:** 2026 – Present
+A free career-guidance website for students and parents in India, written and run by me. Plain-language guides on careers, courses, countries, universities and opportunities sit alongside Career Roadmaps that map roles to school subjects, degrees and entrance exams, an Upcoming Deadlines page with calendar downloads, start-here pages for each grade band, full-text search and saved posts. A daily automatic rebuild keeps every deadline badge current.
 
-A 12-part advisory series profiling leading universities — the QS top 10 (MIT, Imperial, Stanford, Oxford, Harvard, Cambridge, Caltech, ETH Zurich, UCL and NUS) plus Yale and Princeton — covering academics, admissions, and student life. An additional addendum covers NUS and NTU admissions. Used as a standing reference for Future Pathways counselling across all four campuses.
+#### University & Course Admissions Advisory Series
+**Tech / focus:** University Admissions, Entrance Exams, Verified Sourcing, Word, PDF, Excel | **Period:** 2026 – Present | **Status:** ongoing  
 
-### Multilingualism Teacher Training Workshop
-**Focus:** CLIL Framework, Learning Design, Scaffolding Strategies | **Period:** 2026 – Present
+A growing library of fact-checked advisory documents guiding TIPS students through competitive university and entrance-exam pathways — ESAT, design programmes (NATA/UCEED/NID), Materials Science abroad, Biotechnology in India, and Mathematics syllabus comparisons (SAT vs IPMAT vs Cambridge A Level). Every claim is verified against official university and board portals, never aggregators, with numbered endnotes and a full source list. Each document ships as branded Word, PDF, and an accompanying Excel exam/deadline matrix. Built to give students and parents a single reliable reference instead of scattered forum advice.
 
-A 70+ slide professional development workshop helping teachers support multilingual learners, covering Learning Design theory, the CLIL framework, and classroom scaffolding strategies. Includes a real classroom case study, four hands-on activities, a teaching-strategy toolkit, and a companion reflection handout. Structured as a 3.5-hour in-person session or split across two twilight sessions.
+#### University Virtual Tour Series
+**Tech / focus:** University Profiles, QS Global Top 10, Future Pathway Counselling, Branded House Style | **Period:** 2026 – Present | **Status:** in use  
 
-### Safeguarding Teacher Training Presentation
-**Focus:** Safeguarding, ISP Compliance, Reporting Procedures | **Period:** 2026 – Present
+A 12-part advisory series profiling leading universities — the QS top 10 (MIT, Imperial, Stanford, Oxford, Harvard, Cambridge, Caltech, ETH Zurich, UCL and NUS) plus Yale and Princeton — covering academics, admissions, and student life. Each guide follows a consistent branded house style and is built to walk students through what a virtual campus visit can’t always convey. An additional addendum covers NUS and NTU admissions specifically. Used as a standing reference for Future Pathways counselling across all four campuses.
 
-A professional development presentation on student safeguarding, built to meet ISP compliance requirements for all TIPS teaching staff. Designed to build practical awareness of safeguarding responsibilities and reporting procedures in the classroom.
+### Single User – Standalone System Applications
 
-### CBSE to Cambridge Teacher Induction Programme
-**Focus:** Cambridge Curriculum, Command Words, Curriculum Planning | **Period:** 2026 – Present
+#### Dhruv — Personal OS
+**Tech / focus:** Electron, React, TypeScript, SQLite, Tailwind CSS, Tesseract.js | **Period:** 2025 – Present | **Status:** Version 6.7.6  
+**Screenshots:** on the Projects page (sample data)  
 
-An interactive 2-hour induction session for teachers transitioning from the CBSE board to the Cambridge curriculum, covering the shift from rote learning to application-based pedagogy, assessment and command words, and curriculum planning. Delivered online using live polling and comparison-challenge activities. Now being expanded into a self-paced induction series in Microsoft Teams for deeper onboarding.
+A locally-hosted, single-user personal operating system, now at version 6.7.6 with ten integrated modules — Daily Anchor, Dashboard, Health, Notes & Journal, Calendar, Tasks, Goals, Finance, Leaves, and Contacts — anchored by a Daily Anchor view that sets the day's focus. It runs entirely offline with no external API dependencies, keeping all personal data on the local machine. Built to replace fragmented tools with one private, customised workspace, and the daily summaries it produces drive a self-accountability loop.
 
-### Cambridge Exams Officer Training Modules
-**Focus:** Exam Administration, Scenario-Based Learning | **Period:** 2026 – Present
+#### Drishti — Markdown Viewer & Converter
+**Tech / focus:** Python, Qt, markdown2, Pygments, PyInstaller | **Period:** 2025 – Present | **Status:** on sale  
+**Name:** दृष्टि · Sanskrit for “sight”  
+**Link:** https://pcmadankumar.github.io/drishti.html  
+**Screenshots:** on the Projects page (sample data)  
 
-A three-module training suite for new Cambridge Exams Officers, developed from the Cambridge Handbook 2026 and shaped by a 20-question scoping survey. Covers the full exam administration cycle — entries and fees, coursework moderation, secure storage and despatch, exam day procedures, malpractice, results, and appeals — through 24 scenario exercises and a 70-question self-assessment quiz. Also adapted into a centre-agnostic edition for external schools.
+A Windows desktop app for reading and converting Markdown, the format most AI tools write in. It switches between a rendered page and raw text, draws Mermaid diagrams, KaTeX maths and GitHub-style callouts, and exports to PDF and Word. Files open from Explorer’s “Open with” or from the command line, with a recent-files list and dark and light themes. It also hosts the launcher for the whole app suite.
 
-### Cambridge IGCSE Computer Science Question Bank (0478)
-**Focus:** Past Paper Analysis, Knowledge Organisers, Examiner Reports | **Period:** 2026 – Present
+#### Bodhi — AI Daily Intelligence Briefing
+**Tech / focus:** Electron, React, TypeScript, SQLite, Kotlin, Groq & Gemini APIs | **Period:** 2026 – Present | **Status:** Platform: Windows and Android  
+**Name:** बोधि · Sanskrit for “awakening”  
+**Screenshots:** on the Projects page (sample data)  
 
-A topic-wise question bank built entirely from official Cambridge IGCSE Computer Science past papers, covering both papers across all 10 syllabus topics. Every question is extracted from real papers and mark schemes, classified by syllabus learning outcome and difficulty band. Complete at 53 papers and nearly 4,000 marks, with companion knowledge organisers and a command-word guide. Shared with TIPS Computer Science teachers via SharePoint.
+A morning and evening briefing built around four job roles. Bodhi gathers news from RSS feeds, YouTube channels, websites and keyword searches, then uses AI to summarise about 25 items into a separate panel for each role. A thumbs-down teaches it which topics to drop, and broken feeds are recovered automatically. A seven-day digest and an events scanner catch anything missed. Windows app, with an Android version.
 
-### Cambridge AS & A Level Computer Science Question Bank (9618)
-**Focus:** Past Paper Analysis, Authored Practice Papers, Topic Worksheets | **Period:** 2026 – Present
+#### Setu — Prompt, Bookmark & Guide Library
+**Tech / focus:** Electron, React, TypeScript, SQLite, Kotlin, Jetpack Compose | **Period:** 2026 – Present | **Status:** Platform: Windows and Android  
+**Name:** सेतु · Sanskrit for “bridge”  
+**Screenshots:** on the Projects page (sample data)  
 
-A topic-wise question bank from official 9618 past papers, classified by syllabus learning objective and AS/A Level difficulty band. Extended with knowledge organisers, an examiner-report-informed command-word guide, topic worksheets, and a full set of authored practice papers matching the Cambridge exam-series blueprint. Currently mid-build, with Paper 4 (practical, Python) still to come.
+A personal library for AI prompts, bookmarks and how-to guides, organised by role with folders, tags, favourites and full-text search. Prompts support fill-in variables, version history and chaining one prompt into another, and bookmarks are checked for broken links. The Windows and Android apps stay in sync through a single file on Google Drive or OneDrive.
 
-### English Practice Paper & Worksheet Library
-**Focus:** Cambridge Lower Secondary, IGCSE ESL, AS Level General Paper | **Period:** 2026 – Present
+#### Shruti — Offline Document Reader
+**Tech / focus:** Electron, Kotlin, Tesseract.js, PDF.js, Piper TTS, sherpa-onnx | **Period:** 2026 – Present | **Status:** Platform: desktop and Android  
+**Name:** श्रुति · Sanskrit for “that which is heard”  
+**Screenshots:** on the Projects page (sample data)  
 
-A cross-level library of original English practice materials covering Cambridge Lower Secondary Stage 8 English (a complete 22-paper fiction and non-fiction series), IGCSE English as a Second Language, and AS Level English General Paper comprehension. Every passage is original while mirroring the exact question taxonomy, mark allocation, and levels-of-response grids of real Cambridge papers. Each paper ships with a detailed mark scheme, alongside single-skill mini-worksheets.
+Turns documents into speech with no internet needed. Shruti reads TXT, Word, EPUB and PDF files, and even photos of pages, using offline text recognition in English and Tamil with natural neural voices. It resumes at the last sentence read, follows chapters and exports audio to MP3. The Android version adds YouTube-transcript import, background playback and a sleep timer.
 
-### Pragat — Evidence Portfolio
-**Tech:** Electron, React, TypeScript, SQLite, electron-vite, pdfkit | Screenshots (sample data) on the Projects page
+### Role Specific Standalone Applications
 
-Standalone Windows desktop application for professional evidence management. Collects, organises, and exports evidence mapped to four role-specific KPI frameworks. Generates PDF reports and Markdown exports for AI-assisted self-reflection.
+#### Vartana — Exam Invoice & Credit-Note Tracker
+**Tech / focus:** Electron, React, TypeScript, SQLite, Chart.js, jsPDF | **Period:** 2025 – Present  
+**Name:** वर्तन · Sanskrit for “transaction”  
+**Screenshots:** on the Projects page (sample data)  
+
+Built for the Exam Controller role to keep exam finances accurate across several campuses. Invoices and credit notes in any currency are converted to rupees at the exchange rate on the document’s own date. Cambridge invoices import straight from PDF, with fields filled automatically and duplicates flagged. It reconciles credit notes, produces financial-year and per-campus PDF reports, and analyses exam entries by subject and series, including late entries and withdrawals.
+
+#### Kosha — University Knowledge Base for Counselling
+**Tech / focus:** Electron, React, TypeScript, docx, ExcelJS, PDF.js | **Period:** 2026 – Present | **Status:** in use  
+**Name:** कोश · Sanskrit for “treasury”  
+**Screenshots:** on the Projects page (sample data)  
+
+The working database behind the Future Pathways counselling programme. One search brings a university’s full profile, notes, references and contacts onto a single screen. New universities come in through a PDF form, and every edit is written back to the master document with automatic backups. PIN-protected and kept on one machine, because counselling records stay private.
+
+#### Samvad — University Virtual Tour Guide Builder
+**Tech / focus:** Electron, React, Vite, Python, YAML, Claude Code | **Period:** 2026 – Present | **Status:** in use  
+**Name:** संवाद · Sanskrit for “dialogue”  
+**Screenshots:** on the Projects page (sample data)  
+
+The tool behind the University Virtual Tour series. It builds one parent guide per university for CBSE and Cambridge A Level families, from structured data that is checked before release. The app tracks each guide’s status and rating, has a form editor, and starts an AI research-and-writing session for a new university. A finished guide becomes a ready-to-send email draft.
+
+#### Pragat — KPI Evidence Portfolio
+**Tech / focus:** Electron, React, TypeScript, SQLite, Groq (Llama 3.3) | **Period:** 2026 – Present  
+**Name:** प्रगत · Sanskrit for “progress”  
+**Screenshots:** on the Projects page (sample data)  
+
+Keeps the evidence for every coordinator role’s KPIs in one place. Each item is logged against KPI and responsibility codes, and an AI “Analyse” button suggests which KPIs a description supports. A roadmap module rates progress on the ISP Futures roadmaps across campuses as Aligned, Partial or Needs Work. A “Needs evidence” queue shows the gaps, and weekly reports and the full portfolio export to PDF or Markdown.
+
+#### Vritta — External Training Tracker
+**Tech / focus:** Electron, React, SQLite, docx | **Period:** 2026 – Present | **Status:** in use  
+**Name:** वृत्त · Sanskrit for “an account of what took place”  
+**Screenshots:** on the Projects page (sample data)  
+
+Built for the school group’s professional-development team. It records the external trainings, workshops and conferences teachers attend, with hours tracked day by day. It generates the HR deputation letter as a Word file with a running reference number, fills professional-development agreements and reads the event budget, with dashboard charts for the totals. Its letters are already in use with HR.
 
 ---
 

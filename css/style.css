@@ -1,6 +1,49 @@
 /* ============================================================
-   style.css — Global Stylesheet
-   Portfolio: Madan Kumar PC
+   style.css — Global stylesheet (base layer) · Portfolio: Madan Kumar PC
+
+   HOW THE STYLESHEETS LAYER (each page loads them in this order; later wins):
+     1. style.css  base layer: design tokens, layout and every component
+     2. blog.css   blog listing and post pages only
+     3. icons.css  self-hosted Font Awesome subset (mask icons)
+     4. theme.css  gold-tech look + the motion system; loaded LAST, so it
+                   overrides 1-3 wherever they set the same property
+   Rule of thumb: structure and spacing go in style.css; colour, glass,
+   glow and the light theme go in theme.css; timing curves and durations
+   are the tokens in theme.css "Motion system" (--ease-*, --dur-*).
+   Reduced motion: the block at the end of style.css zeroes all motion.
+
+   SECTIONS IN THIS FILE (search for the heading text):
+     - NAVIGATION
+     - FOOTER
+     - PAGE WRAPPER (offset for fixed nav)
+     - HERO (index.html)
+     - TIMELINE (experience.html)
+     - SKILLS (skills.html)
+     - EDUCATION (education.html)
+     - ACHIEVEMENTS (achievements.html)
+     - CERTIFICATIONS (certifications.html)
+     - CONTACT (contact.html)
+     - CONTACT FORM
+     - PAGE HERO BANNER (inner pages)
+     - RESPONSIVE
+     - DROPDOWN NAVIGATION
+     - CERT CATEGORY HEADINGS
+     - TESTIMONIALS
+     - WORK PROJECTS (work_projects.html)
+     - DESIGN IMPROVEMENTS v1.0 — April 2026
+     - ANIMATION ENHANCEMENTS v2.0
+     - ACCESSIBILITY — Skip to main content
+     - KEYBOARD FOCUS (F7)
+     - STATS QUOTE ROW (moved out of stats-grid)
+     - ABOUT SECTION — Index page
+     - LINKEDIN STATIC FALLBACK CARD (contact.html)
+     - HOMEPAGE BLOG PREVIEW
+     - BACK TO TOP BUTTON
+     - FOOTER NAV
+     - RESOURCES PAGE
+     - HOMEPAGE RESOURCES CAROUSEL
+     - FRONTEND REVIEW BATCH — F4/F8 + A1/A4/A5/A6/A8/A9/A10/A11/A12
+     - ACCESSIBILITY — Reduced Motion (F1)
    ============================================================ */
 
 /* --- Google Fonts: loaded via <link> tags in each page's <head> (F2) —
@@ -137,7 +180,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .gold { color: var(--color-gold); }
-.muted { color: var(--color-muted); }
 
 /* --- Scroll Animation ---
    Gated behind html.js (set by a one-line head script) so content
@@ -1178,18 +1220,6 @@ html.js .timeline::before {
   margin-bottom: 20px;
 }
 
-.badge-wrapper {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  padding: 24px;
-  min-height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
 /* ============================================================
    CONTACT FORM
    ============================================================ */
@@ -1649,14 +1679,6 @@ html.js .timeline::before {
   opacity: 0.6;
 }
 
-.testimonial-text {
-  color: var(--color-muted);
-  font-size: 0.92rem;
-  line-height: 1.85;
-  font-style: italic;
-  flex: 1;
-}
-
 .testimonial-preview {
   color: var(--color-muted);
   font-size: 0.92rem;
@@ -1691,18 +1713,6 @@ html.js .timeline::before {
 }
 
 /* --- Testimonial Modal --- */
-.modal-overlay {
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.78);
-  z-index: 2000;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  padding: 24px;
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
-}
 
 .modal-box {
   background: var(--color-surface);
@@ -1930,14 +1940,6 @@ html.js .timeline::before {
   flex-shrink: 0;
 }
 
-.proj-image--placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-border);
-  font-size: 1.4rem;
-}
-
 .proj-image--alt {
   display: flex;
   align-items: center;
@@ -1963,7 +1965,6 @@ html.js .timeline::before {
   background: rgba(13, 13, 13, 0.78); color: #f5f5f5; border: 1px solid rgba(201, 168, 76, 0.45);
 }
 .proj-shot-count i { margin-right: 5px; color: #c9a84c; }
-.proj-shot-note { font-size: 0.75rem; color: var(--color-muted); font-style: italic; margin: -8px 0 12px; }
 
 html.shot-open { overflow: hidden; }
 .shot-dialog {
@@ -1988,7 +1989,6 @@ html.shot-open { overflow: hidden; }
 }
 .shot-prev:hover, .shot-next:hover, .shot-close:hover { background: #c9a84c; color: #0d0d0d; }
 .shot-close { position: fixed; top: 14px; right: 14px; z-index: 2; }
-
 
 .proj-name {
   font-family: var(--font-display);
@@ -3564,7 +3564,6 @@ html.js .hero-title {
     transform: none !important;
   }
 }
-
 
 /* --- Small-phone and touch fixes (30 Oct 2026 review) --- */
 .edu-card > div { min-width: 0; }

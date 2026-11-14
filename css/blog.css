@@ -1,6 +1,16 @@
 /* ============================================================
-   blog.css — Blog Styles
-   Portfolio: Madan Kumar PC
+   blog.css — Blog listing and post pages · Portfolio: Madan Kumar PC
+
+   HOW THE STYLESHEETS LAYER (each page loads them in this order; later wins):
+     1. style.css  base layer: design tokens, layout and every component
+     2. blog.css   blog listing and post pages only
+     3. icons.css  self-hosted Font Awesome subset (mask icons)
+     4. theme.css  gold-tech look + the motion system; loaded LAST, so it
+                   overrides 1-3 wherever they set the same property
+   Rule of thumb: structure and spacing go in style.css; colour, glass,
+   glow and the light theme go in theme.css; timing curves and durations
+   are the tokens in theme.css "Motion system" (--ease-*, --dur-*).
+   Reduced motion: the block at the end of style.css zeroes all motion.
    ============================================================ */
 
 /* --- Blog Listing Page --- */
@@ -504,20 +514,6 @@
 }
 
 /* Placeholder notice */
-.placeholder-notice {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  background: rgba(201, 168, 76, 0.06);
-  border: 1px solid rgba(201, 168, 76, 0.25);
-  border-radius: var(--radius);
-  padding: 16px 20px;
-  margin-bottom: 36px;
-  font-size: 0.88rem;
-  color: var(--color-gold);
-}
-
-.placeholder-notice i { margin-top: 2px; flex-shrink: 0; }
 
 /* Social Share */
 .social-share {
