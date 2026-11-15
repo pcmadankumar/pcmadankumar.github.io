@@ -493,15 +493,10 @@
   (function () {
     // Gumroad products (USD for the world, INR for India) and the free trial.
     // While a link is empty, its button points to the contact page and says so.
-    // Until the Gumroad products are published, the trial downloads straight from the public
-    // releases page and Buy shows "launching soon". When they go live, switch to:
-    //   trial:  'https://madankumar25.gumroad.com/l/shruti-trial'   ($0+ Gumroad product)
-    //   buyINR: 'https://madankumar25.gumroad.com/l/shruti-india'   (₹1,499)
-    //   buyUSD: 'https://madankumar25.gumroad.com/l/shruti'         ($19)
     var LINKS = {
-      trial: 'https://github.com/pcmadankumar/shruti-releases/releases/latest',
-      buyINR: '',
-      buyUSD: ''
+      trial: 'https://madankumar25.gumroad.com/l/shruti-trial',   // $0+ Gumroad product
+      buyINR: 'https://madankumar25.gumroad.com/l/shruti-india',  // ₹1,499
+      buyUSD: 'https://madankumar25.gumroad.com/l/shruti'         // $19
     };
     var PRICES = { INR: '₹1,499', USD: '$19' };
     var FREE = { INR: '₹0', USD: '$0' };
