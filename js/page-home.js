@@ -75,7 +75,7 @@
         return '<span class="res-tag">' + t + '</span>';
       }).join('');
       return '<div class="home-res-slide">' +
-        '<a class="hrc-card" href="' + r.url + '" target="_blank" rel="noopener">' +
+        '<a class="hrc-card" href="' + r.url + '"' + (/^https?:/.test(r.url) ? ' target="_blank" rel="noopener"' : '') + '>' +
           imgHtml +
           '<div class="hrc-body">' +
             '<div class="hrc-formats">' + badges + '</div>' +
@@ -83,7 +83,7 @@
             (r.bestFor ? '<div class="res-bestfor"><span>Best for:</span> ' + r.bestFor + '</div>' : '') +
             '<div class="hrc-desc">' + r.description + '</div>' +
             '<div class="hrc-tags">' + tags + '</div>' +
-            '<div class="hrc-cta-line"><i class="fa-solid fa-arrow-right"></i> Get it now</div>' +
+            '<div class="hrc-cta-line"><i class="fa-solid fa-arrow-right"></i> View kit</div>' +
           '</div>' +
         '</a>' +
       '</div>';

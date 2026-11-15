@@ -60,17 +60,17 @@
   {
     "id": "igcse-cs-starter",
     "type": "mine",
-    "title": "IGCSE Computer Science (0478) Starter Pack",
-    "description": "A complete ready-to-use kit for IGCSE Computer Science — includes a quick-start PDF to orient students, a comprehensive full-module PDF, and an editable PPTX presentation ready for classroom delivery.",
+    "title": "IGCSE Computer Science (0478) Teacher Kit",
+    "description": "For the 2026–2028 syllabus. A free 9-slide Starter Deck, plus a 35-slide Full Teacher Deck covering all ten topics. PDF and editable PowerPoint. Starter free; Full kit ₹999 or $15.",
     "subject": "IGCSE Computer Science",
     "code": "0478",
     "formats": [
       "PDF",
       "PPTX"
     ],
-    "icon": "assets/resources/igcsecscover.jpg",
-    "cover": "assets/resources/igcsecomcover.jpg",
-    "url": "https://madankumar25.gumroad.com/l/IGCSEComputerScience",
+    "icon": "images/kits/0478-cover.png",
+    "cover": "images/kits/0478-cover.webp",
+    "url": "cambridge-0478-computer-science.html",
     "featured": true,
     "tags": [
       "IGCSE",
@@ -83,17 +83,17 @@
   {
     "id": "igcse-gp-starter",
     "type": "mine",
-    "title": "IGCSE Global Perspectives (0457) Starter Pack",
-    "description": "A complete ready-to-use kit for IGCSE Global Perspectives — includes a quick-start PDF to orient students, a comprehensive full-module PDF, and an editable PPTX presentation ready for classroom delivery.",
+    "title": "IGCSE Global Perspectives (0457) Teacher Kit",
+    "description": "For the 2025–2027 syllabus. A free 10-page Onboarding Guide, plus a 42-slide Teacher Training deck for running a full staff training. PDF and editable PowerPoint. Guide free; Full kit ₹999 or $15.",
     "subject": "IGCSE Global Perspectives",
     "code": "0457",
     "formats": [
       "PDF",
       "PPTX"
     ],
-    "icon": "assets/resources/igcsegpicon.jpg",
-    "cover": "assets/resources/igcsegpcover.webp",
-    "url": "https://madankumar25.gumroad.com/l/IGCSEGPStarter",
+    "icon": "images/kits/0457-cover.png",
+    "cover": "images/kits/0457-cover.webp",
+    "url": "cambridge-0457-global-perspectives.html",
     "featured": true,
     "tags": [
       "IGCSE",
@@ -106,17 +106,17 @@
   {
     "id": "asa-gp",
     "type": "mine",
-    "title": "AS and A Level Global Perspectives (9239) Teaching Pack",
-    "description": "A comprehensive ready-to-use teaching pack for AS and A Level Global Perspectives — covers the official 2027-2029 syllabus across four papers (2 in AS, 2 in A), with structured guidance and 50+ editable teacher slides in PowerPoint and PDF formats.",
+    "title": "AS & A Level Global Perspectives & Research (9239) Teacher Kit",
+    "description": "For exams 2026–2028. A free 11-slide Starter Deck, plus a 25-slide Companion Deck and a four-term timeline. PDF and editable PowerPoint. Starter free; Full kit ₹999 or $15.",
     "subject": "AS and A Level Global Perspectives",
     "code": "9239",
     "formats": [
       "PDF",
       "PPTX"
     ],
-    "icon": "assets/resources/asa-gp-icon.jpg",
-    "cover": "assets/resources/asa-gp-cover.jpg",
-    "url": "https://madankumar25.gumroad.com/l/asaglobalperspectives",
+    "icon": "images/kits/9239-cover.png",
+    "cover": "images/kits/9239-cover.webp",
+    "url": "cambridge-9239-global-perspectives.html",
     "featured": true,
     "tags": [
       "AS Level",
@@ -130,17 +130,17 @@
   {
     "id": "asa-cs",
     "type": "mine",
-    "title": "AS and A Level Computer Science (9618) Teaching Pack",
-    "description": "A comprehensive ready-to-use teaching pack for AS and A Level Computer Science — covers the official 2027-2029 syllabus across four papers (2 in AS, 2 in A), with 38+ topics and 50+ editable teacher slides in PowerPoint and PDF formats.",
+    "title": "AS & A Level Computer Science (9618) Teacher Kit",
+    "description": "For exams 2027–2029. A free 11-slide Starter Deck, plus a 52-slide Full Teacher Deck covering all 20 syllabus sections. PDF and editable PowerPoint. Starter free; Full kit ₹999 or $15.",
     "subject": "AS and A Level Computer Science",
     "code": "9618",
     "formats": [
       "PDF",
       "PPTX"
     ],
-    "icon": "assets/resources/asa-cs-icon.jpg",
-    "cover": "assets/resources/asa-cs-cover.jpg",
-    "url": "https://madankumar25.gumroad.com/l/asacomputerscience",
+    "icon": "images/kits/9618-cover.png",
+    "cover": "images/kits/9618-cover.webp",
+    "url": "cambridge-9618-computer-science.html",
     "featured": true,
     "tags": [
       "AS Level",

@@ -11,7 +11,7 @@
       return (r.tags || []).map(function(t) { return '<span class="res-tag">' + t + '</span>'; }).join('');
     }
 
-    // "My Resources" card — solid gold "Get it now" → Gumroad
+    // "My Resources" card — solid gold button → the kit's own page (free Starter + Razorpay checkout)
     function mineCard(r) {
       var formats = (r.formats || []).map(function(f) {
         return '<span class="res-format-badge">' + f + '</span>';
@@ -32,8 +32,8 @@
           '<div class="res-tags">' + tagsHtml(r) + '</div>' +
         '</div>' +
         '<div class="res-footer">' +
-          '<a href="' + r.url + '" target="_blank" rel="noopener noreferrer" class="res-btn">' +
-            '<i class="fa-solid fa-bag-shopping"></i> Get it now' +
+          '<a href="' + r.url + '"' + (/^https?:/.test(r.url) ? ' target="_blank" rel="noopener noreferrer"' : '') + ' class="res-btn">' +
+            '<i class="fa-solid fa-bag-shopping"></i> View kit' +
           '</a>' +
         '</div>' +
       '</article>';
@@ -126,7 +126,7 @@
         if (mine.length) {
           html += sectionBlock(
             'My <span>Resources</span>',
-            'Teaching aids I’ve built for Cambridge subjects — ready to use in class, available on Gumroad.',
+            'Teaching aids I’ve built for Cambridge subjects — ready to use in class. Each kit has a free Starter; the full kit is a one-time purchase.',
             mine.map(mineCard).join('')
           );
         }
