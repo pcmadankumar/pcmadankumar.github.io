@@ -137,17 +137,29 @@
       '<input id="ck-email" type="email" autocomplete="email" required placeholder="you@example.com" value="' + esc(saved) + '" ' +
       'style="display:block;width:100%;margin:8px 0 4px;padding:11px 12px;border-radius:10px;border:1px solid var(--color-border,#444);' +
       'background:transparent;color:inherit;font:inherit">' +
+      '<label for="ck-email2" style="display:block;margin-top:10px">Type it again to confirm</label>' +
+      '<input id="ck-email2" type="email" autocomplete="off" required placeholder="you@example.com" ' +
+      'style="display:block;width:100%;margin:8px 0 4px;padding:11px 12px;border-radius:10px;border:1px solid var(--color-border,#444);' +
+      'background:transparent;color:inherit;font:inherit">' +
       '<p class="ck-small" data-ck-err aria-live="polite"></p>' +
       '<div class="ck-actions"><button type="submit" class="ck-btn">Continue to payment</button>' +
       '<button type="button" class="ck-btn ck-ghost" data-ck-close>Cancel</button></div></form>');
-    var form = dlg.querySelector('[data-ck-form]'), input = form.querySelector('input');
-    input.focus();
+    var form = dlg.querySelector('[data-ck-form]'), input = form.querySelector('#ck-email'), input2 = form.querySelector('#ck-email2');
+    // Retyping (not pasting) is what catches a typo in the address.
+    input2.addEventListener('paste', function (e) { e.preventDefault(); });
+    input2.addEventListener('drop', function (e) { e.preventDefault(); });
+    (input.value ? input2 : input).focus();
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      var email = input.value.trim();
+      var email = input.value.trim(), err = form.querySelector('[data-ck-err]');
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-        form.querySelector('[data-ck-err]').textContent = 'Please enter a valid email address.';
+        err.textContent = 'Please enter a valid email address.';
         input.focus();
+        return;
+      }
+      if (input2.value.trim().toLowerCase() !== email.toLowerCase()) {
+        err.textContent = 'The two email addresses don’t match. Please check them.';
+        input2.focus();
         return;
       }
       try { localStorage.setItem('checkout-email', email); } catch (e2) {}
