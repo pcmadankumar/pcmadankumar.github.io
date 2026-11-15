@@ -19,6 +19,26 @@
     "bestFor": "Teachers, coordinators, students and anyone reading AI-generated notes"
   },
   {
+    "id": "shruti",
+    "type": "product",
+    "title": "Shruti — Offline Read-Aloud for Windows",
+    "description": "Drop in a PDF, a Word file, an e-book or a scanned page, press play, and listen. Natural voices read it aloud entirely on your PC, the sentence being read is highlighted, your place is remembered, and any document can be saved as an MP3. Works offline; your files are never uploaded.",
+    "badges": [
+      "Windows 10 & 11",
+      "15-day free trial"
+    ],
+    "cover": "images/shruti/shruti-og.png",
+    "url": "shruti.html",
+    "tags": [
+      "Read aloud",
+      "Natural voices",
+      "OCR: English & Tamil",
+      "MP3 export",
+      "Offline"
+    ],
+    "bestFor": "Students, teachers, busy professionals and anyone whose eyes tire of long reading on screen"
+  },
+  {
     "id": "igcse-cs-starter",
     "type": "mine",
     "title": "IGCSE Computer Science (0478) Starter Pack",
