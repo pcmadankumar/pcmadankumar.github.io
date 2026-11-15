@@ -172,7 +172,7 @@
     }
   </style>
 
-
+
   <link rel="stylesheet" href="css/theme.css">
 </head>
 <body>
@@ -270,7 +270,7 @@
               <span>Buy for <span data-price>₹899</span></span>
             </a>
           </div>
-          <p class="dr-small" data-launch-note>Windows 10 &amp; 11 · No subscription · Secure checkout by Gumroad</p>
+          <p class="dr-small" data-launch-note>Windows 10 &amp; 11 · No subscription · Secure checkout by Razorpay</p>
         </div>
         <div class="fade-up">
           <div class="dr-shot">
@@ -418,7 +418,7 @@
             </a>
           </div>
         </div>
-        <p class="dr-note fade-up">Secure checkout by Gumroad. Taxes such as GST are added at checkout where they apply.</p>
+        <p class="dr-note fade-up">Secure checkout by Razorpay: UPI, cards, net banking and wallets. The price shown is the price you pay.</p>
       </div>
     </section>
 
@@ -441,7 +441,7 @@
           <details class="fade-up"><summary>What do I need to run it?</summary>
             <p>A Windows 10 or Windows 11 (64-bit) PC with about 600 MB of free disk space. Installing needs no administrator rights. The trial needs the internet the first time it opens, and the full version when you enter your key. Mac and Linux are not supported yet.</p></details>
           <details class="fade-up"><summary>How do I pay from India?</summary>
-            <p>Checkout is handled securely by Gumroad with Indian and international cards. The ₹ price is shown automatically when you visit from India, and GST is added at checkout as required.</p></details>
+            <p>Checkout is handled securely by Razorpay. In India you can pay by UPI, debit or credit card, net banking or a wallet; from outside India, by international card. The ₹ price is shown automatically when you visit from India, and the price shown is the price you pay.</p></details>
         </div>
       </div>
     </section>
@@ -477,7 +477,7 @@
         <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="footer-link">
           <i class="fa-brands fa-linkedin"></i> Connect on LinkedIn
         </a>
-        <nav class="footer-nav" aria-label="Quick links"><a href="./resources.html" class="footer-nav-link">Resources</a><span class="footer-nav-sep">·</span><a href="./blog/index.html" class="footer-nav-link">Blog</a><span class="footer-nav-sep">·</span><a href="./contact.html" class="footer-nav-link">Contact</a><span class="footer-nav-sep">·</span><a href="https://futurepathways.github.io/" target="_blank" rel="noopener" class="footer-nav-link">Future Pathways ↗</a><span class="footer-nav-sep">·</span><a href="https://github.com/pcmadankumar" target="_blank" rel="noopener" class="footer-nav-link">GitHub</a></nav>
+        <nav class="footer-nav" aria-label="Quick links"><a href="./resources.html" class="footer-nav-link">Resources</a><span class="footer-nav-sep">·</span><a href="./blog/index.html" class="footer-nav-link">Blog</a><span class="footer-nav-sep">·</span><a href="./contact.html" class="footer-nav-link">Contact</a><span class="footer-nav-sep">·</span><a href="https://futurepathways.github.io/" target="_blank" rel="noopener" class="footer-nav-link">Future Pathways ↗</a><span class="footer-nav-sep">·</span><a href="https://github.com/pcmadankumar" target="_blank" rel="noopener" class="footer-nav-link">GitHub</a><span class="footer-nav-sep">·</span><a href="./terms.html" class="footer-nav-link">Terms</a><span class="footer-nav-sep">·</span><a href="./privacy.html" class="footer-nav-link">Privacy</a><span class="footer-nav-sep">·</span><a href="./refund-policy.html" class="footer-nav-link">Refunds</a></nav>
 
 
       </div>
@@ -490,12 +490,11 @@
 
   <script>
   (function () {
-    // ---- Fill these in once the Gumroad products exist. ----
-    // While a link is empty, its button points to the contact page and says so.
+    // Trial: a public installer. Buy: Razorpay checkout through the licence server.
     var LINKS = {
-      trial: 'https://madankumar25.gumroad.com/l/drishti-trial',   // $0+ Gumroad product
-      buyINR: 'https://madankumar25.gumroad.com/l/drishti-india',  // ₹899
-      buyUSD: 'https://madankumar25.gumroad.com/l/Drishti'         // $9.99
+      trial: 'https://github.com/pcmadankumar/Drishti-releases/releases/latest',   // free trial installer (GitHub releases)
+      buyINR: '#buy',   // Buy opens Razorpay checkout (js/checkout.js)
+      buyUSD: '#buy'
     };
     var PRICES = { INR: '₹899', USD: '$9.99' };
     var FREE = { INR: '₹0', USD: '$0' };
@@ -518,14 +517,14 @@
       });
       var buy = currency === 'INR' ? LINKS.buyINR : LINKS.buyUSD;
       document.querySelectorAll('[data-link]').forEach(function (a) {
-        var url = a.getAttribute('data-link') === 'trial' ? LINKS.trial : buy;
-        a.href = url || 'contact.html';
-        if (url) { a.target = '_blank'; a.rel = 'noopener'; }
-        a.title = url ? '' : 'Launching soon: get in touch to be told first';
+        var isTrial = a.getAttribute('data-link') === 'trial';
+        a.href = isTrial ? LINKS.trial : '#buy';
+        if (isTrial) { a.target = '_blank'; a.rel = 'noopener'; } else { a.removeAttribute('target'); }
+        a.title = '';
       });
       var live = LINKS.trial || buy;
       var note = document.querySelector('[data-launch-note]');
-      if (note && live) note.innerHTML = 'Windows 10 &amp; 11 · No subscription · Secure checkout by Gumroad';
+      if (note && live) note.innerHTML = 'Windows 10 &amp; 11 · No subscription · Secure checkout by Razorpay';
     }
 
     document.querySelectorAll('[data-currency]').forEach(function (b) {
@@ -555,5 +554,6 @@
   </script>
   <script src="js/nav.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/checkout.js" defer data-api="https://drishti-licence.madankumarpc.workers.dev" data-product="Drishti" data-logo="images/drishti/drishti-logo.png" data-download="https://github.com/pcmadankumar/Drishti-releases/releases/latest"></script>
 </body>
 </html>
