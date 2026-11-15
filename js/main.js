@@ -101,6 +101,9 @@ var REDUCED_MOTION = window.matchMedia
 (function initMobileDropdowns() {
   document.querySelectorAll('.nav-dropdown-toggle').forEach(toggleBtn => {
     toggleBtn.addEventListener('click', (e) => {
+      // Desktop: menus open on hover, so the heading behaves as a normal link.
+      // Phone/tablet menu (<= 1100px): the heading opens its submenu instead.
+      if (window.innerWidth > 1100 && toggleBtn.getAttribute('href') !== '#') return;
       e.preventDefault();
       const dropdown = toggleBtn.closest('.nav-dropdown');
       const isOpen = dropdown.classList.toggle('open');
@@ -150,7 +153,10 @@ var REDUCED_MOTION = window.matchMedia
         el.classList.add('visible');
         observer.unobserve(el);
       });
-  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  // threshold 0: reveal as soon as the top edge is 40px into view. A percentage
+  // threshold never fires for very tall blocks (a whole employer on the
+  // Experience page is 3,000-6,000px), which left their cards hidden.
+  }, { threshold: 0, rootMargin: '0px 0px -40px 0px' });
 
   elements.forEach(function (el) { observer.observe(el); });
 })();

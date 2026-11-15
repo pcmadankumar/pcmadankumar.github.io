@@ -58,15 +58,15 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 
 *A journey across Education and Information Technology — 15+ years of impact, growth, and leadership.*
 
-### The Indian Public School (TIPS) · Four campuses across Tamil Nadu · December 2015 – Present · 10+ Years
+### The Indian Public School (TIPS) · Four campuses across Tamil Nadu, three of them Cambridge · December 2015 – Present · 10+ Years
 
 #### Cambridge Implementation Coordinator — HQ
 **February 2024 – Present | Tamil Nadu, India**
 
-- Plan and execute Cambridge programme implementation across 3 Cambridge campuses from HQ — timetabling, class groupings, teaching-completion tracking, and monthly academic coordination meetings.
+- Plan and execute Cambridge programme implementation across 3 Cambridge campuses (of 4) from HQ — timetabling, class groupings, teaching-completion tracking, and monthly academic coordination meetings.
 - Own teaching and learning quality on the Cambridge pathway: revision question papers, lesson follow-ups, and policy adherence on exam routines.
 - Track Cambridge updates and new initiatives and turn them into campus-level action plans.
-- **Result:** Cambridge coordination across 3 Cambridge campuses; advisory support to 5 Cambridge schools.
+- **Result:** Cambridge coordination across 3 Cambridge campuses (of 4); advisory support to 5 Cambridge schools.
 
 #### Exam Controller — Cambridge Examinations
 **July 2021 – Present (Exam Officer June 2018 – June 2021) | Tamil Nadu, India**
@@ -74,7 +74,7 @@ Outside of work, you can often find me buried in a book, exploring new learning,
 - Run the full Cambridge exam cycle: entries, fees and international invoices, timetabling, secure storage, exam-day conduct, results release, and post-results services.
 - Train and handhold new Exams Officers and invigilators across campuses — built the three-module Exams Officer training suite from the Cambridge Handbook 2026.
 - Lead mock exams and results analysis that feed back into teaching plans.
-- **Result:** Exam series run across 3 Cambridge campuses; Exams Officers trained across campuses, latest ahead of the November 2026 series.
+- **Result:** Exam series run across 3 Cambridge campuses (of 4); Exams Officers trained across campuses, latest ahead of the November 2026 series.
 
 #### Future Pathways (FP) Coordinator
 **November 2020 – Present | Tamil Nadu, India**

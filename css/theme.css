@@ -625,3 +625,9 @@ html.js .scale-in {
 
 /* Project cards can be linked to (#patra etc.): keep the target clear of the fixed nav */
 .proj-shot[id] { scroll-margin-top: 96px; }
+
+/* Desktop nav: plain links get the same box as the dropdown headings
+   (flex, 28px), so every label sits on one line */
+@media (min-width: 1101px) {
+  .nav-links > li > a { display: inline-flex; align-items: center; min-height: 28px; }
+}
