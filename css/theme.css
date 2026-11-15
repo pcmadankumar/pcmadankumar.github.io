@@ -622,3 +622,6 @@ html.js .scale-in {
 /* Light/dark switch: a short cross-fade instead of a hard cut */
 ::view-transition-old(root),
 ::view-transition-new(root) { animation-timing-function: var(--ease-std); }
+
+/* Project cards can be linked to (#patra etc.): keep the target clear of the fixed nav */
+.proj-shot[id] { scroll-margin-top: 96px; }

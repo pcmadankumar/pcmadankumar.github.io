@@ -408,6 +408,13 @@ A personal library for AI prompts, bookmarks and how-to guides, organised by rol
 
 Turns documents into speech with no internet needed. Shruti reads TXT, Word, EPUB and PDF files, and even photos of pages, using offline text recognition in English and Tamil with natural neural voices. It resumes at the last sentence read, follows chapters and exports audio to MP3. The Android version adds YouTube-transcript import, background playback and a sleep timer.
 
+#### Patra — Offline PDF Editor
+**Tech / focus:** Electron, React, TypeScript, Vite, Tailwind CSS, WebAssembly, PDFium, pdf-lib, Installable web app (PWA) | **Period:** 2026 – Present | **Status:** in development  
+**Name:** पत्र · Sanskrit for “page” or “document”  
+**Screenshots:** on the Projects page (sample data)  
+
+An offline PDF editor for Windows and the browser, built as one app that runs on the desktop and as an installable web app. It is designed to turn PDFs into editable Word files, save pages as images, reorganise pages, and edit existing text or add new text, while every untouched part of the page stays exactly as it was. Everything happens on your own device: no uploads, no account and no subscription.
+
 ### Role Specific Standalone Applications
 
 #### Vartana — Exam Invoice & Credit-Note Tracker

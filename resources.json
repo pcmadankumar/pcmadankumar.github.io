@@ -39,6 +39,25 @@
     "bestFor": "Students, teachers, busy professionals and anyone whose eyes tire of long reading on screen"
   },
   {
+    "id": "patra",
+    "type": "product",
+    "title": "Patra — Offline PDF Editor",
+    "description": "A PDF editor that works entirely on your own device, on Windows and in the browser. It is being built to turn PDFs into editable Word files, save pages as images, reorganise pages and edit or add text, with no uploads, no account and no subscription.",
+    "badges": [
+      "Coming soon",
+      "Windows & web app"
+    ],
+    "cover": "images/projects/patra/01-thumb.webp",
+    "url": "work_projects.html#patra",
+    "tags": [
+      "PDF to Word",
+      "Edit text",
+      "Organise pages",
+      "Offline"
+    ],
+    "bestFor": "Teachers, exams officers and anyone who edits PDFs and wants to keep their files on their own device"
+  },
+  {
     "id": "igcse-cs-starter",
     "type": "mine",
     "title": "IGCSE Computer Science (0478) Starter Pack",

@@ -492,6 +492,14 @@ projects:
     url: "https://pcmadankumar.github.io/shruti.html"
     screenshots: "https://pcmadankumar.github.io/work_projects.html (sample data)"
     description: "Turns documents into speech with no internet needed. Shruti reads TXT, Word, EPUB and PDF files, and even photos of pages, using offline text recognition in English and Tamil with natural neural voices. It resumes at the last sentence read, follows chapters and exports audio to MP3. The Android version adds YouTube-transcript import, background playback and a sleep timer."
+  - name: "Patra — Offline PDF Editor"
+    category: "Single User – Standalone System Applications"
+    name_meaning: "पत्र · Sanskrit for “page” or “document”"
+    period: "2026 – Present"
+    status: ["Status: in development"]
+    tech: ["Electron", "React", "TypeScript", "Vite", "Tailwind CSS", "WebAssembly", "PDFium", "pdf-lib", "Installable web app (PWA)"]
+    screenshots: "https://pcmadankumar.github.io/work_projects.html (sample data)"
+    description: "An offline PDF editor for Windows and the browser, built as one app that runs on the desktop and as an installable web app. It is designed to turn PDFs into editable Word files, save pages as images, reorganise pages, and edit existing text or add new text, while every untouched part of the page stays exactly as it was. Everything happens on your own device: no uploads, no account and no subscription."
   - name: "Vartana — Exam Invoice & Credit-Note Tracker"
     category: "Role Specific Standalone Applications"
     name_meaning: "वर्तन · Sanskrit for “transaction”"

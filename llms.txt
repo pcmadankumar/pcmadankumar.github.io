@@ -242,6 +242,12 @@ Shruti — Offline Document Reader (Platform: Windows and Android; 2026 – Pres
   Link: https://pcmadankumar.github.io/shruti.html
   Screenshots (sample data) on the Projects page.
 
+Patra — Offline PDF Editor (in development; 2026 – Present)
+  Name: पत्र · Sanskrit for “page” or “document”.
+  An offline PDF editor for Windows and the browser, built as one app that runs on the desktop and as an installable web app. It is designed to turn PDFs into editable Word files, save pages as images, reorganise pages, and edit existing text or add new text, while every untouched part of the page stays exactly as it was. Everything happens on your own device: no uploads, no account and no subscription.
+  Tech / focus: Electron, React, TypeScript, Vite, Tailwind CSS, WebAssembly, PDFium, pdf-lib, Installable web app (PWA).
+  Screenshots (sample data) on the Projects page.
+
 ### Role Specific Standalone Applications
 
 Vartana — Exam Invoice & Credit-Note Tracker (2025 – Present)
