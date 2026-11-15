@@ -1,0 +1,560 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>/*theme-init*/(function(){var d=document.documentElement,t=null;d.classList.add('js');try{t=localStorage.getItem('mk-theme')}catch(e){}d.setAttribute('data-theme',t==='light'?'light':'dark')})();</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d0d0d">
+  <meta name="author" content="Madan Kumar PC">
+  <meta name="description" content="Shruti reads your documents aloud on Windows, fully offline: PDF, Word, EPUB, web articles and scanned pages, with natural voices and MP3 export. 15-day free trial, one-time payment.">
+  <link rel="canonical" href="https://pcmadankumar.github.io/shruti.html">
+  <meta property="og:type" content="product">
+  <meta property="og:site_name" content="Madan Kumar PC">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:title" content="Shruti: your documents, read aloud">
+  <meta property="og:description" content="An offline read-aloud app for Windows with natural voices, OCR for scanned pages, and MP3 export. 15-day free trial, then a one-time payment.">
+  <meta property="og:url" content="https://pcmadankumar.github.io/shruti.html">
+  <meta property="og:image" content="https://pcmadankumar.github.io/images/shruti/shruti-og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Shruti reading a document aloud, the current sentence highlighted">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shruti: your documents, read aloud">
+  <meta name="twitter:description" content="An offline read-aloud app for Windows with natural voices, OCR for scanned pages, and MP3 export.">
+  <meta name="twitter:image" content="https://pcmadankumar.github.io/images/shruti/shruti-og.png">
+  <title>Shruti: Offline Read-Aloud for Windows | Madan Kumar PC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Shruti",
+    "operatingSystem": "Windows 10, Windows 11",
+    "applicationCategory": "UtilitiesApplication",
+    "description": "An offline read-aloud app for Windows: PDF, Word, EPUB, web articles and scanned pages read with natural voices, with MP3 export.",
+    "url": "https://pcmadankumar.github.io/shruti.html",
+    "image": "https://pcmadankumar.github.io/images/shruti/shruti-og.png",
+    "author": { "@type": "Person", "name": "Madan Kumar PC", "url": "https://pcmadankumar.github.io" },
+    "offers": [
+      { "@type": "Offer", "price": "19.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+      { "@type": "Offer", "price": "1499", "priceCurrency": "INR", "availability": "https://schema.org/InStock" }
+    ]
+  }
+  </script>
+  <style>
+    /* ---------- Shruti product page (scoped: sh-; same design as drishti.html) ---------- */
+    .sh { --sh-gap: clamp(56px, 8vw, 104px); }
+    .sh section { padding: var(--sh-gap) 0 0; }
+    .sh .container { max-width: 1120px; }
+    .sh-icon { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.8;
+               stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+
+    /* Hero */
+    .sh-hero { padding-top: calc(var(--nav-height) + clamp(36px, 6vw, 72px)) !important; }
+    .sh-hero-grid { display: grid; grid-template-columns: 1fr 1.25fr; gap: clamp(32px, 5vw, 64px); align-items: center; }
+    .sh-brand { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
+    .sh-brand img { width: 52px; height: 52px; border-radius: 12px;
+                    box-shadow: 0 0 0 1px var(--color-border); }
+    .sh-brand-name { font-family: var(--font-display); font-size: 1.35rem; font-weight: 700; color: var(--color-white); letter-spacing: 0.01em; }
+    .sh-brand-meaning { font-size: 0.82rem; color: var(--color-muted); }
+    .sh-title { font-family: var(--font-display); font-size: clamp(2.2rem, 4.6vw, 3.4rem); line-height: 1.08;
+                font-weight: 700; color: var(--color-white); margin: 0 0 18px; letter-spacing: -0.02em; }
+    .sh-title span { background: var(--grad-gold); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .sh-lede { font-size: 1.08rem; line-height: 1.7; color: var(--color-muted); margin: 0 0 28px; max-width: 34em; }
+    .sh-cta-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+    .sh-btn { display: inline-flex; align-items: center; gap: 10px; padding: 13px 22px; border-radius: var(--radius);
+              font-weight: 600; font-size: 0.98rem; text-decoration: none; transition: var(--transition); border: 1px solid transparent; }
+    .sh-btn-primary { background: var(--grad-gold); color: var(--on-gold); box-shadow: var(--shadow-gold-md); }
+    .sh-btn-primary:hover { transform: translateY(-2px); box-shadow: var(--glow); }
+    .sh-btn-ghost { border-color: var(--color-border); color: var(--color-white); background: var(--glass); }
+    .sh-btn-ghost:hover { border-color: var(--color-gold); color: var(--color-gold-light); }
+    .sh-btn .sh-icon { width: 18px; height: 18px; }
+    .sh-small { font-size: 0.85rem; color: var(--color-muted); margin-top: 14px; }
+    .sh-soon { display: inline-block; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+               padding: 3px 9px; border-radius: 999px; border: 1px solid var(--color-gold); color: var(--color-gold-light); margin-left: 4px; }
+
+    .sh-shot { position: relative; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--color-border);
+               box-shadow: 0 30px 80px -30px rgba(0,0,0,0.55), var(--shadow-gold); background: #1e1e1e; }
+    .sh-shot img { display: block; width: 100%; height: auto; }
+    .sh-shot-switch { position: absolute; top: 12px; right: 12px; display: flex; gap: 4px; padding: 4px;
+                      border-radius: 999px; background: var(--chip-bg); border: 1px solid var(--color-border); backdrop-filter: blur(8px); }
+    .sh-shot-switch button { border: 0; background: transparent; color: var(--color-muted); font: inherit; font-size: 0.78rem;
+                             padding: 5px 12px; border-radius: 999px; cursor: pointer; }
+    .sh-shot-switch button[aria-pressed="true"] { background: var(--color-gold); color: var(--on-gold); font-weight: 600; }
+
+    /* Section headings */
+    .sh-eyebrow { font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase;
+                  color: var(--color-gold); margin: 0 0 10px; }
+    .sh-h2 { font-family: var(--font-display); font-size: clamp(1.7rem, 3.2vw, 2.4rem); line-height: 1.15; font-weight: 700;
+             color: var(--color-white); margin: 0 0 14px; letter-spacing: -0.015em; }
+    .sh-sub { color: var(--color-muted); font-size: 1.02rem; line-height: 1.7; max-width: 44em; margin: 0 0 36px; }
+
+    /* Features */
+    .sh-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .sh-feature { padding: 24px; border-radius: var(--radius-lg); background: var(--color-surface); border: 1px solid var(--color-border);
+                  transition: var(--transition); }
+    .sh-feature:hover { border-color: rgba(212, 178, 90, 0.45); transform: translateY(-3px); }
+    .sh-feature-icon { width: 42px; height: 42px; border-radius: 11px; display: grid; place-items: center; margin-bottom: 16px;
+                       background: var(--glow-gold-bg); color: var(--color-gold-light); }
+    .sh-feature h3 { font-family: var(--font-display); font-size: 1.08rem; color: var(--color-white); margin: 0 0 8px; }
+    .sh-feature p { color: var(--color-muted); font-size: 0.93rem; line-height: 1.65; margin: 0; }
+
+    /* Export showcase */
+    .sh-export { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: clamp(28px, 5vw, 64px); align-items: center; }
+    .sh-paper { max-width: 560px; margin: 0 auto; border-radius: 6px; overflow: hidden; background: #fff;
+                box-shadow: 0 2px 0 #ddd, 0 6px 0 -2px #eee, 0 10px 0 -4px #e3e3e3, 0 30px 60px -24px rgba(0,0,0,0.45);
+                transform: rotate(-1.5deg); }
+    .sh-paper img { display: block; width: 100%; height: auto; }
+    .sh-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+    .sh-list li { display: flex; gap: 12px; color: var(--color-muted); line-height: 1.6; }
+    .sh-list li strong { color: var(--color-white); font-weight: 600; }
+    .sh-list .sh-icon { color: var(--color-gold); width: 20px; height: 20px; margin-top: 3px; }
+
+    /* Audience */
+    .sh-audience { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .sh-aud { padding: 20px; border-radius: var(--radius); border: 1px dashed var(--color-border); }
+    .sh-aud h3 { font-size: 0.98rem; color: var(--color-white); margin: 0 0 6px; font-family: var(--font-display); }
+    .sh-aud p { font-size: 0.88rem; color: var(--color-muted); margin: 0; line-height: 1.6; }
+
+    /* Pricing */
+    .sh-pricing { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 860px; margin: 0 auto; }
+    .sh-plan { padding: 30px; border-radius: var(--radius-lg); border: 1px solid var(--color-border); background: var(--color-surface);
+               display: flex; flex-direction: column; }
+    .sh-plan-main { border-color: var(--color-gold); box-shadow: var(--glow); position: relative; }
+    .sh-plan-tag { position: absolute; top: -12px; left: 30px; background: var(--grad-gold); color: var(--on-gold);
+                   font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 12px; border-radius: 999px; }
+    .sh-plan h3 { font-family: var(--font-display); color: var(--color-white); font-size: 1.2rem; margin: 0 0 6px; }
+    .sh-plan-desc { color: var(--color-muted); font-size: 0.92rem; margin: 0 0 18px; }
+    .sh-price { font-family: var(--font-display); font-size: 2.8rem; font-weight: 700; color: var(--color-white); line-height: 1; }
+    .sh-price small { font-size: 0.95rem; font-weight: 500; color: var(--color-muted); margin-left: 6px; }
+    .sh-plan .sh-list { margin: 22px 0 26px; gap: 10px; font-size: 0.93rem; flex: 1; }
+    .sh-plan .sh-btn { justify-content: center; }
+    .sh-currency { display: flex; justify-content: center; gap: 4px; margin: 0 auto 26px; padding: 4px; width: max-content;
+                   border-radius: 999px; border: 1px solid var(--color-border); background: var(--glass); }
+    .sh-currency button { border: 0; background: transparent; color: var(--color-muted); font: inherit; font-size: 0.85rem;
+                          padding: 6px 16px; border-radius: 999px; cursor: pointer; }
+    .sh-currency button[aria-pressed="true"] { background: var(--color-gold); color: var(--on-gold); font-weight: 600; }
+    .sh-note { text-align: center; color: var(--color-muted); font-size: 0.86rem; margin-top: 18px; }
+
+    /* FAQ */
+    .sh-faq { max-width: 820px; margin: 0 auto; }
+    .sh-faq details { border-bottom: 1px solid var(--color-border); padding: 18px 4px; }
+    .sh-faq summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 16px;
+                      color: var(--color-white); font-weight: 600; font-size: 1rem; }
+    .sh-faq summary::-webkit-details-marker { display: none; }
+    .sh-faq summary::after { content: "+"; color: var(--color-gold); font-size: 1.3rem; line-height: 1; transition: transform 0.2s ease; }
+    .sh-faq details[open] summary::after { transform: rotate(45deg); }
+    .sh-faq details p { color: var(--color-muted); line-height: 1.7; margin: 12px 0 0; font-size: 0.95rem; }
+
+    /* Closing CTA */
+    .sh-final { text-align: center; padding: clamp(40px, 6vw, 64px) 24px; border-radius: var(--radius-lg);
+                border: 1px solid var(--color-border); background: radial-gradient(ellipse at top, var(--glow-gold-bg), transparent 70%), var(--color-surface);
+                margin-bottom: var(--sh-gap); }
+    .sh-final .sh-cta-row { justify-content: center; }
+
+    @media (max-width: 900px) {
+      .sh-hero-grid, .sh-export { grid-template-columns: 1fr; }
+      .sh-features { grid-template-columns: 1fr 1fr; }
+      .sh-audience { grid-template-columns: 1fr 1fr; }
+      .sh-paper { transform: none; }
+    }
+    @media (max-width: 600px) {
+      .sh-features, .sh-audience, .sh-pricing { grid-template-columns: 1fr; }
+      .sh-btn { width: 100%; justify-content: center; }
+      .sh-shot { overflow: visible; border: 0; box-shadow: none; background: none; }
+      .sh-shot img { border-radius: var(--radius); border: 1px solid var(--color-border); }
+      .sh-shot-switch { position: static; width: max-content; margin: 12px auto 0; }
+    }
+  </style>
+
+
+
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+      <div class="nav-inner">
+      <a href="./index.html" class="nav-logo" aria-label="Madan Kumar PC, home"><span class="nav-mono" aria-hidden="true">MK</span><span class="nav-word">Madan Kumar <b>PC</b></span></a>
+      <ul class="nav-links">
+        <li><a href="./index.html">About</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle">Capability <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="./experience.html">Experience</a></li>
+            <li><a href="./education.html">Education</a></li>
+            <li><a href="./skills.html">Skills</a></li>
+            <li><a href="./achievements.html">Achievements</a></li>
+            <li><a href="./certifications.html">Certifications</a></li>
+            <li><a href="./work_projects.html">Work Projects</a></li>
+            <li><a href="./future-pathways.html">Future Pathways</a></li>
+            <li><a href="./testimonials.html">Testimonials</a></li>
+          </ul>
+        </li>
+        <li class="nav-dropdown">
+          <a href="./training/index.html" class="nav-dropdown-toggle">Training <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="./training/index.html">Training for Schools</a></li>
+            <li><a href="./training/delivered.html">Trainings Delivered</a></li>
+          </ul>
+        </li>
+        <li><a href="./blog/index.html">Blog</a></li>
+        <li><a href="./resources.html">Resources</a></li>
+        <li><a href="https://futurepathways.github.io/" class="nav-sister" target="_blank" rel="noopener" title="Future Pathways: career guidance for students and parents (opens in a new tab)">Future Pathways <i class="fa-solid fa-arrow-up-right-from-square nav-ext-icon" aria-hidden="true"></i></a></li>
+        <li class="nav-dropdown">
+          <a href="./work-with-me.html" class="nav-dropdown-toggle">Work with Me <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="./work-with-me.html">How I Can Help</a></li>
+            <li><a href="./contact.html">Get in Touch</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch light / dark theme"><i class="fa-solid fa-sun theme-icon-sun" aria-hidden="true"></i><i class="fa-solid fa-moon theme-icon-moon" aria-hidden="true"></i></button>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-voice" viewBox="0 0 24 24"><path d="M4 10v4M8 7v10M12 4v16M16 7v10M20 10v4"/></symbol>
+      <symbol id="i-scan" viewBox="0 0 24 24"><path d="M4 8V5.5A1.5 1.5 0 0 1 5.5 4H8M16 4h2.5A1.5 1.5 0 0 1 20 5.5V8M20 16v2.5a1.5 1.5 0 0 1-1.5 1.5H16M8 20H5.5A1.5 1.5 0 0 1 4 18.5V16"/><path d="M8 9.5h8M8 12.5h8M8 15.5h5"/></symbol>
+      <symbol id="i-files" viewBox="0 0 24 24"><path d="M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z"/><path d="M14 2.5V8h5.5M8.5 13h7M8.5 16.5h5"/></symbol>
+      <symbol id="i-resume" viewBox="0 0 24 24"><path d="M6 3.5h12v17l-6-4-6 4z"/></symbol>
+      <symbol id="i-highlight" viewBox="0 0 24 24"><path d="M3.5 19.5h17"/><rect x="5" y="6" width="14" height="7" rx="1.5"/><path d="M8 9.5h8"/></symbol>
+      <symbol id="i-mp3" viewBox="0 0 24 24"><path d="M9 18V5.5l10-2V16"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="16.5" cy="16" r="2.5"/></symbol>
+      <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5zM20 5.5A1.5 1.5 0 0 0 18.5 4H13v16h5.5a1.5 1.5 0 0 0 1.5-1.5z"/></symbol>
+      <symbol id="i-web" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.6 2.5 14.4 0 17M12 3.5c-2.5 2.6-2.5 14.4 0 17"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4.5" y="10.5" width="15" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3.5v11M7 10l5 5 5-5M4.5 19.5h15"/></symbol>
+      <symbol id="i-cart" viewBox="0 0 24 24"><path d="M3 4h2.5l2.2 10.5h10.6L20.5 7H7"/><circle cx="9.5" cy="19" r="1.4"/><circle cx="17" cy="19" r="1.4"/></symbol>
+    </defs>
+  </svg>
+
+  <main class="page-content sh" id="main-content">
+
+    <!-- Hero -->
+    <section class="sh-hero">
+      <div class="container sh-hero-grid">
+        <div class="fade-up">
+          <div class="sh-brand">
+            <img src="images/shruti/shruti-logo.png" alt="" width="52" height="52">
+            <div>
+              <div class="sh-brand-name">Shruti</div>
+              <div class="sh-brand-meaning"><span lang="sa">श्रुति</span> · Sanskrit for “that which is heard”</div>
+            </div>
+          </div>
+          <h1 class="sh-title">Your documents, <span>read aloud.</span></h1>
+          <p class="sh-lede">Drop in a PDF, a Word file, a book or a scanned page, press play, and listen. Shruti reads with natural voices, entirely on your PC, and remembers your place in everything you read.</p>
+          <div class="sh-cta-row">
+            <a class="sh-btn sh-btn-primary" data-link="trial" href="contact.html">
+              <svg class="sh-icon" aria-hidden="true"><use href="#i-download"/></svg>
+              <span data-label="trial">Try free for 15 days</span>
+            </a>
+            <a class="sh-btn sh-btn-ghost" data-link="buy" href="contact.html">
+              <svg class="sh-icon" aria-hidden="true"><use href="#i-cart"/></svg>
+              <span>Buy for <span data-price>₹1,499</span></span>
+            </a>
+          </div>
+          <p class="sh-small" data-launch-note>Windows 10 &amp; 11 · No subscription · Secure checkout by Gumroad</p>
+        </div>
+        <div class="fade-up">
+          <div class="sh-shot">
+            <img id="sh-shot-img" src="images/shruti/shruti-dark.webp" width="1280" height="800"
+                 alt="Shruti in dark theme reading a document aloud with the John voice, the current sentence highlighted">
+            <div class="sh-shot-switch" role="group" aria-label="Screenshot theme">
+              <button type="button" data-shot="dark" aria-pressed="true">Dark</button>
+              <button type="button" data-shot="light" aria-pressed="false">Light</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+      <div class="container">
+        <p class="sh-eyebrow fade-up">What it does</p>
+        <h2 class="sh-h2 fade-up">Everything you need to listen instead of read</h2>
+        <p class="sh-sub fade-up">Reports, textbooks, novels, scanned handouts, web articles: Shruti turns them into something you can listen to while you walk, cook or rest your eyes. No subscription, no account, nothing uploaded.</p>
+        <div class="sh-features">
+          <article class="sh-feature fade-up">
+            <div class="sh-feature-icon"><svg class="sh-icon" aria-hidden="true"><use href="#i-voice"/></svg></div>
+            <h3>Natural voices, built in</h3>
+            <p>Four natural neural voices (US male and female, British) that sound like a person reading, plus every voice already installed in Windows.</p>
+          </article>
+          <article class="sh-feature fade-up">
+            <div class="sh-feature-icon"><svg class="sh-icon" aria-hidden="true"><use href="#i-scan"/></svg></div>
+            <h3>Scanned pages &amp; photos</h3>
+            <p>Scanned PDFs and screenshots are read with built-in text recognition (OCR), in English and Tamil. No retyping.</p>
+          </article>
+          <article class="sh-feature fade-up">
+            <div class="sh-feature-icon"><svg class="sh-icon" aria-hidden="true"><use href="#i-files"/></svg></div>
+            <h3>PDF, Word, EPUB and more</h3>
+            <p>Drop in PDF, .docx, .doc, EPUB, TXT or images, or paste a link to a web article or a block of text.</p>
+          </article>
+          <article class="sh-feature fade-up">
+            <div class="sh-feature-icon"><svg class="sh-icon" aria-hidden="true"><use href="#i-resume"/></svg></div>
+            <h3>Picks up where you stopped</h3>
+            <p>Every document remembers its place, down to the sentence, so a book resumes exactly where you left it, days later.</p>
+          </article>
+          <article class="sh-feature fade-up">
+            <div class="sh-feature-icon"><svg class="sh-icon" aria-hidden="true"><use href="#i-highlight"/></svg></div>
+            <h3>Follow along</h3>
+            <p>The sentence being read is highlighted word by word. Click any sentence to jump there; slow down or speed up from 0.5&times; to 3&times;.</p>
+          </article>
+          <article class="sh-feature fade-up">
+            <div class="sh-feature-icon"><svg class="sh-icon" aria-hidden="true"><use href="#i-mp3"/></svg></div>
+            <h3>Export to MP3</h3>
+            <p>Turn any document into an MP3 in a natural voice and listen on your phone, on a walk or in the car.</p>
+          </article>
+          <article class="sh-feature fade-up">
+            <div class="sh-feature-icon"><svg class="sh-icon" aria-hidden="true"><use href="#i-book"/></svg></div>
+            <h3>Made for long reads</h3>
+            <p>Chapters for books, bookmarks with notes, find-in-document, a sleep timer, and your keyboard&rsquo;s media keys.</p>
+          </article>
+          <article class="sh-feature fade-up">
+            <div class="sh-feature-icon"><svg class="sh-icon" aria-hidden="true"><use href="#i-lock"/></svg></div>
+            <h3>Private and offline</h3>
+            <p>Everything happens on your PC. Your documents are never uploaded, and reading works without the internet.</p>
+          </article>
+          <article class="sh-feature fade-up">
+            <div class="sh-feature-icon"><svg class="sh-icon" aria-hidden="true"><use href="#i-web"/></svg></div>
+            <h3>Light &amp; dark, your way</h3>
+            <p>Dark or light theme, adjustable font size and column width, and per-document voice and speed.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Library showcase -->
+    <section id="library">
+      <div class="container sh-export">
+        <div class="fade-up">
+          <div class="sh-shot">
+            <img src="images/shruti/shruti-library.webp" width="1280" height="800" loading="lazy"
+                 alt="Shruti's library: a text file, a web article, a PDF, a Word document and a photo, each with its reading progress">
+          </div>
+        </div>
+        <div class="fade-up">
+          <p class="sh-eyebrow">Your listening library</p>
+          <h2 class="sh-h2">Everything you&rsquo;re reading, in one place</h2>
+          <p class="sh-sub">Shruti keeps every document you add, with its progress, so you can switch between a book, a report and an article without losing your place in any of them.</p>
+          <ul class="sh-list">
+            <li><svg class="sh-icon" aria-hidden="true"><use href="#i-resume"/></svg><span><strong>Continue listening</strong> puts the last thing you heard one click away.</span></li>
+            <li><svg class="sh-icon" aria-hidden="true"><use href="#i-scan"/></svg><span><strong>Photos and scans become text</strong> the moment you add them, with progress shown for long scanned PDFs.</span></li>
+            <li><svg class="sh-icon" aria-hidden="true"><use href="#i-web"/></svg><span><strong>Web articles without the clutter:</strong> paste a link and Shruti keeps the article, not the menus and adverts.</span></li>
+            <li><svg class="sh-icon" aria-hidden="true"><use href="#i-check"/></svg><span><strong>Mark finished, search by title, delete</strong> what you no longer need.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Audience -->
+    <section id="who">
+      <div class="container">
+        <p class="sh-eyebrow fade-up">Made for</p>
+        <h2 class="sh-h2 fade-up">Anyone with more to read than time to read it</h2>
+        <div class="sh-audience">
+          <div class="sh-aud fade-up"><h3>Students</h3><p>Hear notes, textbook chapters and past readings on the way to school, then revise by ear before an exam.</p></div>
+          <div class="sh-aud fade-up"><h3>Teachers &amp; coordinators</h3><p>Get through circulars, policies and long reports while doing something else, and send yourself an MP3 for the commute.</p></div>
+          <div class="sh-aud fade-up"><h3>Professionals</h3><p>Listen to papers, proposals and articles hands-free, without uploading confidential documents to an online service.</p></div>
+          <div class="sh-aud fade-up"><h3>Tired eyes</h3><p>For anyone who finds long reading on a screen tiring: a patient, natural voice and a highlight to follow along.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing">
+      <div class="container">
+        <p class="sh-eyebrow fade-up" style="text-align:center">Pricing</p>
+        <h2 class="sh-h2 fade-up" style="text-align:center">Try it free. Buy it once.</h2>
+        <p class="sh-sub fade-up" style="text-align:center; margin-left:auto; margin-right:auto">No subscription, no account. Use every feature free for 15 days, then pay once to keep it.</p>
+        <div class="sh-currency fade-up" role="group" aria-label="Currency">
+          <button type="button" data-currency="INR" aria-pressed="true">₹ INR</button>
+          <button type="button" data-currency="USD" aria-pressed="false">$ USD</button>
+        </div>
+        <div class="sh-pricing">
+          <div class="sh-plan fade-up">
+            <h3>Free trial</h3>
+            <p class="sh-plan-desc">Every feature, for 15 days.</p>
+            <div class="sh-price"><span data-trial-price>₹0</span><small>for 15 days</small></div>
+            <ul class="sh-list">
+              <li><svg class="sh-icon" aria-hidden="true"><use href="#i-check"/></svg>Natural voices, OCR and MP3 export included</li>
+              <li><svg class="sh-icon" aria-hidden="true"><use href="#i-check"/></svg>No card needed: just your email</li>
+              <li><svg class="sh-icon" aria-hidden="true"><use href="#i-check"/></svg>Your library carries over when you buy</li>
+            </ul>
+            <a class="sh-btn sh-btn-ghost" data-link="trial" href="contact.html">
+              <svg class="sh-icon" aria-hidden="true"><use href="#i-download"/></svg><span data-label="trial">Try free for 15 days</span>
+            </a>
+          </div>
+          <div class="sh-plan sh-plan-main fade-up">
+            <span class="sh-plan-tag">One-time</span>
+            <h3>Shruti licence</h3>
+            <p class="sh-plan-desc">Yours to keep. Pay once.</p>
+            <div class="sh-price"><span data-price>₹1,499</span><small>one-time</small></div>
+            <ul class="sh-list">
+              <li><svg class="sh-icon" aria-hidden="true"><use href="#i-check"/></svg>Use on up to 2 of your PCs</li>
+              <li><svg class="sh-icon" aria-hidden="true"><use href="#i-check"/></svg>All 1.x updates included free</li>
+              <li><svg class="sh-icon" aria-hidden="true"><use href="#i-check"/></svg>Licence key by email, instantly</li>
+              <li><svg class="sh-icon" aria-hidden="true"><use href="#i-check"/></svg>Email support from the developer</li>
+            </ul>
+            <a class="sh-btn sh-btn-primary" data-link="buy" href="contact.html">
+              <svg class="sh-icon" aria-hidden="true"><use href="#i-cart"/></svg><span data-label="buy">Buy for <span data-price>₹1,499</span></span>
+            </a>
+          </div>
+        </div>
+        <p class="sh-note fade-up">Secure checkout by Gumroad. Taxes such as GST are added at checkout where they apply.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+      <div class="container">
+        <p class="sh-eyebrow fade-up" style="text-align:center">Questions</p>
+        <h2 class="sh-h2 fade-up" style="text-align:center; margin-bottom:28px">Frequently asked</h2>
+        <div class="sh-faq">
+          <details class="fade-up"><summary>What happens after the 15-day trial?</summary>
+            <p>Shruti asks for a licence key. Buy once, paste the key from your Gumroad receipt, and carry on: your library and reading positions are exactly where you left them. There is never a monthly fee.</p></details>
+          <details class="fade-up"><summary>Is this a subscription?</summary>
+            <p>No. You pay once and the licence never expires. Every 1.x update is included.</p></details>
+          <details class="fade-up"><summary>Does it need the internet? Are my files uploaded?</summary>
+            <p>Your documents never leave your PC: reading, the natural voices and text recognition all run on your computer, so they work offline. Shruti goes online only to start your trial, to check your licence now and then, and to fetch a web article when you paste its link.</p></details>
+          <details class="fade-up"><summary>Which files can it read?</summary>
+            <p>PDF (including scanned PDFs), Word (.docx and .doc), EPUB e-books, plain text, and images such as PNG, JPG and WebP. You can also paste text or a link to a web article.</p></details>
+          <details class="fade-up"><summary>Which languages does it support?</summary>
+            <p>The four built-in natural voices read English. Text recognition reads English and Tamil, and Shruti can read any language for which a voice is installed in Windows, using the System engine.</p></details>
+          <details class="fade-up"><summary>How is it different from online read-aloud services?</summary>
+            <p>Shruti is a one-time purchase rather than a yearly subscription, and it works on your own PC, so private documents stay private and nothing stops working when you are offline.</p></details>
+          <details class="fade-up"><summary>What do I need to run it?</summary>
+            <p>A Windows 10 or Windows 11 (64-bit) PC with about 1 GB of free disk space. Installing needs no administrator rights. The trial needs the internet the first time it opens, and the full version when you enter your key. Mac and Linux are not supported yet.</p></details>
+          <details class="fade-up"><summary>How do I pay from India?</summary>
+            <p>Checkout is handled securely by Gumroad with Indian and international cards. The ₹ price is shown automatically when you visit from India, and GST is added at checkout as required.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Closing CTA -->
+    <section>
+      <div class="container">
+        <div class="sh-final fade-up">
+          <h2 class="sh-h2">Press play on your first document</h2>
+          <p class="sh-sub" style="margin-left:auto; margin-right:auto">Fifteen days, no card needed. Then <span data-price>₹1,499</span> once, if you love it.</p>
+          <div class="sh-cta-row">
+            <a class="sh-btn sh-btn-primary" data-link="trial" href="contact.html">
+              <svg class="sh-icon" aria-hidden="true"><use href="#i-download"/></svg><span data-label="trial">Try free for 15 days</span>
+            </a>
+            <a class="sh-btn sh-btn-ghost" data-link="buy" href="contact.html">
+              <svg class="sh-icon" aria-hidden="true"><use href="#i-cart"/></svg><span>Buy for <span data-price>₹1,499</span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner footer-inner--split">
+      <div style="display: flex; flex-direction: column; gap: 6px; align-items: flex-start;">
+        <p class="footer-text">
+          &copy; 2026 Madan Kumar PC
+          <span class="dot">·</span>
+          Proudly built with Claude &amp; GitHub ❤️
+        </p>
+        <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="footer-link">
+          <i class="fa-brands fa-linkedin"></i> Connect on LinkedIn
+        </a>
+        <nav class="footer-nav" aria-label="Quick links"><a href="./resources.html" class="footer-nav-link">Resources</a><span class="footer-nav-sep">·</span><a href="./blog/index.html" class="footer-nav-link">Blog</a><span class="footer-nav-sep">·</span><a href="./contact.html" class="footer-nav-link">Contact</a><span class="footer-nav-sep">·</span><a href="https://futurepathways.github.io/" target="_blank" rel="noopener" class="footer-nav-link">Future Pathways ↗</a><span class="footer-nav-sep">·</span><a href="https://github.com/pcmadankumar" target="_blank" rel="noopener" class="footer-nav-link">GitHub</a></nav>
+
+
+
+      </div>
+      <p class="footer-quote">
+        <span class="footer-quote-text"></span>
+        <span class="footer-quote-author"></span>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+  (function () {
+    // Gumroad products (USD for the world, INR for India) and the free trial.
+    // While a link is empty, its button points to the contact page and says so.
+    // Until the Gumroad products are published, the trial downloads straight from the public
+    // releases page and Buy shows "launching soon". When they go live, switch to:
+    //   trial:  'https://madankumar25.gumroad.com/l/shruti-trial'   ($0+ Gumroad product)
+    //   buyINR: 'https://madankumar25.gumroad.com/l/shruti-india'   (₹1,499)
+    //   buyUSD: 'https://madankumar25.gumroad.com/l/shruti'         ($19)
+    var LINKS = {
+      trial: 'https://github.com/pcmadankumar/shruti-releases/releases/latest',
+      buyINR: '',
+      buyUSD: ''
+    };
+    var PRICES = { INR: '₹1,499', USD: '$19' };
+    var FREE = { INR: '₹0', USD: '$0' };
+
+    function isIndia() {
+      try {
+        var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+        if (tz === 'Asia/Kolkata' || tz === 'Asia/Calcutta') return true;
+      } catch (e) {}
+      return /-IN$/i.test(navigator.language || '');
+    }
+    var currency = isIndia() ? 'INR' : 'USD';
+    try { currency = localStorage.getItem('shruti-currency') || currency; } catch (e) {}
+
+    function apply() {
+      document.querySelectorAll('[data-price]').forEach(function (el) { el.textContent = PRICES[currency]; });
+      document.querySelectorAll('[data-trial-price]').forEach(function (el) { el.textContent = FREE[currency]; });
+      document.querySelectorAll('[data-currency]').forEach(function (b) {
+        b.setAttribute('aria-pressed', String(b.getAttribute('data-currency') === currency));
+      });
+      var buy = currency === 'INR' ? LINKS.buyINR : LINKS.buyUSD;
+      document.querySelectorAll('[data-link]').forEach(function (a) {
+        var url = a.getAttribute('data-link') === 'trial' ? LINKS.trial : buy;
+        a.href = url || 'contact.html';
+        if (url) { a.target = '_blank'; a.rel = 'noopener'; }
+        a.title = url ? '' : 'Launching soon: get in touch to be told first';
+      });
+    }
+
+    document.querySelectorAll('[data-currency]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        currency = b.getAttribute('data-currency');
+        try { localStorage.setItem('shruti-currency', currency); } catch (e) {}
+        apply();
+      });
+    });
+
+    var img = document.getElementById('sh-shot-img');
+    document.querySelectorAll('[data-shot]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var t = b.getAttribute('data-shot');
+        img.src = 'images/shruti/shruti-' + t + '.webp';
+        img.alt = 'Shruti in ' + t + ' theme reading a document aloud with the John voice, the current sentence highlighted';
+        document.querySelectorAll('[data-shot]').forEach(function (o) {
+          o.setAttribute('aria-pressed', String(o === b));
+        });
+      });
+    });
+
+    apply();
+  })();
+  </script>
+  <script src="js/nav.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

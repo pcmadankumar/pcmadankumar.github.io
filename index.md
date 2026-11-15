@@ -401,8 +401,9 @@ A morning and evening briefing built around four job roles. Bodhi gathers news f
 A personal library for AI prompts, bookmarks and how-to guides, organised by role with folders, tags, favourites and full-text search. Prompts support fill-in variables, version history and chaining one prompt into another, and bookmarks are checked for broken links. The Windows and Android apps stay in sync through a single file on Google Drive or OneDrive.
 
 #### Shruti — Offline Document Reader
-**Tech / focus:** Electron, Kotlin, Tesseract.js, PDF.js, Piper TTS, sherpa-onnx | **Period:** 2026 – Present | **Status:** Platform: desktop and Android  
+**Tech / focus:** Electron, Kotlin, Tesseract.js, PDF.js, Piper TTS, sherpa-onnx | **Period:** 2026 – Present | **Status:** Platform: Windows and Android  
 **Name:** श्रुति · Sanskrit for “that which is heard”  
+**Link:** https://pcmadankumar.github.io/shruti.html  
 **Screenshots:** on the Projects page (sample data)  
 
 Turns documents into speech with no internet needed. Shruti reads TXT, Word, EPUB and PDF files, and even photos of pages, using offline text recognition in English and Tamil with natural neural voices. It resumes at the last sentence read, follows chapters and exports audio to MP3. The Android version adds YouTube-transcript import, background playback and a sleep timer.
