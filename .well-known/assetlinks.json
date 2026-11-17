@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.madan.kriya.android",
+      "sha256_cert_fingerprints": [
+        "1B:2F:17:25:58:B5:57:90:34:06:37:5A:2D:9A:BE:D2:6F:87:FC:70:CC:AE:8D:A3:37:6F:35:0E:40:A2:38:8F"
+      ]
+    }
+  }
+]

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0d0d0d">
   <meta name="author" content="Madan Kumar PC">
-  <meta name="description" content="Drishti is a fast, private Markdown viewer for Windows. Flowcharts, maths, tables and callouts drawn beautifully, and print-ready PDF and Word export. 15-day free trial, one-time payment.">
+  <meta name="description" content="A fast, private Markdown viewer for Windows: flowcharts, maths and tables drawn clearly, with PDF and Word export. 15-day free trial, one-time payment.">
   <link rel="canonical" href="https://pcmadankumar.github.io/drishti.html">
   <meta property="og:type" content="product">
   <meta property="og:site_name" content="Madan Kumar PC">
@@ -172,7 +172,71 @@
     }
   </style>
 
-
+
+  <script type="application/ld+json" id="faq-schema">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What happens after the 15-day trial?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drishti asks for a licence key. Buy once, paste the key, and carry on. Nothing is lost, and there is never a monthly fee."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this a subscription?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. You pay once and the licence never expires. Every 1.x update is included."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I edit files in Drishti?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drishti is a viewer: it is built to read, present and export Markdown beautifully. Keep writing in the editor you like (Notepad, VS Code, Obsidian) and open the file in Drishti to read, print or share it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it need the internet? Are my files uploaded?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No and no. Diagrams and maths are drawn by libraries built into the app, so everything works offline and your documents never leave your computer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which diagrams does it support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Anything written in Mermaid, the diagram language GitHub and most AI assistants use: flowcharts, sequence diagrams, timelines, pie charts, Gantt charts, mind maps and more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What do I need to run it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Windows 10 or Windows 11 (64-bit) PC with about 600 MB of free disk space. Installing needs no administrator rights. The trial needs the internet the first time it opens, and the full version when you enter your key. Mac and Linux are not supported yet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I pay from India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Checkout is handled securely by Razorpay. In India you can pay by UPI, debit or credit card, net banking or a wallet; from outside India, by international card. The ₹ price is shown automatically when you visit from India, and the price shown is the price you pay."
+      }
+    }
+  ]
+}
+  </script>
   <link rel="stylesheet" href="css/theme.css">
 </head>
 <body>
@@ -206,7 +270,15 @@
           </ul>
         </li>
         <li><a href="./blog/index.html">Blog</a></li>
-        <li><a href="./resources.html">Resources</a></li>
+        <li class="nav-dropdown">
+          <a href="./resources.html" class="nav-dropdown-toggle nav-active">Resources <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="./resources.html">All Resources</a></li>
+            <li><a href="./drishti.html" class="nav-active">Drishti (Markdown viewer)</a></li>
+            <li><a href="./shruti.html">Shruti (read-aloud app)</a></li>
+            <li><a href="./resources.html#kits">Cambridge Teacher Kits</a></li>
+          </ul>
+        </li>
         <li><a href="https://futurepathways.github.io/" class="nav-sister" target="_blank" rel="noopener" title="Future Pathways: career guidance for students and parents (opens in a new tab)">Future Pathways <i class="fa-solid fa-arrow-up-right-from-square nav-ext-icon" aria-hidden="true"></i></a></li>
         <li class="nav-dropdown">
           <a href="./work-with-me.html" class="nav-dropdown-toggle">Work with Me <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
@@ -477,7 +549,7 @@
         <a href="https://www.linkedin.com/in/madankumarpc" target="_blank" rel="noopener" class="footer-link">
           <i class="fa-brands fa-linkedin"></i> Connect on LinkedIn
         </a>
-        <nav class="footer-nav" aria-label="Quick links"><a href="./resources.html" class="footer-nav-link">Resources</a><span class="footer-nav-sep">·</span><a href="./blog/index.html" class="footer-nav-link">Blog</a><span class="footer-nav-sep">·</span><a href="./contact.html" class="footer-nav-link">Contact</a><span class="footer-nav-sep">·</span><a href="https://futurepathways.github.io/" target="_blank" rel="noopener" class="footer-nav-link">Future Pathways ↗</a><span class="footer-nav-sep">·</span><a href="https://github.com/pcmadankumar" target="_blank" rel="noopener" class="footer-nav-link">GitHub</a><span class="footer-nav-sep">·</span><a href="./terms.html" class="footer-nav-link">Terms</a><span class="footer-nav-sep">·</span><a href="./privacy.html" class="footer-nav-link">Privacy</a><span class="footer-nav-sep">·</span><a href="./refund-policy.html" class="footer-nav-link">Refunds</a></nav>
+        <nav class="footer-nav" aria-label="Quick links"><a href="./resources.html" class="footer-nav-link">Resources</a><span class="footer-nav-sep">·</span><a href="./blog/index.html" class="footer-nav-link">Blog</a><span class="footer-nav-sep">·</span><a href="./contact.html" class="footer-nav-link">Contact</a><span class="footer-nav-sep">·</span><a href="https://futurepathways.github.io/" target="_blank" rel="noopener" class="footer-nav-link">Future Pathways ↗</a><span class="footer-nav-sep">·</span><a href="https://github.com/pcmadankumar" target="_blank" rel="noopener" class="footer-nav-link">GitHub</a><span class="footer-nav-sep">·</span><a href="./terms.html" class="footer-nav-link">Terms</a><span class="footer-nav-sep">·</span><a href="./privacy.html" class="footer-nav-link">Privacy</a><span class="footer-nav-sep">·</span><a href="./refund-policy.html" class="footer-nav-link">Refunds</a></nav>
 
 
       </div>

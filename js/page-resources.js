@@ -5,6 +5,8 @@
 (function() {
     var root = document.getElementById('res-root');
     if (!root) return;
+    // tools/build.py writes the cards into the page; only fetch if they are missing.
+    if (root.querySelector('.res-section')) return;
 
     function esc(s) { return String(s == null ? '' : s).replace(/"/g, '&quot;'); }
     function tagsHtml(r) {

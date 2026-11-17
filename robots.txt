@@ -1,5 +1,5 @@
 # robots.txt — pcmadankumar.github.io
-# Last updated: 2026-04-11
+# Last updated: 2026-11-16
 
 # -------------------------------------------------------
 # All crawlers — allow full site
@@ -36,6 +36,24 @@ Allow: /
 # Listing these individually signals consent to AI systems
 # that check for per-bot permissions before indexing.
 # -------------------------------------------------------
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
@@ -67,7 +85,6 @@ User-agent: FacebookBot
 Allow: /
 
 # -------------------------------------------------------
-# Sitemaps
+# Sitemap (llms.txt is at /llms.txt; it is not a sitemap)
 # -------------------------------------------------------
 Sitemap: https://pcmadankumar.github.io/sitemap.xml
-Sitemap: https://pcmadankumar.github.io/llms.txt

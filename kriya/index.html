@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Kriya · Madan's planner</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; }
+  body {
+    background: #0a0a0a; color: #f3ead2;
+    font: 400 17px/1.55 Georgia, 'Times New Roman', serif;
+    display: grid; place-items: center; padding: 28px; text-align: center;
+  }
+  main { max-width: 30rem; }
+  svg { width: 96px; height: 96px; }
+  .eyebrow { font: 400 12px/1 ui-monospace, Consolas, monospace; letter-spacing: .08em; color: #C9A84C; margin: 26px 0 10px; }
+  h1 { font-size: 28px; line-height: 1.2; }
+  p { margin-top: 14px; color: #d8cfb8; }
+  .page { margin-top: 22px; font: 400 13px/1 ui-monospace, Consolas, monospace; color: #a99f86; }
+  .page:empty { display: none; }
+</style>
+</head>
+<body>
+<main>
+  <svg viewBox="0 0 32 32" role="img" aria-label="MK">
+    <circle cx="16" cy="16" r="16" fill="#0a0a0a"/>
+    <circle cx="16" cy="16" r="14.6" fill="none" stroke="#C9A84C" stroke-width="0.6"/>
+    <text x="16" y="20.6" text-anchor="middle" font-family="Georgia, serif" font-size="12.5" font-weight="700" fill="#C9A84C">MK</text>
+  </svg>
+  <div class="eyebrow">KRIYA · क्रिया · ACTION</div>
+  <h1>This page belongs to Madan's planner</h1>
+  <p>The QR code you scanned opens a page in Kriya, a personal planner app. There is nothing to see here without it.</p>
+  <div class="page" id="page"></div>
+</main>
+<script>
+  // Shows which page the code names (for example "day 2027-03-14"). Nothing is sent anywhere.
+  var path = location.pathname;
+  try { var p = new URLSearchParams(location.search).get('p'); if (p && /^\/kriya\//.test(p)) path = p; } catch (e) {}
+  var m = /\/kriya\/(day|week|month|year)\/([0-9A-Za-z-]{4,10})\/?$/.exec(path);
+  if (m) document.getElementById('page').textContent = m[1] + ' ' + m[2];
+  else if (/\/kriya\/affirmations\/?$/.test(path)) document.getElementById('page').textContent = 'affirmations';
+</script>
+</body>
+</html>
