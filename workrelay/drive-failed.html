@@ -6,7 +6,7 @@
 <p class="muted">If it keeps failing, make sure you signed in with the organisation's Drive account and pressed <em>Allow</em> on Google's screen.</p>
 <script>
 const r=new URLSearchParams(location.search).get('reason');
-const m={expired:'The link expired. Go back to WorkRelay and press Connect again.',denied:'Access was not allowed on Google\'s screen.',no_refresh_token:'Google did not give lasting access. Remove WorkRelay from your Google Account\'s third-party access, then connect again.'};
+const m={expired:'The link expired. Go back to WorkRelay and press Connect again.',denied:'Access was not allowed on Google\'s screen.',no_refresh_token:'Google did not give lasting access. Remove WorkRelay from your Google Account\'s third-party access, then connect again.',scope:'The Google Drive box was not ticked on Google\'s screen. Connect again and tick it.',api:'The Google Drive API is not switched on for this app yet. The administrator needs to enable it, then connect again.'};
 if(r&&m[r])document.getElementById('why').textContent=m[r];
 </script>
 </main></body></html>
