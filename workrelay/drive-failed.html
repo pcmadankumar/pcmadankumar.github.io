@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Drive not connected</title><style>:root{--bg:#0b0b0b;--fg:#f3efe3;--gold:#d4af37;--muted:#b9b3a3}@media (prefers-color-scheme: light){:root{--bg:#fbf8f0;--fg:#1a1712;--gold:#8a6d12;--muted:#5d574a}}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}main{max-width:640px;margin:0 auto;padding:32px 16px 48px}h1{color:var(--gold);font-size:1.6rem;margin:0 0 4px}h2{color:var(--gold);font-size:1.1rem;margin-top:28px}p,li{color:var(--fg)}.muted{color:var(--muted)}a{color:var(--gold)}.big{font-size:3rem;margin:0}</style></head><body><main>
+<p class="big">✕</p>
+<h1>Google Drive was not connected</h1>
+<p id="why">The connection did not finish. Please go back to WorkRelay and try again.</p>
+<p class="muted">If it keeps failing, make sure you signed in with the organisation's Drive account and pressed <em>Allow</em> on Google's screen.</p>
+<script>
+const r=new URLSearchParams(location.search).get('reason');
+const m={expired:'The link expired. Go back to WorkRelay and press Connect again.',denied:'Access was not allowed on Google\'s screen.',no_refresh_token:'Google did not give lasting access. Remove WorkRelay from your Google Account\'s third-party access, then connect again.'};
+if(r&&m[r])document.getElementById('why').textContent=m[r];
+</script>
+</main></body></html>
